@@ -1,7 +1,7 @@
 ---
 session: "5"
 title: "Braaken Docks, the Sinking of the Iron Fortress, and the Dragon in the Bay"
-act: "I"
+act: "II"
 level: 3
 party_size: 4
 ability_scores: standard_array

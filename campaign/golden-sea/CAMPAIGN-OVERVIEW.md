@@ -23,7 +23,7 @@ The act ends bitter, not triumphant. The road to Paradiso, the bandits, the exec
 
 New integration piece: the Empire is not cartoon evil, it is administrative evil. Occupation means grain requisitions, conscription lotteries, curfews, kobold auxiliaries who are mostly conscripts themselves. The party's first kill is a boy in a uniform. This is what makes the later PVP sessions land, because the question the campaign keeps asking is what you become while fighting this.
 
-Act II: Braaken & the Sundered Crown (Sessions 10a to 15, Years Two and Three)
+Act II: Braaken & the Sundered Crown (Sessions 10a to 15, Year One)
 The middle of the campaign is a slow accumulation of allies, and it should feel like one. The party spends a full year in and around Braaken, and the module structure reflects it: some sessions are wars, some are jobs, some are a tournament and a festival.
 
 The sea crossing brings the storm, the damaged Empire ship, and the waveborn parley: Glori reveals W1's purpose, the alliance is struck, and the party learns the waveborn have their own grievance, the Empire dredging the warm shallows where they raise their young. The escort to port AZ, Cpt. T's negotiation, and the disguised run to Braaken close year two.
@@ -38,7 +38,7 @@ The waveborn alliance has a price, stated at the parley and called due in Act Th
 EoE is the Empire's deniable instrument: a company of specialists, ex rebellion, ex anything, who do the jobs armies can't admit to. The Vision sender is not EoE. It is the vampire king, and the visions are the campaign's slow reveal of the true antagonist behind the Empire's fall: whoever taught the Empire that a dragon golem could be built, and wants the pieces when it falls.
 Vision 1 (meeting) is moved to just before the tournament. It lands better when the party has a prize to lose.
 
-Act III: The Northern March (Sessions 16 to 24, Year Four)
+Act III: The Northern March (Sessions 16 to 24, Year One)
 The original act three was six beach landings in eight weeks. Expanded, it is a year long campaign in four movements, and each movement gets its own regional identity:
 
 Imnia (4 sessions). Not a landing, a wintering. The fleet overwinters at Imnia North Port, and the module set covers the frozen port, the snow road, and the discovery that the Empire has already fled toward the capital, burning what it can't carry. First contact with W4's existence and the first true vision of the vampire king, who finally has a face.
