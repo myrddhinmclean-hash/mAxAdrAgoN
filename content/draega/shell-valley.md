@@ -32,16 +32,30 @@ His summary of the consequences is four words long: break them, and you get eate
 
 The interior of the sequoia contains no straight corridors and no tidy square corners. The entire route is a single path that spirals downward like the inner whorl of a giant snail shell.
 
-The vertical descent runs one hundred feet deep beneath the roots, stepping through distinct elemental thresholds:
+Earlier on the climb, two hundred and fifty feet up the outer trunk, Grimbah stops the party on a massive branch shelf for a mandatory rest. He does not sleep. He sits in complete silence, watching how everyone speaks and moves, measuring who will panic when the floor starts to drop.
 
-* The tree trunk exit at zero feet.
-* The earth room at twenty five feet below the surface.
-* The fire pit at fifty five feet down.
-* The heart chamber at seventy five feet down.
-* The water room at one hundred feet down.
+The vertical descent runs one hundred feet deep beneath the roots, stepping down through four distinct chambers. It connects the upper bark to the subterranean water below.
 
-## What the Wood Reveals
+## The Earth Room
 
-If you pay attention to the walls on the way down, the structure gives away its secrets. Foreign stones are wedged into the growth rings of the wood, worn smooth on top and placed by deliberate hands rather than grown naturally.
+At twenty five feet down, the living root wood gives way to cut masonry. Built stone walls surround the chamber, older than the tree above them, carved with sentinel reliefs that stare silently into the dark.
 
-The entire spiral shaft acts as an enormous lung, pulling drafts of fresh air through the sequoia root network so the air never goes stale. Green bioluminescent moss clings to the bark and provides the only illumination as the shadows thicken. Earlier on the climb, two hundred and fifty feet up the trunk, Grimbah stops the party on a massive branch shelf for a mandatory rest. He does not sleep. He sits in complete silence, watching how everyone speaks and moves, measuring who will panic when the floor starts to drop.
+Foreign stones are wedged directly into the growth rings of the wood, worn smooth on top and placed by deliberate hands rather than grown naturally. The whole spiral shaft acts as an enormous lung, pulling drafts of fresh air through the root network so the chamber never goes stale.
+
+## The Fire Pit
+
+At fifty five feet below the surface, the air grows thick with sulfur and radiant heat. A wide lava basin bubbles in the floor, cutting through thick mineral veins that gleam along the stone.
+
+A single vein of slow liquid rock drips steadily from an overhead fissure into the pit. Glowing bioluminescent moss clings to the surrounding rock, casting strange green fringes over the red glow of the magma.
+
+## The Heart Chamber
+
+At seventy five feet down sits the core of the ancient root system. Wild raw gemstones push through the grain of the wood in untamed clusters, catching whatever light you bring into the room.
+
+Four elemental altars surround the center of the floor, marking the space for Grimbah to perform his sealed rite. The source documents keep the exact purpose of this rite locked behind silence, offering no names, no prayers, and no explanation of what disaster is being turned aside. Grimbah closes the circle, completes the ritual work without explanation, and leaves you to wonder what you just helped preserve.
+
+## The Water Room
+
+At one hundred feet down, the spiraling tunnel bottoms out into cool subterranean water. A pure freshwater spring feeds a quiet pool in the rock, and here Grimbah meets his ancient acquaintance, greeting the guardian of the basin like an old friend.
+
+This pool is where the sacred snails from rule two live and feed. The water carries restorative properties that knit wounds and wash away the grime of the descent. You take your rest on the damp stone, drink from the basin, and prepare for the long climb back into the daylight. The snails crawl undisturbed.
