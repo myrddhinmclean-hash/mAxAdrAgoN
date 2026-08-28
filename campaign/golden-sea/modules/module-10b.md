@@ -132,7 +132,7 @@ special_notes:
 | 2. Infiltrating the pit | 0:45 to 1:40 | Rogue and scout infiltrate the earth trench, fighting off the EoE spotters |
 | 3. Round 2: The long range | 1:40 to 2:30 | 50-yard shooting under estuary wind conditions, making fair scores |
 | 4. Exposing the fraud | 2:30 to 3:15 | Throwing the false flags to the crowd, winning popular backing |
-| 5. Round 3 & Vision 2 | 3:15 to 3:55 | Clean 70-yard shots, sweeping the archery bracket, securing the top seed; that night, the party experiences Vision 2, dreaming of fighting their mirror rivals in the gladiatorial sand before waking |
+| 5. Round 3 & Vision 2 | 3:15 to 3:55 | Clean 70-yard shots, sweeping the archery bracket, securing the top seed; that night, the party experiences Vision 2, dreaming of fighting The Gilded Crest in the gladiatorial sand before waking |
 
 ---
 
@@ -155,9 +155,9 @@ special_notes:
 * **Claim:** Range scoring incorporates the verbatim tournament archery range table (1 to 5: White 1pt, 6 to 10: Blue 3pt, 11 to 15: Blue 5pt, 16 to 20: Red 7pt, 21+: Gold 9pt).
 * **Status:** Operational mechanic.
 
-### Entry 3 — Vision 2 Placement (CLOSED, canon per Ruling 36)
-* **Claim:** Vision 2 occurs on the night of Day 32 before the gladiatorial finale. The party dreams of battling the mirror party in the colosseum; the next day, the melee is fought against them without explanation per Ruling 29.
-* **Status:** CLOSED per owner Ruling 36.
+### Entry 3 — Vision 2 & The Gilded Crest (CLOSED, canon per Ruling 36 & 40)
+* **Claim:** Vision 2 occurs on the night of Day 32 before the gladiatorial finale. The party dreams of battling The Gilded Crest in the colosseum; the next day, the melee is fought against them without explanation per Ruling 29 and Ruling 40.
+* **Status:** CLOSED (ratified owner canon).
 
 ---
 

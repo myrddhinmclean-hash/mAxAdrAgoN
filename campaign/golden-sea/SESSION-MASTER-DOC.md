@@ -56,6 +56,7 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **The End-of-Act-2 Deadline** — *Ruling 34 & Ruling 37:* Ratified as the Blood-Moon Conjunction on `Day 38 + 30`, where the united Boons turn the Blood Moon to dawn.
 - **Day 38 + N Notation** — *Ruling 35:* Standardized relative time format for all Act 2 modules.
 - **The Two Parties (Hard Invariant)** — *Ruling 39:* Two parties exist in the campaign world. The second party is evil. The two parties NEVER align — no cooperation, truce, or joint action at any point in the campaign. The mirror-party of Ruling 27 IS the second (evil) party. Their appearances (tournament s10a–c, module-13 Citadel gates, module-17 bell tower, module-18 PVP 2) represent opposition, aggressive self-interest, or destiny's inscrutable gesture — never alliance. Hard invariant for all drafting.
+- **The Gilded Crest (The Evil Second Party)** — *Ruling 40 (Ratified):* The four-member rival adventuring company representing the second party. They are evil, driven by ruthless self-interest and sovereign plunder. The two parties NEVER align — no cooperation, truce, or joint action at any point in the campaign. Their appearances (tournament s10a–c, module-13 Citadel gates, module-17 bell tower, module-18 PVP 2, module-24 epilogue departure) represent opposition, aggressive self-interest, or cosmic gesture — never alliance. Name ratified as *The Gilded Crest* (owner-confirmed).
 - **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7, anchors offshore at Garegstown on Day 8, and is scuttled and sunk in the Braaken dock basin on Day 30 (module-5). Boltstrucken's personal fate remains open (escaped, drowned, or captured). Strictly distinct from the *Sable Wake*.
 - **Thorek (the Wagoneer)** — dwarven wagoneer who guides the party through the Garegstown caverns and the Paradiso road. *Ruling 6:* Thorek IS the unnamed wagoneer of Session 6. One person, one single execution at sundown in Paradiso (module-9 Section 4).
 - **The Golden Sea Naval Battle Bridge** — *Ruling 7:* Session 4 naval battle against the *Iron Fortress* is canon. Sighting on Day 7 escalates into the opening salvo with Glori glimpsed using W1 (module-4); battle tail and landing under covering fire occur at dawn of Day 8 at Garegstown docks (module-8).
@@ -88,13 +89,15 @@ Now the rebuild. Here's the campaign document as it should exist:
 22. **Ratification Slate (CLOSED):** All eight pending items ratified as author canon (Ruling 37).
 23. **Open-Thread Ledger (CLOSED):** Persistent living world threads logged (Ruling 38).
 24. **Two Parties & Second Evil Party (CLOSED):** Strict non-alignment invariant ratified (Ruling 39).
+25. **The Gilded Crest & Epilogue Canon (CLOSED):** Ratified company name for the evil second party and ratified module-24 living-world continuity (Ruling 40).
 
 ## Open-Thread Ledger (Ruling 38)
 1. **The Tithe Ledger:** Survives the destruction of its Bernax anchor; location unknown, autonomous life-debt accounting continues across the wider world (Ruling 26 intact).
 2. **The EoE Administration:** The occult institution survives the loss of the Handler and Verrick, persisting in distant unliberated provinces as a leaderless administrative network.
-3. **The Mirror-Party:** Remains at large with their grudge over W2 unresolved and Vision 3 unspent; destiny's champions moving beyond mortal borders.
-4. **Boltstrucken's Fate:** The minotaur captain's personal fate following the sinking of the *Iron Fortress* remains open (escaped, drowned, or captured).
+3. **The Gilded Crest (The Mirror-Party):** The evil second party remains at large in the eastern wilderness with their grudge over W2 unresolved and Vision 3 unspent; ruthless champions operating independently of mortal alliances (Ruling 39, Ruling 40).
+4. **Boltstrucken's Fate:** The minotaur captain's personal fate following the sinking of the *Iron Fortress* remains open (escaped, drowned, or captured; gestured by washed-up horn and wreckage in module-24).
 5. **Living World Continuity:** The world continues to evolve and operate past the last page of the recorded campaign (Ruling 31).
+6. **Epilogue Continuity (Ratified Canon):** Module-24 gestures stand as ratified canon; all epilogue threads inherit Ruling 31 — they move when the world moves.
 
 ## The Story in One Line
 The party gets conscripted into a dwarven revolt in FairWhether, escapes across the Golden Sea carrying rebellion cargo, crosses the continent under Empire noses, liberates Braaken with an alliance of waveborn, dwarves, and tournament allies, and marches on the Empire's capital — while a rival party haunts their dreams and EoE operates in the shadows.

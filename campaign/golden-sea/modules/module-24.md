@@ -7,7 +7,7 @@ party_size: 4
 ability_scores: standard_array
 canon_mode: authoring
 world_time: "Day 38 + 31 of Year One, early winter. The morning following the Blood-Moon Conjunction and the liberation of the continent."
-content: "A DM-facing world panorama of the continent in the wake of the celestial dawn, observing the unresolved settlements in Braaken, the dormant dragon golem in the bay, the persistent accounting of the Tithe Ledger, the departure of the evil second party, the rumors of Boltstrucken, and Cpt. T sailing toward an unstated horizon."
+content: "A DM-facing world panorama of the continent in the wake of the celestial dawn, observing the unresolved settlements in Braaken, the dormant dragon golem in the bay, the persistent accounting of the Tithe Ledger, the departure of The Gilded Crest, the rumors of Boltstrucken, and Cpt. T sailing toward an unstated horizon."
 session_length_target: "3h45 to 4h15"
 source_list:
   - "campaign/golden-sea/MODULE-SPEC.md"
@@ -47,11 +47,11 @@ Upon the central reading desk, bound in indestructible dark pigskin and stamped 
 
 ---
 
-## 3. The Northern Ridge and the Unspoken Grudge
+## 3. The Northern Ridge and The Gilded Crest
 
 High in the frozen wind-gaps of the northern mountain range, four horsemen in dark fur cloaks ride single file along the narrow goat track that crosses into the eastern wastes. Their horses are lean, black-coated coursers whose breath plumes into the sub-zero air like smoke.
 
-The lead rider carries a long black recurve bow across their saddle pommel, their face concealed behind a hood of wolf pelt. Slung across the pack saddle of the second mount, wrapped in coarse sacking, rests a locked iron coffer taken from the ruins of Sortengraahd. Reaching the crest of the pass, the riders pause for three silent heartbeats, looking back down toward the liberated valley with cold, unyielding eyes before spurring their mounts eastward into the pine forests, their grudge over W2 held in quiet reserve.
+The lead rider carries a long black recurve bow across their saddle pommel, their face concealed behind a hood of wolf pelt. Slung across the pack saddle of the second mount, wrapped in coarse sacking, rests a locked iron coffer taken from the ruins of Sortengraahd. The four riders of **The Gilded Crest** pause at the crest of the pass for three silent heartbeats, looking back down toward the liberated valley with cold, unyielding eyes before spurring their mounts eastward into the pine forests, their grudge over W2 held in quiet reserve (Ruling 39 & 40).
 
 ---
 
@@ -77,21 +77,21 @@ Dwarven star-iron plates along the waterline glint through the foam as the ship'
 * **Claim:** Module-24 covers the morning after the Blood-Moon Conjunction on Day 38 + 31 of Year One as an unplayable DM-facing world panorama where the adventuring party never appears on-screen.
 * **Status:** Canon placement.
 
-### Entry 2 — Dragon Golem & ITEM X Bay Status
+### Entry 2 — Dragon Golem & ITEM X Bay Status (CLOSED, canon per Ruling 40)
 * **Claim:** The dragon golem returns to its submerged pedestal in Braaken Bay as a dormant guardian, with ITEM X glowing faintly beneath thirty fathoms.
-* **Status:** Ratification-pending (proposed world state).
+* **Status:** CLOSED (ratified owner canon).
 
-### Entry 3 — The Autonomous Tithe Ledger
+### Entry 3 — The Autonomous Tithe Ledger (CLOSED, canon per Ruling 40)
 * **Claim:** The Tithe Ledger continues its autonomous accounting in a distant eastern scriptorium, preserving the occult administrative thread per Rulings 26 and 38.
-* **Status:** Ratification-pending (living-world continuity).
+* **Status:** CLOSED (ratified owner canon).
 
-### Entry 4 — The Evil Second Party Departure
-* **Claim:** The evil second party is glimpsed riding eastward into the wilderness with their grudge over W2 unresolved, never aligning with the liberators per Ruling 39.
-* **Status:** Ratification-pending (antagonist continuity).
+### Entry 4 — The Gilded Crest Departure (CLOSED, canon per Ruling 39 & 40)
+* **Claim:** The Gilded Crest (the evil second party) is glimpsed riding eastward into the wilderness with the Sortengraahd coffer and their grudge over W2 unresolved, never aligning with the liberators per Ruling 39 and Ruling 40.
+* **Status:** CLOSED (ratified owner canon).
 
-### Entry 5 — Boltstrucken Tide Drift
-* **Claim:** A notched minotaur horn and warship wreckage wash ashore on the Kladesh sandbars, leaving Boltstrucken's exact survival or death an open mystery per Ruling 38.
-* **Status:** Ratification-pending (living-world continuity).
+### Entry 5 — Boltstrucken Tide Drift (CLOSED, canon per Ruling 40)
+* **Claim:** A notched minotaur horn and warship wreckage wash ashore on the Kladesh sandbars, leaving Boltstrucken's exact survival or death an open mystery per Ruling 38 and Ruling 40.
+* **Status:** CLOSED (ratified owner canon).
 
 ---
 

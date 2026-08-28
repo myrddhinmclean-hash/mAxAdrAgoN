@@ -17,7 +17,7 @@ special_notes:
   - "Corresponds to Session 14 of the Master Document outline."
   - "Climactic resolution of the Braaken occupation: Prince Glori is freed, recovers W1 (the Tide-Walker Disc), and personally slays the EoE Handler in single combat in the throne room."
   - "Verrick (Ruling 16) flees during the chaos of the garrison retreat, his destination unknown, preserving the institutional antagonist face for the sequel arc."
-  - "The mirror party slips away unnoticed during the siege aftermath, leaving their grudge over W2 unresolved."
+  - "The Gilded Crest (the evil second party) slips away unnoticed during the siege aftermath, leaving their grudge over W2 unresolved (Ruling 27, 39, 40)."
   - "The conventional Empire garrison formally surrenders and retreats inland toward Sortengraahd; dwarven brigades and waveborn cohorts take permanent control of the docks and bay."
   - "Standing unresolved threads, flag never silently decide: W item rules text, ITEM X definition, Secret 10's contractor."
 ---
@@ -84,7 +84,7 @@ special_notes:
 * **Dimensions and Environment:** Fortified iron exit gate opening onto the inland military highway.
 * **The Threads of Sequel:**
   * **Verrick's Escape:** As the Handler falls, local Handler Verrick slips through the crowd of surrendering guards, mounting a swift courser and fleeing north toward the frontier (destination unknown).
-  * **The Evil Second Party's Departure (Ruling 39):** Watching from the high gallery with cold contempt, the evil mirror party witnesses the fall of the Handler. When the party turns to confront them, they melt away into the dispersing crowds, their grudge over W2 burning and unresolved, never aligning with the liberators.
+  * **The Gilded Crest's Departure (Ruling 39 & 40):** Watching from the high gallery with cold contempt, The Gilded Crest (the evil second party) witnesses the fall of the Handler. When the party turns to confront them, they melt away into the dispersing crowds, their grudge over W2 burning and unresolved, never aligning with the liberators.
 
 ---
 
@@ -140,9 +140,9 @@ special_notes:
 * **Claim:** The party handles the shadow guard and wildfire disarm, while Prince Glori personally duels and executes the Handler using W1 on the marble dais.
 * **Status:** Logged narrative assumption.
 
-### Entry 3 — Verrick & Evil Second Party Escapes (CLOSED, canon per Ruling 39)
-* **Claim:** Verrick escapes north during the surrender; the evil mirror party vanishes into the crowd without fighting, their grudge over W2 active and unresolved per Ruling 39.
-* **Status:** Invariant continuity bridge.
+### Entry 3 — Verrick & The Gilded Crest Escapes (CLOSED, canon per Ruling 39 & 40)
+* **Claim:** Verrick escapes north during the surrender; The Gilded Crest (the evil second party) vanishes into the crowd without fighting, their grudge over W2 active and unresolved per Ruling 39 and Ruling 40.
+* **Status:** CLOSED (ratified owner canon).
 
 ---
 

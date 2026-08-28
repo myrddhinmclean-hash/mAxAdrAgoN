@@ -18,7 +18,7 @@ special_notes:
   - "The solar event: a total solar eclipse peaks at midday, catalyzing ITEM X to awaken the submerged dragon golem in Braaken Bay, paying off Master Vey's exposition from module-12."
   - "The dragon golem annihilates the remaining Empire naval vessels in the harbor basin, severing imperial escape routes."
   - "Institutional shift: as conventional imperial commanders panic, the EoE Handler assumes supreme emergency command of the garrison, transforming bureaucratic administrators into ruthless street commanders (Ruling 11)."
-  - "Cosmic thread & evil second party (Ruling 39): the evil mirror party appears amidst the street chaos, ruthlessly slaughtering an imperial squad to carve their own separate path of plunder before vanishing into the smoke without a word, never aligning or cooperating with the party."
+  - "Cosmic thread & evil second party (Ruling 39 & 40): The Gilded Crest (the evil second party) appears amidst the street chaos, ruthlessly slaughtering an imperial squad to carve their own separate path of plunder before vanishing into the smoke without a word, never aligning or cooperating with the party."
   - "Standing unresolved threads, flag never silently decide: W item rules text, ITEM X definition, Secret 10's contractor."
 ---
 
@@ -27,7 +27,7 @@ special_notes:
 **Level:** 4
 **Setting:** The smoke-choked avenues, burning barricades, and harbor overlooks of Braaken, beneath a darkening midday sky, terminating at the outer plaza of Braaken Citadel.
 **Main Threat:** Heavy imperial street fortifications, mortar bombardment, fanatical EoE shock troopers, and the cataclysmic wake of the awakened dragon golem.
-**Adventure Summary:** On the afternoon of Day 36, having escaped High Prison with Master Vey, the party leads the allied dwarven and waveborn assault through the lower avenues toward Citadel HQ. Imperial naval batteries begin an indiscriminate bombardment of the lower town, threatening to stall the advance. At high noon, the moon slides across the sun, casting an unnatural violet twilight over the city. Out in the harbor, ITEM X ignites with blinding golden radiance: the ancient stone dragon statue tears free from the seabed, rising as a colossal elemental golem that crushes the imperial warships beneath tidal waves and stone claws. As the conventional military command structure shatters, the EoE Handler seizes total command, barricading the Citadel approaches with elite occult shock units. Amidst the chaos, the evil mirror party cuts a bloody, independent swath through the gatehouse defenders for their own dark plunder, allowing the party to smash the outer perimeter and secure the Citadel gates at dusk.
+**Adventure Summary:** On the afternoon of Day 36, having escaped High Prison with Master Vey, the party leads the allied dwarven and waveborn assault through the lower avenues toward Citadel HQ. Imperial naval batteries begin an indiscriminate bombardment of the lower town, threatening to stall the advance. At high noon, the moon slides across the sun, casting an unnatural violet twilight over the city. Out in the harbor, ITEM X ignites with blinding golden radiance: the ancient stone dragon statue tears free from the seabed, rising as a colossal elemental golem that crushes the imperial warships beneath tidal waves and stone claws. As the conventional military command structure shatters, the EoE Handler seizes total command, barricading the Citadel approaches with elite occult shock units. Amidst the chaos, The Gilded Crest (the evil second party) cuts a bloody, independent swath through the gatehouse defenders for their own dark plunder, allowing the party to smash the outer perimeter and secure the Citadel gates at dusk.
 
 ---
 
@@ -87,7 +87,7 @@ special_notes:
 * **The EoE Fanatic Defense:** The EoE Handler's personal guard, 1 Inquisitor Warden (AC 16, HP 52) and 6 EoE Fanatics (AC 14, HP 24 each), make a desperate last stand at the gates.
 * **The Gesture of Destiny & Rival Self-Interest (Ruling 29 & 39):**
   * As the party charges the gate, a barrage of shadow bolts erupts from an adjacent rooftop.
-  * The four champions of the evil mirror party descend with brutal savagery, cutting down three EoE fanatics not out of alliance, but in violent pursuit of their own dark objectives.
+  * The four champions of The Gilded Crest (the evil second party) descend with brutal savagery, cutting down three EoE fanatics not out of alliance, but in violent pursuit of their own dark plunder (Ruling 39 & 40).
   * They exchange a cold, venomous glare with the party across drawn blades. No words are spoken. As the outer portcullis caves in, the rival champions vault over the parapet into the lower city alleys and vanish into the gathering dusk without ever aligning.
 
 ---
@@ -100,7 +100,7 @@ special_notes:
   * *Drive:* Guide the allied sappers through the street fortifications using his knowledge of garrison blueprints. Has AC 10, HP 12.
 * **Captain Kael** (dwarf, he/him, vanguard commander)
   * *Drive:* Lead the dwarven infantry to breach the Citadel gates and avenge Mother Ashfall. Has AC 16, HP 35.
-* **The Evil Mirror Champions** (four rival champions)
+* **The Gilded Crest** (four evil second-party champions)
   * *Presence:* The evil second party (Ruling 39); cuts through defenders for their own agenda and departs silently into the dusk without ever cooperating or allying.
 
 ---
@@ -130,7 +130,7 @@ special_notes:
 | 2. Storming the iron barricade | 0:45 to 1:40 | Overcoming the heavy crossbowmen, detonating the sapper barrel, clearing the avenue |
 | 3. The eclipse & bay cataclysm | 1:40 to 2:40 | Totality falls, dragon golem awakens, complete sinking of the Empire navy |
 | 4. The Citadel plaza assault | 2:40 to 3:30 | Charging the outer gates, fighting the EoE fanatics under Handler overwatch |
-| 5. The rival disruption & breach | 3:30 to 3:55 | Evil mirror party violently cuts through guards in self-interest, gates battered down, staging the siege |
+| 5. The Gilded Crest disruption | 3:30 to 3:55 | The Gilded Crest violently cuts through guards in self-interest, gates battered down, staging the siege |
 
 ---
 
@@ -140,9 +140,9 @@ special_notes:
 * **Claim:** Module-13 covers Session 13 on the afternoon of Day 36 of Year One, encompassing the solar eclipse, the dragon golem awakening, and the street battles to Citadel HQ.
 * **Status:** Canon placement.
 
-### Entry 2 — The Evil Second Party Disruption
-* **Claim:** The evil mirror party assaults the gatehouse defenders in violent pursuit of their own separate plunder and dark agenda, never cooperating, communicating, or allying with the party per Ruling 39.
-* **Status:** Ratification-pending (plunder/self-interest motivation proposed per Ruling 39).
+### Entry 2 — The Gilded Crest Disruption (CLOSED, canon per Ruling 39 & 40)
+* **Claim:** The Gilded Crest (the evil second party) assaults the gatehouse defenders in violent pursuit of their own separate plunder and dark agenda, never cooperating, communicating, or allying with the party per Ruling 39 and Ruling 40.
+* **Status:** CLOSED (ratified owner canon).
 
 ---
 
