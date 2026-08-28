@@ -1,5 +1,13 @@
 [
   {
+    "slug": "shell-valley",
+    "hoard": "draega",
+    "title": "Shell Valley",
+    "date": "2026-08-28",
+    "excerpt": "Grimbah invites you to save the world in the far north, at the Druid's Temple in Shell Valley.",
+    "path": "../content/draega/shell-valley.md"
+  },
+  {
     "slug": "druids-temple-shell-valley",
     "hoard": "draega",
     "title": "The Druid's Temple in Shell Valley",
