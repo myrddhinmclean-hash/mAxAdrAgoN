@@ -28,6 +28,9 @@ function parseMarkdown(md) {
     }
   }
 
+  // Permanent pipeline rule: strip trailing editor notes and preceding divider
+  text = text.replace(/(?:\n\s*---\s*)?\n\s*\*?Tempted to invent but didn't:[\s\S]*$/i, "").trim();
+
   // Code blocks
   const codeBlocks = [];
   text = text.replace(/```([a-z0-9_-]*)\n([\s\S]*?)```/g, (match, lang, code) => {
