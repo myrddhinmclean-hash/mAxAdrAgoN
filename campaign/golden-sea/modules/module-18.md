@@ -17,6 +17,7 @@ special_notes:
   - "Corresponds to Session 18 (PVP 2 / Castle Escape) of the Master Document outline."
   - "Relative world time format: Day 38 + 12 (Ruling 35)."
   - "Event classifications marked explicitly as Scheduled or Gated (Ruling 31)."
+  - "PVP 2 Encounter (Ruling 39): direct tactical confrontation between the party (First Party) and the Evil Second Party (the mirror champions) atop the High Castle battlements as both race for the northern route archives."
   - "Institutional resilience (Ruling 11): Verrick evades capture once again, retreating further north toward the ultimate stronghold, proving that the EoE administration persists even when its regional seats are shattered."
   - "Archive recovery: the party captures the master route maps detailing the fortified mountain passes leading to the industrial foundries of Bernax."
   - "Standing unresolved threads, flag never silently decide: W item rules text, ITEM X definition, Secret 10's contractor."
@@ -26,8 +27,8 @@ special_notes:
 
 **Level:** 5
 **Setting:** The soaring basalt vaults, obsidian war rooms, and sheer cliffside parapets of the High Castle of Sortengraahd, descending into a frozen river canyon.
-**Main Threat:** Verrick's personal blood-bound elite guard, alchemical wildfire demolition traps, and an escape descent down two-hundred-foot icy cliffs.
-**Adventure Summary:** On Day 38 + 12, the party storms the inner sanctum of the High Castle of Sortengraahd. Within the grand obsidian archives, they engage Verrick's fanatical inner circle, defeating his blood-bound thrall champions and securing the complete strategic route dossiers for the northern march. Realizing his stronghold is lost, Verrick ignites the fortress wildfire stores and flees through an aerial carriage line toward Bernax. As the great stone towers collapse into roaring sheets of green flame, the party executes a harrowing escape down the frozen cliffside drainage sluices, fighting off pursuing cavalry along the canyon floor to secure their path north.
+**Main Threat:** The Evil Second Party (PVP 2), Verrick's blood-bound thralls, alchemical wildfire demolition traps, and an escape descent down two-hundred-foot icy cliffs.
+**Adventure Summary:** On Day 38 + 12, the party storms the inner sanctum of the High Castle of Sortengraahd. Within the grand obsidian archives, they engage Verrick's blood-bound thrall champions and secure the northern transit dossiers. Realizing his stronghold is lost, Verrick ignites the fortress wildfire stores and flees toward Bernax. As the towers ignite, the **Evil Second Party** intercepts the party on the crumbling cliffside parapets to seize the archives and settle the W2 grudge in a vicious direct duel (**PVP 2**). Driving back their evil rivals, the party executes a harrowing escape down the frozen cliffside drainage sluices into the river gorge below, securing the mountain route north.
 
 ---
 
@@ -48,7 +49,7 @@ special_notes:
 1. **The Bounty (rewritten as The Northern Atlas Recovery).** Rebel commanders offer 150 gp for the retrieval of the sealed transit maps to Bernax and Glazhenge.
 2. **The Distress Call (rewritten as The Trapped Scribes).** Three imperial civilian archivists are locked inside the scriptorium; releasing them provides the cipher key to the Vampire King's troop rosters.
 3. **The Unsealed Ruin (rewritten as The Iron Sluice Descent).** An ancient cliffside waste chute provides an emergency sliding descent down to the river gorge below.
-4. **The Direct Ambush (Gated Event).** An EoE wyvern rider ambushes the party as they step out onto the high castle balcony.
+4. **The Direct Ambush (Gated Event).** The Evil Second Party springs from the blizzard onto the parapet to ambush the party for the dossiers.
 
 ---
 
@@ -67,26 +68,30 @@ special_notes:
 
 ---
 
-## 4. Keyed Spatial Locations & The Castle Escape
+## 4. Keyed Spatial Locations & The PVP 2 Clash
 
 ### Area 1: The Burning Grand Archive (The Document Heist)
 * **Dimensions and Environment:** 90 ft. by 60 ft. vaulted basalt hall engulfed in spreading green wildfire, choked with thick smoke.
 * **Combat Encounter (Gated Event):** 4 Blood-Bound Thrall Knights (AC 16, HP 52 each, greatsword +6 to hit, 2d6+3 slashing plus 1d6 necrotic) + spreading wildfire hazard.
 * **Tactical Objective:** Extract the northern route maps from the central iron chest before fire consumes the dais.
 
-### Area 2: The Cliffside Parapet & Wyvern Clash (The Rooftop Battle)
-* **Dimensions and Environment:** Narrow 15 ft. wide stone balcony perched two hundred feet above a sheer frozen canyon.
-* **Combat Encounter (Gated Event):** 1 EoE Wyvern Rider (AC 15, HP 65, lance +6 to hit) + 1 Wyvern Mount (AC 13, HP 110, stinger +7 to hit, 2d6+4 piercing plus DC 15 Con save for 7d6 poison).
-* **The Descent Trigger:** Defeating the rider allows the party to deploy feather fall charms or slide down the icy drainage flume into the canyon below.
+### Area 2: The High Parapet & The PVP 2 Duel (The Evil Second Party Confrontation)
+* **Dimensions and Environment:** Narrow 20 ft. wide stone wallwalk perched two hundred feet above a sheer frozen canyon, swept by blizzard gales.
+* **The PVP 2 Encounter (Ruling 39):**
+  * **Combatants:** **The Evil Second Party** (4 Mirror Champions: Death Knight Adept AC 18 HP 65, Shadow Rogue AC 15 HP 50, Warlock of the Blood Moon AC 14 HP 48, Gloom Archer AC 15 HP 52).
+  * **Tactical Dynamics:** The evil second party ambushes the party to seize the transit dossiers and avenge their tournament defeat over W2. The battle is a ruthless, lethal clash across the collapsing icy battlements.
+  * **Descent Trigger:** After taking heavy damage, the rival rogue detonates a smoke bomb, and both parties make emergency descents down opposite canyon flumes into the blizzard.
 
 ### Area 3: The Frozen Gorge (The Canyon Breakout)
 * **Dimensions and Environment:** Deep snow-filled river canyon flanked by towering granite walls, swept by blizzard winds.
-* **The Breakout:** The party regroups at the frozen river bed, repelling an imperial scout patrol before disappearing into the northern pine forests toward Bernax.
+* **The Breakout:** The party regroups at the frozen river bed, repelling pursuing imperial cavalry before disappearing into the northern pine forests toward Bernax.
 
 ---
 
 ## 5. NPC Roster
 
+* **The Evil Second Party** (four rival champions)
+  * *Presence:* Direct lethal antagonists (Ruling 39); ambushes the party in PVP 2 on the high battlements to steal the dossiers and settle the W2 grudge.
 * **Verrick** (human, he/him, persistent EoE administrator)
   * *Presence:* Escapes via an armored aerial carriage to Bernax, leaving his stronghold to burn; solidifies his role as the cunning recurring antagonist.
 * **Captain Kael** (dwarf, he/him, rebel vanguard leader)
@@ -99,9 +104,9 @@ special_notes:
 ## 6. Encounter Math Breakdown
 
 * **Encounter 1 (Area 1, Archive Thrall Knights):** 4 Thrall Knights (CR 2, 1,800 XP) + wildfire hazard = 2,200 XP (Hard for four Level 5 characters).
-* **Encounter 2 (Area 2, Balcony Wyvern Strike):** 1 Wyvern (CR 6, 2,300 XP) + Rider (CR 2, 450 XP) = 2,750 XP (Hard).
+* **Encounter 2 (Area 2, PVP 2 Mirror Party Duel):** 4 Evil Champions (CR 3 each, 2,800 XP) = 2,800 XP (Hard).
 * **Encounter 3 (Area 3, Canyon Flume Descent):** Tier 2 environmental cliff descent hazard (DC 14) = 500 XP (Easy).
-* **Day Total:** 5,450 XP, representing the major mid-sequel milestone.
+* **Day Total:** 5,500 XP, representing the major PVP 2 milestone of Act II.
 
 ---
 
@@ -119,8 +124,8 @@ special_notes:
 |---|---|---|
 | 1. Breaching the high solar | 0:00 to 0:45 | Infiltrating the upper castle, storming the private turret, confronting Verrick |
 | 2. The Great Archive fire | 0:45 to 1:45 | Fighting the thrall knights in spreading wildfire, rescuing the northern dossiers |
-| 3. The balcony wyvern clash | 1:45 to 2:40 | Stepping onto the outer parapet, battling the wyvern rider above the frozen gorge |
-| 4. The flume descent | 2:40 to 3:20 | Sliding down the icy drainage flume, executing a dramatic cliff landing |
+| 3. The PVP 2 battle | 1:45 to 2:45 | Stepping onto the outer parapet, engaging the Evil Second Party in lethal combat (PVP 2) |
+| 4. The flume descent | 2:45 to 3:20 | Sliding down the icy drainage flume, executing a dramatic cliff landing |
 | 5. Canyon regrouping | 3:20 to 3:55 | Repelling canyon cavalry scouts, taking the mountain road toward Bernax |
 
 ---
@@ -128,10 +133,14 @@ special_notes:
 ## Assumption Log
 
 ### Entry 1 — Scope & Placement (CLOSED, canon per Master Doc s18)
-* **Claim:** Module-18 covers Session 18 on relative Day 38 + 12 of Year One, focusing on the High Castle breach and canyon escape.
+* **Claim:** Module-18 covers Session 18 on relative Day 38 + 12 of Year One, focusing on the High Castle breach, PVP 2, and the canyon escape.
 * **Status:** Canon placement per Ruling 33.
 
-### Entry 2 — Verrick's Escape to Bernax
+### Entry 2 — PVP 2 First Party vs Evil Second Party (CLOSED, canon per Ruling 39)
+* **Claim:** The PVP 2 encounter on the High Castle battlements is explicitly fought between the First Party and the Evil Second Party over the northern route dossiers and the W2 grudge, with zero cooperation or alliance per Ruling 39.
+* **Status:** CLOSED per owner Ruling 39.
+
+### Entry 3 — Verrick's Escape to Bernax
 * **Claim:** Verrick detonates the castle wildfire stores and escapes in an aerial carriage toward the foundries of Bernax.
 * **Status:** Invariant antagonist continuity bridge.
 

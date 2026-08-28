@@ -74,12 +74,12 @@ special_notes:
 * **Combat Encounter (Gated Event):** 1 Inquisitor Captain (AC 17, HP 58) + 4 Heavy Pavisiers (AC 18, HP 32 each) + automated ballista hazard.
 * **Tactical Objective:** Break the line before the mortar battery on the adjacent terrace zeroes in on the square.
 
-### Area 2: The Cathedral Bell Tower (The Mirror Party Intersection)
+### Area 2: The Cathedral Bell Tower (The Evil Second Party Intersection)
 * **Dimensions and Environment:** 80 ft. stone bell tower overlooking the central causeway.
-* **The Gesture of Destiny (Ruling 27 & 29):**
+* **The Gesture of Destiny & Self-Interest (Ruling 27, 29, 39):**
   * As the party crosses the open avenue, an imperial master sniper on the upper tower balcony takes aim at the party's wizard.
   * Before the trigger is pulled, a black-feathered arrow from the distant cathedral spire pierces the sniper's throat.
-  * Looking up, the party glimpses the silhouetted archer of the mirror party lowering their bow. The figure gives a faint nod and melts back into the fog, vanishing without a word.
+  * Looking up, the party glimpses the silhouetted archer of the evil second party lowering their black bow. The rival archer does not acknowledge the party, but turns immediately to rifle through the tower's arcane transit charts in ruthless self-interest before melting into the fog without a word, never aligning or cooperating with the party.
 
 ### Area 3: The Castle Barbican Gates (The Foothold)
 * **Dimensions and Environment:** Massive iron-studded gateway flanked by twin 40 ft. octagonal basalt bastions.
@@ -93,8 +93,8 @@ special_notes:
   * *Drive:* Maintain total police control over Sortengraahd at all costs. Has AC 17, HP 58.
 * **Guildmistress Karenza** (dwarf, she/her, rebel resistance cell leader)
   * *Drive:* Provide tactical street maps and explosive charges to breach the castle gates. Has AC 14, HP 32.
-* **The Mirror Archer** (unknown, they/them, destiny's agent)
-  * *Presence:* Eliminates the sniper threat from afar and departs silently (Ruling 29).
+* **The Evil Mirror Archer** (unknown, they/them, evil second party champion)
+  * *Presence:* Operates in ruthless self-interest; clears the tower for their own dark mission and vanishes into the fog without ever communicating or allying (Ruling 39).
 
 ---
 
@@ -121,7 +121,7 @@ special_notes:
 |---|---|---|
 | 1. City gate infiltration | 0:00 to 0:45 | Bypassing the outer wall, navigating the cold basalt alleys, entering the market |
 | 2. Storming the market barrier | 0:45 to 1:40 | Defeating Captain Malis, disabling the automated ballista, rallying the workers |
-| 3. The bell tower intervention | 1:40 to 2:30 | Crossing the avenue, mirror party eliminates the sniper, securing the cathedral |
+| 3. The bell tower disruption | 1:40 to 2:30 | Crossing the avenue, evil mirror archer clears the tower for their own goals, securing the square |
 | 4. Barbican gate assault | 2:30 to 3:20 | Breaching the castle gates with Karenza's sappers, routing the shock wardens |
 | 5. Staging the castle breach | 3:20 to 3:55 | Setting forward positions at the castle portal, preparing for the citadel infiltration |
 
@@ -133,9 +133,9 @@ special_notes:
 * **Claim:** Module-17 covers Session 17 on relative Day 38 + 10 of Year One, focusing on the street battles of Sortengraahd.
 * **Status:** Canon placement per Ruling 33.
 
-### Entry 2 — Mirror Party Intersection (Ruling 27 & 29)
-* **Claim:** The mirror party performs exactly one silent intervention, eliminating a hostile sniper before departing without dialogue.
-* **Status:** Invariant compliance with Rulings 27 and 29.
+### Entry 2 — Evil Second Party Intersection (CLOSED, canon per Ruling 39)
+* **Claim:** The evil mirror archer kills the tower sniper purely in pursuit of their own infiltration path and charts, never communicating, aligning, or cooperating with the party per Ruling 39.
+* **Status:** CLOSED per owner Ruling 39.
 
 ---
 

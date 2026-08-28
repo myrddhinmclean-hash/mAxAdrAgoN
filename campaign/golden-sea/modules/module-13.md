@@ -18,8 +18,7 @@ special_notes:
   - "The solar event: a total solar eclipse peaks at midday, catalyzing ITEM X to awaken the submerged dragon golem in Braaken Bay, paying off Master Vey's exposition from module-12."
   - "The dragon golem annihilates the remaining Empire naval vessels in the harbor basin, severing imperial escape routes."
   - "Institutional shift: as conventional imperial commanders panic, the EoE Handler assumes supreme emergency command of the garrison, transforming bureaucratic administrators into ruthless street commanders (Ruling 11)."
-  - "Cosmic thread & mirror party (Ruling 29): the rival mirror party appears amidst the street chaos, fighting alongside the party to breach a fortified imperial barricade before vanishing into the smoke without a word of explanation."
-  - "Unused alternative logged: the mirror party engaging the party in hostile combat amidst the street confusion."
+  - "Cosmic thread & evil second party (Ruling 39): the evil mirror party appears amidst the street chaos, ruthlessly slaughtering an imperial squad to carve their own separate path of plunder before vanishing into the smoke without a word, never aligning or cooperating with the party."
   - "Standing unresolved threads, flag never silently decide: W item rules text, ITEM X definition, Secret 10's contractor."
 ---
 
@@ -28,7 +27,7 @@ special_notes:
 **Level:** 4
 **Setting:** The smoke-choked avenues, burning barricades, and harbor overlooks of Braaken, beneath a darkening midday sky, terminating at the outer plaza of Braaken Citadel.
 **Main Threat:** Heavy imperial street fortifications, mortar bombardment, fanatical EoE shock troopers, and the cataclysmic wake of the awakened dragon golem.
-**Adventure Summary:** On the afternoon of Day 36, having escaped High Prison with Master Vey, the party leads the allied dwarven and waveborn assault through the lower avenues toward Citadel HQ. Imperial naval batteries begin an indiscriminate bombardment of the lower town, threatening to stall the advance. At high noon, the moon slides across the sun, casting an unnatural violet twilight over the city. Out in the harbor, ITEM X ignites with blinding golden radiance: the ancient stone dragon statue tears free from the seabed, rising as a colossal elemental golem that crushes the imperial warships beneath tidal waves and stone claws. As the conventional military command structure shatters, the EoE Handler seizes total command, barricading the Citadel approaches with elite occult shock units. Assisted unexpectedly at a critical barricade by their mysterious dream rivals, the party smashes the outer perimeter and secures the Citadel gates at dusk.
+**Adventure Summary:** On the afternoon of Day 36, having escaped High Prison with Master Vey, the party leads the allied dwarven and waveborn assault through the lower avenues toward Citadel HQ. Imperial naval batteries begin an indiscriminate bombardment of the lower town, threatening to stall the advance. At high noon, the moon slides across the sun, casting an unnatural violet twilight over the city. Out in the harbor, ITEM X ignites with blinding golden radiance: the ancient stone dragon statue tears free from the seabed, rising as a colossal elemental golem that crushes the imperial warships beneath tidal waves and stone claws. As the conventional military command structure shatters, the EoE Handler seizes total command, barricading the Citadel approaches with elite occult shock units. Amidst the chaos, the evil mirror party cuts a bloody, independent swath through the gatehouse defenders for their own dark plunder, allowing the party to smash the outer perimeter and secure the Citadel gates at dusk.
 
 ---
 
@@ -83,13 +82,13 @@ special_notes:
   * The colossal stone dragon statue shudders, shedding centuries of coral crust. With a roar like grinding tectonic plates, the **Dragon Golem** breaches the surface.
   * Spanning two hundred feet from wing to wing, the golem descends upon the imperial fleet. In three terrifying minutes, stone talons snap war galleys in half, churning the bay into a maelstrom of sinking timber and boiling foam. The entire occupying fleet is eradicated.
 
-### Area 3: The Citadel Outer Plaza & The Rival Intervention (The Gate Breach)
+### Area 3: The Citadel Outer Plaza & The Rival Clash (The Gate Breach)
 * **Dimensions and Environment:** 100 ft. wide granite courtyard fronting the iron-studded double gates of Braaken Citadel.
 * **The EoE Fanatic Defense:** The EoE Handler's personal guard, 1 Inquisitor Warden (AC 16, HP 52) and 6 EoE Fanatics (AC 14, HP 24 each), make a desperate last stand at the gates.
-* **The Gesture of Destiny (Ruling 29):**
+* **The Gesture of Destiny & Rival Self-Interest (Ruling 29 & 39):**
   * As the party charges the gate, a barrage of shadow bolts erupts from an adjacent rooftop.
-  * The four champions of the mirror party step into the fray, their weapons flashing as they strike down three EoE fanatics in a single coordinated flurry.
-  * They exchange a cold, unreadable glance with the party. No words are spoken. No explanation is offered. As the final fanatic falls, the rival champions vault over the parapet into the lower city alleys and vanish into the gathering dusk.
+  * The four champions of the evil mirror party descend with brutal savagery, cutting down three EoE fanatics not out of alliance, but in violent pursuit of their own dark objectives.
+  * They exchange a cold, venomous glare with the party across drawn blades. No words are spoken. As the outer portcullis caves in, the rival champions vault over the parapet into the lower city alleys and vanish into the gathering dusk without ever aligning.
 
 ---
 
@@ -101,8 +100,8 @@ special_notes:
   * *Drive:* Guide the allied sappers through the street fortifications using his knowledge of garrison blueprints. Has AC 10, HP 12.
 * **Captain Kael** (dwarf, he/him, vanguard commander)
   * *Drive:* Lead the dwarven infantry to breach the Citadel gates and avenge Mother Ashfall. Has AC 16, HP 35.
-* **The Mirror Champions** (four rival adventurers)
-  * *Presence:* Destiny's instruments; intervene silently to smash the barricade before slipping away into the night (Ruling 29).
+* **The Evil Mirror Champions** (four rival champions)
+  * *Presence:* The evil second party (Ruling 39); cuts through defenders for their own agenda and departs silently into the dusk without ever cooperating or allying.
 
 ---
 
@@ -110,7 +109,7 @@ special_notes:
 
 * **Encounter 1 (Area 1, Street Barricade Battle):** 1 Captain (CR 2, 450 XP) + 4 Crossbowmen (CR 1/2, 400 XP) + 2 Shock Troopers (CR 1, 400 XP) = 1,250 XP (Medium for four Level 4 characters).
 * **Encounter 2 (Area 2, Overlook Mortar Battery):** 2 Artillery Gunners (CR 1, 400 XP) + environmental mortar hazard = 600 XP (Easy).
-* **Encounter 3 (Area 3, Citadel Gatehouse Clash):** 1 Inquisitor Warden (CR 3, 700 XP) + 6 Fanatics (CR 1/2, 600 XP) aided by mirror party intervention = 1,300 XP (Hard adjusted to Medium).
+* **Encounter 3 (Area 3, Citadel Gatehouse Clash):** 1 Inquisitor Warden (CR 3, 700 XP) + 6 Fanatics (CR 1/2, 600 XP) amidst rival three-way clash = 1,300 XP (Hard adjusted to Medium).
 * **Day Total:** 3,150 XP, representing the major combat climax of the street liberation.
 
 ---
@@ -131,7 +130,7 @@ special_notes:
 | 2. Storming the iron barricade | 0:45 to 1:40 | Overcoming the heavy crossbowmen, detonating the sapper barrel, clearing the avenue |
 | 3. The eclipse & bay cataclysm | 1:40 to 2:40 | Totality falls, dragon golem awakens, complete sinking of the Empire navy |
 | 4. The Citadel plaza assault | 2:40 to 3:30 | Charging the outer gates, fighting the EoE fanatics under Handler overwatch |
-| 5. The rival intervention & breach | 3:30 to 3:55 | Mirror party intervenes silently, gates battered down, staging the throne room siege |
+| 5. The rival disruption & breach | 3:30 to 3:55 | Evil mirror party violently cuts through guards in self-interest, gates battered down, staging the siege |
 
 ---
 
@@ -141,10 +140,9 @@ special_notes:
 * **Claim:** Module-13 covers Session 13 on the afternoon of Day 36 of Year One, encompassing the solar eclipse, the dragon golem awakening, and the street battles to Citadel HQ.
 * **Status:** Canon placement.
 
-### Entry 2 — Mirror Party Cooperation Choice (Ruling 29)
-* **Claim:** The mirror party intervenes to fight alongside the party against the EoE gatehouse guard, offering zero spoken explanation and departing immediately into the dusk.
-* **Unused Alternative:** The mirror party attacking the party amidst the smoke and confusion (logged as an unused alternative).
-* **Status:** Operational choice complying strictly with Ruling 29.
+### Entry 2 — The Evil Second Party Disruption (CLOSED, canon per Ruling 39)
+* **Claim:** The evil mirror party assaults the gatehouse defenders in violent pursuit of their own separate agenda, never cooperating, communicating, or allying with the party per Ruling 39.
+* **Status:** CLOSED per owner Ruling 39.
 
 ---
 

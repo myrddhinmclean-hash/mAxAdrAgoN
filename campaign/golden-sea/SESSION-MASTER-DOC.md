@@ -55,6 +55,7 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **Act 2 Shape & Antagonist Seats** — *Ruling 33:* The northern liberation march follows the geographical corridor: Imnia North Port (s16) $\rightarrow$ Sortengraahd (s17–s18) $\rightarrow$ Bernax (s19–s20) $\rightarrow$ Glazhenge (s21–s22) $\rightarrow$ The Astral Conjunction Climax (s23). Verrick's EoE command seat is established at Sortengraahd following his escape from Braaken. The Tithe Ledger trail passes through Bernax as a gated discovery candidate.
 - **The End-of-Act-2 Deadline** — *Ruling 34 & Ruling 37:* Ratified as the Blood-Moon Conjunction on `Day 38 + 30`, where the united Boons turn the Blood Moon to dawn.
 - **Day 38 + N Notation** — *Ruling 35:* Standardized relative time format for all Act 2 modules.
+- **The Two Parties (Hard Invariant)** — *Ruling 39:* Two parties exist in the campaign world. The second party is evil. The two parties NEVER align — no cooperation, truce, or joint action at any point in the campaign. The mirror-party of Ruling 27 IS the second (evil) party. Their appearances (tournament s10a–c, module-13 Citadel gates, module-17 bell tower, module-18 PVP 2) represent opposition, aggressive self-interest, or destiny's inscrutable gesture — never alliance. Hard invariant for all drafting.
 - **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7, anchors offshore at Garegstown on Day 8, and is scuttled and sunk in the Braaken dock basin on Day 30 (module-5). Boltstrucken's personal fate remains open (escaped, drowned, or captured). Strictly distinct from the *Sable Wake*.
 - **Thorek (the Wagoneer)** — dwarven wagoneer who guides the party through the Garegstown caverns and the Paradiso road. *Ruling 6:* Thorek IS the unnamed wagoneer of Session 6. One person, one single execution at sundown in Paradiso (module-9 Section 4).
 - **The Golden Sea Naval Battle Bridge** — *Ruling 7:* Session 4 naval battle against the *Iron Fortress* is canon. Sighting on Day 7 escalates into the opening salvo with Glori glimpsed using W1 (module-4); battle tail and landing under covering fire occur at dawn of Day 8 at Garegstown docks (module-8).
@@ -86,6 +87,7 @@ Now the rebuild. Here's the campaign document as it should exist:
 21. **Visions Placement (CLOSED):** V1 (Day 5), V2 (Day 32), V3 (Day 38 + 30) placed without explanation (Ruling 36).
 22. **Ratification Slate (CLOSED):** All eight pending items ratified as author canon (Ruling 37).
 23. **Open-Thread Ledger (CLOSED):** Persistent living world threads logged (Ruling 38).
+24. **Two Parties & Second Evil Party (CLOSED):** Strict non-alignment invariant ratified (Ruling 39).
 
 ## Open-Thread Ledger (Ruling 38)
 1. **The Tithe Ledger:** Survives the destruction of its Bernax anchor; location unknown, autonomous life-debt accounting continues across the wider world (Ruling 26 intact).

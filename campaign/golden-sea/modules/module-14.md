@@ -84,7 +84,7 @@ special_notes:
 * **Dimensions and Environment:** Fortified iron exit gate opening onto the inland military highway.
 * **The Threads of Sequel:**
   * **Verrick's Escape:** As the Handler falls, local Handler Verrick slips through the crowd of surrendering guards, mounting a swift courser and fleeing north toward the frontier (destination unknown).
-  * **The Mirror Party's Departure:** Watching from the high gallery, the rival champions witness the liberation. When the party turns to acknowledge them, they have vanished into the dispersing crowds, their grudge over W2 held in quiet reserve.
+  * **The Evil Second Party's Departure (Ruling 39):** Watching from the high gallery with cold contempt, the evil mirror party witnesses the fall of the Handler. When the party turns to confront them, they melt away into the dispersing crowds, their grudge over W2 burning and unresolved, never aligning with the liberators.
 
 ---
 
@@ -140,8 +140,8 @@ special_notes:
 * **Claim:** The party handles the shadow guard and wildfire disarm, while Prince Glori personally duels and executes the Handler using W1 on the marble dais.
 * **Status:** Logged narrative assumption.
 
-### Entry 3 — Verrick & Mirror Party Escapes
-* **Claim:** Verrick escapes north during the surrender; the mirror party vanishes into the crowd without fighting, preserving both sequel antagonist threads.
+### Entry 3 — Verrick & Evil Second Party Escapes (CLOSED, canon per Ruling 39)
+* **Claim:** Verrick escapes north during the surrender; the evil mirror party vanishes into the crowd without fighting, their grudge over W2 active and unresolved per Ruling 39.
 * **Status:** Invariant continuity bridge.
 
 ---
