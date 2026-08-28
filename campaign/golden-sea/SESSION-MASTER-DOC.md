@@ -42,6 +42,11 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **The Tithe Ledger** — *Ruling 26:* An indestructible, self-collecting EoE accounting artifact discovered in the Hollow Deeps sewer cache (Session 11 / module-11); records tribute, life debts, and occult logistics across the Empire, serving as a persistent sequel hook into Sessions 16–23.
 - **Destiny's Agenda (Cosmic Principle)** — *Ruling 29:* Destiny's agenda is never revealed; it can only be implied. No module, NPC, or Vision may state destiny's purpose, motive, or outcome. Beats may gesture (unexplained mercy, too-convenient circumstance, a rival's odd restraint) but must never explain. Applies to all campaign and sequel modules.
 - **The Vampire King** — *Ruling 30:* Revealed at Session 15 as the Northern Threat beyond the liberated coast; W4 is learned of in the same revelation. His nature, domain, and agenda are not detailed (implied only). Primary sequel-arc antagonist toward whom the party marches in Sessions 16–23.
+- **Event Classification Standard** — *Ruling 31:* Every Act 2 event is explicitly marked as **Scheduled** (advances on the world clock independently of party actions) or **Gated** (triggered by party arrival, tactical success, or key discoveries).
+- **Relative Time & The World Clock** — *Ruling 32:* The absolute day count chain ends at Day 38 (Session 15). Act 2 uses relative time notation (`Day 38 + N`) where the party advances on their own operational timetable against the background World Clock.
+- **Act 2 Shape & Antagonist Seats** — *Ruling 33:* The northern liberation march follows the geographical corridor: Imnia North Port (s16) $\rightarrow$ Sortengraahd (s17–s18) $\rightarrow$ Bernax (s19–s20) $\rightarrow$ Glazhenge (s21–s22) $\rightarrow$ The Astral Conjunction Climax (s23). Verrick's EoE command seat is established at Sortengraahd following his escape from Braaken. The Tithe Ledger trail passes through Bernax as a gated discovery candidate.
+- **The End-of-Act-2 Deadline** — *Ruling 34:* The strategic countdown revealed at Glazhenge: the Blood-Moon Conjunction on `Day 38 + 30`, where the Vampire King plans to complete a continental blood-tithe ritual. Logged as ratification-pending, respecting Ruling 29 (logistical/ritual deadline, not destiny's agenda).
+- **Day 38 + N Notation** — *Ruling 35:* Standardized relative time format for all Act 2 modules.
 - **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7, anchors offshore at Garegstown on Day 8, and is scuttled and sunk in the Braaken dock basin on Day 30 (module-5). Boltstrucken's personal fate remains open (escaped, drowned, or captured). Strictly distinct from the *Sable Wake*.
 - **Thorek (the Wagoneer)** — dwarven wagoneer who guides the party through the Garegstown caverns and the Paradiso road. *Ruling 6:* Thorek IS the unnamed wagoneer of Session 6. One person, one single execution at sundown in Paradiso (module-9 Section 4).
 - **The Golden Sea Naval Battle Bridge** — *Ruling 7:* Session 4 naval battle against the *Iron Fortress* is canon. Sighting on Day 7 escalates into the opening salvo with Glory glimpsed using W1 (module-4); battle tail and landing under covering fire occur at dawn of Day 8 at Garegstown docks (module-8).
@@ -66,6 +71,10 @@ Now the rebuild. Here's the campaign document as it should exist:
 14. **The Tithe Ledger (CLOSED):** Occult accounting artifact (Ruling 26).
 15. **Destiny Principle (CLOSED):** Implied agenda only (Ruling 29).
 16. **The Northern Threat (CLOSED):** Vampire King & W4 revelation (Ruling 30).
+17. **Event Classification (CLOSED):** Scheduled vs Gated events marked (Ruling 31).
+18. **Relative Time (CLOSED):** Relative time notation `Day 38 + N` codified for Act 2 (Rulings 32, 35).
+19. **Act 2 Shape & Antagonists (CLOSED):** Northern march corridor & Verrick seat at Sortengraahd (Ruling 33).
+20. **Act 2 Climax Deadline (CLOSED):** Blood-Moon Conjunction at `Day 38 + 30` (Ruling 34).
 
 ## The Story in One Line
 The party gets conscripted into a dwarven revolt in FairWhether, escapes across the Golden Sea carrying rebellion cargo, crosses the continent under Empire noses, liberates Braaken with an alliance of waveborn, dwarves, and tournament allies, and marches on the Empire's capital — while a rival party haunts their dreams and EoE operates in the shadows.
@@ -138,17 +147,19 @@ The party gloats about Braaken.
 Rewards. **W1 given by Glory.** Learn of the **vampire king**. Cpt. T's boat refitted. Learn of **W4**. Plan the next move.
 
 ---
-**From here, skeleton territory — recorded outline only:**
-| # | Date | Location | Purpose |
-|---|------|----------|---------|
-| 16 | 2/21/2021 | Imnia North Port | Beach landing; get to the capital |
-| 17 | 2/28/2021 | Sortengraahd streets | Capital street battles |
-| 18 | 3/6/2021 | Sortengraahd Capital | **PVP 2** — escape the castle |
-| 19 | 3/14/2021 | Bernax Docks | Naval assault at Bernax |
-| 20 | 3/28/2021 | Bernax City | Bernax street battles |
-| 21 | 4/11/2021 | Glazhenge Gates | City gates breached |
-| 22 | 4/18/2021 | Glazhenge HQ Gates | HQ gates breached |
-| 23 | 4/24/2021 | Astral Plane | **PVP END** |
+
+## Act II: The Northern Liberation March — Relative Event Chain (Rulings 31–35)
+
+| # | Session / Module | Relative Time | Location | Primary Objective & Events | Classification |
+|---|---|---|---|---|---|
+| 16 | **module-16** | Day 38 + 4 | Imnia North Port | Beach landing corridor; establishing northern beachhead | Gated |
+| 17 | **module-17** | Day 38 + 10 | Sortengraahd Streets | Capital street battles; infiltrating Verrick's stronghold | Gated |
+| 18 | **module-18** | Day 38 + 12 | Sortengraahd Castle | Castle escape; seizing northern route archives | Gated |
+| 19 | **module-19** | Day 38 + 18 | Bernax Docks | Icy dock landing; intercepting the EoE Tithe Ledger convoy | Gated |
+| 20 | **module-20** | Day 38 + 20 | Bernax City | Foundry assault; disrupting blood-tithe shipments | Gated |
+| 21 | **module-21** | Day 38 + 26 | Glazhenge Outer Gates | Breaching the outer glacial wall; defeating thrall vanguard | Gated |
+| 22 | **module-22** | Day 38 + 28 | Glazhenge HQ Gates | Breaching inner gates; discovering the Blood-Moon Deadline | Gated & Scheduled |
+| 23 | **module-23** | Day 38 + 30 | Citadel of Vampire King | Climax: Blood-Moon Conjunction; claiming W4; final victory | Scheduled |
 
 ---
 *The following block is meta commentary on module sequencing, reproduced for completeness. It is not campaign canon and may not be cited by modules.*
