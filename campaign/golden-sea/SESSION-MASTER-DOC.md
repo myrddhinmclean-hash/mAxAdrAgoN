@@ -33,7 +33,10 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **The Visions** — *Ruling 12:* The Vision sender is destiny — an abstract force, not an entity. The rival group is destiny's instrument: champions it meets, fights, and gloats through in dream state (V1: meet; V2: fight; V3: gloat — with the direction flipped at V3, the party gloating back, which is the arc's payoff and must be preserved). The Visions are the cosmic thread; EoE is the institutional thread. Separate antagonists. Destiny's interest escalates as the party approaches the capital. *Provisional Assumption:* V2's placement/dream session between V1 and V3 is inferred from the arc structure (meet → fight → gloat), not explicitly recorded on the master sheet; flagged as provisional pending owner confirmation.
 - **The solar event** — astronomical event on day 36; wakes the dragon golem, part of the HQ assault plan.
 - **Captain Mohdraan "Smite" Boltstrucken** — minotaur Tempest Cleric, captain of the heavy Empire warship *Iron Fortress*, antagonist of the Day 7–8 pursuit chain across the Golden Sea and Garegstown docks.
-- **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7 and anchors offshore at Garegstown on Day 8 to deploy search boats. Strictly distinct from the *Sable Wake*.
+- **Mother Cindra Ashfall** — *Ruling 20:* Dwarven firebrand and legendary rebel commander in Braaken, connected to the FairWhether fire brigades from Day 1. Murdered off-screen at the close of Session 9 / module-5 with the EoE geometric eye sigil left at the scene.
+- **Seluch** — *Ruling 21:* Waveborn liaison in Braaken Bay; amphibious scout who speaks in a salt-crusted voice, negotiates through gift-exchange, honors the Tide-Walker Disc treaty, and assists in placing ITEM X upon the sunken dragon statue.
+- **Module-5 Scope** — *Ruling 22:* Combines Sessions 8 and 9 into a single operational module on Day 30, encompassing the Braaken Docks arrival, the sinking of the *Iron Fortress*, the dragon statue placement, and the discovery of Mother Ashfall's death.
+- **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7, anchors offshore at Garegstown on Day 8, and is scuttled and sunk in the Braaken dock basin on Day 30 (module-5). Boltstrucken's personal fate remains open (escaped, drowned, or captured). Strictly distinct from the *Sable Wake*.
 - **Thorek (the Wagoneer)** — dwarven wagoneer who guides the party through the Garegstown caverns and the Paradiso road. *Ruling 6:* Thorek IS the unnamed wagoneer of Session 6. One person, one single execution at sundown in Paradiso (module-9 Section 4).
 - **The Golden Sea Naval Battle Bridge** — *Ruling 7:* Session 4 naval battle against the *Iron Fortress* is canon. Sighting on Day 7 escalates into the opening salvo with Glory glimpsed using W1 (module-4); battle tail and landing under covering fire occur at dawn of Day 8 at Garegstown docks (module-8).
 - **NPC Seed Bank (Unused Wave 1 Variant Seeds):**
@@ -49,6 +52,8 @@ Now the rebuild. Here's the campaign document as it should exist:
 6. **Dual Antagonists (W3.2 Resolved):** Resolved per Rulings 11 and 12 (EoE = institutional/internal arm of the Empire; Visions = cosmic destiny via rival mirror champions; separate antagonist threads).
 7. **AZ Placeholder (CLOSED):** Named Thalassar per Ruling 18.
 8. **Downtime Principle (CLOSED):** The Breathing Rule codified per Ruling 19.
+9. **Rebel Leader & Liaison (CLOSED):** Mother Cindra Ashfall (Ruling 20) and Seluch (Ruling 21).
+10. **Module 5 Consolidation (CLOSED):** Sessions 8 & 9 combined into module-5 on Day 30 (Ruling 22).
 
 ## The Story in One Line
 The party gets conscripted into a dwarven revolt in FairWhether, escapes across the Golden Sea carrying rebellion cargo, crosses the continent under Empire noses, liberates Braaken with an alliance of waveborn, dwarves, and tournament allies, and marches on the Empire's capital — while a rival party haunts their dreams and EoE operates in the shadows.
