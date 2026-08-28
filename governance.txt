@@ -155,3 +155,97 @@ If anything is wrong after push: unlist or revert first, debug second. Nothing b
 - Not a rebrand-in-waiting. Platform migrations are explicitly rejected unless the current site fails a real need.
 - Not the agent's site. Every agent here serves the gate; the owner decides what's treasure.
 - Not a business — yet. Economic questions are parked to Phase 5 like everything else, and this document deliberately contains no monetization gates, KPIs, or "asset formation" rules. If that layer is ever added, it is added at Phase 5, by decision session, as its own document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# mAxAdrAgoN — Lair Governance ADDENDUM v2.1
+
+**Status:** Append this document after §11 of the Governance v2. Where an addendum item conflicts with the main document, **this addendum wins**. Logged by decision session per §2.1.
+
+---
+
+## A1. AUTHORSHIP AMENDMENT (supersedes the "conversion jobs, never creation jobs" rule in §9, Phase 2)
+
+The owner does not author the world of Draega personally. The owner is **editor-in-chief**; agents are the **writers' room**.
+
+- Creation jobs are now permitted alongside conversion jobs.
+- The veto gate (§3) is the safeguard that replaces sole authorship: nothing is canon, and nothing is published, that has not passed the owner's gate. Agent-generated lore that passes the gate IS owner-approved by definition.
+- The owner's current active goal is **building voice and standards through modules** — a small set of finished, published pieces that demonstrate what the voice sounds like, so that all future generation has a target to hit.
+
+## A2. THE QUESTION-DRIVEN MODULE METHOD (new standing workflow)
+
+New Draega modules are created through **structured interviews**: the reasoning agent (Claude) asks the owner questions; the owner answers; the agent shapes the answers into material.
+
+**The loop:**
+
+1. **Seed** — agent proposes a topic or asks an opening question (e.g., "What's the last thing a traveler sees before reaching the valley?")
+2. **Answer** — the owner answers in any form: complete sentences, fragments, "I don't know, figure it out." All three are valid material.
+3. **Shape & follow up** — the agent shapes what it heard, then asks the next question, prioritizing gaps in the material
+4. **Draft** — when the interview has enough, the agent assembles a draft in the excavation register and delivers it to the gate with editor notes
+5. **Gate** — standard §3 flow. Owner approves, edits, or vetoes.
+
+**Rules of the method:**
+
+- The agent asks; the owner answers; the agent never fills a silence with invention *during the interview*. "You decide" from the owner is the one exception — a delegated invention is then owner-sanctioned and marked as such in editor notes.
+- Answers are canon. If a later draft contradicts something the owner said in an interview, the draft is wrong, not the answer.
+- Interviews are themselves sources. A module built this way has a traceable provenance chain: *interview → draft → gate*. This satisfies §A4.
+
+## A3. VOICE-FIRST SEQUENCING (order of operations)
+
+1. **Now:** module track. Two or three published modules establish the demonstrated standard.
+2. **Then:** open worldbuilding generation scales off that standard — every brief points at published entries as the voice target ("like that, not like that").
+3. Worldbuilding agents **propose; the owner disposes.** Generated material arrives as a menu, never as canon-by-default.
+
+## A4. PROVENANCE & CONTAMINATION RULES (permanent — arises from the compendium contamination event)
+
+The master worldbuilding compendium (`draega-worldbuilding-compilation-v2.md`) was partially AI-filled during campaignOS/dmtoolbox generation. Its contents are **untrusted** until verified.
+
+- **Contamination flag stands** on the compendium: nothing converts from it without source confirmation.
+- **A source is only a source if it traces to something the owner wrote or can personally point at.** AI-filled summaries of the owner's materials are leads, not sources.
+- **Recognition pass:** the owner skims the compendium and marks items real / unknown / false. The owner's memory outranks any agent's confidence. Unrecognized material is guilty until proven innocent.
+- **Verification task** (NotebookLM): item-by-item pass, marking each claim VERIFIED / UNVERIFIED / FABRICATED-SUSPECT, report only, no other modifications. Runs after the owner's recognition pass narrows the list.
+- **Generated lore is marked as generated until it passes the gate.** After the gate, it's canon — the gate is the provenance.
+- The owner does not need to personally author lore for it to be trustworthy; the owner needs to have *approved* it. Approval is the provenance.
+
+## A5. THE DRAEGA PODCAST (parked project card, recorded here so it isn't re-litigated)
+
+- A recorded Draega campaign podcast exists, never published. It is a **separate pet project** with its own lifecycle (interest-building, scoping, planning, hardware) living **beside** the six phases, not inside them.
+- It will tie into the site at **Phase 4 or later**. It does not affect current phases.
+- **Verbal blessing from players exists, contingent on the podcast's release.** Honor it by not publishing other players' characters before the podcast is real. When release approaches, refresh the verbal yes once, cheaply.
+- **Characters belonging to other players (e.g., Anjax Proudmane) are OFF the site backlog** until the podcast is released. They are podcast-project material, not lair material.
+- Needs its own scoping session someday. Not scheduled. Parked.
+
+## A6. CORRECTED BACKLOG (supersedes backlog items in prior conversation)
+
+**Lair backlog — owner's material, convertible freely:**
+- The Puzzle Wall (19 letters, copper ring, "Come, human, die by sword or spear")
+- The Seasons Room
+- The Boot Room
+- The LIES puzzle
+- Gladigow and the other Mysterious Monuments (source: Mysterious Monuments.pdf — verify provenance per §A4 before converting)
+- The TerTah naming mystery
+- Astrina's assassination, the six-year siege of Braaken, Session-material entries (all pending §A4 verification)
+
+**Blocked pending podcast release (§A5):** Anjax and any other player-owned characters.
+
+**Parked:** homepage/about framing, YouTube/Phase 4 decisions, podcast scoping, all commercial questions.
+
+## A7. CURRENT STATE
+
+- **Phase 2: active. Gate progress: 1 of 3 entries live** (The Druid's Temple in Shell Valley). Publish-sequence runs: 1 of 2.
+- Next module(s) created via the §A2 interview method.
+- Editorial posture: the owner curates; the gate decides; the voice accumulates one module at a time.
+
+---
+
+*End of addendum. Main governance (§1–§11) remains in force except as amended above.*
