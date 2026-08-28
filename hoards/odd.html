@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odd Hoard — mAxAdrAgoN</title>
+  <meta name="description" content="Odd Hoard: Curiosities, paradoxes, and fringe ideas.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand-title">
+        <a href="../index.html">mAxAdrAgoN</a>
+        <span class="brand-tag">Odd Hoard</span>
+      </div>
+      <nav class="site-nav">
+        <a href="../index.html">The Lair</a>
+        <a href="../lore.html">The Lore</a>
+        <a href="draega.html">Draega</a>
+        <a href="machine.html">Machine</a>
+        <a href="odd.html" class="active">Odd</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Odd Hoard</h1>
+      <p class="hoard-desc">Curiosities, inconvenient paradoxes, edge cases, and half-remembered fragments. Entries listed newest first.</p>
+
+      <div id="entries-container" class="entries-list">
+        <!-- Static fallback -->
+        <a class="entry-item" href="entry.html?post=a-collection-of-pebbles">
+          <div class="entry-meta">2026-08-28 &middot; Hoard: ODD</div>
+          <h3 class="entry-title">First Curiosity [Pending]</h3>
+          <p class="entry-excerpt">First collection of contradictions and edge cases coming soon.</p>
+        </a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div>mAxAdrAgoN &middot; Guarded by teeth and curiosity.</div>
+      <div><a href="../index.html">← Back to The Lair</a></div>
+    </footer>
+  </div>
+
+  <script src="../assets/js/hoard.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      loadHoardEntries("odd");
+    });
+  </script>
+</body>
+</html>

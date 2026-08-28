@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "the-scale-and-the-anvil",
+    "hoard": "draega",
+    "title": "The Draega Chronicle [Under Excavation]",
+    "date": "2026-08-28",
+    "excerpt": "The initial lore conversion for the Druid Temple and the world of Draega is currently being transcribed.",
+    "path": "../content/draega/the-scale-and-the-anvil.md"
+  },
+  {
+    "slug": "on-the-nature-of-cogs",
+    "hoard": "machine",
+    "title": "First Machine Teardown [Pending]",
+    "date": "2026-08-28",
+    "excerpt": "First system teardown and translation coming soon.",
+    "path": "../content/machine/on-the-nature-of-cogs.md"
+  },
+  {
+    "slug": "a-collection-of-pebbles",
+    "hoard": "odd",
+    "title": "First Curiosity [Pending]",
+    "date": "2026-08-28",
+    "excerpt": "First collection of contradictions and edge cases coming soon.",
+    "path": "../content/odd/a-collection-of-pebbles.md"
+  }
+]

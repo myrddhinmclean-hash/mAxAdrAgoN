@@ -1,0 +1,487 @@
+/* ==========================================================================
+   mAxAdrAgoN — The Lair Stylesheet
+   Theme: Deep Charcoal Obsidian, Emerald Green, Electric Blue & Dragon Gold
+   Zero external dependencies.
+   ========================================================================== */
+
+:root {
+  --bg-primary: #0c1110;
+  --bg-surface: #131a18;
+  --bg-surface-raised: #1b2522;
+  --bg-subtle: #222e2b;
+  
+  --text-main: #e9eee9;
+  --text-muted: #a3b5ab;
+  --text-faint: #5e7368;
+  
+  /* Tri-color dragon palette: Gold, Emerald, Electric Blue */
+  --gold-accent: #d4a017;
+  --gold-bright: #f5c230;
+  --gold-dim: #7d5e0d;
+  --gold-glow: rgba(212, 160, 23, 0.15);
+  
+  --emerald-accent: #10b981;
+  --emerald-bright: #34d399;
+  --emerald-dim: #065f46;
+  --emerald-glow: rgba(16, 185, 129, 0.15);
+  
+  --blue-electric: #00d2ff;
+  --blue-accent: #0ea5e9;
+  --blue-bright: #38bdf8;
+  --blue-glow: rgba(0, 210, 255, 0.15);
+  
+  --border-color: #273631;
+  --border-subtle: #1c2724;
+  
+  --font-serif: "Georgia", "Cambria", "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  
+  --max-width: 760px;
+  --spacing-unit: 1.5rem;
+}
+
+/* Base reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.75;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  /* Atmospheric background: subtle radial glows of emerald and gold */
+  background-image: 
+    radial-gradient(ellipse at 80% 0%, rgba(0, 210, 255, 0.05) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 0%, rgba(16, 185, 129, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 100%, rgba(212, 160, 23, 0.04) 0%, transparent 65%),
+    linear-gradient(to bottom, rgba(12, 17, 16, 0.96), rgba(10, 14, 13, 1));
+  background-attachment: fixed;
+  padding: 0 1.25rem;
+}
+
+/* Layout container */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 0 4rem 0;
+  flex: 1;
+}
+
+/* Header & Navigation */
+header.site-header {
+  padding-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (min-width: 600px) {
+  header.site-header {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
+
+.brand-title {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.brand-title a {
+  color: var(--gold-accent);
+  text-decoration: none;
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+
+.brand-title a:hover {
+  color: var(--gold-bright);
+  text-shadow: 0 0 12px var(--gold-glow);
+}
+
+.brand-tag {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--emerald-accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.2rem;
+}
+
+nav.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  font-size: 0.92rem;
+}
+
+nav.site-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+nav.site-nav a:hover {
+  color: var(--blue-electric);
+  border-bottom-color: var(--blue-electric);
+}
+
+nav.site-nav a.active {
+  color: var(--emerald-bright);
+  border-bottom-color: var(--emerald-accent);
+}
+
+/* Headings and Typography */
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  color: var(--text-main);
+  line-height: 1.3;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.1rem;
+  color: var(--gold-accent);
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: 1.45rem;
+  color: var(--emerald-bright);
+  margin-top: 2.2rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: var(--blue-bright);
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.35rem;
+  color: var(--text-main);
+}
+
+a {
+  color: var(--blue-electric);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--gold-bright);
+}
+
+blockquote {
+  border-left: 3px solid var(--emerald-accent);
+  padding: 0.85rem 1.1rem 0.85rem 1.35rem;
+  margin: 1.6rem 0;
+  color: var(--text-muted);
+  font-style: italic;
+  background: var(--bg-surface);
+  border-radius: 0 4px 4px 0;
+}
+
+ul, ol {
+  margin: 1.25rem 0 1.5rem 1.75rem;
+  color: var(--text-main);
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: 2.5rem 0;
+}
+
+/* Dragon Intro / Lair Voice Box */
+.lair-intro {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-left: 4px solid var(--gold-accent);
+  padding: 1.6rem 1.8rem;
+  border-radius: 4px;
+  margin-bottom: 3rem;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+.lair-intro p:last-child {
+  margin-bottom: 0;
+}
+
+/* Hoard Index Cards (Lair Home) */
+.hoards-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.hoard-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.5rem 1.75rem;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hoard-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--emerald-accent);
+  background-color: var(--bg-surface-raised);
+  box-shadow: 0 4px 15px var(--emerald-glow);
+}
+
+.hoard-card.hoard-draega:hover {
+  border-color: var(--emerald-bright);
+  box-shadow: 0 4px 15px var(--emerald-glow);
+}
+
+.hoard-card.hoard-machine:hover {
+  border-color: var(--blue-electric);
+  box-shadow: 0 4px 15px var(--blue-glow);
+}
+
+.hoard-card.hoard-odd:hover {
+  border-color: var(--gold-accent);
+  box-shadow: 0 4px 15px var(--gold-glow);
+}
+
+.hoard-card h2 {
+  margin-top: 0;
+  font-size: 1.35rem;
+  color: var(--gold-accent);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.hoard-card.hoard-draega h2 {
+  color: var(--emerald-bright);
+}
+
+.hoard-card.hoard-machine h2 {
+  color: var(--blue-bright);
+}
+
+.hoard-card.hoard-odd h2 {
+  color: var(--gold-bright);
+}
+
+.hoard-card h2 .arrow {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--text-faint);
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.hoard-card:hover h2 .arrow {
+  color: var(--blue-electric);
+  transform: translateX(4px);
+}
+
+.hoard-card p {
+  color: var(--text-muted);
+  margin-bottom: 0;
+  font-size: 0.98rem;
+}
+
+/* Post list in Hoard pages */
+.entries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.entry-item {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 1.35rem 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.entry-item:hover {
+  border-color: var(--blue-electric);
+  background-color: var(--bg-surface-raised);
+  box-shadow: 0 3px 12px var(--blue-glow);
+}
+
+.entry-meta {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--emerald-accent);
+  margin-bottom: 0.35rem;
+}
+
+.entry-title {
+  font-family: var(--font-serif);
+  font-size: 1.22rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 0.4rem;
+}
+
+.entry-item:hover .entry-title {
+  color: var(--gold-bright);
+}
+
+.entry-excerpt {
+  font-size: 0.93rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+/* Single Entry Reader */
+.entry-header {
+  margin-bottom: 2.2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.entry-header .back-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--blue-electric);
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+}
+
+.entry-header .back-link:hover {
+  color: var(--gold-bright);
+}
+
+.entry-content {
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.entry-content p {
+  margin-bottom: 1.4rem;
+}
+
+.entry-content code {
+  font-family: var(--font-mono);
+  background-color: var(--bg-subtle);
+  color: var(--blue-electric);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+.entry-content pre {
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  padding: 1.2rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.entry-content pre code {
+  background: transparent;
+  padding: 0;
+  color: var(--emerald-bright);
+}
+
+/* Image Slots (Marked Placeholders) */
+.image-slot {
+  background-color: var(--bg-surface);
+  border: 1px dashed var(--emerald-accent);
+  border-radius: 6px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--text-muted);
+}
+
+.image-slot-icon {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  color: var(--gold-accent);
+  margin-bottom: 0.5rem;
+}
+
+.image-slot-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.image-slot-hint {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  margin-top: 0.35rem;
+}
+
+/* Footer */
+footer.site-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+}
+
+@media (min-width: 600px) {
+  footer.site-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+footer.site-footer a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+footer.site-footer a:hover {
+  color: var(--emerald-bright);
+}
