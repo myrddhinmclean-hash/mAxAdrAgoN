@@ -20,7 +20,7 @@ special_notes:
   - "Jailer vulnerability mechanism is canon per Ruling 4 (Shift Change & Puzzle Lock)."
   - "Level 3 DCs: 10/13/16. Tier 1 trap: 2d10, DC 12 save. Daily XP budget: 4,800. This module's day total: ~3,250 (hard, inside budget)."
   - "Wave inherited canon: the Multipass (entrusted Session 2), W3 (party possession after the customs house), Bodrik's Quarry Map, Verrick as EoE Handler at Garegstown, Pip the kobold conscript."
-  - "Standing unresolved threads, flag never silently decide: Durgan's surname, W item rules text, ITEM X definition, port city AZ name, Secret 10's contractor."
+  - "Standing unresolved threads, flag never silently decide: W item rules text, ITEM X definition, Secret 10's contractor."
 ---
 
 # The Road to Paradiso, the Jail, and the Escape Glori Arranges
