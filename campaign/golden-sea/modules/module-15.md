@@ -36,7 +36,7 @@ special_notes:
 
 > Azure banners bearing the golden dragon crest of Braaken flutter proudly from every battlement, catching the bright autumn sunshine. The streets of the lower city are carpeted in fresh cedar boughs and laurel wreaths, their fragrance mingling with roasting meats and festive ales from the open taverns. In the great sunlit plaza before the Citadel, Prince Glori stands upon the marble terrace before a gathering of thousands of cheering citizens. Turning to the party with deep reverence, the prince unclasps the shimmering green stone of the Tide-Walker Disc from his breastplate and places it into their hands, speaking words of eternal covenant between the throne and the champions of the sea.
 
-* **Active Obstacle:** A rogue imperial demolitions officer disguised as a festival merchant has hidden a timer-delayed wildfire cask beneath the harbor festival stage.
+* **Active Obstacle (Scheduled Event):** A rogue imperial demolitions officer disguised as a festival merchant has hidden a timer-delayed wildfire cask beneath the harbor festival stage.
 
 * **Tactical Objective:** Detect and disarm the wildfire device (**DC 13 Wisdom (Perception)** and **DC 13 Thieves' Tools**) before the noon victory toast without alarming the celebrating crowd.
 

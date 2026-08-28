@@ -34,7 +34,7 @@ special_notes:
 
 > Morning fog rolls off the Braaken estuary, clinging in damp beads to the straw target bosses fifty yards down the shooting range. The archery meadow is ringed by thousands of restless citizens, their patience frayed after yesterday's exposed jousting cheats. At the center line, an imperial sniper releases a black-fletched shaft that buries itself six inches into the outer turf, well wide of the target face. From the pit behind the target, a yellow marker flag instantly rises, and the imperial herald shouts 'Nine points to the Gold for the garrison banner', drawing a furious storm of jeers and thrown cabbage stalks from the working-class benches.
 
-* **Active Obstacle:** The party's archer must step to the line for Round 1 while spotters and scouts in the party investigate the pit behind the target berm to stop the fraudulent scoring before the round concludes.
+* **Active Obstacle (Scheduled Event):** The party's archer must step to the line for Round 1 while spotters and scouts in the party investigate the pit behind the target berm to stop the fraudulent scoring before the round concludes.
 
 * **Tactical Objective:** Score at least 25 points across three shooting volleys while catching the pit spotter red-handed (**DC 13 Dexterity (Stealth)** and **Wisdom (Perception)**).
 

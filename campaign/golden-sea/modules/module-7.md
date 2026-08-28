@@ -47,7 +47,7 @@ special_notes:
 
 > The Garegstown warehouse district is on fire, and the fire has been on fire for an hour, and the fire is not an accident. Empire soldiers are walking the docks with torches, and the torches are being put to warehouse doors, and the warehouse doors are old wood, and the old wood is taking the torches the way old wood does, which is fast and loud. The smoke is the color of a thunderhead, and the thunderhead is rolling down the cliff face toward the market, and the market is where the civilians are, and the civilians are not running yet.
 
-* **Active Obstacle:** Empire soldiers are burning the warehouses. The party has 3 rounds of in game time (about 6 real world minutes) to choose: stop the burning, evacuate the civilians, or let the Empire withdraw. The Empire soldiers are 4 humans in heavy armor plus 4 kobolds, working in pairs.
+* **Active Obstacle (Gated Event):** Empire soldiers are burning the warehouses. The party has 3 rounds of in game time (about 6 real world minutes) to choose: stop the burning, evacuate the civilians, or let the Empire withdraw. The Empire soldiers are 4 humans in heavy armor plus 4 kobolds, working in pairs.
 * **Tactical Objective:** Save at least one warehouse from the burning, or evacuate the market, or both. The party has limited time and limited resources. The warehouses contain the Garegstown winter food stores. Failure trigger: the warehouses burn and the civilians lose their food.
 * **Transition Trigger:** Skritch appears at the end of the warehouse row, on a small stone platform, watching the burning. Skritch is the Empire's overseer for the withdrawal. Skritch's presence is the named antagonist's entrance.
 

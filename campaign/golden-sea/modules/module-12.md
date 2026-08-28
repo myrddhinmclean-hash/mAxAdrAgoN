@@ -35,7 +35,7 @@ special_notes:
 
 > Iron torches hiss in the damp draft of the lower prison corridor, casting bloody crimson light across double rows of reinforced oak cell doors. The party emerges from the high drainage grate in the prison wash house, their boots splashing silently in the soapy runoff. Down the corridor, the heavy tread of hobnailed boots signals the approach of the execution detail, accompanied by the cold, metallic scrape of an inquisitor's flensing blade against iron bars. From the third cell on the left, a hoarse voice whispers through the feeding slit: 'If you bear the forge mark of Ashfall, break this lock before the warden brings the brand.'
 
-* **Active Obstacle:** An imperial execution squad (1 Inquisitor Captain and 3 Prison Guards) is moving down Cell Block B to eliminate high-value captives.
+* **Active Obstacle (Gated Event):** An imperial execution squad (1 Inquisitor Captain and 3 Prison Guards) is moving down Cell Block B to eliminate high-value captives.
 
 * **Tactical Objective:** Intercept and subdue the execution squad within 2 rounds before they execute the prisoners in cells 4 through 7.
 

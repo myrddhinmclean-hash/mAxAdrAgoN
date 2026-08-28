@@ -37,7 +37,7 @@ special_notes:
 
 > Grey swells rise twenty feet above the shattered bulwarks of the *Tide of Froscius*, throwing cold brine across the canted deck planks. The autumn storm has passed, but the main spar is splintered, trailing tangled rigging into the foam while the Empire crew huddles terrified beneath the quarterdeck hatch. Out in the deep green water, dark shapes are cutting the surface at terrifying speed, circling the listing vessel. Three webbed hands slap down onto the gunwales, followed by the hiss of serrated bone tridents as eight waveborn warriors leap onto the slick deck, eyes black with ancient fury.
 
-* **Active Obstacle:** Eight waveborn warriors (merfolk raiders) board the listing deck from port and starboard. The ship's deck is difficult terrain and slopes at a fifteen-degree angle toward the port side.
+* **Active Obstacle (Gated Event):** Eight waveborn warriors (merfolk raiders) board the listing deck from port and starboard. The ship's deck is difficult terrain and slopes at a fifteen-degree angle toward the port side.
 
 * **Tactical Objective:** Defend the quarterdeck and protect the cargo hold for 2 rounds until Glori can reach the forward rail and activate W1.
 

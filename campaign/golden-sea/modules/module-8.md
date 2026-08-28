@@ -42,7 +42,7 @@ special_notes:
 
 > Morning fog hangs thick across the water, torn by the whistle of retreating ballista bolts and the crackle of smoldering sailcloth. The fishing boat scrapes its keel against the lower stone ramp of Garegstown under covering fire, shuddering to a halt beneath two hundred feet of vertical granite. Out on the grey water, the tail of the naval engagement fades into the mist as three heavy longboats from the *Iron Fortress* break away from the warship's shadow, oars rhythmically slapping the swell as Empire marines row hard for the jetty. Behind the stone warehouses, iron boots are already ringing across the cobbles as the local garrison begins sealing the dock gates.
 
-* **Active Obstacle:** Empire search parties are landing from the *Iron Fortress* within 4 rounds under the cover of the morning fog. The local dock garrison has closed the main gatehouse, forcing the party to cross the open quay toward the cliff staircase before the cordon tightens.
+* **Active Obstacle (Gated Event):** Empire search parties are landing from the *Iron Fortress* within 4 rounds under the cover of the morning fog. The local dock garrison has closed the main gatehouse, forcing the party to cross the open quay toward the cliff staircase before the cordon tightens.
 
 * **Tactical Objective:** Evade the initial dock sweep, establish contact with Thorek the wagoneer near the cavern mouth, and secure the cargo inside the covered wagon before the marines reach the stairs.
 

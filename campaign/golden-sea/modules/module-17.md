@@ -133,9 +133,9 @@ special_notes:
 * **Claim:** Module-17 covers Session 17 on relative Day 38 + 10 of Year One, focusing on the street battles of Sortengraahd.
 * **Status:** Canon placement per Ruling 33.
 
-### Entry 2 — Evil Second Party Intersection (CLOSED, canon per Ruling 39)
-* **Claim:** The evil mirror archer kills the tower sniper purely in pursuit of their own infiltration path and charts, never communicating, aligning, or cooperating with the party per Ruling 39.
-* **Status:** CLOSED per owner Ruling 39.
+### Entry 2 — Evil Second Party Intersection
+* **Claim:** The evil mirror archer kills the tower sniper purely in pursuit of their own infiltration path and arcane transit charts, never communicating, aligning, or cooperating with the party per Ruling 39.
+* **Status:** Ratification-pending (transit charts motive proposed per Ruling 39).
 
 ---
 

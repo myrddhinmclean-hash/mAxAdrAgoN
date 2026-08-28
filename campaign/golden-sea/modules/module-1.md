@@ -36,7 +36,7 @@ special_notes:
 
 > The market square of FairWhether smells of roast mutton, wet sheep fleece, and bitter coal smoke from the garrison braziers. It is Empire Day, and red banners bearing the imperial sun hang limply from the wooden eaves of every merchant stall. Beneath the stone awning of an oil shop, four kobold conscripts in scaled leather have cornered the dwarf merchant Durgan Emberwick, knocking over brass lanterns while a human sergeant drags the merchant's young daughter toward the garrison cart. The crowd stands frozen under the spears of the watch, watching the stones slick with spilled whale oil, waiting for someone to move.
 
-* **Active Obstacle:** An Empire sergeant (human guard) and four kobold conscripts are dragging Durgan Emberwick's daughter toward a transport cart while kicking over oil drums. Spilled lamp oil is spreading across a 20 ft. radius around the stall, creating an ignition hazard.
+* **Active Obstacle (Gated Event):** An Empire sergeant (human guard) and four kobold conscripts are dragging Durgan Emberwick's daughter toward a transport cart while kicking over oil drums. Spilled lamp oil is spreading across a 20 ft. radius around the stall, creating an ignition hazard.
 
 * **Tactical Objective:** Subdue or drive off the sergeant and conscripts, secure Durgan's daughter, and keep the spreading oil from igniting the wooden tenement blocks.
 

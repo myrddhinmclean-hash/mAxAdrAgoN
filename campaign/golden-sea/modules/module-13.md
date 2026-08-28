@@ -35,7 +35,7 @@ special_notes:
 
 > Black smoke from burning tar kilns rolls down the Street of Pillars, mixing with the chalk dust of shattered masonry. Overhead, the midday sun is turning into a thin crescent of cold white fire as the solar eclipse begins. From the harbor, the thunder of imperial naval mortars shakes the cobblestones every few seconds, sending iron shrapnel screaming through the canvas awnings. At the head of the avenue, fifty paces ahead, an imperial iron barricade bristles with heavy pavises and repeating crossbows, pinned down behind which three dwarven sappers are desperately trying to ignite a breaching barrel.
 
-* **Active Obstacle:** An imperial iron barricade manned by 1 Veteran Commander and 4 Heavy Crossbowmen holds the avenue with overlapping fields of fire, preventing the allied column from advancing.
+* **Active Obstacle (Scheduled Event):** An imperial iron barricade manned by 1 Veteran Commander and 4 Heavy Crossbowmen holds the avenue with overlapping fields of fire, preventing the allied column from advancing.
 
 * **Tactical Objective:** Storm the barricade or flank it via the arcade roofs within 3 rounds to protect the dwarven sappers and blow open the boulevard.
 
@@ -140,9 +140,9 @@ special_notes:
 * **Claim:** Module-13 covers Session 13 on the afternoon of Day 36 of Year One, encompassing the solar eclipse, the dragon golem awakening, and the street battles to Citadel HQ.
 * **Status:** Canon placement.
 
-### Entry 2 — The Evil Second Party Disruption (CLOSED, canon per Ruling 39)
-* **Claim:** The evil mirror party assaults the gatehouse defenders in violent pursuit of their own separate agenda, never cooperating, communicating, or allying with the party per Ruling 39.
-* **Status:** CLOSED per owner Ruling 39.
+### Entry 2 — The Evil Second Party Disruption
+* **Claim:** The evil mirror party assaults the gatehouse defenders in violent pursuit of their own separate plunder and dark agenda, never cooperating, communicating, or allying with the party per Ruling 39.
+* **Status:** Ratification-pending (plunder/self-interest motivation proposed per Ruling 39).
 
 ---
 

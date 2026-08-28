@@ -35,7 +35,7 @@ special_notes:
 
 > Trumpets made of polished brass blast across the dry turf of the northern arena, their fanfare swallowed by the roar of ten thousand spectators packing the tiered pine stands. Banners bearing the imperial raptor flutter beside the vacant silk canopy where the puppet king is to be crowned at festival end. At the equipment pavilions, the herald calls the name of the Ashfall banner, and the crowd goes quiet, expecting an empty lane. When the party strides into the list bearing the black forge hammer of Mother Ashfall, the dwarven guilds stand to their feet in thunderous applause, while the dark-cloaked judges in the upper boxes exchange tense, furious whispers.
 
-* **Active Obstacle:** The opening jousting bout pits the party's mounted champion against Sir Valen of the Iron Guard (veteran knight) in the central list, while party members in the paddock must inspect opposing lances for tampering before the third pass.
+* **Active Obstacle (Scheduled Event):** The opening jousting bout pits the party's mounted champion against Sir Valen of the Iron Guard (veteran knight) in the central list, while party members in the paddock must inspect opposing lances for tampering before the third pass.
 
 * **Tactical Objective:** Complete three consecutive jousting passes (**DC 13 Strength (Athletics)** or **Animal Handling**) while unmasking the illegal lance modifications before lethal injury occurs.
 

@@ -42,7 +42,7 @@ special_notes:
 
 > The Golden Sea is the color of old iron, and the wind has been pushing the same low clouds for two days, and the clouds have not moved, and the boat has. A fishing boat is not made for this kind of sea. The hull creaks at every wave, and the rigging sings a low note that the crew has stopped hearing, and the only new sound is the Iron Fortress that just appeared on the starboard bow, and the Iron Fortress is heeling over to intercept, and the Iron Fortress is much bigger than the fishing boat.
 
-* **Active Obstacle:** The *Iron Fortress* is distant and closing, not yet in engagement range. The party has time to take stations, prepare defenses, and ready the cargo for evasive maneuvering.
+* **Active Obstacle (Scheduled Event):** The *Iron Fortress* is distant and closing, not yet in engagement range. The party has time to take stations, prepare defenses, and ready the cargo for evasive maneuvering.
 
 * **Tactical Objective:** Prepare the deck defense, manage sail speed, and brace for the incoming boarding attempt.
 

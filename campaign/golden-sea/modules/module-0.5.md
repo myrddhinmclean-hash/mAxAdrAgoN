@@ -15,7 +15,7 @@ special_notes:
   - "Owner ratification: Expanded Campaign Overview is author canon. Where it contradicts the session master document, the overview wins."
   - "Canon mode: authoring. Transcript canon mode dormant until transcripts exist on disk. Director's notes section is not used."
   - "Party level 1, four players, standard array. Owner should confirm party composition before running."
-  - "Durgan has no surname. Use 'Durgan' only. Flag in assumption log."
+  - "Durgan Emberwick: full name ratified per Ruling 14 (called 'Durgan' at the market stall)."
   - "Glori uses 'Glori' only (Ruling 28). Compendium name not used."
   - "EoE acronym undefined. Untouched in this session."
   - "W items and ITEM X resolved per overview. Untouched in this session."
@@ -37,7 +37,7 @@ special_notes:
 
 > The plaza smells of lamp oil, hot bread, and wet cobble. A string of paper lanterns runs from the bakery awning to the tinker stall, and the wind pushes the smell of coal smoke sideways across three hundred dwarves who are pretending the Empire is not watching. At the center of the plaza, under a banner that says EMPIRE DAY in three languages, a man in a leather coat is reading a piece of paper to a lamp seller, and the lamp seller's daughter is being held by the arm by a kobold in uniform.
 
-* **Active Obstacle:** A kobold guard detail of **eight kobolds** plus the human officer who holds the writ. The kobolds are not attacking. The kobolds are waiting. The writ is the lever, the daughter is the fulcrum, and the party has just walked into the geometry.
+* **Active Obstacle (Gated Event):** A kobold guard detail of **eight kobolds** plus the human officer who holds the writ. The kobolds are not attacking. The kobolds are waiting. The writ is the lever, the daughter is the fulcrum, and the party has just walked into the geometry.
 * **Tactical Objective:** Decide what the party does about the writ and the daughter in the next 3 rounds of in game time (about 6 real world minutes). If the party does nothing, the kobolds walk the daughter to the side gate and the writ goes with her.
 * **Transition Trigger:** The lamp falls. The lamp breaks. The fire starts. The plaza is now a problem that moves.
 
@@ -233,7 +233,7 @@ Every invention, interpretation, or bend is logged below. Format: claim, why mad
 
 ### Gaps flagged, not filled
 
-21. **Gap: Durgan has no surname.** Use "Durgan" only. The cousin's surname is a future opportunity.
+21. **Durgan Emberwick (CLOSED, canon per Ruling 14):** Ratified as Durgan Emberwick; known locally as Durgan at the lamp stall.
 22. **Gap: The daughter has no name.** Use "the daughter" only. The owner should ratify a name before the next module if she recurs.
 23. **Gap: The Empire officer has no name.** Use "the Empire officer" only. He can be named at the owner's discretion.
 24. **Gap: The innkeeper has no name.** Use "the innkeeper" only. She can be named at the owner's discretion.

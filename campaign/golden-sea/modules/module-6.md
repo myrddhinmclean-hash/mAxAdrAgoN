@@ -42,7 +42,7 @@ special_notes:
 
 > The Golden Sea is the color of old iron and the wind has been pushing the same low clouds for a day, and the clouds have not moved, but the boat has. A fishing boat is not made for this kind of sea, and the hull creaks at every wave, and the rigging sings a low note that the crew has stopped hearing. The only new sound is the kobold on the rail, and the kobold has been on the rail since dawn, and the kobold is watching the horizon.
 
-* **Active Obstacle:** The Empire has 3 kobold guards on the boat, and the party does not know if the guards are conscripts or volunteers. The party has 3 rounds of in-game time (about 6 real-world minutes) to decide: talk to the guards, hide from the guards, or prepare for the sea. Failure trigger: the party fails to establish contact with the guards, and the guards become suspicious.
+* **Active Obstacle (Gated Event):** The Empire has 3 kobold guards on the boat, and the party does not know if the guards are conscripts or volunteers. The party has 3 rounds of in-game time (about 6 real-world minutes) to decide: talk to the guards, hide from the guards, or prepare for the sea. Failure trigger: the party fails to establish contact with the guards, and the guards become suspicious.
 
 * **Tactical Objective:** Establish contact with the kobold guards, or hide from them, or both. The party has 3 rounds to act. Failure trigger: the guards become suspicious, and the voyage becomes a surveillance encounter.
 

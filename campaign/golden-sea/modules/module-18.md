@@ -136,9 +136,9 @@ special_notes:
 * **Claim:** Module-18 covers Session 18 on relative Day 38 + 12 of Year One, focusing on the High Castle breach, PVP 2, and the canyon escape.
 * **Status:** Canon placement per Ruling 33.
 
-### Entry 2 — PVP 2 First Party vs Evil Second Party (CLOSED, canon per Ruling 39)
+### Entry 2 — PVP 2 First Party vs Evil Second Party
 * **Claim:** The PVP 2 encounter on the High Castle battlements is explicitly fought between the First Party and the Evil Second Party over the northern route dossiers and the W2 grudge, with zero cooperation or alliance per Ruling 39.
-* **Status:** CLOSED per owner Ruling 39.
+* **Status:** Ratification-pending (dossier theft & W2 grudge motive proposed per Ruling 39).
 
 ### Entry 3 — Verrick's Escape to Bernax
 * **Claim:** Verrick detonates the castle wildfire stores and escapes in an aerial carriage toward the foundries of Bernax.

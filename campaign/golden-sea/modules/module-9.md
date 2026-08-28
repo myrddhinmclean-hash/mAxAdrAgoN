@@ -36,7 +36,7 @@ special_notes:
 
 > The road to Paradiso is a hard dirt track cut into the side of a granite hill, and the hill is the color of old iron, and the iron is what the Empire is mining. The party walks single file because the track is only wide enough for single file, and Thorek the wagoneer is behind with the covered wagon, wheels loud on the granite. Behind everything, far out on the western horizon, a heavy warship is visible against the cloud line — gaining, patient, not yet close enough to matter today. A bird of prey circles above the track. It has been circling since dawn.
 
-* **Active Obstacle:** Four bandits hidden in the granite cuts, 30 ft. up, shortbows, signal horn trigger. The party has 3 rounds (about 6 real minutes) to spot them, take cover, or talk them down. At level 3 the first volley is 4 attacks at +4 for 1d6+2 each.
+* **Active Obstacle (Scheduled Event):** Four bandits hidden in the granite cuts, 30 ft. up, shortbows, signal horn trigger. The party has 3 rounds (about 6 real minutes) to spot them, take cover, or talk them down. At level 3 the first volley is 4 attacks at +4 for 1d6+2 each.
 * **Tactical Objective:** Beat the horn. If it sounds: 2 rounds of volley fire, then the bandits close. Failure trigger: first volley at point-blank on the open track.
 * **Transition Trigger:** An arrow hits the dirt at the party's feet. The bandit leader — Druda, a half-orc — shouts a demand for the wagon.
 

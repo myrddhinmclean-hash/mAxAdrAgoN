@@ -35,7 +35,7 @@ special_notes:
 
 > Dawn breaks cold and grey over the burning towers of Braaken, shining through the shattered stained-glass dome of the Citadel vestibule. Inside the great rotunda, thirty paces ahead, four imperial templars in blackened steel hold the grand marble staircase with leveled halberds, while the muffled sound of chanting echoes from the iron doors of the high throne room above. Behind the party, dwarven sappers with sledgehammers smash open the dungeon grating below the stairs, and Prince Glori emerges into the light, battered and in chains, his eyes blazing with righteous fury as he points toward the private reliquary chest beside the stair head.
 
-* **Active Obstacle:** Four Imperial Templars (veteran guards) defend the grand staircase, guarding the locked bronze reliquary containing **W1 (the Tide-Walker Disc)**.
+* **Active Obstacle (Gated Event):** Four Imperial Templars (veteran guards) defend the grand staircase, guarding the locked bronze reliquary containing **W1 (the Tide-Walker Disc)**.
 
 * **Tactical Objective:** Break the templar line, smash the reliquary lock (**DC 13 Thieves' Tools** or **Strength** check), and return W1 to Prince Glori within 3 rounds.
 

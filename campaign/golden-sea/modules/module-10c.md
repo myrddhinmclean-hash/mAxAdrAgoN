@@ -35,7 +35,7 @@ special_notes:
 
 > War drums pound a deafening rhythm beneath the high granite arches of the Grand Colosseum. Fifteen thousand spectators lean over the stone parapets, their voices roaring like surf against a sea wall. At the center of the crimson-stained sand, four hulking figures in spiked iron half-plate step from the eastern gate, dragging heavy spiked flails that drip with dark, iridescent venom. Across the sand, on the imperial dais draped in purple velvet, the governor's herald lifts the golden puppet crown, waiting for the bloodletting to finish so the sham coronation can proceed.
 
-* **Active Obstacle:** The Dread Vanguard (4 EoE gladiators) enter the sand wielding venom-coated flails. The central sand contains two hidden 10 ft. pit traps covered with canvas.
+* **Active Obstacle (Scheduled Event):** The Dread Vanguard (4 EoE gladiators) enter the sand wielding venom-coated flails. The central sand contains two hidden 10 ft. pit traps covered with canvas.
 
 * **Tactical Objective:** Defeat the Dread Vanguard in open combat, avoiding the poisoned flail barbs, and secure the tournament championship.
 

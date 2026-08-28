@@ -38,7 +38,7 @@ special_notes:
 
 > Autumn rain sweeps across the great stone sea walls of Braaken, turning the granite towers dark as wet slate. Cpt. T's fishing craft glides past the outer chain booms under the fading glamour of W3, bumping against the slimy timbers of Pier Nine where dwarven dockers in oilskins work in practiced silence. Standing on the stone quay in a heavy leather coat singed with old forge marks, Mother Cindra Ashfall watches the party disembark, her grey eyes narrowing as the quiet quartermaster pulls back his travel hood. The dwarven guards drop their tools, gasping as the noble features of Prince Glorinath d'Braaken catch the dock lanterns, returning to his occupied home at last.
 
-* **Active Obstacle:** Empire dock sentries are conducting a surprise cargo sweep along the adjacent pier. The party must escort Prince Glorinath and the ITEM X strongbox into the cellar redoubt before the inspection lanterns sweep Pier Nine.
+* **Active Obstacle (Gated Event):** Empire dock sentries are conducting a surprise cargo sweep along the adjacent pier. The party must escort Prince Glorinath and the ITEM X strongbox into the cellar redoubt before the inspection lanterns sweep Pier Nine.
 
 * **Tactical Objective:** Slip through the warehouse cellar network without raising the general alarm, delivering the prince and strongbox to Mother Ashfall's command table.
 

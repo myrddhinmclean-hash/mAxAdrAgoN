@@ -35,7 +35,7 @@ special_notes:
 
 > The smell of moldering grain and wet river silt hangs thick in the dark silence of the Hollow Deeps. Beneath the floorboards of the grand grain silo, an iron ring set into massive flagstones yields to the party's tournament key with a groaning screech. Cold air rushes up from the black shaft below, carrying the distant rush of subterranean waters and the rhythmic clinking of iron shovels. Looking down with a hooded lantern, the party sees the curve of the first great granite ring, where four imperial sappers in breastplates are methodically wedging iron portcullises into the stone archway to seal the under-city forever.
 
-* **Active Obstacle:** Four imperial combat sappers and one garrison sergeant are attempting to drop an iron portcullis that will seal the outer sewer ring within 3 rounds.
+* **Active Obstacle (Gated Event):** Four imperial combat sappers and one garrison sergeant are attempting to drop an iron portcullis that will seal the outer sewer ring within 3 rounds.
 
 * **Tactical Objective:** Defeat the sapper detail before the winch mechanism is spiked (**DC 13 Strength (Athletics)** or disable the winch with **DC 13 Thieves' Tools**).
 
