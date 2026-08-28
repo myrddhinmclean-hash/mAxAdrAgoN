@@ -102,7 +102,7 @@ special_notes:
 * **Encounter 1 (Area 1, Gantry Security Clash):** 2 Templars (CR 3, 1,400 XP) + 4 Guards (CR 1, 800 XP) = 2,800 XP (Medium for four Level 6 characters).
 * **Encounter 2 (Area 2, Forge Golem & Crucible Overload):** 1 Forge Golem (CR 7, 2,900 XP) + environmental lava hazards = 3,500 XP (Hard).
 * **Encounter 3 (Area 3, North Gatehouse Breakout):** 4 Garrison Crossbowmen (CR 1, 800 XP) = 800 XP (Easy).
-* **Day Total:** 7,100 XP, representing the major industrial milestone of Act II.
+* **Day Total:** 7,100 XP, representing the major industrial milestone of Act III.
 
 ---
 

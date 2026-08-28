@@ -14,7 +14,7 @@ source_list:
   - "campaign/golden-sea/CAMPAIGN-OVERVIEW.md"
   - "campaign/golden-sea/SESSION-MASTER-DOC.md"
 special_notes:
-  - "Opening module of Act II sequel arc (Rulings 32 and 33)."
+  - "Opening module of Act III: The Northern March (Rulings 32, 33, 41)."
   - "Relative world time format: Day 38 + 4 (Ruling 35)."
   - "Event classifications marked explicitly as Scheduled or Gated (Ruling 31)."
   - "Northern occupation texture (World Clock logic): the Empire's catastrophic defeat at Braaken triggered frantic reinforcement of northern ports; Imnia is fortified with hasty shore redoubts and iron chain booms to prevent amphibious landings."

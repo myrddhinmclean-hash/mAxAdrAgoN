@@ -106,7 +106,7 @@ special_notes:
 * **Encounter 1 (Area 1, Archive Thrall Knights):** 4 Thrall Knights (CR 2, 1,800 XP) + wildfire hazard = 2,200 XP (Hard for four Level 5 characters).
 * **Encounter 2 (Area 2, PVP 2 Duel with The Gilded Crest):** 4 Gilded Crest Champions (CR 3 each, 2,800 XP) = 2,800 XP (Hard).
 * **Encounter 3 (Area 3, Canyon Flume Descent):** Tier 2 environmental cliff descent hazard (DC 14) = 500 XP (Easy).
-* **Day Total:** 5,500 XP, representing the major PVP 2 milestone of Act II.
+* **Day Total:** 5,500 XP, representing the major PVP 2 milestone of Act III.
 
 ---
 

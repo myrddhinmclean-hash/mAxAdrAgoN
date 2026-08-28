@@ -50,11 +50,12 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **The Tithe Ledger** — *Ruling 26:* An indestructible, self-collecting EoE accounting artifact discovered in the Hollow Deeps sewer cache (Session 11 / module-11); records tribute, life debts, and occult logistics across the Empire, serving as a persistent sequel hook into Sessions 16–23.
 - **Destiny's Agenda (Cosmic Principle)** — *Ruling 29:* Destiny's agenda is never revealed; it can only be implied. No module, NPC, or Vision may state destiny's purpose, motive, or outcome. Beats may gesture (unexplained mercy, too-convenient circumstance, a rival's odd restraint) but must never explain. Applies to all campaign and sequel modules.
 - **The Vampire King** — *Ruling 30 & Ruling 37:* The ancient dread warlord commanding imperial remnants in the north, slain on relative Day 38 + 30 atop the Astral Pinnacle in module-23.
-- **Event Classification Standard** — *Ruling 31:* Every Act 2 event is explicitly marked as **Scheduled** (advances on the world clock independently of party actions) or **Gated** (triggered by party arrival, tactical success, or key discoveries).
-- **Relative Time & The World Clock** — *Ruling 32:* The absolute day count chain ends at Day 38 (Session 15). Act 2 uses relative time notation (`Day 38 + N`) where the party advances on their own operational timetable against the background World Clock.
-- **Act 2 Shape & Antagonist Seats** — *Ruling 33:* The northern liberation march follows the geographical corridor: Imnia North Port (s16) $\rightarrow$ Sortengraahd (s17–s18) $\rightarrow$ Bernax (s19–s20) $\rightarrow$ Glazhenge (s21–s22) $\rightarrow$ The Astral Conjunction Climax (s23). Verrick's EoE command seat is established at Sortengraahd following his escape from Braaken. The Tithe Ledger trail passes through Bernax as a gated discovery candidate.
-- **The End-of-Act-2 Deadline** — *Ruling 34 & Ruling 37:* Ratified as the Blood-Moon Conjunction on `Day 38 + 30`, where the united Boons turn the Blood Moon to dawn.
-- **Day 38 + N Notation** — *Ruling 35:* Standardized relative time format for all Act 2 modules.
+- **Event Classification Standard** — *Ruling 31:* Every Act III event is explicitly marked as **Scheduled** (advances on the world clock independently of party actions) or **Gated** (triggered by party arrival, tactical success, or key discoveries).
+- **Relative Time & The World Clock** — *Ruling 32:* The absolute day count chain ends at Day 38 (Session 15). Act III uses relative time notation (`Day 38 + N`) where the party advances on their own operational timetable against the background World Clock.
+- **Act III Shape & Antagonist Seats** — *Ruling 33:* The northern liberation march follows the geographical corridor: Imnia North Port (s16) $\rightarrow$ Sortengraahd (s17–s18) $\rightarrow$ Bernax (s19–s20) $\rightarrow$ Glazhenge (s21–s22) $\rightarrow$ The Astral Conjunction Climax (s23). Verrick's EoE command seat is established at Sortengraahd following his escape from Braaken. The Tithe Ledger trail passes through Bernax as a gated discovery candidate.
+- **The End-of-Act-III Deadline** — *Ruling 34 & Ruling 37:* Ratified as the Blood-Moon Conjunction on `Day 38 + 30`, where the united Boons turn the Blood Moon to dawn.
+- **Day 38 + N Notation** — *Ruling 35:* Standardized relative time format for all Act III modules.
+- **Three-Act Campaign Structure** — *Ruling 41 (Ratified):* The campaign is structured into three distinct acts: **Act I: The Flight** (s0.5–s9; FairWhether revolt, courier flight across the Golden Sea, Paradiso and Thalassar); **Act II: Braaken & the Sundered Crown** (s10a–s15; Braaken landfall, tournament arc, sewers, prison break, solar event, Citadel siege and liberation); **Act III: The Northern March** (s16–s24; Imnia beachhead, Sortengraahd, Bernax, Glazhenge, Astral Pinnacle finale, and epilogue).
 - **The Two Parties (Hard Invariant)** — *Ruling 39:* Two parties exist in the campaign world. The second party is evil. The two parties NEVER align — no cooperation, truce, or joint action at any point in the campaign. The mirror-party of Ruling 27 IS the second (evil) party. Their appearances (tournament s10a–c, module-13 Citadel gates, module-17 bell tower, module-18 PVP 2) represent opposition, aggressive self-interest, or destiny's inscrutable gesture — never alliance. Hard invariant for all drafting.
 - **The Gilded Crest (The Evil Second Party)** — *Ruling 40 (Ratified):* The four-member rival adventuring company representing the second party. They are evil, driven by ruthless self-interest and sovereign plunder. The two parties NEVER align — no cooperation, truce, or joint action at any point in the campaign. Their appearances (tournament s10a–c, module-13 Citadel gates, module-17 bell tower, module-18 PVP 2, module-24 epilogue departure) represent opposition, aggressive self-interest, or cosmic gesture — never alliance. Name ratified as *The Gilded Crest* (owner-confirmed).
 - **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7, anchors offshore at Garegstown on Day 8, and is scuttled and sunk in the Braaken dock basin on Day 30 (module-5). Boltstrucken's personal fate remains open (escaped, drowned, or captured). Strictly distinct from the *Sable Wake*.
@@ -82,14 +83,15 @@ Now the rebuild. Here's the campaign document as it should exist:
 15. **Destiny Principle (CLOSED):** Implied agenda only (Ruling 29).
 16. **The Northern Threat (CLOSED):** Vampire King & W4 revelation (Ruling 30).
 17. **Event Classification (CLOSED):** Scheduled vs Gated events marked (Ruling 31).
-18. **Relative Time (CLOSED):** Relative time notation `Day 38 + N` codified for Act 2 (Rulings 32, 35).
-19. **Act 2 Shape & Antagonists (CLOSED):** Northern march corridor & Verrick seat at Sortengraahd (Ruling 33).
-20. **Act 2 Climax Deadline (CLOSED):** Blood-Moon Conjunction at `Day 38 + 30` (Ruling 34).
+18. **Relative Time (CLOSED):** Relative time notation `Day 38 + N` codified for Act III (Rulings 32, 35).
+19. **Act III Shape & Antagonists (CLOSED):** Northern march corridor & Verrick seat at Sortengraahd (Ruling 33).
+20. **Act III Climax Deadline (CLOSED):** Blood-Moon Conjunction at `Day 38 + 30` (Ruling 34).
 21. **Visions Placement (CLOSED):** V1 (Day 5), V2 (Day 32), V3 (Day 38 + 30) placed without explanation (Ruling 36).
 22. **Ratification Slate (CLOSED):** All eight pending items ratified as author canon (Ruling 37).
 23. **Open-Thread Ledger (CLOSED):** Persistent living world threads logged (Ruling 38).
 24. **Two Parties & Second Evil Party (CLOSED):** Strict non-alignment invariant ratified (Ruling 39).
 25. **The Gilded Crest & Epilogue Canon (CLOSED):** Ratified company name for the evil second party and ratified module-24 living-world continuity (Ruling 40).
+26. **Three-Act Campaign Structure (CLOSED):** Standardized Act I (The Flight), Act II (Braaken & the Sundered Crown), and Act III (The Northern March) conformed across all files (Ruling 41).
 
 ## Open-Thread Ledger (Ruling 38)
 1. **The Tithe Ledger:** Survives the destruction of its Bernax anchor; location unknown, autonomous life-debt accounting continues across the wider world (Ruling 26 intact).
@@ -171,7 +173,7 @@ Rewards. **W1 given by Glori.** Learn of the **vampire king**. Cpt. T's boat ref
 
 ---
 
-## Act II: The Northern Liberation March — Relative Event Chain (Rulings 31–35)
+## Act III: The Northern Liberation March — Relative Event Chain (Rulings 31–35, 41)
 
 | # | Session / Module | Relative Time | Location | Primary Objective & Events | Classification |
 |---|---|---|---|---|---|

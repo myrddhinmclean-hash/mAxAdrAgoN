@@ -259,9 +259,9 @@ The owner gates before any module is run at a table or published anywhere. The g
 
 ---
 
-## Section 9: Act II Relative Time & Event Classification Standards (Rulings 31, 32, 35)
+## Section 9: Act III Relative Time & Event Classification Standards (Rulings 31, 32, 35, 41)
 
-For all modules in Act II and beyond (Session 16+):
+For all modules in Act III (Session 16+):
 1. **Relative World-Time Format:** The `world_time` frontmatter field and section text must use relative time notation anchored to the Day 38 campaign baseline: `Day 38 + N` (e.g. `world_time: "Day 38 + 4 of Year One, mid-autumn..."`).
 2. **Event Classification:** Every module must explicitly distinguish between **Scheduled Events** (events occurring at a fixed point on the world clock regardless of player choice, such as seasonal deadlines, celestial convergences, and high-level army movements) and **Gated Events** (events triggered strictly by player arrival, discovery, or tactical success).
 

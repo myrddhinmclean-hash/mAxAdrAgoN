@@ -14,7 +14,7 @@ source_list:
   - "campaign/golden-sea/CAMPAIGN-OVERVIEW.md"
   - "campaign/golden-sea/SESSION-MASTER-DOC.md"
 special_notes:
-  - "Grand climax of Act II and the Golden Sea campaign (Rulings 32 to 35)."
+  - "Grand climax of Act III and the Golden Sea campaign (Rulings 32 to 35, 41)."
   - "Relative world time format: Day 38 + 30 (Ruling 35)."
   - "Event classifications marked explicitly as Scheduled or Gated (Ruling 31)."
   - "The Four Boons complete state: W1 (Tide-Walker Disc), W2 (Crown-Sunder Torc), and W3 (Ship-Hider) are unified with W4 (the Dawn-Forged Scepter) claimed from the altar of the Vampire King."
@@ -133,8 +133,8 @@ special_notes:
 ## Assumption Log
 
 ### Entry 1 — Scope & Campaign Climax (CLOSED, canon per Master Doc s23)
-* **Claim:** Module-23 covers Session 23 on relative Day 38 + 30 of Year One, serving as the grand finale of Act II and the Golden Sea campaign.
-* **Status:** Canon placement per Rulings 33 and 34.
+* **Claim:** Module-23 covers Session 23 on relative Day 38 + 30 of Year One, serving as the grand finale of Act III and the Golden Sea campaign.
+* **Status:** Canon placement per Rulings 33, 34, 41.
 
 ### Entry 2 — The Claiming of W4 & Ratification Slate (CLOSED, canon per Ruling 37)
 * **Claim:** W4 is claimed as **W4, the Dawn-Forged Scepter** from the altar of the Vampire King, uniting the Four Boons in solar daylight to break the blood-moon conjunction.
