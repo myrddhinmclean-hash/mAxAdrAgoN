@@ -137,6 +137,16 @@ special_notes:
 
 ---
 
+## 9. Maps and Tactical Assets
+
+* **Cpt. T's Shallow-Draft Vessel (Four-Deck Pirate Ship Map):**
+  * **Main Deck & Stern Castle:** Elevated helm platform offering clear sightlines for navigation and commanding the vessel.
+  * **Forecastle:** Fitted with a light swivel mount and forward ballista used for defensive harbor clearing.
+  * **Cargo & Oar Deck:** Deep hold fitted for storing the ITEM X strongbox, dry supplies, and crew hammocks.
+  * **Lower Kayak and Canoe Deck:** Shallow-draft keel section equipped with side deployable outriggers and skiffs, ideal for navigating reef shallows and tidal causeways.
+
+---
+
 ## Assumption Log
 
 ### Entry 1 — Scope & Placement (CLOSED, canon per Master Doc s7)

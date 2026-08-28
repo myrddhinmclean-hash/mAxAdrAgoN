@@ -36,6 +36,10 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **Mother Cindra Ashfall** — *Ruling 20:* Dwarven firebrand and legendary rebel commander in Braaken, connected to the FairWhether fire brigades from Day 1. Murdered off-screen at the close of Session 9 / module-5 with the EoE geometric eye sigil left at the scene.
 - **Seluch** — *Ruling 21:* Waveborn liaison in Braaken Bay; amphibious scout who speaks in a salt-crusted voice, negotiates through gift-exchange, honors the Tide-Walker Disc treaty, and assists in placing ITEM X upon the sunken dragon statue.
 - **Module-5 Scope** — *Ruling 22:* Combines Sessions 8 and 9 into a single operational module on Day 30, encompassing the Braaken Docks arrival, the sinking of the *Iron Fortress*, the dragon statue placement, and the discovery of Mother Ashfall's death.
+- **The Tournament of the Sundered Crown** — *Ruling 23 (Amended):* Empire-staged tournament in Braaken expanded across three modules: **10a Jousting** (Day 31), **10b Archery** (Day 32), and **10c Gladiatorial Melee** (Day 33). EoE competes and cheats in every event (tampered lances, rigged target scoring, illegal armaments), discovered by the party. W2 is won at the gladiatorial finale. The staged coronation of a compliant puppet ruler collapses when Glory's legitimate royal claim surfaces before an already hostile crowd, prompting the issuance of an imperial arrest warrant.
+- **The Hollow Deeps & Braaken Sewers** — *Ruling 24 (Revised):* The prize won in the tournament provides access to the Braaken sewer network, laid out as a concentric labyrinth beneath the granary district. Clearing the concentric rings and flooded lower channels allows outside rebel and waveborn troops to infiltrate the city. Mother Ashfall's hidden cache in a sealed outer ring contains the Tithe Ledger (Ruling 26). The central glowing chamber remains an unexplained open mystery.
+- **The EoE Defector Clerk (Prisoner 1)** — *Ruling 25:* Former imperial manifest forger held in Braaken High Prison (Session 12 / module-12); recognizes the geometric eye sigil, provides documented evidence of the solar-event / dragon-statue plan, targeted for elimination by the EoE Handler.
+- **The Tithe Ledger** — *Ruling 26:* An indestructible, self-collecting EoE accounting artifact discovered in the Hollow Deeps sewer cache (Session 11 / module-11); records tribute, life debts, and occult logistics across the Empire, serving as a persistent sequel hook into Sessions 16–23.
 - **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7, anchors offshore at Garegstown on Day 8, and is scuttled and sunk in the Braaken dock basin on Day 30 (module-5). Boltstrucken's personal fate remains open (escaped, drowned, or captured). Strictly distinct from the *Sable Wake*.
 - **Thorek (the Wagoneer)** — dwarven wagoneer who guides the party through the Garegstown caverns and the Paradiso road. *Ruling 6:* Thorek IS the unnamed wagoneer of Session 6. One person, one single execution at sundown in Paradiso (module-9 Section 4).
 - **The Golden Sea Naval Battle Bridge** — *Ruling 7:* Session 4 naval battle against the *Iron Fortress* is canon. Sighting on Day 7 escalates into the opening salvo with Glory glimpsed using W1 (module-4); battle tail and landing under covering fire occur at dawn of Day 8 at Garegstown docks (module-8).
@@ -54,6 +58,10 @@ Now the rebuild. Here's the campaign document as it should exist:
 8. **Downtime Principle (CLOSED):** The Breathing Rule codified per Ruling 19.
 9. **Rebel Leader & Liaison (CLOSED):** Mother Cindra Ashfall (Ruling 20) and Seluch (Ruling 21).
 10. **Module 5 Consolidation (CLOSED):** Sessions 8 & 9 combined into module-5 on Day 30 (Ruling 22).
+11. **The Tournament Arc Expansion (CLOSED):** Session 10 session count changed from 1 to 3 (owner-confirmed) — recorded s10 is a compression of three planned tournament sessions: 10a Jousting (Day 31), 10b Archery (Day 32), 10c Gladiatorial (Day 33) (Ruling 23 amended).
+12. **The Braaken Sewers (CLOSED):** Concentric labyrinth layout; central glowing chamber open; Ashfall cache in sealed ring (Ruling 24 revised).
+13. **Prisoner 1 (CLOSED):** EoE Defector Clerk (Ruling 25).
+14. **The Tithe Ledger (CLOSED):** Occult accounting artifact (Ruling 26).
 
 ## The Story in One Line
 The party gets conscripted into a dwarven revolt in FairWhether, escapes across the Golden Sea carrying rebellion cargo, crosses the continent under Empire noses, liberates Braaken with an alliance of waveborn, dwarves, and tournament allies, and marches on the Empire's capital — while a rival party haunts their dreams and EoE operates in the shadows.
@@ -98,14 +106,20 @@ Land at Braaken, meet the **rebel leader**. Glory revealed as the prince. Plan: 
 **Session 9** — 12/13/2020 — Day 30 — **Braaken Bay**
 Place ITEM X on the dragon statue. Empire boats in the bay. Befriend the waveborn liaison. Return to HQ to discover the **rebel leader is dead**.
 
-**Session 10 (PVP 1)** — 12/19/2020 — Day 31 — **Braaken Tournament Grounds**
-Enter the tournament of kings as the dead rebel leader's replacement. See EoE, compete against them. Watch **Glory's coronation** mid-tournament. Win land and gold. Gain **W2**. Allies convinced to help retake Braaken.
+**Session 10a** — Day 31 — **Braaken Tournament: Jousting (module-10a)**
+Enter the Sundered Crown tournament as Mother Ashfall's replacements. Face EoE jousters; expose tampered lances. Rally allies in the stands.
 
-**Session 11** — 1/10/2021 — Day 33 — **Braaken Underground**
-Visit the land won in the tournament. Discover tunnels and a rebel stash. Clear the tunnels so troops can enter Braaken from outside. Meet allies, kill enemies, learn of the prisoners' plight, discover an evil item, EoE hated further.
+**Session 10b** — Day 32 — **Braaken Tournament: Archery (module-10b)**
+Compete in the archery trials. Catch EoE's rigged scoring mechanic; turn the crowd against the occupation.
 
-**Session 12** — 1/17/2021 — Day 34 — **Braaken Prison**
-Prison break. Meet prisoner 1. Learn the HQ assault plan: the **solar event** and the dragon statue. Glory arrested.
+**Session 10c** — Day 33 — **Braaken Tournament: Gladiatorial Melee (module-10c)**
+Melee finale against EoE champions. Win clean. Gain **W2**. Awarded Hollow Deeps deed. Staged coronation collapses as Glory's claim surfaces. Warrant issued.
+
+**Session 11** — Day 34 — **Braaken Underground & Sewers (module-11)**
+Explore the Hollow Deeps and concentric sewer labyrinth. Clear rings for outside troops. Find Ashfall's cache and the **Tithe Ledger** (Ruling 26). Day 35 downtime per Breathing Rule.
+
+**Session 12** — Day 36 — **Braaken High Prison (module-12)**
+Prison break. Rescue Prisoner 1 (EoE defector clerk). Learn the solar event HQ assault plan. Glory arrested under coronation warrant.
 
 **Session 13** — 1/24/2021 — Day 36 — **Braaken Streets**
 Assault on the day of the solar event. Empire naval bombardment. Street battles to HQ. **The dragon golem wakes and sinks the Empire navy.** EoE's handler now in charge.
