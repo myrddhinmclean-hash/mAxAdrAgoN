@@ -1,5 +1,13 @@
 [
   {
+    "slug": "druids-temple-shell-valley",
+    "hoard": "draega",
+    "title": "The Druid's Temple in Shell Valley",
+    "date": "2026-08-28",
+    "excerpt": "A thousand-foot sequoia rises from a silent lake. The gnome druid who hires you to enter it pays gold upfront, asks no questions, and gives you four rules. Break them and you get eaten.",
+    "path": "../content/draega/druids-temple-shell-valley.md"
+  },
+  {
     "slug": "rivals-and-destiny",
     "hoard": "draega",
     "title": "The World of Draega & the Rivals and Destiny Campaign",
