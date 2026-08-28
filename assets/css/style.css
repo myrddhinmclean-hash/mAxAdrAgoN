@@ -463,14 +463,20 @@ footer.site-footer {
   border-top: 1px solid var(--border-subtle);
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1.25rem;
   font-size: 0.82rem;
   color: var(--text-faint);
   font-family: var(--font-mono);
 }
 
+.footer-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
 @media (min-width: 600px) {
-  footer.site-footer {
+  .footer-meta {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -484,4 +490,12 @@ footer.site-footer a {
 
 footer.site-footer a:hover {
   color: var(--emerald-bright);
+}
+
+.footer-disclaimer {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 1rem;
 }
