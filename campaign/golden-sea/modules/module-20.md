@@ -132,9 +132,9 @@ special_notes:
 * **Claim:** Module-20 covers Session 20 on relative Day 38 + 20 of Year One, focusing on the Bernax foundry assault and crucible destruction.
 * **Status:** Canon placement per Ruling 33.
 
-### Entry 2 — The Tithe Crucible (Ruling 26 & 31)
+### Entry 2 — The Tithe Crucible (CLOSED, canon per Ruling 37)
 * **Claim:** The party destroys the Tithe Crucible (the local receiving anchor of the Tithe Ledger in Bernax), halting local blood-iron production, while the primary Tithe Ledger remains indestructible and continues collecting life debts on the world clock.
-* **Status:** Logged ratification-pending assumption.
+* **Status:** CLOSED per owner Ruling 37.
 
 ---
 

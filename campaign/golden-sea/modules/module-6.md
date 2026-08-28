@@ -172,7 +172,7 @@ The session fits inside a 2,400 XP daily budget for four level 2 characters. The
 | 3. The sea | 1:20 to 2:10 | The sea fog sets in, the party navigates through the fog, the unknown pursuit is visible on the horizon, the party works to break surveillance |
 | 4. The crossing | 2:10 to 3:00 | The party navigates the fog banks, managing the boat's speed and keeping ITEM X sealed |
 | 5. The handoff | 3:00 to 3:40 | The party secures the cargo, establishes terms with the conscript guards, and prepares for the next leg of the sea crossing |
-| 6. The watch | 3:40 to 3:55 | The party sets watches on the deck as night falls on the Golden Sea, with the Multipass secured |
+| 6. The watch & Vision 1 | 3:40 to 3:55 | The party sets watches on the deck as night falls; during the deep rest of Day 5, each character experiences Vision 1, meeting four rival champions on a mist-bound shore before waking |
 
 ---
 
@@ -204,6 +204,10 @@ The session fits inside a 2,400 XP daily budget for four level 2 characters. The
 ### Entry 6 — The Breathing Rule & Downtime (CLOSED, canon per Ruling 19)
 * **Claim:** Session 3 (Day 5 shopping and provisioning) is folded into the courier preparation arc with zero new plants or foreshadowing. Travel gaps across the campaign (Days 4–6, 11–14, 16–29) represent character rest and open-water passage with no scripted events.
 * **Status:** CLOSED per owner Ruling 19.
+
+### Entry 7 — Vision 1 Placement (CLOSED, canon per Ruling 36)
+* **Claim:** Vision 1 is placed during the Day 5 rest beat on the crossing. The party meets four mirror rivals face to face in a shared dream. No explanation of origin, sender, or meaning is given per Ruling 29.
+* **Status:** CLOSED per owner Ruling 36.
 
 ### Gaps flagged, not filled
 * **Gap: Pip's fate.** Pip's recurring presence across Act I remains subject to future wave reconciliation.

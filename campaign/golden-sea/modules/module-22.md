@@ -136,9 +136,9 @@ special_notes:
 * **Claim:** Module-22 covers Session 22 on relative Day 38 + 28 of Year One, focusing on the Inner Citadel breach, the death of Verrick, and the discovery of the Blood-Moon deadline.
 * **Status:** Canon placement per Ruling 33.
 
-### Entry 2 — The Blood-Moon Deadline (Ruling 34)
-* **Claim:** The strategic deadline lands at the Blood-Moon Conjunction on relative Day 38 + 30, where the Vampire King plans to sacrifice captive armies to plunge the continent into permanent night.
-* **Status:** Logged ratification-pending assumption.
+### Entry 2 — The Blood-Moon Deadline (CLOSED, canon per Ruling 37)
+* **Claim:** The strategic deadline lands at the Blood-Moon Conjunction on relative Day 38 + 30, where the united Four Boons turn the Blood Moon to dawn.
+* **Status:** CLOSED per owner Ruling 37.
 
 ---
 

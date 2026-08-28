@@ -147,9 +147,9 @@ special_notes:
 * **Claim:** Module-10c covers the final day of the tournament on Day 33 of Year One, concluding with the melee victory, W2 award, Hollow Deeps deed, and the collapsed coronation.
 * **Status:** Canon placement.
 
-### Entry 2 — Boon W2 Provisional Naming
-* **Claim:** Boon W2 is named provisionally as **W2, the Crown-Sunder Torc**, a protective warding artifact won in the arena finale.
-* **Status:** Logged as a ratification-pending assumption.
+### Entry 2 — Boon W2 Ratified Naming (CLOSED, canon per Ruling 37)
+* **Claim:** Boon W2 is canonically named **W2, the Crown-Sunder Torc**, an ancient warding artifact representing the Earth and Protection element of the Four Boons.
+* **Status:** CLOSED per owner Ruling 37.
 
 ### Entry 3 — Warrant Reconciliation
 * **Claim:** Prince Glorinath is not arrested during the tournament melee; instead, an imperial warrant for high treason is issued, setting up his arrest at the conclusion of the prison break in module-12.

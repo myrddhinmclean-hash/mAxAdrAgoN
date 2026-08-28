@@ -126,7 +126,7 @@ special_notes:
 | 2. Reaching the pinnacle | 0:45 to 1:40 | Defeating the spawn lords, storming the central throne altar before totality |
 | 3. The Vampire King duel | 1:40 to 2:45 | Engaging the Vampire King in legendary combat, severing the blood-tithe ley lines |
 | 4. Seizing W4 & Boon Convergence | 2:45 to 3:30 | Claiming W4, uniting the Four Boons, unleashing the solar dawn, destroying the warlord |
-| 5. The dawn of the Golden Sea | 3:30 to 3:55 | The blood moon shatters, the sun rises over Glazhenge, celebrating continental freedom |
+| 5. The dawn & Vision 3 | 3:30 to 3:55 | The blood moon shatters, the sun rises over Glazhenge, celebrating continental freedom; that night, the party experiences Vision 3, the gloat-back dream where someone gloats, leaving it ambiguous who was gloating at whom as the final beat of the corpus |
 
 ---
 
@@ -136,13 +136,17 @@ special_notes:
 * **Claim:** Module-23 covers Session 23 on relative Day 38 + 30 of Year One, serving as the grand finale of Act II and the Golden Sea campaign.
 * **Status:** Canon placement per Rulings 33 and 34.
 
-### Entry 2 — The Claiming of W4 (Ruling 30)
+### Entry 2 — The Claiming of W4 & Ratification Slate (CLOSED, canon per Ruling 37)
 * **Claim:** W4 is claimed as **W4, the Dawn-Forged Scepter** from the altar of the Vampire King, uniting the Four Boons in solar daylight to break the blood-moon conjunction.
-* **Status:** Invariant boon resolution.
+* **Status:** Ratified author canon per Ruling 37.
 
-### Entry 3 — Destiny Principle Compliance (Ruling 29)
+### Entry 3 — Destiny Principle Compliance (CLOSED, canon per Ruling 29)
 * **Claim:** No cosmic agenda or divine purpose of destiny is explained; victory is achieved through mortal alliance, valor, and the Four Boons.
 * **Status:** Strict compliance with Ruling 29.
+
+### Entry 4 — Vision 3 Placement (CLOSED, canon per Ruling 36)
+* **Claim:** Vision 3 occurs as the closing dream beat following the victory on relative Day 38 + 30. The gloat-back dream leaves it ambiguous who was gloating at whom, concluding the cosmic thread without explaining destiny's agenda per Ruling 29.
+* **Status:** CLOSED per owner Ruling 36.
 
 ---
 
