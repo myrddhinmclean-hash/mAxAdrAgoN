@@ -7,7 +7,7 @@ party_size: 4
 ability_scores: standard_array
 canon_mode: authoring
 world_time: "Day 15 of Year One, early autumn, continuing to dawn of Day 16. Days 10 to 14 are open water oceanic transit (downtime per the Breathing Rule). Storm damage, waveborn attack, and W1 parley occur on Day 15; arrival at Thalassar, dock negotiations with Cpt. T, and departure under W3 disguise occur on Day 16."
-content: "Kladesh Ocean crossing on the damaged mail transport, waveborn attack converted to alliance via Glory's W1 parley, waveborn escort to Thalassar, tidal causeway dock negotiations with Cpt. T, disguising the vessel with W3 for the run to Braaken."
+content: "Kladesh Ocean crossing on the damaged mail transport, waveborn attack converted to alliance via Glori's W1 parley, waveborn escort to Thalassar, tidal causeway dock negotiations with Cpt. T, disguising the vessel with W3 for the run to Braaken."
 session_length_target: "3h45 to 4h15"
 source_list:
   - "campaign/golden-sea/MODULE-SPEC.md"
@@ -16,10 +16,10 @@ source_list:
 special_notes:
   - "Corresponds to Session 7 of the Master Document outline."
   - "The Breathing Rule (Ruling 19): Days 10 to 14 represent open water oceanic transit with zero scripted encounters or retro-plants."
-  - "The waveborn attack begins as a hostile boarding encounter against the damaged Empire vessel, converted mid-combat into an alliance when Glory steps onto the water with W1."
+  - "The waveborn attack begins as a hostile boarding encounter against the damaged Empire vessel, converted mid-combat into an alliance when Glori steps onto the water with W1."
   - "Thalassar (Ruling 18) is the destination port city, featuring a dedicated waveborn quarter and twice-daily tidal causeways that control harbor departures."
-  - "W1 is demonstrated by Glory to communicate with the waveborn and walk on the ocean surface; W3 is deployed to cloak Cpt. T's vessel for the passage to Braaken."
-  - "Glorinath d'Braaken (aliases: 'Glori', 'Glory') travels with the party and reveals his deep connection to oceanic lore (Ruling 10)."
+  - "W1 is demonstrated by Glori to communicate with the waveborn and walk on the ocean surface; W3 is deployed to cloak Cpt. T's vessel for the passage to Braaken."
+  - "Glorinath d'Braaken, called 'Glori' (Ruling 10 and Ruling 28) travels with the party and reveals his deep connection to oceanic lore (Ruling 10)."
   - "Pursuit pressure: the Iron Fortress pursuit thread formally relaxes as the party clears regional waters, replaced by rumors of Empire fleet concentrations around Braaken."
   - "Standing unresolved threads, flag never silently decide: W item rules text, ITEM X definition, Secret 10's contractor."
 ---
@@ -29,7 +29,7 @@ special_notes:
 **Level:** 3
 **Setting:** The stormy open waters of the Kladesh Ocean aboard the listing Empire transport *Tide of Froscius*, followed by the tidal docks and flooded causeways of the coastal city of Thalassar.
 **Main Threat:** Oceanic squalls, an aggressive assault by waveborn raiders targeting the Empire ship, and the ticking clock of Thalassar's twice-daily tidal gates.
-**Adventure Summary:** Following five quiet days of open oceanic passage from Paradiso, an autumn squall batters the Empire mail transport *Tide of Froscius*, snapping its main spar and leaving it dead in the water. Hostile waveborn raiders swarm the crippled vessel, seeking vengeance against imperial shipping. As the party mounts a desperate deck defense, Glory activates W1 (the Tide-Walker Disc), stepping out onto the open swells to initiate a dramatic parley. Recognizing the sacred resonance of the artifact, the waveborn cease their assault, striking the campaign's first major coalition alliance. The waveborn guide the damaged craft through dangerous shoals into the port of Thalassar. On the flooded causeways, the party reunites with Cpt. T, negotiates boat passage before the low-tide gate closes, drapes W3 over the vessel to mask its profile, and sets sail toward Braaken at dawn.
+**Adventure Summary:** Following five quiet days of open oceanic passage from Paradiso, an autumn squall batters the Empire mail transport *Tide of Froscius*, snapping its main spar and leaving it dead in the water. Hostile waveborn raiders swarm the crippled vessel, seeking vengeance against imperial shipping. As the party mounts a desperate deck defense, Glori activates W1 (the Tide-Walker Disc), stepping out onto the open swells to initiate a dramatic parley. Recognizing the sacred resonance of the artifact, the waveborn cease their assault, striking the campaign's first major coalition alliance. The waveborn guide the damaged craft through dangerous shoals into the port of Thalassar. On the flooded causeways, the party reunites with Cpt. T, negotiates boat passage before the low-tide gate closes, drapes W3 over the vessel to mask its profile, and sets sail toward Braaken at dawn.
 
 ---
 
@@ -39,9 +39,9 @@ special_notes:
 
 * **Active Obstacle:** Eight waveborn warriors (merfolk raiders) board the listing deck from port and starboard. The ship's deck is difficult terrain and slopes at a fifteen-degree angle toward the port side.
 
-* **Tactical Objective:** Defend the quarterdeck and protect the cargo hold for 2 rounds until Glory can reach the forward rail and activate W1.
+* **Tactical Objective:** Defend the quarterdeck and protect the cargo hold for 2 rounds until Glori can reach the forward rail and activate W1.
 
-* **Transition Trigger:** At the start of round 3, Glory steps up to the broken bowsprit, lifting a shimmering disc of green stone. A resonant chord hums across the water, and Glory walks directly out onto the surface of the rolling ocean.
+* **Transition Trigger:** At the start of round 3, Glori steps up to the broken bowsprit, lifting a shimmering disc of green stone. A resonant chord hums across the water, and Glori walks directly out onto the surface of the rolling ocean.
 
 ---
 
@@ -58,12 +58,12 @@ special_notes:
 
 1. **City Origin (rewritten from Dungeon Origin).** Thalassar was constructed over ancient sunken sea-elf terraces, and its lower stone causeways submerge under six feet of water during every high tide. Discovery: **DC 10 Wisdom (History)**.
 2. **Structural Hazard (rewritten from Structural Hazard).** The listing deck of the *Tide of Froscius* is coated in slick sea algae; dashing on the deck requires a **DC 12 Dexterity saving throw** or slip prone into the scuppers. Discovery: **DC 10 Wisdom (Perception)**.
-3. **Boss Vulnerability (rewritten from Boss Vulnerability).** The waveborn war leader Kaelen honors ancient oaths of the deep; invoking the name of the drowned kings grants advantage on all social checks. Discovery: **DC 13 Intelligence (Religion)** or observing Glory's invocation.
+3. **Boss Vulnerability (rewritten from Boss Vulnerability).** The waveborn war leader Kaelen honors ancient oaths of the deep; invoking the name of the drowned kings grants advantage on all social checks. Discovery: **DC 13 Intelligence (Religion)** or observing Glori's invocation.
 4. **Faction Disruption (rewritten from Faction Disruption).** The waveborn harbor intense hatred for the Empire's strip-mining runoff; proving the party carries rebellion cargo instantly cools their hostility. Discovery: **DC 13 Charisma (Persuasion)**.
 5. **Secret Passage (rewritten from Secret Passage).** A submerged tidal tunnel beneath Thalassar's southern causeway allows small craft to bypass the imperial harbor chain during high tide. Discovery: **DC 13 Intelligence (Investigation)** from waveborn guides.
 6. **Impending Doom (rewritten from Impending Doom).** The low-tide barrier at Thalassar's outer basin drops in exactly two hours; if Cpt. T's boat does not clear the channel before the water recedes, the vessel is trapped for twelve hours. Discovery: **DC 10 Wisdom (Perception)** from dock bells.
 7. **Puzzle Solution (rewritten from Puzzle Solution).** The tidal gate mechanism is counterweighted with salt-water cisterns; releasing the emergency release valve buys fifteen extra minutes of departure clearance. Discovery: **DC 13 Intelligence (Investigation)**.
-8. **Guardian Lore (rewritten from Guardian Lore).** W1 resonates with the elemental currents of the Kladesh Ocean, calming predatory sea life within three hundred feet. Discovery: **DC 13 Intelligence (Arcana)** while observing Glory.
+8. **Guardian Lore (rewritten from Guardian Lore).** W1 resonates with the elemental currents of the Kladesh Ocean, calming predatory sea life within three hundred feet. Discovery: **DC 13 Intelligence (Arcana)** while observing Glori.
 9. **Hidden Vault (rewritten from Hidden Vault).** A waterproof locker in Cpt. T's cabin holds 35 gp, dry woolen cloaks, and a jar of alchemical pitch for hull repairs. Discovery: Cpt. T shares supplies upon agreement.
 10. **The Next Threat (rewritten from The Next Threat).** Empire naval headquarters at Braaken has issued standing orders to impound all incoming coastal craft for tournament security sweeps. Discovery: **DC 13 Intelligence (Investigation)** from dockside rumors in Thalassar.
 
@@ -75,7 +75,7 @@ special_notes:
 * **Dimensions and Environment:** 90 ft. by 25 ft. listing cargo deck swept by wind and sea spray, tilted fifteen degrees to port.
 * **The Combat & Conversion Encounter:**
   * **Initial Clash:** 4 Waveborn Warriors (AC 13, HP 16 each, trident +4 to hit, 1d6+2 piercing, swim speed 40 ft.) board the midship deck while 4 Waveborn Skirmishers (AC 12, HP 11 each, light crossbow +4 to hit) fire from the cresting waves.
-  * **The W1 Parley:** On round 3, Glory steps onto the water using W1. The green luminescence halts the combat. The party must assist Glory in negotiating terms (**DC 12 Charisma (Persuasion)** group check).
+  * **The W1 Parley:** On round 3, Glori steps onto the water using W1. The green luminescence halts the combat. The party must assist Glori in negotiating terms (**DC 12 Charisma (Persuasion)** group check).
   * **Outcome:** The waveborn agree to cease hostilities, salvage the wreck, and guide the party safely to Thalassar.
 
 ### Area 2: The Reef Labyrinth (Hazard Chamber)
@@ -97,7 +97,7 @@ special_notes:
 
 ## 5. NPC Roster
 
-* **Glory (Glorinath d'Braaken)** (elf, he/him, traveling companion and noble prince)
+* **Glori (Glorinath d'Braaken)** (elf, he/him, traveling companion and noble prince)
   * *Manner and Presence:* Calm under extreme crisis; steps boldly onto the ocean waves with absolute authority, channeling the power of W1. Has AC 14, HP 18.
 * **Kaelen (Waveborn War Leader)** (merfolk, they/them, clan scout)
   * *Drive:* Protect coastal waters from Empire exploitation and honor the bearers of ancient elemental relics. Has AC 13, HP 22.
@@ -130,7 +130,7 @@ special_notes:
 | Beat | Range | What happens |
 |---|---|---|
 | 1. The crippled ship | 0:00 to 0:40 | Recovering from the storm, discovering the broken main spar, waveborn assault begins |
-| 2. The W1 parley | 0:40 to 1:30 | Glory steps onto the water with W1, hostility converts to treaty, alliance struck |
+| 2. The W1 parley | 0:40 to 1:30 | Glori steps onto the water with W1, hostility converts to treaty, alliance struck |
 | 3. Reef escort to Thalassar | 1:30 to 2:20 | Waveborn guide the vessel through coral shallows into the flooded causeways of Thalassar |
 | 4. Reunion & tidal clock | 2:20 to 3:20 | Meeting Cpt. T, transferring cargo and ITEM X, solving the harbor tidal gate problem |
 | 5. W3 disguised departure | 3:20 to 3:55 | Draping W3 over Cpt. T's boat, slipping past the watchtowers into open waters toward Braaken |
@@ -154,7 +154,7 @@ special_notes:
 * **Status:** Canon placement.
 
 ### Entry 2 — The Waveborn Parley Mechanics (CLOSED, canon per Ruling 8 & 10)
-* **Claim:** The waveborn attack begins hostile and converts to an alliance on round 3 when Glory deploys W1 on the open water.
+* **Claim:** The waveborn attack begins hostile and converts to an alliance on round 3 when Glori deploys W1 on the open water.
 * **Status:** Canon centerpiece.
 
 ### Entry 3 — Thalassar Tidal Mechanics (CLOSED, canon per Ruling 18)

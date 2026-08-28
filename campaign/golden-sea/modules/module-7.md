@@ -21,7 +21,7 @@ special_notes:
   - "Wave inherited canon: Garruk the half orc Thug is EoE."
   - "Wave inherited canon: ITEM X is in a locked strongbox, in the courier flight's possession, not opened, not defined."
   - "Wave inherited canon: the Multipass has been entrusted to the party at Session 2."
-  - "Wave inherited canon: W1 is Glory's item, W3 is in the party's possession after the customs house."
+  - "Wave inherited canon: W1 is Glori's item, W3 is in the party's possession after the customs house."
   - "Wave inherited canon: Verrick is the EoE Handler at Garegstown."
   - "Wave inherited canon: Thorek the wagoneer was executed at Session 6."
   - "Wave inherited canon: Borrik the scout died at Session 5."
@@ -30,7 +30,7 @@ special_notes:
   - "Wave inherited canon: Cpt. M's fate is unknown after Session 4; the module treats Cpt. M as dead or captured."
   - "The Empire is doing a scorched earth withdrawal from Garegstown. The withdrawal involves burning warehouses, ships, and supplies the Empire cannot carry. The party witnesses the withdrawal and decides whether to intervene."
   - "Skritch is the named antagonist for Garegstown, recurring from Session 0.5 and Session 2. If Skritch was killed or captured in Session 2, the module invents a new Empire captain. Skritch is treated as alive for the wave."
-  - "Standing unresolved threads, flag never silently decide: Durgan's surname, Glorinath vs Glory, EoE acronym (closed), W items, ITEM X definition, Secret 10's contractor (Session 13 resolution point)."
+  - "Standing unresolved threads, flag never silently decide: Durgan's surname, Glorinath vs Glori, EoE acronym (closed), W items, ITEM X definition, Secret 10's contractor (Session 13 resolution point)."
   - "Time dilation: Day 10 of Year One, early autumn. The wave brief's restructuring of Act I changes the day count from the master doc's Day 15. The estimate is Day 10 to fit the wave's restructured Act I. Logged as invention."
 ---
 
@@ -239,10 +239,10 @@ Every invention, interpretation, or bend is logged below. Format: claim, why mad
 24. **Gap: Vren's status after Session 5 is unknown.** The module assumes Vren is fled. The wave gate will reconcile.
 25. **Gap: The Empire's mountain gate is not in the source.** The module invents the mountain gate as the Empire's repositioning target. The owner may want to ratify or restat at the wave gate.
 26. **Gap: The Garegstown warehouse district's full layout is not in the source.** The module invents a 100 ft. by 60 ft. district with ten warehouses. The owner may want to ratify or restat at the wave gate.
-27. **Gap: W1, W3, and ITEM X are resolved per the overview. W3 is in the party's possession. W1 is Glory's. ITEM X is in the strongbox, in the party's possession, not opened, not defined. Untouched here.**
+27. **Gap: W1, W3, and ITEM X are resolved per the overview. W3 is in the party's possession. W1 is Glori's. ITEM X is in the strongbox, in the party's possession, not opened, not defined. Untouched here.**
 28. **Gap: The contractor in the green coat from Session 0.5 Secret 10 is unresolved by owner decision.** Untouched in this session. Resolution point is Session 13.
 29. **Gap: Pip is not referenced in this session.** Pip's location is not specified. The owner may want to confirm Pip's absence.
-30. **Gap: Glory is not referenced in this session.** Glory's location is not specified. The owner may want to confirm Glory's absence.
+30. **Gap: Glori is not referenced in this session.** Glori's location is not specified. The owner may want to confirm Glori's absence.
 31. **Gap: Day 10 is estimated to fit the wave's restructured Act I. The master doc's Day 15 for Session 7 is overridden.** The owner may want to ratify the day count at the wave gate.
 
 ### Spec rules unsatisfiable without violating campaign canon

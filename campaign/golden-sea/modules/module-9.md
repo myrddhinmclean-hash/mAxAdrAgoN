@@ -16,7 +16,7 @@ source_list:
 special_notes:
   - "CANON per wave gate Ruling 3: this module is the CANON version of the Road to Paradiso content. The retired module-6 draft is superseded; its Thorek execution scene survives here."
   - "Thorek is the wagoneer of master doc s6; one person, one execution (Ruling 6). Thorek dies exactly once: executed at sundown in the Paradiso market square."
-  - "Glorinath d'Braaken (aliases: 'Glori', 'Glory') is the elven prince of Braaken (Ruling 10). Glorinath arranged and executed the Paradiso jailbreak. 'Glori' and 'Glory' are aliases of the same individual."
+  - "Glorinath d'Braaken, called 'Glori' — one registered alias; 'Glory' was a transcription variant, retired (Ruling 10 and Ruling 28). Glorinath arranged and executed the Paradiso jailbreak."
   - "Jailer vulnerability mechanism is canon per Ruling 4 (Shift Change & Puzzle Lock)."
   - "Level 3 DCs: 10/13/16. Tier 1 trap: 2d10, DC 12 save. Daily XP budget: 4,800. This module's day total: ~3,250 (hard, inside budget)."
   - "Wave inherited canon: the Multipass (entrusted Session 2), W3 (party possession after the customs house), Bodrik's Quarry Map, Verrick as EoE Handler at Garegstown, Pip the kobold conscript."
@@ -96,7 +96,7 @@ The strongbox in the customs office holds confiscated gear, the Multipass, and W
 * **NPC Seed Bank:** Unused variant characters (Jailer Doss, 50 gp boot-heel bribe; Captain Trident Moulva loyalty debt) are preserved as campaign NPC seeds for future modules.
 
 ### Entry 7 — Arranger and executor: Glorinath d'Braaken (CLOSED, canon per Ruling 10)
-* **Claim:** The escape arranger and executor is Glorinath d'Braaken, elven prince of Braaken. "Glori" (party usage) and "Glory" (master doc usage) are registered aliases of this single individual. Glorinath was planted on-stage in Session 1's NPC roster, aids the journey, and executes the jailbreak per s6 / module-9.
+* **Claim:** The escape arranger and executor is Glorinath d'Braaken, elven prince of Braaken, called "Glori" (Ruling 10 and Ruling 28). Glorinath was planted on-stage in Session 1's NPC roster, aids the journey, and executes the jailbreak per s6 / module-9.
 * **Status:** CLOSED per owner Ruling 10. All "distinct entity" claims are fully expunged.
 
 ### Entry 8 — Pursuit pressure line (per gate amendment b.2)

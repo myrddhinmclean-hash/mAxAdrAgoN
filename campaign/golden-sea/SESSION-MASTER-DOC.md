@@ -8,7 +8,7 @@ ratification_rule: "Where this document contradicts the Expanded Campaign Overvi
 
 Fair — the HTML was a mess, and one of my questions came from misreading it. Let me fix the misread first, because I don't think "W" is column width.
 
-The width values are in the table markup (`width:56px`, `width:100px`) and none of them are W1 through W4. But W1, W2, W3, W4 appear in your **game content** — "use W1 to parlez with waveborn," "use W3 to disguise cpt. T boat," "gain W2" at the tournament, "gain W1 from Glory," "Learn about W4." That's not markup, that's your own spreadsheet notes. My read: **W = weapon.** Four weapons of escalating power, handed out across the campaign — W1 talks to the waveborn, W3 disguises ships, W2 is won at the tournament, W4 is learned about late. That's a classic weapon-progression arc. But you wrote the sheet, so confirm or correct: are W1–W4 weapons?
+The width values are in the table markup (`width:56px`, `width:100px`) and none of them are W1 through W4. But W1, W2, W3, W4 appear in your **game content** — "use W1 to parlez with waveborn," "use W3 to disguise cpt. T boat," "gain W2" at the tournament, "gain W1 from Glori," "Learn about W4." That's not markup, that's your own spreadsheet notes. My read: **W = weapon.** Four weapons of escalating power, handed out across the campaign — W1 talks to the waveborn, W3 disguises ships, W2 is won at the tournament, W4 is learned about late. That's a classic weapon-progression arc. But you wrote the sheet, so confirm or correct: are W1–W4 weapons?
 
 Now the rebuild. Here's the campaign document as it should exist:
 
@@ -20,7 +20,7 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **The Empire** — occupying power. Kobold guards in FairWhether, large navy, presence in every port.
 - **The Rebellion** — dwarves at its core (FairWhether revolt, fire brigades, dock seizures at Braaken). Rebel leader killed off-screen s9. HQ in Braaken Underground.
 - **EoE (Empire of Evil)** — *Ruling 11:* A tangible empire and administration — the occult/internal arm of the occupying power, distinct from the conventional military the party fights in open battle, though nested within it. Field operatives spotted at Braaken docks (s8) and the tournament (s10). The Handler commands its local operations and is killed by the prince at s14 — but EoE as an administration survives the Braaken surrender and retreat; it is the antagonist thread that persists into sessions 16–23. *Institutional Rule:* EoE is an institution, never a person — references to "EoE" in session records denote the organization, not an individual.
-- **Glorinath d'Braaken** — elven prince of Braaken. Registered aliases: "Glori" (party usage), "Glory" (master doc usage). One person (Ruling 10). Arc summary: present from s1 as the incognito VIP quartermaster protected from the shrike-hound (Ruling 15) → aids the Day 7 invasion with W1 (s4) → arranges and executes the Paradiso jailbreak (s6 / module-9) → waveborn parley (s7) → revealed as prince (s8) → coronation at tournament (s10) → arrested (s12) → freed and kills the Handler (s14). *Alias Rule:* "Glori" and "Glory" are aliases of the same individual — do not treat as a name conflict in future sweeps.
+- **Glorinath d'Braaken** — elven prince of Braaken. Called "Glori" — one registered alias; "Glory" was a transcription variant, retired (Ruling 10 and Ruling 28). Arc summary: present from s1 as the incognito VIP quartermaster protected from the shrike-hound (Ruling 15) → aids the Day 7 invasion with W1 (s4) → arranges and executes the Paradiso jailbreak (s6 / module-9) → waveborn parley (s7) → revealed as prince (s8) → coronation at tournament (s10) → arrested (s12) → freed and kills the Handler (s14). *Alias Rule:* Glorinath d'Braaken, called "Glori" — one registered alias; "Glory" was a transcription variant, retired.
 - **Durgan Emberwick** — *Ruling 14:* Dwarven oil lamp merchant in FairWhether whose shop scuffle and fire on Empire Day sparks the FairWhether revolt.
 - **The Shrike-hound** — *Ruling 13:* An Empire-bred tracking beast the size of a mastiff, trained to mimic human cries to flush targets into the open for sniper overwatch. Wears a dull grey iron collar stamped with an unrecognized geometric eye sigil (an unexplained EoE retro-plant in Session 1, unidentified until Session 8).
 - **Verrick** — *Ruling 16:* Local EoE Handler at Garegstown (modules 7–8), serving as the recurring institutional face of the Empire's internal security after the primary Handler falls at Session 14.
@@ -44,7 +44,7 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **Mother Cindra Ashfall** — *Ruling 20:* Dwarven firebrand and legendary rebel commander in Braaken, connected to the FairWhether fire brigades from Day 1. Murdered off-screen at the close of Session 9 / module-5 with the EoE geometric eye sigil left at the scene.
 - **Seluch** — *Ruling 21:* Waveborn liaison in Braaken Bay; amphibious scout who speaks in a salt-crusted voice, negotiates through gift-exchange, honors the Tide-Walker Disc treaty, and assists in placing ITEM X upon the sunken dragon statue.
 - **Module-5 Scope** — *Ruling 22:* Combines Sessions 8 and 9 into a single operational module on Day 30, encompassing the Braaken Docks arrival, the sinking of the *Iron Fortress*, the dragon statue placement, and the discovery of Mother Ashfall's death.
-- **The Tournament of the Sundered Crown** — *Ruling 23 (Amended):* Empire-staged tournament in Braaken expanded across three modules: **10a Jousting** (Day 31), **10b Archery** (Day 32), and **10c Gladiatorial Melee** (Day 33). EoE competes and cheats in every event (tampered lances, rigged target scoring, illegal armaments), discovered by the party. W2 is won at the gladiatorial finale. The staged coronation of a compliant puppet ruler collapses when Glory's legitimate royal claim surfaces before an already hostile crowd, prompting the issuance of an imperial arrest warrant.
+- **The Tournament of the Sundered Crown** — *Ruling 23 (Amended):* Empire-staged tournament in Braaken expanded across three modules: **10a Jousting** (Day 31), **10b Archery** (Day 32), and **10c Gladiatorial Melee** (Day 33). EoE competes and cheats in every event (tampered lances, rigged target scoring, illegal armaments), discovered by the party. W2 is won at the gladiatorial finale. The staged coronation of a compliant puppet ruler collapses when Glori's legitimate royal claim surfaces before an already hostile crowd, prompting the issuance of an imperial arrest warrant.
 - **The Hollow Deeps & Braaken Sewers** — *Ruling 24 (Revised):* The prize won in the tournament provides access to the Braaken sewer network, laid out as a concentric labyrinth beneath the granary district. Clearing the concentric rings and flooded lower channels allows outside rebel and waveborn troops to infiltrate the city. Mother Ashfall's hidden cache in a sealed outer ring contains the Tithe Ledger (Ruling 26). The central glowing chamber remains an unexplained open mystery.
 - **The EoE Defector Clerk (Prisoner 1)** — *Ruling 25:* Former imperial manifest forger held in Braaken High Prison (Session 12 / module-12); recognizes the geometric eye sigil, provides documented evidence of the solar-event / dragon-statue plan, targeted for elimination by the EoE Handler.
 - **The Tithe Ledger** — *Ruling 26:* An indestructible, self-collecting EoE accounting artifact discovered in the Hollow Deeps sewer cache (Session 11 / module-11); records tribute, life debts, and occult logistics across the Empire, serving as a persistent sequel hook into Sessions 16–23.
@@ -57,7 +57,7 @@ Now the rebuild. Here's the campaign document as it should exist:
 - **Day 38 + N Notation** — *Ruling 35:* Standardized relative time format for all Act 2 modules.
 - **The Iron Fortress** — heavy Empire warship commanded by Captain Mohdraan "Smite" Boltstrucken; intercepts the courier flight on Day 7, anchors offshore at Garegstown on Day 8, and is scuttled and sunk in the Braaken dock basin on Day 30 (module-5). Boltstrucken's personal fate remains open (escaped, drowned, or captured). Strictly distinct from the *Sable Wake*.
 - **Thorek (the Wagoneer)** — dwarven wagoneer who guides the party through the Garegstown caverns and the Paradiso road. *Ruling 6:* Thorek IS the unnamed wagoneer of Session 6. One person, one single execution at sundown in Paradiso (module-9 Section 4).
-- **The Golden Sea Naval Battle Bridge** — *Ruling 7:* Session 4 naval battle against the *Iron Fortress* is canon. Sighting on Day 7 escalates into the opening salvo with Glory glimpsed using W1 (module-4); battle tail and landing under covering fire occur at dawn of Day 8 at Garegstown docks (module-8).
+- **The Golden Sea Naval Battle Bridge** — *Ruling 7:* Session 4 naval battle against the *Iron Fortress* is canon. Sighting on Day 7 escalates into the opening salvo with Glori glimpsed using W1 (module-4); battle tail and landing under covering fire occur at dawn of Day 8 at Garegstown docks (module-8).
 - **NPC Seed Bank (Unused Wave 1 Variant Seeds):**
   - **Doss** — underpaid human jailer at Paradiso imperial jail (from module-9 Bribe variant).
   - **Captain Trident Moulva** — pre-occupation naval commander to whom certain jailers hold loyalty debts (from module-9 Loyalty Debt variant).
@@ -117,22 +117,22 @@ The party takes the docks. Rewards and revelry. Next day: transport **ITEM X** t
 Shopping and information gathering. Low-key session.
 
 **Session 4** — 10/18/2020 — Day 7 — **The Golden Sea**
-Crossing to Garegstown. Naval battle against Empire reinforcements (Cpt. M's boat). They *see Glory aiding the invasion with W1*. Land at Garegstown docks, cross the battle to caves with a guide, meet the wagoneer, discover W3.
+Crossing to Garegstown. Naval battle against Empire reinforcements (Cpt. M's boat). They *see Glori aiding the invasion with W1*. Land at Garegstown docks, cross the battle to caves with a guide, meet the wagoneer, discover W3.
 
 **Session 5** — 10/25/2020 — Day 9 — **Garegstown**
 Escape across the outskirts with a guide, through caverns, to the wagoneer. Difficult traverse. A dwarf NPC is lost in battle. W3 explained.
 
 **Session 6** — 11/8/2020 — Day 9 — **Road to Paradiso**
-Bandits. Witness Empire cruelty, powerless to stop it. Arrested at the gates. **The wagoneer is executed.** Glory helps them escape jail and retrieve gear, Multipass, and W3. They board an Empire ship bound for Braaken.
+Bandits. Witness Empire cruelty, powerless to stop it. Arrested at the gates. **The wagoneer is executed.** Glori helps them escape jail and retrieve gear, Multipass, and W3. They board an Empire ship bound for Braaken.
 
 **Session 7** — 11/15/2020 — Day 15 — **Kladesh Ocean**
-Empire ship attacked at sea, heavily damaged. **Glory uses W1 to parley with the waveborn — alliance formed.** Waveborn escort them to **Thalassar** (Ruling 18). Meet Cpt. T on the docks, negotiate passage, sail to Braaken. W3 used to disguise Cpt. T's boat.
+Empire ship attacked at sea, heavily damaged. **Glori uses W1 to parley with the waveborn — alliance formed.** Waveborn escort them to **Thalassar** (Ruling 18). Meet Cpt. T on the docks, negotiate passage, sail to Braaken. W3 used to disguise Cpt. T's boat.
 
 **Vision 1** — 10/10/2020 — *Dreams*
 The rival group and the party meet face to face in a dream.
 
 **Session 8** — 12/6/2020 — Day 30 — **Braaken Docks**
-Land at Braaken, meet the **rebel leader**. Glory revealed as the prince. Plan: sink the Iron Fortress, place ITEM X. Guard the docks during the sinking. Spot EoE across the dock, report it — **not believed.**
+Land at Braaken, meet the **rebel leader**. Glori revealed as the prince. Plan: sink the Iron Fortress, place ITEM X. Guard the docks during the sinking. Spot EoE across the dock, report it — **not believed.**
 
 **Session 9** — 12/13/2020 — Day 30 — **Braaken Bay**
 Place ITEM X on the dragon statue. Empire boats in the bay. Befriend the waveborn liaison. Return to HQ to discover the **rebel leader is dead**.
@@ -144,25 +144,25 @@ Enter the Sundered Crown tournament as Mother Ashfall's replacements. Face EoE j
 Compete in the archery trials. Catch EoE's rigged scoring mechanic; turn the crowd against the occupation.
 
 **Session 10c** — Day 33 — **Braaken Tournament: Gladiatorial Melee (module-10c)**
-Melee finale against EoE champions. Win clean. Gain **W2**. Awarded Hollow Deeps deed. Staged coronation collapses as Glory's claim surfaces. Warrant issued.
+Melee finale against EoE champions. Win clean. Gain **W2**. Awarded Hollow Deeps deed. Staged coronation collapses as Glori's claim surfaces. Warrant issued.
 
 **Session 11** — Day 34 — **Braaken Underground & Sewers (module-11)**
 Explore the Hollow Deeps and concentric sewer labyrinth. Clear rings for outside troops. Find Ashfall's cache and the **Tithe Ledger** (Ruling 26). Day 35 downtime per Breathing Rule.
 
 **Session 12** — Day 36 — **Braaken High Prison (module-12)**
-Prison break. Rescue Prisoner 1 (EoE defector clerk). Learn the solar event HQ assault plan. Glory arrested under coronation warrant.
+Prison break. Rescue Prisoner 1 (EoE defector clerk). Learn the solar event HQ assault plan. Glori arrested under coronation warrant.
 
 **Session 13** — 1/24/2021 — Day 36 — **Braaken Streets**
 Assault on the day of the solar event. Empire naval bombardment. Street battles to HQ. **The dragon golem wakes and sinks the Empire navy.** EoE's handler now in charge.
 
 **Session 14** — 1/31/2021 — Day 37 — **Braaken HQ**
-HQ siege. Glory freed. Throne room fight. **The prince kills the Handler.** Empire surrenders and retreats. Dwarves take the docks and bay.
+HQ siege. Glori freed. Throne room fight. **The prince kills the Handler.** Empire surrenders and retreats. Dwarves take the docks and bay.
 
 **Vision 3** — day 37 — *Dreams*
 The party gloats about Braaken.
 
 **Session 15** — 2/7/2021 — Day 38 — **Braaken**
-Rewards. **W1 given by Glory.** Learn of the **vampire king**. Cpt. T's boat refitted. Learn of **W4**. Plan the next move.
+Rewards. **W1 given by Glori.** Learn of the **vampire king**. Cpt. T's boat refitted. Learn of **W4**. Plan the next move.
 
 ---
 

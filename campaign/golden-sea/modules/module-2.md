@@ -22,7 +22,7 @@ special_notes:
   - "Wave inherited canon: the hazzard is the shrike hound and sniper team, closed per Ruling 13."
   - "Wave inherited canon: Holrik is the rebellion's quartermaster, his Quartermaster Token exists."
   - "Wave inherited canon: the dawn assault was planned at the end of Session 1. Session 2 opens with the assault on screen or immediately after. The module's Strong Start assumes the assault has just concluded and the party is consolidating the docks."
-  - "Wave inherited canon: Glorinath d'Braaken (aliases: 'Glori', 'Glory') is the elven prince (Ruling 10)."
+  - "Wave inherited canon: Glorinath d'Braaken, called 'Glori' (Ruling 10 and Ruling 28)."
   - "ITEM X appears in this session in a locked strongbox. The courier (the liaison) does not know what is in the box. The party does not open the box. The item is flagged as 'not resolved' per the wave brief."
   - "Standing unresolved threads, flag never silently decide: W items, ITEM X definition, Secret 10's contractor (Session 13 resolution point, not in this wave)."
   - "Time dilation: Day 3 of Year One, late summer. Same-day start handoff to module-6's courier flight across the Golden Sea."
@@ -241,7 +241,7 @@ Every invention, interpretation, or bend is logged below. Format: claim, why mad
 28. **Gap: W items and ITEM X are resolved per the overview but ITEM X is not defined in this session per the wave brief.** Logged as invention 14.
 29. **Gap: The contractor in the green coat from Session 0.5 Secret 10 is unresolved by owner decision.** Untouched in this session. Resolution point is Session 13.
 30. **Gap: Holrik is the rebellion's quartermaster but does not appear in Session 2.** Holrik's Quartermaster Token is referenced in the wave inherited canon. Holrik is presumably at the meeting house or the storehouse district. The session does not reference him on screen. The owner may want to confirm his absence.
-31. **Gap: Glory is at the street intersection in Session 1 in advance of the party, per the wave inherited canon.** Glory is not referenced in Session 2. Glory's location during the dawn assault is not specified. The owner may want to confirm Glory's absence from the dock assault.
+31. **Gap: Glori is at the street intersection in Session 1 in advance of the party, per the wave inherited canon.** Glori is not referenced in Session 2. Glori's location during the dawn assault is not specified. The owner may want to confirm Glori's absence from the dock assault.
 32. **Gap: The relief column's specific unit composition is invented.** Logged as invention 19. The master doc says the Empire has a garrison; the specific size and composition of the relief column is the agent's choice.
 33. **Gap: The Session 3 entry is "Shopping and information gathering. Low-key session." The Session 2 module ends with the courier flight staged for tomorrow, which assumes Session 3 is the low key session and Session 4 is the Golden Sea crossing. The session numbering and the day count are consistent, but the Session 3 to Session 4 hand off will need to be reconciled at the wave gate.**
 

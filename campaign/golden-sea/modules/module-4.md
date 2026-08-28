@@ -22,8 +22,8 @@ special_notes:
   - "Wave inherited canon: Garruk the half orc Thug is EoE, was seen as a tinker in FairWhether at Session 3."
   - "Wave inherited canon: ITEM X is in a locked strongbox, in the courier flight's possession, not opened, not defined."
   - "Wave inherited canon: the Multipass has been entrusted to the party at Session 2."
-  - "Wave inherited canon: Glory is the prince, uses 'Glory' only. Glory aids the party during the naval encounter using W1."
-  - "W1 appears in this session: W1 is Glory's item, used to walk on water. The party observes W1 here, does not receive it."
+  - "Wave inherited canon: Glori is the prince, uses 'Glori' only. Glori aids the party during the naval encounter using W1."
+  - "W1 appears in this session: W1 is Glori's item, used to walk on water. The party observes W1 here, does not receive it."
   - "Boltstrucken is a minotaur Tempest Cleric and captain of the Iron Fortress."
   - "Standing unresolved threads, flag never silently decide: Durgan's surname, EoE acronym (closed), W items, ITEM X definition, Secret 10's contractor (Session 13 resolution point)."
   - "Time dilation: Day 7 of Year One, late summer to early autumn. The party is mid crossing of the Golden Sea."
@@ -46,7 +46,7 @@ special_notes:
 
 * **Tactical Objective:** Prepare the deck defense, manage sail speed, and brace for the incoming boarding attempt.
 
-* **Transition Trigger:** Glory appears on the water between the vessels, walking on the surface using W1 to distract the approaching vessel's lookouts.
+* **Transition Trigger:** Glori appears on the water between the vessels, walking on the surface using W1 to distract the approaching vessel's lookouts.
 
 ---
 
@@ -104,7 +104,7 @@ special_notes:
   * *Drive:* Intercept and board the courier vessel. Has AC 14, HP 45.
 * **The Three Kobold Boarders** (kobold, they/them, Empire auxiliaries)
   * *Drive:* Secure the vessel under Boltstrucken's orders. Has AC 12, HP 5 each.
-* **Glory (the Prince)** (elf, he/him, recurring ally)
+* **Glori (the Prince)** (elf, he/him, recurring ally)
   * *Drive:* Aid the party's crossing using W1 to distract the enemy. Has AC 14, HP 18.
 
 ---
@@ -122,7 +122,7 @@ special_notes:
 
 * **Coin Hoard:** 30 gp from Boltstrucken's pouch. Total: 30 gp.
 * **Consumable Item:** Potion of Healing (Common). 1 potion.
-* **Permanent Magic Item (Provisional):** **W1, the Tide-Walker Disc** (Rare, observed in Glory's possession, not received by party).
+* **Permanent Magic Item (Provisional):** **W1, the Tide-Walker Disc** (Rare, observed in Glori's possession, not received by party).
 
 ---
 
@@ -131,12 +131,12 @@ special_notes:
 | Beat | Range | What happens |
 |---|---|---|
 | 1. The sighting | 0:00 to 0:30 | *Iron Fortress* spotted on starboard bow, distant and closing, party prepares defense |
-| 2. The close | 0:30 to 1:30 | Warship enters tactical range, Glory creates waterborne distraction with W1 |
+| 2. The close | 0:30 to 1:30 | Warship enters tactical range, Glori creates waterborne distraction with W1 |
 | 3. The boarding fight | 1:30 to 2:45 | Boarding action begins, fight with Boltstrucken and boarders, signal mirror disabled |
 | 4. Disengagement | 2:45 to 3:40 | Enemy approaches tactical range, deck positions manned, opening arrows exchanged |
-| 5. The opening salvo | 3:40 to 3:55 | The *Iron Fortress* unleashes its opening ballista volley; Glory is glimpsed walking the swell using W1 to draw fire as the Day 7 battle ignites |
+| 5. The opening salvo | 3:40 to 3:55 | The *Iron Fortress* unleashes its opening ballista volley; Glori is glimpsed walking the swell using W1 to draw fire as the Day 7 battle ignites |
 
-**Closing beat:** As dusk settles over the Golden Sea on Day 7, the *Iron Fortress* closes within range and unleashes its opening ballista salvo. Across the churning water, Glory is glimpsed walking the swells beneath the shimmering aura of W1, drawing fire away from the fishing boat's rudder as the naval engagement begins.
+**Closing beat:** As dusk settles over the Golden Sea on Day 7, the *Iron Fortress* closes within range and unleashes its opening ballista salvo. Across the churning water, Glori is glimpsed walking the swells beneath the shimmering aura of W1, drawing fire away from the fishing boat's rudder as the naval engagement begins.
 
 ---
 
@@ -151,10 +151,10 @@ special_notes:
 * **Status:** CLOSED per owner Ruling 3. Module-8 is UNBLOCKED for Wave 2.
 
 ### Entry 3 — W1 provisional rules text
-* **Claim:** W1 is Glory's item (Tide-Walker Disc). Observed in use, not received.
+* **Claim:** W1 is Glori's item (Tide-Walker Disc). Observed in use, not received.
 
 ### Entry 4 — Naval battle opening salvo (CLOSED, canon per Ruling 7)
-* **Claim:** The sighting escalates into the opening exchange of the Session 4 naval battle at dusk on Day 7, with Glory glimpsed aiding the defense with W1.
+* **Claim:** The sighting escalates into the opening exchange of the Session 4 naval battle at dusk on Day 7, with Glori glimpsed aiding the defense with W1.
 * **Status:** CLOSED per owner Ruling 7. Establishes the bridge to module-8's Day 8 landfall.
 
 ---

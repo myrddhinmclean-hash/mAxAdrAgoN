@@ -16,7 +16,7 @@ special_notes:
   - "Canon mode: authoring. Transcript canon mode dormant until transcripts exist on disk. Director's notes section is not used."
   - "Party level 1, four players, standard array. Owner should confirm party composition before running."
   - "Durgan has no surname. Use 'Durgan' only. Flag in assumption log."
-  - "Glory uses 'Glory' only. Compendium name not used."
+  - "Glori uses 'Glori' only (Ruling 28). Compendium name not used."
   - "EoE acronym undefined. Untouched in this session."
   - "W items and ITEM X resolved per overview. Untouched in this session."
   - "Rebel leader's death: per overview, no longer off-screen, the Braaken faction did it, faction is the rival group in the dreams. Out of scope for this session."

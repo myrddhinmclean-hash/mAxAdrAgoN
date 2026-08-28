@@ -21,7 +21,7 @@ special_notes:
   - "Wave inherited canon: Garruk the half orc Thug is EoE, was seen as a tinker in FairWhether at Session 3."
   - "Wave inherited canon: ITEM X is in a locked strongbox, in the courier flight's possession, not opened, not defined. The courier flight is about carrying ITEM X, not revealing it."
   - "Wave inherited canon: the Multipass has been entrusted to the party at Session 2."
-  - "Wave inherited canon: W1 is Glory's item, W3 is the wagoneer's item. Neither appears in this session."
+  - "Wave inherited canon: W1 is Glori's item, W3 is the wagoneer's item. Neither appears in this session."
   - "Wave inherited canon: Captain Mohdraan 'Smite' Boltstrucken is a minotaur Tempest Cleric and captain of the Iron Fortress. Boltstrucken is not aboard the courier flight."
   - "Wave inherited canon: Skritch is the recurring kobold antagonist. Skritch does not appear in this session."
   - "Standing unresolved threads, flag never silently decide: W items, ITEM X definition, Secret 10's contractor (Session 13 resolution point)."
@@ -183,7 +183,7 @@ The session fits inside a 2,400 XP daily budget for four level 2 characters. The
 * **Status:** CLOSED per owner Ruling 1. This is author canon.
 
 ### Entry 2 — W1 provisional rules text
-* **Claim:** W1 is Glory's item (the Tide-Walker Disc). Full rules text is provisional pending owner ratification.
+* **Claim:** W1 is Glori's item (the Tide-Walker Disc). Full rules text is provisional pending owner ratification.
 * **Why made:** W1 is referenced across Act I as an item that talks to the drowned and walks on water, but does not appear directly in this session.
 * **What to change if wrong:** Update rules text upon owner ratification.
 
