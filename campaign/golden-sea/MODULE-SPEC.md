@@ -267,4 +267,13 @@ For all modules in Act II and beyond (Session 16+):
 
 ---
 
+## Section 10: Epilogue Module Standard
+
+Epilogue modules (such as `module-24.md`) are distinct campaign artifacts:
+1. **DM-Facing Panorama:** The module is unplayable, narrative, and world-focused; the player adventuring party never appears on-screen.
+2. **Structure:** Omits encounter blocks, tactical DC formulas, and combat math. Focuses on world vignettes, living-world threads, post-war settlements, and unresolved campaign continuities.
+3. **Voice & Canon Rules:** Inherits all voice constraints (no dashes/hyphens in prose, no swearing, no single-sentence paragraphs) and campaign invariants (destiny is never named or explained).
+
+---
+
 ## End of spec.
