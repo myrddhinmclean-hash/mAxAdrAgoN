@@ -51,6 +51,3 @@ The source itself flags contradictions. The Froscius Dynasty and "The Empire" ma
 
 These are not failures. These are the seams of a homebrew world built across years of play, and the seams are where the interesting work lives.
 
----
-
-*Tempted to invent but didn't: a name for the cosmic entity Destiny's motivations, a specific cause of Prince Glori's siege-engine death, what the Amulet of Wonder actually does when assembled, the identity of the corrupt imperial Handler Glori confronts in Session 16, the contents of the Book of Flesh in Primordial, and any of the Eye of Hadron's powers beyond being a fist-sized ruby.*
