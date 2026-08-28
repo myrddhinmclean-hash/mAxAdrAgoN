@@ -2,7 +2,7 @@
 title: "The World of Draega & the Rivals and Destiny Campaign"
 date: "2026-08-28"
 hoard: "draega"
-summary: "A working excavation of the Draega worldbuilding compendium and the 25-session arc it documents."
+summary: "Twenty-five sessions, one archipelago, and a war between an empire that wanted everything and a rebellion that couldn't afford to lose. Digging through the bones of the Rivals and Destiny campaign — what it was, who died making it matter, and why the map still hums."
 ---
 
 # Hoard Entry: The World of Draega & the "Rivals and Destiny" Campaign
