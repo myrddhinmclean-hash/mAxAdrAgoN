@@ -175,6 +175,42 @@ Rewards. **W1 given by Glori.** Learn of the **vampire king**. Cpt. T's boat ref
 
 ---
 
+## Master Module Inventory
+
+| Module | Title | Session | World Time (Year One) | Act | Word Count | Status |
+|---|---|---|---|---|---|---|
+| `module-0.5.md` | FairWhether Market | 0.5 | Day 1 (late summer) | I | 7,145 | Ratified |
+| `module-1.md` | The FairWhether Revolt and the Three Watches | 1 | Day 1 (late summer) | I | 2,306 | Ratified |
+| `module-2.md` | The Dock Assault | 2 | Day 3 (late summer) | I | 8,765 | Ratified |
+| `module-3.md` | The Kladesh Ocean, the Waveborn Parley, and Thalassar | 3 | Day 15 (early autumn) | I | 2,320 | Ratified |
+| `module-4.md` | The Golden Sea, Crossing to Garegstown | 4 | Day 7 (late summer) | I | 1,815 | Ratified |
+| `module-5.md` | Braaken Docks, the Sinking of the Iron Fortress, and the Dragon in the Bay | 5 | Day 30 (early autumn) | II | 2,370 | Ratified |
+| `module-6.md` | The Courier Flight and ITEM X | 6 | Day 3 (late summer) | I | 3,866 | Ratified |
+| `module-7.md` | Garegstown and the Scorched Withdrawal | 7 | Day 10 (early autumn) | I | 6,836 | Ratified |
+| `module-8.md` | Garegstown Landing and the Cavern Escape | 8 | Day 8 (early autumn) | I | 2,198 | Ratified |
+| `module-9.md` | The Road to Paradiso, the Jail, and the Escape Glori Arranges | 9 | Day 9 (early autumn) | I | 1,983 | Ratified |
+| `module-10a.md` | The Tournament of the Sundered Crown: The Joust | 10a | Day 31 (early autumn) | II | 1,852 | Ratified |
+| `module-10b.md` | The Tournament of the Sundered Crown: The Archery Trials | 10b | Day 32 (early autumn) | II | 1,913 | Ratified |
+| `module-10c.md` | The Tournament of the Sundered Crown: The Gladiatorial Finale | 10c | Day 33 (early autumn) | II | 1,873 | Ratified |
+| `module-11.md` | The Hollow Deeps and the Concentric Sewer Labyrinth | 11 | Day 34 (early autumn) | II | 1,968 | Ratified |
+| `module-12.md` | The Braaken Prison Break and the Fall of the Prince | 12 | Day 36 (early autumn) | II | 2,227 | Ratified |
+| `module-13.md` | The Solar Event and the Awakening in Braaken Bay | 13 | Day 36 (early autumn) | II | 2,095 | Ratified |
+| `module-14.md` | The Siege of Braaken Citadel and the Liberation | 14 | Day 37 (early autumn) | II | 1,937 | Ratified |
+| `module-15.md` | Victory in Braaken and the Northern Threat | 15 | Day 38 (early autumn) | II | 2,024 | Ratified |
+| `module-16.md` | The Beach Landing at Imnia North Port | 16 | Day 38 + 4 (mid-autumn) | III | 1,711 | Ratified |
+| `module-17.md` | The Capital Street Battles of Sortengraahd | 17 | Day 38 + 10 (mid-autumn) | III | 1,738 | Ratified |
+| `module-18.md` | The High Castle of Sortengraahd and the Northern Escape | 18 | Day 38 + 12 (mid-autumn) | III | 1,898 | Ratified |
+| `module-19.md` | The Frozen Docks of Bernax | 19 | Day 38 + 18 (late autumn) | III | 1,656 | Ratified |
+| `module-20.md` | The Foundry Assault and the Tithe Crucible of Bernax | 20 | Day 38 + 20 (late autumn) | III | 1,767 | Ratified |
+| `module-21.md` | The Outer Glacial Gates of Glazhenge | 21 | Day 38 + 26 (early winter) | III | 1,597 | Ratified |
+| `module-22.md` | The Inner HQ Gates of Glazhenge and the Blood-Moon Revelation | 22 | Day 38 + 28 (early winter) | III | 1,789 | Ratified |
+| `module-23.md` | The Blood-Moon Conjunction and the Fall of the Vampire King | 23 | Day 38 + 30 (early winter) | III | 2,032 | Ratified |
+| `module-24.md` | Epilogue: The World After the Blood Moon | 24 | Day 38 + 31 (early winter) | III | 1,354 | Ratified |
+
+**Corpus Statistics:** Total Modules: 27 | Total Words: 71,035 | Total Rulings: 41 | Act Structure: Act I (s0.5–s9, Year One), Act II (s10a–s15, Year One), Act III (s16–s24, Year One) per Ruling 41.
+
+---
+
 ## Act III: The Northern Liberation March — Relative Event Chain (Rulings 31–35, 41)
 
 | # | Session / Module | Relative Time | Location | Primary Objective & Events | Classification |

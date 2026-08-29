@@ -30,19 +30,19 @@ special_notes:
 **Level:** 3
 **Setting:** The fortified granite piers of Braaken, the rebel redoubts in the dock cellars, the choppy waters of Braaken Bay around the submerged dragon monument, and the secret underground rebel headquarters.
 **Main Threat:** Empire dock patrols, the mooring defense around the *Iron Fortress*, harbor cutter patrols in the bay, and the invisible shadow of EoE operatives.
-**Adventure Summary:** Arriving in Braaken aboard Cpt. T's disguised boat after two weeks of open water travel, the party makes contact with the city's rebel leader, Mother Cindra Ashfall. In the rebel war room, Glorinath's identity as the rightful elven prince of Braaken is openly revealed to the party. The rebellion executes a daring harbor operation: while dwarven saboteurs breach the hull of the heavy warship *Iron Fortress*, the party holds the quay against Empire reinforcements. Amid the smoke, the party spots an operative marked with the geometric eye sigil, though their warning is brushed aside by preoccupied commanders. Moving out into the bay under the guidance of the waveborn liaison Seluch, the party secures ITEM X upon the ancient stone dragon monument. Returning to headquarters at dusk, the party discovers Mother Ashfall murdered in her study with the geometric eye sigil left behind, throwing the rebellion into immediate crisis.
+**Adventure Summary:** Arriving in Braaken aboard Cpt. T's disguised boat after two weeks of open water travel, the party makes contact with the city's rebel leader, Mother Cindra Ashfall. In the rebel war room, Glorinath's identity as the rightful elven prince of Braaken is openly revealed to the party. The rebellion executes a harbor operation: while dwarven saboteurs breach the hull of the heavy warship *Iron Fortress*, the party holds the quay against Empire reinforcements. Amid the smoke, the party spots an operative marked with the geometric eye sigil, though their warning is brushed aside by preoccupied commanders. Moving out into the bay under the guidance of the waveborn liaison Seluch, the party secures ITEM X upon the ancient stone dragon monument. Returning to headquarters at dusk, the party discovers Mother Ashfall murdered in her study with the geometric eye sigil left behind, throwing the rebellion into immediate crisis.
 
 ---
 
 ## 1. Strong Start
 
-> Autumn rain sweeps across the great stone sea walls of Braaken, turning the granite towers dark as wet slate. Cpt. T's fishing craft glides past the outer chain booms under the fading glamour of W3, bumping against the slimy timbers of Pier Nine where dwarven dockers in oilskins work in practiced silence. Standing on the stone quay in a heavy leather coat singed with old forge marks, Mother Cindra Ashfall watches the party disembark, her grey eyes narrowing as the quiet quartermaster pulls back his travel hood. The dwarven guards drop their tools, gasping as the noble features of Prince Glorinath d'Braaken catch the dock lanterns, returning to his occupied home at last.
+> The morning tide pushes Cpt. T's cutter past the sunken breakwater of Braaken Harbor, where the jagged spars of two scuttled merchant hulls jut through the grey surf like broken teeth. Beyond the salt spray, the granite piers of the Lower Docks hum with subdued tension; dockhands haul crates under the cold watch of Empire marines, while dwarven runners slip between fishmonger stalls with folded parchment pressed inside their boots.
 
-* **Active Obstacle (Gated Event):** Empire dock sentries are conducting a surprise cargo sweep along the adjacent pier. The party must escort Prince Glorinath and the ITEM X strongbox into the cellar redoubt before the inspection lanterns sweep Pier Nine.
+* **Active Obstacle (Gated Event):** The party must bypass the Harbor Master's inspection berth without drawing the scrutiny of three Empire dock wardens scanning arrivals for unregistered elven nobility or FairWhether contraband.
 
-* **Tactical Objective:** Slip through the warehouse cellar network without raising the general alarm, delivering the prince and strongbox to Mother Ashfall's command table.
+* **Tactical Objective:** Disembark the cargo under cover of fish crates (**DC 12 Dexterity (Stealth)** group check or **DC 13 Charisma (Deception)** with Cpt. T's manifest), rendezvous with Mother Ashfall's runner at the salted-herring shed, and slip into the rebellion's sub-quay redoubt.
 
-* **Transition Trigger:** Mother Ashfall throws open the reinforced iron doors of the old brewery cellar, beckoning the party inside as harbor bells ring the second night watch.
+* **Transition Trigger:** Once the runner gives the two-whistle signal, the party is led through a damp drainage grate beneath Quay Three into the hidden assembly cellar of the Braaken Resistance.
 
 ---
 
@@ -66,7 +66,7 @@ special_notes:
 7. **Puzzle Solution (rewritten from Puzzle Solution).** The dragon statue beneath the bay has an octagonal stone socket in its crest designed to lock ITEM X in place without magical resonance. Discovery: **DC 13 Intelligence (Arcana)** or Seluch demonstrates the slot.
 8. **Guardian Lore (rewritten from Guardian Lore).** The waveborn liaison Seluch values formal gift exchange; offering fresh mountain wine or cured timber builds immediate trust. Discovery: **DC 13 Wisdom (Insight)**.
 9. **Hidden Vault (rewritten from Hidden Vault).** A false iron panel in Mother Ashfall's war map table conceals 40 gp, three potions of healing, and the emergency headquarters roster. Discovery: **DC 13 Intelligence (Investigation)**.
-10. **The Next Threat (rewritten from The Next Threat).** Empire intelligence officers in Braaken have received secret orders from an internal occult department to purge local leadership before the upcoming tournament. Discovery: **DC 15 Intelligence (Investigation)** on intercepted dispatches.
+10. **The Next Threat (rewritten from The Next Threat).** Empire intelligence officers in Braaken have received secret orders from an internal department of occult security to purge local leadership before the upcoming tournament. Discovery: **DC 15 Intelligence (Investigation)** on intercepted dispatches.
 
 ---
 
@@ -82,13 +82,13 @@ special_notes:
 
 ### Area 2: Braaken Bay & The Sunken Dragon Monument (The Bay Operation)
 * **Dimensions and Environment:** Open harbor water choppy with autumn swell, plunging thirty feet down to a sandy seabed marked with ancient stonework.
-* **The Waveborn Liaison:** The party meets Seluch (merfolk scout, salt-voiced and adorned with polished shell beads). Seluch greets the party respectfully, acknowledging Prince Glorinath and the Tide-Walker Disc.
+* **The Waveborn Liaison:** The party meets Seluch (merfolk scout, with a voice weathered by salt and adorned with polished shell beads). Seluch greets the party respectfully, acknowledging Prince Glorinath and the Tide-Walker Disc.
 * **Placing ITEM X:** Seluch guides the party's skiff over the submerged monument. The party lowers the locked strongbox containing ITEM X into the deep water, locking it securely into the stone socket on the dragon statue's brow.
 * **Encounter (Harbor Cutter Sweep):** 1 Empire Harbor Cutter carrying 4 Kobold Sailors (AC 12, HP 5 each) and 1 Marine Sergeant (AC 16, HP 11). Seluch capsizes the cutter's steering oar while the party drives off the boarding grapple.
 
 ### Area 3: Rebel Headquarters (The Closing Discovery)
 * **Dimensions and Environment:** Deep subterranean brewery cellars with vaulted granite ceilings, damp flagstones, and flickering tallow wall sconces.
-* **The Discovery:** Returning at dusk through the drainage tunnels, the party finds the headquarters in dead silence. The inner war room door stands ajar. Mother Cindra Ashfall lies slumped across the tactical map table, slain by a single precise poisoned thrust.
+* **The Discovery:** Returning at dusk through the drainage tunnels, the party finds the headquarters in dead silence. The inner war room door stands ajar. Mother Cindra Ashfall lies slumped across the tactical map table, slain by a single poisoned thrust.
 * **The Calling Card:** Carved into the oak map table beside her hand is the geometric eye sigil, still glistening with dark alchemical ash. The module ends on this stark, unanswered loss.
 
 ---
@@ -98,9 +98,9 @@ special_notes:
 * **Prince Glorinath d'Braaken** (elf, he/him, rightful prince of Braaken)
   * *Appearance and Voice:* Tall and composed, clad in fine mail beneath a traveler's coat. Speaks with quiet authority; burdened by the occupation of his ancestral home. Has AC 14, HP 18.
 * **Mother Cindra Ashfall** (dwarf, she/her, legendary rebel commander)
-  * *Appearance and Voice:* Stout, battle-scarred veteran with silver-streaked dark braids and intense grey eyes. Fierce, decisive, and fiercely protective of her city. Has AC 14, HP 35.
+  * *Appearance and Voice:* Stout veteran covered in scars, with braids of dark hair streaked with silver and intense grey eyes. Decisive and protective of her city. Has AC 14, HP 35.
 * **Seluch (Waveborn Liaison)** (merfolk, they/them, oceanic scout)
-  * *Appearance and Voice:* Sleek grey scales, webbed talons, resonant salt-crusted voice. Pragmatic, diplomatic, and honors gift-exchange traditions. Has AC 13, HP 22.
+  * *Appearance and Voice:* Sleek grey scales, webbed talons, resonant voice weathered by salt. Pragmatic, diplomatic, and honors gift exchange traditions. Has AC 13, HP 22.
 * **The EoE Shadow Operative** (human, they/them, unrevealed assassin)
   * *Presence:* Seen only at distance on the docks and through the calling card left in the war room.
 

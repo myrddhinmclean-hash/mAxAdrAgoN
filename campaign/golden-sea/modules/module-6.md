@@ -6,18 +6,14 @@ level: 2
 party_size: 4
 ability_scores: standard_array
 canon_mode: authoring
-world_time: "Day 3 of Year One, late summer, the same day as module-2's dock assault (same-day start). The courier flight departs from the tail of the dock assault, and the party is on the boat with the rebellion cargo and ITEM X. The session continues into Day 4 as the crossing proceeds."
+world_time: "Day 3 of Year One, late summer, the same day as module-2's dock assault (starts on the same afternoon). The courier flight departs from the tail of the dock assault, and the party is on the boat with the rebellion cargo and ITEM X. The session continues into Day 4 as the crossing proceeds."
 session_length_target: "3h45 to 4h15"
 source_list:
   - "campaign/golden-sea/MODULE-SPEC.md"
   - "campaign/golden-sea/CAMPAIGN-OVERVIEW.md"
   - "campaign/golden-sea/SESSION-MASTER-DOC.md"
-content: "Courier flight, transport ITEM X to Braaken, Multipass entrusted, plans for sea crossing (same-day start handoff from module-2's dock assault)."
+content: "Courier flight, transport ITEM X to Braaken, Multipass entrusted, plans for sea crossing (starts on the same afternoon as module-2's dock assault)."
 special_notes:
-  - "Owner ratification: Expanded Campaign Overview is author canon. Where it contradicts the session master document, the overview wins."
-  - "Canon mode: authoring. Transcript canon mode dormant until transcripts exist on disk. Director's notes section is not used."
-  - "Party level 2, four players, standard array. Owner should confirm party composition before running."
-  - "Wave inherited canon: Pip the red armband kobold conscript is a recurring Act I NPC."
   - "Wave inherited canon: Garruk the half orc Thug is EoE, was seen as a tinker in FairWhether at Session 3."
   - "Wave inherited canon: ITEM X is in a locked strongbox, in the courier flight's possession, not opened, not defined. The courier flight is about carrying ITEM X, not revealing it."
   - "Wave inherited canon: the Multipass has been entrusted to the party at Session 2."
@@ -25,8 +21,8 @@ special_notes:
   - "Wave inherited canon: Captain Mohdraan 'Smite' Boltstrucken is a minotaur Tempest Cleric and captain of the Iron Fortress. Boltstrucken is not aboard the courier flight."
   - "Wave inherited canon: Skritch is the recurring kobold antagonist. Skritch does not appear in this session."
   - "Standing unresolved threads, flag never silently decide: W items, ITEM X definition, Secret 10's contractor (Session 13 resolution point)."
-  - "The Breathing Rule (Ruling 19): Session 3 (Day 5) is folded into the courier preparation arc as quiet rest and provisioning, containing zero retro-plants or foreshadowing. Days 4 to 6 are open water downtime."
-  - "Time dilation: Day 3 of Year One, late summer, the same day as module-2's dock assault (same-day start). Continues into Day 4 as the crossing proceeds."
+  - "The Breathing Rule (Ruling 19): Session 3 (Day 5) is folded in as a quiet, low key rest beat with zero new plants or foreshadowing. Days 4 to 6 are open water downtime."
+  - "Time dilation: Day 3 of Year One, late summer, the same day as module-2's dock assault (starts on the same afternoon). Continues into Day 4 as the crossing proceeds."
 ---
 
 # The Courier Flight and ITEM X
@@ -34,7 +30,7 @@ special_notes:
 **Level:** 2
 **Setting:** The Golden Sea, the courier flight from FairWhether toward Braaken, on a fishing boat with 3 kobold guards and the rebellion cargo. The voyage takes the party across open sea, with a surveillance encounter, a social encounter on the boat, and a navigation puzzle.
 **Main Threat:** The Empire's surveillance of the courier flight, in the form of the 3 kobold guards, the unknown pursuit, and the sea itself. The secondary threat is the navigation puzzle, which is the session's mechanical difficulty.
-**Adventure Summary:** The courier flight departs on a same-day start following the dock assault of module-2. The party transports ITEM X and the rebellion cargo to Braaken with the Multipass entrusted to them, navigating plans for the sea crossing while surveilled by Empire agents.
+**Adventure Summary:** The courier flight departs on the same afternoon following the dock assault of module-2. The party transports ITEM X and the rebellion cargo to Braaken with the Multipass entrusted to them, navigating plans for the sea crossing while surveilled by Empire agents.
 
 ---
 
@@ -42,7 +38,7 @@ special_notes:
 
 > The Golden Sea is the color of old iron and the wind has been pushing the same low clouds for a day, and the clouds have not moved, but the boat has. A fishing boat is not made for this kind of sea, and the hull creaks at every wave, and the rigging sings a low note that the crew has stopped hearing. The only new sound is the kobold on the rail, and the kobold has been on the rail since dawn, and the kobold is watching the horizon.
 
-* **Active Obstacle (Gated Event):** The Empire has 3 kobold guards on the boat, and the party does not know if the guards are conscripts or volunteers. The party has 3 rounds of in-game time (about 6 real-world minutes) to decide: talk to the guards, hide from the guards, or prepare for the sea. Failure trigger: the party fails to establish contact with the guards, and the guards become suspicious.
+* **Active Obstacle (Gated Event):** The Empire has 3 kobold guards on the boat, and the party does not know if the guards are conscripts or volunteers. The party has 3 rounds of in game time (about 6 real world minutes) to decide: talk to the guards, hide from the guards, or prepare for the sea. Failure trigger: the party fails to establish contact with the guards, and the guards become suspicious.
 
 * **Tactical Objective:** Establish contact with the kobold guards, or hide from them, or both. The party has 3 rounds to act. Failure trigger: the guards become suspicious, and the voyage becomes a surveillance encounter.
 

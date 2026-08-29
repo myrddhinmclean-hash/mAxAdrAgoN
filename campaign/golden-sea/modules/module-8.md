@@ -108,9 +108,9 @@ special_notes:
 
 ## 5. NPC Roster
 
-* **Thorek (the Wagoneer)** (dwarf, he/him, rebellion guide)
-  * *Appearance and Voice:* Thick salt-and-pepper beard, patched wool traveling coat, wide brimmed felt hat. Voice deep, gravelly, and cautious.
-  * *Drive:* Guide the rebellion couriers and cargo safely through the caverns to the Paradiso road. Has AC 12 (leather), HP 13.
+* **Thorek (The Wagoneer)** (dwarf, he/him, overland courier)
+  * *Drive:* Transport the strongbox safely over the mountain pass to Paradiso for delivery to the contact. Has AC 13, HP 26.
+  * *Appearance and Voice:* A thick beard streaked with grey, a patched wool coat, and a wide brimmed felt hat. Voice deep, gravelly, and cautious.
 * **Cpt. T (Captain Trident)** (water genasi, she/her, ally)
   * *Drive:* Conceal the fishing boat and provide a rear guard before departing by water. Has AC 13, HP 22.
 * **Verrick (the EoE Handler)** (human, he/him, observer)

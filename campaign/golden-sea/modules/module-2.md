@@ -15,7 +15,14 @@ source_list:
 special_notes:
   - "Owner ratification: Expanded Campaign Overview is author canon. Where it contradicts the session master document, the overview wins."
   - "Canon mode: authoring. Transcript canon mode dormant until transcripts exist on disk. Director's notes section is not used."
-  - "Party level 1, four players, standard array. Owner should confirm party composition before running."
+  - "Party level 1, four players, standard array. Same party as Session 0.5 and 1."
+  - "Durgan has no surname in the master doc. Use 'Durgan' only. Flag in assumption log."
+  - "Glorinath d'Braaken, called 'Glori' (Ruling 10 and Ruling 28). Compendium name not used."
+  - "EoE acronym undefined. Untouched in this session."
+  - "W items and ITEM X resolved per overview. Untouched in this session."
+  - "Time dilation: Day 3 of Year One, late summer. Starting on the same day as the dock assault, with handoff to module-6's courier flight across the Golden Sea."
+  - "Multipass: set of 3 forged Empire travel documents + forgery kit. Handed off at the dock tavern."
+  - "Strongbox with ITEM X: delivered during the assault, dwarven puzzle lock, contents undefined in this session."
   - "Wave inherited canon: kobold conscript with the red armband is a recurring Act I NPC. He is named in this module as Pip, the first module in the wave to need a name. The name is canon for the rest of Wave 1 unless the owner rules otherwise at the wave gate."
   - "Wave inherited canon: the two Empire longboats are the Iron Promise and the Sable Wake."
   - "Wave inherited canon: Vellis is a merchant captain feeding information to the liaison."
@@ -106,7 +113,7 @@ The four keyed areas are mapped to the session's real locations. The first two c
 * **Dimensions and Environment:** 25 ft. by 20 ft. stone foundation with a wooden upper floor and a loft, lit by a single oil lamp on the desk. Lighting: dim, with the morning sun coming through the south window. Smell: lamp oil, paper, the cold stone of the tide watcher's tower foundation. Sound: the muffled argument from the inner pier, the lap of water against the pilings below, the creak of the loft.
 * **Tactical Layout:** Two features. (1) The desk is heavy oak, 4 ft. tall, providing 3/4 cover. (2) The loft access is a wooden ladder at the north wall, providing a 10 ft. high vantage for a single creature but only 1/2 cover from below.
 * **Interactive Puzzle / Obstacle (The Strongbox):**
-  * **The Mechanism:** The strongbox is locked with a dwarven puzzle lock of three rotating rings. Each ring has 12 positions. The combination is the current date on the dwarven calendar, three numbers. The dock master knows the date.
+  * **The Mechanism:** The strongbox is secured by a lock of three rotating rings. Each ring has 12 positions. The combination is the current date on the dwarven calendar, three numbers. The dock master knows the date.
   * **The Solution:** Three workable paths. (a) The party can ask the dock master for the combination, requiring a **DC 10 Charisma (Persuasion)** check (the dock master gives it freely on a successful check, and on a failed check the dock master demands to know who sent the box first). (b) The party can pick the lock with thieves' tools, requiring a **DC 15 Dexterity (Thieves' Tools)** check. (c) The party can break the lock with force, requiring a **DC 15 Strength (Athletics)** check and destroying the lock. The contents are not removed by breaking the lock; the box is opened.
   * **Failure Consequence:** If the party picks or breaks the lock unsuccessfully, the box's contents are not visible. If the party breaks the lock and the strongbox is a forged rebellion seal, the contents are still boxed and the party is no closer to ITEM X. ITEM X is not defined in this session per the wave brief. The contents are described as a wrapped bundle of cloth, heavy for its size, that does not open further without a key the courier did not provide.
 * **Encounter (Social):** The dock master, a dwarf named Halga, sits at the desk. Halga is not a combatant. Halga is the rebellion's dock coordinator and the person who will run the courier flight tomorrow. Halga can be persuaded, intimidated, or bargained with. Halga's primary concern is the relief column deadline.
@@ -126,7 +133,7 @@ The four keyed areas are mapped to the session's real locations. The first two c
 ## 5. NPC Roster
 
 * **The Liaison** (dwarf, he/him, recruiter, the scar)
-  * *Appearance and Voice:* Forge-burn scar across the jaw, a clean coat over a miner's shirt, a small leather ledger in the breast pocket. Voice warm, patient, buys drinks in the order other people drink them.
+  * *Appearance and Voice:* A burn from the forge across his jaw, a clean coat over a miner's shirt, a small leather ledger in the breast pocket. Voice warm, patient, buys drinks in the order other people drink them.
   * *Drive:* The inner pier is in rebellion hands by noon. The strongbox is secured. The courier flight is staged for tomorrow.
   * *Mechanical Utility:* Provides the Multipass (three Empire papers and a forgery kit) and the courier flight briefing. Has AC 12 (leather), HP 13.
 * **Cpt. T (Captain Trident)** (water genasi, she/her, fishing fleet captain and covert supply line)

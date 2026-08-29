@@ -47,7 +47,7 @@ special_notes:
 
 The four hooks are rewritten from the engine template to fit the FairWhether campaign. None are rolled. All four are active in this session as facts the party can discover.
 
-1. **The Bounty (rewritten as The Cousin's Debt).** A dwarf in the crowd, not identified, has been seen passing coin to a kobold. The liaison will tell the party, if asked at the meeting house, that Durgan's cousin owes a debt to an Empire-aligned merchant and the writ is the lever. Bounty equivalent: 25 gp to anyone who retrieves a small ledger from the Empire trading post before dawn.
+1. **The Bounty (rewritten as The Cousin's Debt).** A dwarf in the crowd, not identified, has been seen passing coin to a kobold. The liaison will tell the party, if asked at the meeting house, that Durgan's cousin owes a debt to a merchant aligned with the Empire and the writ is the lever. Bounty equivalent: 25 gp to anyone who retrieves a small ledger from the Empire trading post before dawn.
 2. **The Distress Call (rewritten as The Daughter).** The daughter of Durgan has been taken under a writ that names a back tax. The Empire claims the tax is real. The dwarves claim the tax is invented. The party is the only neutral party at the stall.
 3. **The Unsealed Ruin (rewritten as The Side Gate).** A side gate in the plaza's east wall, usually locked, is propped open today for Empire Day foot traffic. The Empire officer plans to walk the daughter out through this gate. The party can reach the gate faster than the kobolds if they move now.
 4. **The Direct Ambush (rewritten as The Banner Stand).** The EMPIRE DAY banner is hung from a wooden frame bolted to the cobbles. The frame is old, the bolts are rusted, and the banner rope has been cut on the Empire side. The frame is a trap waiting for a push.
@@ -128,37 +128,37 @@ The four keyed areas are mapped to the session's real locations. The first three
 
 ## 5. NPC Roster
 
-* **Durgan** (dwarf, he/him, oil lamp salesman and accidental revolutionary)
-  * *Appearance and Voice:* Stocky, soot-stained apron, a wrench in one hand and a half-shaved lantern wick in the other. Voice like a hand plane on pine, fast and level.
-  * *Drive:* Get his daughter back. Get his stall back. Get the Empire off his street.
-  * *Mechanical Utility:* Provides the back door escape route (Secret 5) and the cousin's letter (Area 2 loot). Has AC 10, HP 9.
-* **The Daughter** (human, she/her, inventory counter and witness)
-  * *Appearance and Voice:* Twelve, quick-eyed, braid tucked under a cloth cap. Voice quieter than her father's, watches more than she speaks.
-  * *Drive:* Not to be a tax matter. To be home before the lamps are lit.
-  * *Mechanical Utility:* If rescued, can identify the kobold with the red armband by name (Secret 4). Has AC 10, HP 4.
-* **The Empire Officer** (human, he/him, writ bearer and runner)
-  * *Appearance and Voice:* Leather coat over a uniform two sizes too big, a pocket watch in the breast pocket, a fountain pen behind one ear. Voice clipped, used to being obeyed, surprised to be in a market that is not a checkpoint.
-  * *Drive:* Deliver the writ. Get his name off any report he has to write tonight.
-  * *Mechanical Utility:* Carries the writ stack (Area 3 puzzle) and the deadline (Secret 6). Has AC 12, HP 11.
-* **The Kobold with the Red Armband** (kobold, he/him, conscript and possible defector)
-  * *Appearance and Voice:* Young, underfed, the red armband pinned on the wrong shoulder. Voice high and scared, speaks Common with a southern Empire accent.
-  * *Drive:* To go home. To see his mother.
-  * *Mechanical Utility:* If addressed by name and offered a way out, drops his spear and leaves the writ detail. Has AC 12, HP 5.
-* **The Dwarven Fire Brigade Captain** (dwarf, she/her, muscle and praise-giver)
-  * *Appearance and Voice:* Wet leather, wet hide, a small battering ram over one shoulder. Voice short, no wasted breath, calls everyone by what they are carrying.
-  * *Drive:* The next awning. The next well. The next awning after that.
-  * *Mechanical Utility:* Praises the party in front of the city. Praising is a faction disruption tool. Has AC 14 (chain shirt), HP 11.
-* **The Liaison** (dwarf, he/him, recruiter, the scar)
-  * *Appearance and Voice:* Forge-burn scar across the jaw, a clean coat over a miner's shirt, a small leather ledger in the breast pocket. Voice warm, patient, buys drinks in the order other people drink them.
-  * *Drive:* Four people who are already a story, attached to the revolt before dawn.
-  * *Mechanical Utility:* Provides the meeting house, the cellar flagstone, and the names list (Secret 9). Has AC 12 (leather), HP 13.
+* **Durgan (the Lamp Seller)** (dwarf, he/him, shopkeeper)
+  * *Drive:* Keep his shop, protect his daughter, sell lamp oil at 5 cp a pint. Has AC 10, HP 9.
+  * *Appearance and Voice:* Stocky, an apron stained with soot, a wrench in one hand, and a lantern wick shaved in half in the other. Voice like a hand plane on pine, fast and level.
+  * *Mechanical Utility:* Provides the back door escape route (Secret 5) and the cousin's letter (Area 2 loot).
+* **The Daughter** (dwarf, she/her, child hostage)
+  * *Drive:* Stay near her father, don't drop the oil canister. Has AC 10, HP 4.
+  * *Appearance and Voice:* Twelve years old, with quick eyes and her braid tucked under a cloth cap. Voice quieter than her father's, watches more than she speaks.
+  * *Mechanical Utility:* If rescued, can identify the kobold with the red armband by name (Secret 4).
+* **The Empire Officer** (human, he/him, bureaucrat with a writ)
+  * *Drive:* Execute the writ, avoid getting hit with a lamp, get back to the garrison by sundown. Has AC 12, HP 11.
+  * *Appearance and Voice:* Mid thirties, leather coat with silver buttons, unbuckled sword belt. Voice tired, polite, sounds like a clerk reading a tax roll.
+  * *Mechanical Utility:* Carries the writ stack (Area 3 puzzle) and the deadline (Secret 6).
+* **The Kobold Conscript with the Red Armband** (kobold, he/him, turncoat)
+  * *Drive:* Survive the shift, don't get stabbed by a dwarf, find an excuse to drop the spear. Has AC 12, HP 5.
+  * *Appearance and Voice:* Young, scales dull grey, red armband pinned crooked on the left shoulder. Voice low, speaks in short whispers, watches the officer.
+  * *Mechanical Utility:* If addressed by name and offered a way out, drops his spear and leaves the writ detail.
+* **The Dwarven Fire Brigade Captain** (dwarf, she/her, muscle and brigade leader)
+  * *Drive:* Put the fire out, fine the Empire for the water, keep the party out of the way. Has AC 14, HP 22.
+  * *Appearance and Voice:* Tall for a dwarf, soot on both forearms, leather helmet with a brass badge. Voice loud, clear, sounds like she is shouting across a quarry.
+  * *Mechanical Utility:* Praises the party in front of the city. Praising is a faction disruption tool.
+* **The Liaison (the Recruiter)** (dwarf, he/him, rebellion organizer)
+  * *Drive:* Find four people who can move without the Empire noticing, get the ledger out, offer the ring. Has AC 13, HP 18.
+  * *Appearance and Voice:* A burn from the forge across his jaw, a clean coat over a miner's shirt, a small leather ledger in the breast pocket. Voice warm, patient, buys drinks in the order other people drink them.
+  * *Mechanical Utility:* Provides the meeting house, the cellar flagstone, and the names list (Secret 9).
 * **The Innkeeper** (halfling, she/her, the landlord)
+  * *Drive:* The inn unburnt. The party fed. The basement not used for what the basement is used for. Has AC 10, HP 5.
   * *Appearance and Voice:* Apron twice her size, a bar towel over one shoulder, a whistle on a leather cord. Voice higher than a halfling should reach.
-  * *Drive:* The inn unburnt. The party fed. The basement not used for what the basement is used for.
-  * *Mechanical Utility:* Locks the basement door from above if the fight spills out (Area 4 morale note). Has AC 10, HP 5.
-* **Kobold Captain Skritch** (kobold, he/him, primary antagonist)
-  * *Appearance and Voice:* A red leather half-cloak over leather armor, a short sword at the hip, a wooden whistle on a cord. Voice higher than expected, clipped, the kind of voice that issues orders without waiting for them to be obeyed.
-  * *Drive:* Recover the writ. Recover the daughter. Recover the kobold detail. Report to the garrison commander by sundown.
+  * *Mechanical Utility:* Locks the basement door from above if the fight spills out (Area 4 morale note).
+* **Kobold Captain Skritch** (kobold, he/him, garrison enforcer)
+  * *Drive:* Enforce the writ, kill anyone who touches the officer, take the daughter to the side gate. Has AC 13, HP 22.
+  * *Appearance and Voice:* A cloak of red leather over his armor, a short sword at the hip, a wooden whistle on a cord. Voice higher than expected, clipped, the kind of voice that issues orders without waiting for them to be obeyed.
   * *Combat Behavior:* Skritch targets the party member with the highest armor class first, on the assumption that the heaviest is the leader. Skritch flees at less than 20% HP. Skritch uses Pack Lord's Snarl on a cluster of three or more party members to scatter the formation.
 
 ---

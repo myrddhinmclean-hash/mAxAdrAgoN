@@ -88,8 +88,8 @@ special_notes:
 * **Encounter:** **3 Empire Marines** (AC 14 (scale mail), HP 9 each) attempting to cut the mooring lines.
 
 ### Area 4: The Chimney Intersection & Safehouse (Day 2, Watch 3 — The Climax)
-* **Dimensions and Environment:** Narrow four-way stone intersection overlooked by three-story slate roofs and brick industrial chimneys.
-* **The VIP:** The incognito quartermaster (Glorinath d'Braaken, presented simply as a quiet, hood-cloaked quartermaster reviewing tidal rosters) is being escorted across the intersection between safehouses.
+* **Dimensions and Environment:** Narrow stone intersection overlooked by three story slate roofs and brick industrial chimneys.
+* **The VIP:** The incognito quartermaster (Glorinath d'Braaken, presented simply as a quiet quartermaster clad in a traveler's hood reviewing tidal rosters) is being escorted across the intersection between safehouses.
 * **The Tactical Hazard (The Shrike Hound):**
   * An Empire bred **shrike hound** (AC 13 (natural armor), HP 19, bite +4 to hit, 1d8+2 piercing, Mimicry).
   * *Vocal Mimicry:* The shrike hound lurks in the alley shadows, mimicking the shrill cry of a lost child calling for help in an attempt to lure the VIP away from the escort and into the open street.
@@ -97,20 +97,18 @@ special_notes:
 * **The Sniper Overwatch:**
   * **1 Empire Sniper** (AC 14 (studded leather), HP 13, heavy crossbow +5 to hit, 1d10+3 piercing) perched 40 ft. up on the slate chimney roof.
   * If the shrike hound is eliminated or the VIP kept in full cover, the sniper is denied clean line of sight and must retreat after firing two wild warning bolts.
-* **The Collar Plant:** Around the shrike hound's neck rests a heavy, dull grey iron collar stamped with a sharp geometric eye sigil. No NPC in FairWhether recognizes the mark; Durgan inspects it, shrugs, and notes it is non-standard imperial forge work.
+* **The Collar Plant:** Around the shrike hound's neck rests a heavy, dull grey iron collar stamped with a sharp geometric eye sigil. No NPC in FairWhether recognizes the mark; Durgan inspects it, shrugs, and notes it is unusual imperial forge work.
 
 ---
 
 ## 5. NPC Roster
 
-* **Durgan Emberwick** (dwarf, he/him, lamp merchant and rebellion sympathizer)
-  * *Appearance and Voice:* Broad shoulders, soot-stained leather apron, singed auburn beard plaited with brass wire. Voice booming and warm.
-  * *Drive:* Protect his daughter and aid the dwarven fire brigade in resisting Empire curfews. Has AC 11, HP 12.
-* **Cpt. T (Captain Trident)** (water genasi, she/her, rebel boat captain)
-  * *Drive:* Keep her three fishing craft prepared for covert evacuation and supply runs. Has AC 13, HP 22.
-* **The Incognito Quartermaster (Glorinath d'Braaken)** (elf, he/him, noble logistics officer)
-  * *Appearance and Manner:* Clad in a faded wool travel cloak, hood drawn forward. Speaks sparingly in a soft, cultivated tone; continually cross-references harbor charts with tidal tables.
-  * *Drive:* Coordinate the movement of covert supplies and assess local rebel strength without exposing his noble identity. Has AC 14, HP 18.
+* **Durgan Emberwick** (dwarf, he/him, rebel quartermaster)
+  * *Drive:* Organize logistics for the dock assault, protect the safehouse, keep the party supplied. Has AC 10, HP 9.
+  * *Appearance and Voice:* Broad shoulders, a leather apron stained with soot, and an auburn beard plaited with brass wire. Voice booming and warm.
+* **Glorinath d'Braaken (Incognito VIP)** (elf, he/him, prince in hiding)
+  * *Drive:* Review tide charts, remain unrecognized, ensure the rebellion secures the boats for the crossing. Has AC 15, HP 30.
+  * *Appearance and Manner:* Clad in a faded wool travel cloak, hood drawn forward. Speaks sparingly in a soft, cultivated tone; continually references harbor charts with tidal tables.
 * **Pip** (kobold, he/him, reluctant conscript)
   * *Drive:* Avoid punishment from the Empire sergeant while secretly looking for an opportunity to desert. Has AC 12, HP 5.
 
