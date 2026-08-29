@@ -72,6 +72,8 @@ The gate requires a decision. Decision paralysis is a real outcome and has its o
 
 **Scope breach protocol:** a scope violation pauses that agent's write access immediately. It is restored after one clean, bounded task. A second violation restricts the agent permanently to read-only drafting or removes it. Breaches are logged in one line each.
 
+**External edit protocol:** External edit passes (owner or third-party tools) must be committed as their own checkpoint before any agent wave runs. Agent waves encountering uncommitted changes they did not author must STOP and report, never stage them.
+
 ---
 
 ## 5. AMOEBIX INTEGRATION
