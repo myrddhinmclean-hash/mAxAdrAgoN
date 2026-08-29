@@ -5,6 +5,7 @@ title: "The Golden Sea Crossing — Stat Blocks"
 act: "I"
 assumed_party_level: 2
 system: "D&D 5e (SRD 5.1 / 2014)"
+status: "Ratification-pending (numeric slate)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -23,6 +24,7 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 
 ### Captain Mohdraan 'Smite' Boltstrucken (Pursuit Avatar)
 *Large monstrosity (minotaur), lawful evil*
+* **Module Source:** `module-4.md` L20 ("Captain Mohdraan 'Smite' Boltstrucken"), L86 (`Captain Mohdraan "Smite" Boltstrucken, minotaur captain`).
 * **Armor Class:** 14 (studded leather)
 * **Hit Points:** 45 (6d10 + 12)
 * **Speed:** 40 ft.
@@ -38,10 +40,11 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
   * *Thunderous Rebuke (1/Day):* When struck in melee, releases a blast of thunder. Attacker must succeed on a DC 12 Constitution saving throw or take 7 (2d6) thunder damage and be pushed 10 ft.
 * **Combat Behavior:** Bellows orders; leads boarding grapple; withdraws if his longboat lines are cut.
 
-### Warship Boarder Marine (4 Present)
-*Medium humanoid (human), lawful neutral*
-* **Armor Class:** 14 (scale mail) | **Hit Points:** 11 (2d8 + 2) | **Speed:** 30 ft.
-* **Actions:** Spear (+3 to hit, 1d6 + 1 piercing) or Light Crossbow (+2 to hit, 1d8 piercing).
+### Kobold Boarder (3 Present)
+*Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-4.md` L114 ("3 kobold boarders (75 XP)").
+* **Armor Class:** 12 (leather armor) | **Hit Points:** 5 (2d6 - 2) | **Speed:** 30 ft.
+* **Actions:** Dagger (+4 to hit, 1d4 + 2 piercing) or Spear (+4 to hit, 1d6 + 2 piercing).
 
 ---
 

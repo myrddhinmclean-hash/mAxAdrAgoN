@@ -5,6 +5,7 @@ title: "FairWhether Market — Stat Blocks"
 act: "I"
 assumed_party_level: 1
 system: "D&D 5e (SRD 5.1 / 2014)"
+status: "Ratification-pending (numeric slate)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -18,11 +19,12 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 
 ## Area 1: Market Square (Module Lines 85–94)
 * **Encounter Type:** Social tension / Public confrontation.
-* **Evasion / Parley Viability:** High. The 8 kobolds seek to enforce a market curfew and will avoid combat if challenged by the crowd or redirected by a distraction.
+* **Evasion / Parley Viability:** High. The 8 kobold conscripts seek to enforce a market curfew and will avoid combat if challenged by the crowd or redirected by a distraction.
 * **Ruling 42a Tone Guard:** Conscripts rout immediately on the first casualty. A frontal assault risks drawing the entire garrison.
 
-### Conscript Kobold (8 Present)
+### Kobold Conscript (8 Present)
 *Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-0.5.md` L64 ("One of the eight kobolds in the writ detail... The kobold is a conscript"), L166 (`The Kobold Conscript with the Red Armband`).
 * **Armor Class:** 12 (leather armor)
 * **Hit Points:** 5 (2d6 - 2)
 * **Speed:** 30 ft.
@@ -45,6 +47,7 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 
 ### Kobold Captain Skritch
 *Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-0.5.md` L31 ("kobold guard captain Skritch"), L175 (`Kobold Captain Skritch`).
 * **Armor Class:** 13 (leather armor, buckler)
 * **Hit Points:** 22 (5d6 + 5)
 * **Speed:** 30 ft.
@@ -58,8 +61,11 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
   * *Pack Lord's Snarl (Recharge 5–6):* One creature within 30 ft. that can hear Skritch must succeed on a DC 12 Wisdom saving throw or become frightened until the end of Skritch's next turn.
 * **Combat Behavior:** Directs minions to flank; targets the heaviest armored foe first; flees at 5 HP or fewer.
 
-### Basement Minion Kobold (3 Present)
-* **Stats:** Identical to Conscript Kobold above.
+### Kobold Minion (3 Present)
+*Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-0.5.md` L125 ("The three kobold minions rout immediately if Skritch flees"), L189 ("3 kobolds").
+* **Armor Class:** 12 | **Hit Points:** 5 | **Speed:** 30 ft.
+* **Actions:** Dagger (+4 to hit, 1d4 + 2 piercing) or Sling (+4 to hit, 1d4 + 2 bludgeoning).
 * **Combat Behavior:** Holds doorway choke point; routs immediately if Skritch flees.
 
 ---

@@ -5,6 +5,7 @@ title: "Garegstown Landing — Stat Blocks"
 act: "I"
 assumed_party_level: 2
 system: "D&D 5e (SRD 5.1 / 2014)"
+status: "Ratification-pending (numeric slate)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -21,13 +22,15 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Evasion / Parley Viability:** High. Morning coastal fog provides heavy obscurement for stealth checks.
 * **Ruling 42a Tone Guard:** The Iron Fortress looms offshore. Firing unsuppressed spells alerts warship ballistas.
 
-### Empire Dock Marine (2 Present)
+### Empire Marine (2 Present)
 *Medium humanoid (human), lawful neutral*
+* **Module Source:** `module-8.md` L119 (`* **Empire Marines & Kobold Scouts**`), L126 ("2 Empire marines (100 XP)").
 * **Armor Class:** 14 (scale mail) | **Hit Points:** 11 (2d8 + 2) | **Speed:** 30 ft.
 * **Actions:** Shortsword (+3 to hit, 1d6 + 1 piercing) or Heavy Crossbow (+2 to hit, 1d10 piercing).
 
-### Search Detail Kobold (4 Present)
+### Kobold Scout (4 Present)
 *Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-8.md` L119 (`* **Empire Marines & Kobold Scouts**`), L126 ("4 kobolds (100 XP)").
 * **Armor Class:** 12 | **Hit Points:** 5 | **Speed:** 30 ft.
 * **Actions:** Dagger (+4 to hit, 1d4 + 2 piercing). Traits: Pack Tactics, Sunlight Sensitivity.
 

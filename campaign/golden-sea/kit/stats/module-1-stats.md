@@ -5,6 +5,7 @@ title: "The FairWhether Revolt — Stat Blocks"
 act: "I"
 assumed_party_level: 1
 system: "D&D 5e (SRD 5.1 / 2014)"
+status: "Ratification-pending (numeric slate)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -21,8 +22,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Evasion / Parley Viability:** High. Patrol can be bribed or diverted into alleys before drawing weapons.
 * **Ruling 42a Tone Guard:** Urban guard engagement. City alarm sounds if combat exceeds 4 rounds.
 
-### Empire Patrol Sergeant
+### Empire Sergeant
 *Medium humanoid (human), lawful neutral*
+* **Module Source:** `module-1.md` L119 ("1 Sergeant (CR 1/8, 25 XP)").
 * **Armor Class:** 14 (scale mail)
 * **Hit Points:** 11 (2d8 + 2)
 * **Speed:** 30 ft.
@@ -32,8 +34,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
   * *Spear:* Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands.
 * **Combat Behavior:** Orders kobolds forward while maintaining defensive line; calls for backup if bloodied.
 
-### Patrol Kobold (4 Present)
+### Kobold (4 Present)
 *Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-1.md` L119 ("4 Kobolds (CR 1/8, 100 XP)").
 * **Armor Class:** 12 (leather armor)
 * **Hit Points:** 5 (2d6 - 2)
 * **Speed:** 30 ft.
@@ -45,8 +48,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Encounter Type:** Spy confrontation in confined storage.
 * **Evasion / Parley Viability:** Moderate. The spy attempts to destroy documents and escape rather than fight.
 
-### Empire Informant Spy
+### Empire Spy
 *Medium humanoid (human), neutral evil*
+* **Module Source:** `module-1.md` L120 ("1 Spy (CR 1/8, 25 XP) + 2 Kobolds").
 * **Armor Class:** 12 (leather armor)
 * **Hit Points:** 16 (3d8 + 3)
 * **Speed:** 30 ft.
@@ -64,8 +68,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Evasion / Parley Viability:** Low. The beast is trained to kill and the sniper holds high ground overwatch.
 * **Ruling 42a Tone Guard:** Lethal tactical hazard. The shrike hound mimics a crying child to bait the VIP into the open.
 
-### Trained Shrike Hound (Ruling 13)
+### Shrike Hound (Ruling 13)
 *Medium monstrosity, unaligned*
+* **Module Source:** `module-1.md` L19 ("The hazzard in the VIP protection watch is a shrike hound"), L94 ("An Empire bred shrike hound").
 * **Armor Class:** 13 (natural armor)
 * **Hit Points:** 19 (3d8 + 6)
 * **Speed:** 40 ft.
@@ -79,8 +84,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
   * *Bite:* Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 * **Combat Behavior:** Circles in alley shadows until a target separates, then drags victims into open line of sight.
 
-### Empire Roof Sniper
+### Empire Sniper
 *Medium humanoid (human), lawful neutral*
+* **Module Source:** `module-1.md` L98 (`* **1 Empire Sniper** (AC 14 (studded leather), HP 13, heavy crossbow +5 to hit, 1d10+3 piercing)`).
 * **Armor Class:** 14 (studded leather)
 * **Hit Points:** 13 (3d8)
 * **Speed:** 30 ft. (climb 20 ft.)

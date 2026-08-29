@@ -5,6 +5,7 @@ title: "The Dock Assault — Stat Blocks"
 act: "I"
 assumed_party_level: 1
 system: "D&D 5e (SRD 5.1 / 2014)"
+status: "Ratification-pending (numeric slate)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -21,8 +22,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Evasion / Parley Viability:** Low on initial approach; high once Skritch's oil barricade is threatened.
 * **Ruling 42a Tone Guard:** Flammable oil drums create mutual lethal terrain. Pier collapses under heavy impact.
 
-### Kobold Captain Skritch (Dock Defense)
+### Kobold Captain Skritch
 *Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-2.md` L42 ("Kobold Captain Skritch"), L86 (`Kobold Captain Skritch`).
 * **Armor Class:** 13 (leather armor, buckler)
 * **Hit Points:** 22 (5d6 + 5)
 * **Speed:** 30 ft.
@@ -30,8 +32,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Actions:** Shortsword (+5 to hit, 1d6 + 2 piercing). Special: Pack Lord's Snarl (Recharge 5–6, DC 12 Wisdom save).
 * **Combat Behavior:** Fights behind oil drum barricade; flees to dock tavern at 5 HP or fewer.
 
-### Pier Guard Kobold (5 Present)
+### Kobold (5 Present)
 *Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-2.md` L86 ("five kobolds").
 * **Armor Class:** 12 | **Hit Points:** 5 | **Speed:** 30 ft.
 * **Actions:** Dagger (+4 to hit, 1d4 + 2 piercing) or Sling (+4 to hit, 1d4 + 2 bludgeoning).
 
@@ -41,13 +44,13 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Encounter Type:** Waterfront sabotage prevention.
 * **Evasion / Parley Viability:** High. Sentries can be ambushed or bribed to abandon scuttling orders.
 
-### Empire Marine Guard (2 Present)
-*Medium humanoid (human), lawful neutral*
-* **Armor Class:** 14 (scale mail)
-* **Hit Points:** 11 (2d8 + 2)
+### Kobold Sentry (2 Present)
+*Small humanoid (kobold), lawful evil*
+* **Module Source:** `module-2.md` L57 ("Two kobold sentries are guarding the two Empire longboats").
+* **Armor Class:** 12 (leather armor)
+* **Hit Points:** 5 (2d6 - 2)
 * **Speed:** 30 ft.
-* **STR:** 13 (+1) | **DEX:** 11 (+0) | **CON:** 12 (+1) | **INT:** 10 (+0) | **WIS:** 10 (+0) | **CHA:** 10 (+0)
-* **Actions:** Spear (+3 to hit, 1d6 + 1 piercing) or Heavy Crossbow (+2 to hit, 1d10 piercing).
+* **Actions:** Dagger (+4 to hit, 1d4 + 2 piercing) or Sling (+4 to hit, 1d4 + 2 bludgeoning).
 * **Combat Behavior:** Prioritizes cutting mooring lines to scuttle vessels before fighting.
 
 ---

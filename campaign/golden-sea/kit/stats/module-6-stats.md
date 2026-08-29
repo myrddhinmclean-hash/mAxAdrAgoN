@@ -5,6 +5,7 @@ title: "The Courier Flight and ITEM X — Stat Blocks"
 act: "I"
 assumed_party_level: 2
 system: "D&D 5e (SRD 5.1 / 2014)"
+status: "Ratification-pending (numeric slate)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -21,8 +22,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Evasion / Parley Viability:** Very High. The kobold guards are reluctant conscripts looking for excuses to avoid conflict.
 * **Ruling 42a Tone Guard:** Open water vessel. Any blood spilled on deck invites immediate mutiny and exposes the hidden cargo.
 
-### Conscript Sailor Kobold (3 Present, including Pip)
+### Kobold Guard (Conscript) (3 Present, including Pip)
 *Small humanoid (kobold), lawful neutral*
+* **Module Source:** `module-6.md` L31 ("on a fishing boat with 3 kobold guards"), L41 ("The Empire has 3 kobold guards on the boat, and the party does not know if the guards are conscripts or volunteers").
 * **Armor Class:** 12 (leather armor)
 * **Hit Points:** 5 (2d6 - 2)
 * **Speed:** 30 ft. (swim 20 ft.)

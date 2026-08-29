@@ -5,6 +5,7 @@ title: "The Kladesh Ocean and Thalassar — Stat Blocks"
 act: "I"
 assumed_party_level: 3
 system: "D&D 5e (SRD 5.1 / 2014)"
+status: "Ratification-pending (numeric slate)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -21,8 +22,9 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Evasion / Parley Viability:** Critical. Waveborn are not mindless enemies; Glori's presentation of W1 triggers an immediate ceasefire and alliance.
 * **Ruling 42a Tone Guard:** Waveborn warriors are formidable aquatic champions. Forcing combat results in heavy party casualties.
 
-### Waveborn Tide Warrior (4 Present — Parley Oriented)
+### Waveborn Warrior (4 Present — Parley Oriented)
 *Medium humanoid (merfolk), neutral*
+* **Module Source:** `module-3.md` L40 ("Eight waveborn warriors (merfolk raiders)"), L77 (`4 Waveborn Warriors (AC 13, HP 16 each, trident +4 to hit)`).
 * **Armor Class:** 13 (natural armor)
 * **Hit Points:** 18 (4d8)
 * **Speed:** 10 ft., swim 40 ft.
