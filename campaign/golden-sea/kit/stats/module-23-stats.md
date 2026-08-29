@@ -10,6 +10,7 @@ rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
   - "Ruling 43: Chronological monotonic level curve"
+  - "Ruling 45: The Celestial Clock climax chassis"
 ---
 
 # The Blood-Moon Conjunction — Combat & Threat Statistics
@@ -19,10 +20,10 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 ---
 
 ## Area 2: The Altar of the Blood-Moon (Module Lines 77–82)
-* **Encounter Type:** Campaign climax / Legendary boss confrontation.
+* **Encounter Type:** Campaign climax / Legendary boss confrontation (The Celestial Clock, Ruling 45).
 * **Evasion / Parley Viability:** Zero. The cosmic deadline expires at midnight; only slaying the Vampire King or uniting the four Boons will halt eternal night.
 * **Ruling 42a Tone Guard:** Mandatory survival note. The Astral Pinnacle has no railings. Planar gravity shifts on Initiative Count 20. Characters knocked off must succeed on a DC 15 Dexterity save or fall into the astral void.
-* **Owner Mini-Ruling Required (Ruling 45):** Intended fight feel — grind, race, or horror. (Marked explicitly per W21.0 spec §3).
+* **Celestial Clock Ritual Tracker (Ruling 45):** The Blood-Moon ritual advances automatically at the start of each round on Initiative Count 20. If the Vampire King is not defeated or the ritual disrupted by the end of Round 5, the crimson eclipse locks permanently into place, enacting the campaign's structural failure state (eternal cosmic night across the continent, distinct from a party kill).
 
 ### The Vampire King (Lord of the Crimson Eclipse)
 *Medium undead, lawful evil*
@@ -40,7 +41,7 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Actions:**
   * *Multiattack:* Makes three attacks: two with his Greatsword of Draining and one with his Blood Bite.
   * *Greatsword of Draining:* Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 10 (3d6) necrotic damage.
-  * *Blood Bite:* Melee Weapon Attack: +9 to hit, reach 5 ft., one willing, grappled, or incapacitated creature. Hit: 8 (1d6 + 5) piercing damage plus 10 (3d6) necrotic damage, and target's HP maximum is reduced by the necrotic damage dealt.
+  * *Blood Bite:* Melee Weapon Attack: +9 to hit, reach 5 ft., one willing, grappled, or incapacitated creature. Hit: 8 (1d6 + 5) piercing damage plus 10 (3d6) necrotic damage.
   * *Blood-Moon Eclipse Ray (Recharge 5–6):* Emits a crimson beam in a 60 ft. line, 5 ft. wide. DC 16 Dexterity saving throw, taking 36 (8d8) necrotic damage and blinded for 1 round on failure, half on success.
 * **Legendary Actions (3/Round):**
   * *Teleport / Shadow Glide (1 Action):* Teleports up to 30 ft. to an unoccupied space it can see.
@@ -61,6 +62,6 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Claim:** Module-23 is balanced for a party of 4 characters at Level 9 per Ruling 43.
 * **Status:** Ratification-pending (numeric slate wave 2).
 
-### Entry 2 — Vampire King Design Chassis (Ruling 45 Pending)
-* **Claim:** Custom CR 10 legendary warlord chassis reflecting the Blood-Moon Conjunction mechanics.
-* **Status:** Owner mini-ruling required (Ruling 45): intended fight feel — grind, race, or horror.
+### Entry 2 — Vampire King Design Chassis (Ruling 45 Ratified)
+* **Claim:** Custom CR 10 legendary warlord chassis operating on the 5-round Celestial Clock race mechanic.
+* **Status:** Ratified author canon (Ruling 45).
