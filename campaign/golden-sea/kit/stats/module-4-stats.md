@@ -5,7 +5,7 @@ title: "The Golden Sea Crossing — Stat Blocks"
 act: "I"
 assumed_party_level: 2
 system: "D&D 5e (SRD 5.1 / 2014)"
-status: "Ratification-pending (numeric slate)"
+status: "Ratified (Ruling 44, W20.0)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
