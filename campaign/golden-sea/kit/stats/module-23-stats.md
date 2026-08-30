@@ -5,7 +5,7 @@ title: "The Blood-Moon Conjunction and the Vampire King — Stat Blocks"
 act: "III"
 assumed_party_level: 9
 system: "D&D 5e (SRD 5.1 / 2014)"
-status: "Ratification-pending (numeric slate wave 2)"
+status: "Ratified (Ruling 46, W22.0)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -60,7 +60,7 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 
 ### Entry 1 — Assumed Party Level (Ratification-Pending)
 * **Claim:** Module-23 is balanced for a party of 4 characters at Level 9 per Ruling 43.
-* **Status:** Ratification-pending (numeric slate wave 2).
+* **Status:** Ratified author canon (Ruling 43 & Ruling 46).
 
 ### Entry 2 — Vampire King Design Chassis (Ruling 45 Ratified)
 * **Claim:** Custom CR 10 legendary warlord chassis operating on the 5-round Celestial Clock race mechanic.

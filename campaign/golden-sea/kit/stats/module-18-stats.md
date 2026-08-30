@@ -5,7 +5,7 @@ title: "The High Castle of Sortengraahd and PVP 2 — Stat Blocks"
 act: "III"
 assumed_party_level: 6
 system: "D&D 5e (SRD 5.1 / 2014)"
-status: "Ratification-pending (numeric slate wave 2)"
+status: "Ratified (Ruling 46, W22.0)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -22,6 +22,7 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 * **Encounter Type:** Mirror-party rivalry clash / PVP 2.
 * **Evasion / Parley Viability:** Zero alliance viability per Ruling 39 (Two Parties, Second Evil Party, Never Align). Disengagement is possible only by jumping down the frozen canyon flume.
 * **Ruling 42a Tone Guard:** Mandatory survival note. The Gilded Crest operates as a synchronized tactical unit. Focusing all attacks on one target leaves the backline exposed to their Shadow Blade assassin.
+* **Round-1 Tactical Tell (Ruling 46):** At the start of Round 1, the Dread War Priest loudly intones a blood chant while his warhammer glows with unholy amber light, clearly telegraphing his upcoming Hold Person spell to allow player positioning or counter-measures.
 
 ### The Gilded Crest — Death Knight Adept (Frontline Commander)
 *Medium humanoid (human), neutral evil*
@@ -75,8 +76,11 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 
 ### Entry 1 — Assumed Party Level (Ratification-Pending)
 * **Claim:** Module-18 is balanced for a party of 4 characters at Level 6 per Ruling 43.
-* **Status:** Ratification-pending (numeric slate wave 2).
+* **Status:** Ratified author canon (Ruling 43 & Ruling 46).
 
 ### Entry 2 — Action Economy Warning (Ratification-Pending)
 * **Claim:** PVP 2 features 4 Level 6 equivalent enemy champions against 4 player characters. This equal action economy creates the highest lethal spike in Act III if focus fire is mismanaged.
 * **Status:** Flagged for owner review per W21.0 spec §3.
+### Entry 3 — Dread War Priest Tactical Tell (Ratified)
+* **Claim:** Round-1 amber glow and vocal blood chant telegraphed to provide fair tactical counter-play against paralysis burst.
+* **Status:** Ratified author canon (Ruling 46).

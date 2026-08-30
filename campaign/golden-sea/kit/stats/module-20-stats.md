@@ -5,7 +5,7 @@ title: "The Foundry Assault and Tithe Crucible — Stat Blocks"
 act: "III"
 assumed_party_level: 7
 system: "D&D 5e (SRD 5.1 / 2014)"
-status: "Ratification-pending (numeric slate wave 2)"
+status: "Ratified (Ruling 46, W22.0)"
 rulings_applied:
   - "Ruling 42: D&D 5e SRD 5.1 rules baseline"
   - "Ruling 42a: Attrition-first tone guard"
@@ -51,4 +51,4 @@ All stat blocks reference spatial areas and line numbers in `campaign/golden-sea
 
 ### Entry 1 — Assumed Party Level (Ratification-Pending)
 * **Claim:** Module-20 is balanced for a party of 4 characters at Level 7 per Ruling 43.
-* **Status:** Ratification-pending (numeric slate wave 2).
+* **Status:** Ratified author canon (Ruling 43 & Ruling 46).
