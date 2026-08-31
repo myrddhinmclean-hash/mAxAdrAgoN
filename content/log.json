@@ -1,0 +1,60 @@
+{
+  "_comment": "The Log. Dated record of what was worked on. Back-catalogue reconstructed on 2026-08-31 from a file inventory of 1,450 documents, so the dates are file dates rather than memory. Newest first. No cadence: entries appear when work happens.",
+  "updated": "2026-08-31",
+  "entries": [
+    {
+      "date": "2026-08-31",
+      "title": "The site becomes a record instead of a magazine",
+      "tags": ["the lair", "AmoebiX", "governance"],
+      "body": "Rebuilt the site around what actually happens here. Three reading rooms stay for finished writing. Four working rooms added: this log, a project register, the map of the future, and the quorum record. Governance amended to match, since it named exactly three rooms and now names seven.\n\nThe register lists every project, started or not. Twenty seven of them, five working, sixteen still a README and a stub. Presenting the unstarted ones as unstarted is the point.\n\nAlso today: two teardowns published, AxiomTEA and Dungeon Cue. A voice-checking pipeline built, calibrated, and halted on purpose. The site repo moved off Google Drive, where a syncing folder had been quietly rewriting a live git directory."
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A machine that measured my own writing, and why it was switched off",
+      "tags": ["the lair", "AmoebiX"],
+      "body": "Built four gates to check whether a draft sounds like me. A free regex pass on banned words, a local embedding score against a corpus of my own writing, an LLM comparator, a fact pass. Got the first two working and calibrated the threshold to zero false rejections across thirty one samples.\n\nThen halted it. Its main output was a list of fixes, and I do not revise. I write once and abandon what does not work, so the tool's primary product had no consumer. The regex check stays because it costs nothing and already caught a real defect in itself: the banned word list would have vetoed a poem I wrote in 2016.\n\nThe rest is archived with a written condition for waking it up."
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Draega canon pulled off World Anvil, and one published entry found to be wrong",
+      "tags": ["Draega", "the lair"],
+      "body": "Mirrored thirty two World Anvil articles into the repo. All of it mine, no AI anywhere in it, which makes it the clean counterweight to a worldbuilding compendium that got partly AI-filled and has been flagged untrusted since.\n\nThe pull turned up an error in a live entry. A 2020 site I built myself puts Anjax in the four-person player party. The published piece files him among the captains and generals. The published piece is wrong, and it is wrong in exactly the way a contaminated source predicts: smooth, confident, and traceable to nothing."
+    },
+    {
+      "date": "2026-08-24",
+      "title": "The heaviest week. AxiomTEA, AmoebiX, and the bridge",
+      "tags": ["AxiomTEA", "AmoebiX", "AGY Bridge", "Draega"],
+      "body": "Five hundred and fifty four documents in seven days, the largest stretch of work in the record.\n\nAxiomTEA took a hundred and eighty two of them and came out the other side as a shipping product. AmoebiX took a hundred and twenty and became the thing I now use every day. The agent bridge took seventy nine. The Golden Sea campaign took fifty eight and reached twenty four modules.\n\nThe Windows runner was built this week too, which is why a session in the cloud can now do things on this machine without me pasting commands into a terminal."
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Fifteen projects fall out of the research",
+      "tags": ["FutureMap", "AxiomTEA", "research"],
+      "body": "The Moonshots corpus turned into a taxonomy and then into a portfolio. Twenty four branches, fifteen projects, each with a code and a branch and a capital figure of zero.\n\nMost of them are scaffolds and the README says so now, though it did not at first. It claimed fifty of fifty tests passing and pointed at a test runner that does not exist. That got corrected rather than quietly deleted, because a repo overstating its own state is the same failure the flagship project exists to detect in other people's claims.\n\nAxiomTEA is the one that got real."
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Two large questions with no product attached",
+      "tags": ["research"],
+      "body": "Asked how you would redesign civilization if you could. The answer refused the framing: do not try to fix people, redesign the incentive architecture, because civilization is extraordinarily good at local optimization and extraordinarily bad at global.\n\nThe next day, asked for the ten most consequential bets humanity has made since 2021, chosen on real capital and real hardware rather than noise, and stacked rather than listed."
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Fable Archive, and three tools at once",
+      "tags": ["Fable Archive", "Dungeon Cue", "DMToolbox", "SoundCue", "MudBuddy"],
+      "body": "Two hundred and thirty four documents. The Fable Archive alone accounts for a hundred and sixty five of them.\n\nDungeon Cue, DMToolbox, SoundCue and MudBuddy all moved in the same week, which is either productive or a diagnosis depending on who is counting."
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Dungeon Cue starts",
+      "tags": ["Dungeon Cue", "SoundCue"],
+      "body": "The mouse is on the wrong side of the table. That is the whole problem statement, and Dungeon Cue is the answer to it: say the phrase, the rain starts, nobody looks up.\n\nSoundCue moved the same week, and its electric blue and gold became the visual language for everything after."
+    },
+    {
+      "date": "2026-07-13",
+      "title": "The workspace itself",
+      "tags": ["AmoebiX", "MudBuddy"],
+      "body": "Fifty documents, most of them the working environment rather than any product. This is where the record starts. Before this week the folders hold invoices, resumes, a dissertation, and descriptions written for text games, and nothing that became any of this."
+    }
+  ]
+}
