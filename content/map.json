@@ -1,0 +1,157 @@
+{
+  "_comment": "The Map of the Future. Derived from roughly 900 KB of research into the Moonshots archive and related channels, August 2026. Part A is the raw thematic list, uncurated. Part B is what survives a filter of: one person, home hardware, near-zero capital, and not already a bloodbath. No dates anywhere, deliberately. It is a map, not a schedule.",
+  "updated": "2026-08-31",
+  "source": {
+    "corpus": "~900 KB of research summaries drawn from Moonshots with Peter Diamandis and related channels, not raw transcripts",
+    "compiled": "2026-08-20",
+    "taxonomy": "The 24-Branch System, revision 6, dated 2026-08-18, credited to Gemini Notebook",
+    "quorum_link": "moonshots-archive"
+  },
+  "part_a": {
+    "title": "Everything that could be built",
+    "note": "Uncurated. Includes things needing capital, hardware, a lab or a team, because the ask was complete rather than pre-filtered.",
+    "themes": [
+      { "n": 1, "name": "AI agents and automation", "items": [
+        "Multi-agent orchestration platforms",
+        "Agent permission, sandboxing and audit-trail tooling",
+        "Context compression and token-cost reduction middleware",
+        "AI-native one-person-company tooling",
+        "Vibe-coding-to-production pipelines",
+        "AI browsers and AI-native search replacements" ] },
+      { "n": 2, "name": "Verification, trust, epistemics", "built": "AxiomTEA lives here and is finished", "items": [
+        "Physics and first-principles feasibility auditing",
+        "Prediction-tracking databases: who predicted what, when, and were they right",
+        "Adversarial benchmarking and model-versus-model leaderboards",
+        "Automated replication labs for scientific claims",
+        "Deception and hidden-cheating detectors for model outputs",
+        "Evidence verification engines cross-checking claims against data" ] },
+      { "n": 3, "name": "Energy", "items": [
+        "Sodium-ion battery chemistry and manufacturing",
+        "Orbital solar arrays and space-based power beaming",
+        "Enhanced geothermal colocated with data centres",
+        "Small modular reactors and micro-fission",
+        "Fusion: tokamak, stellarator, magnetic confinement",
+        "Grid load balancing and virtual power plants",
+        "Energy kites and molten-salt storage" ] },
+      { "n": 4, "name": "Longevity and biotech", "items": [
+        "Epigenetic reprogramming therapeutics",
+        "Senolytic drug discovery",
+        "3D-bioprinted organs",
+        "AI-driven drug discovery",
+        "Multi-omic aging clocks and biological age tracking",
+        "De-extinction and genetic reconstruction",
+        "Personalized nutrition and continuous biomarker tracking" ] },
+      { "n": 5, "name": "Robotics and physical automation", "items": [
+        "General-purpose humanoid robots",
+        "Robot fleet management and teleoperation",
+        "Warehouse and logistics robotics",
+        "Robotic wearables and exosuits",
+        "Agricultural robotics and precision-ag drones" ] },
+      { "n": 6, "name": "Transportation", "items": [
+        "Robotaxi fleet orchestration",
+        "Urban air mobility traffic control",
+        "Hyperloop and vacuum-tube transit",
+        "Autonomous trucking and maritime shipping" ] },
+      { "n": 7, "name": "Space", "items": [
+        "Reusable launch vehicles",
+        "Orbital manufacturing and zero-G drydocks",
+        "Lunar and Mars in-situ resource utilization",
+        "Asteroid mining",
+        "Satellite constellations and orbital data centres",
+        "Light-sail interstellar probes" ] },
+      { "n": 8, "name": "Materials and nanotech", "items": [
+        "Molecular-scale synthesis platforms: print any material",
+        "Carbon nanotube manufacturing at macro scale",
+        "Graphene composite production",
+        "AI-driven crystal and material discovery" ] },
+      { "n": 9, "name": "Quantum and advanced computing", "items": [
+        "Cryogenic qubit scaling",
+        "Thermodynamic computing" ] },
+      { "n": 10, "name": "Climate and carbon", "items": [
+        "Direct air capture plants",
+        "Enhanced weathering and mineralization storage",
+        "Solar radiation management",
+        "Wildfire prediction" ] },
+      { "n": 11, "name": "Food and agriculture", "items": [
+        "Cultured protein bioreactors",
+        "Vertical farming automation",
+        "Nitrogen-fixing crops without synthetic fertilizer",
+        "Food-waste reduction" ] },
+      { "n": 12, "name": "Education", "built": "close to an AI fluency curriculum already written", "items": [
+        "AI personal tutors and adaptive curricula",
+        "Skill verification and credentialing",
+        "Apprenticeship and mentorship matching",
+        "AI-literacy and critical-thinking curricula" ] },
+      { "n": 13, "name": "Economics, finance, work", "items": [
+        "Universal basic income distribution infrastructure",
+        "Compute financialization: GPUs as tradable assets",
+        "Workforce displacement mapping and retraining engines",
+        "Crypto treasury and hedging tooling",
+        "Agent-driven commerce: an agent perceives a need, buys, pays" ] },
+      { "n": 14, "name": "Governance and security", "items": [
+        "AI governance, compliance and audit fabric",
+        "Model release policy and evaluation frameworks",
+        "Deepfake detection",
+        "AI personhood and rights frameworks" ] },
+      { "n": 15, "name": "Human performance", "items": [
+        "Flow-state training",
+        "Sleep-engineering wearables",
+        "Journaling and reflection tools on named frameworks",
+        "Peak-performance coaching platforms",
+        "Community and accountability platforms" ] },
+      { "n": 16, "name": "Defense and military", "excluded": "out of scope by my own constraint. Listed only because it is genuinely in the source material.", "items": [
+        "Autonomous weapons targeting",
+        "Drone warfare platforms",
+        "Military-grade cyberwarfare tooling" ] },
+      { "n": 17, "name": "Consciousness and AI welfare", "items": [
+        "Mechanistic interpretability tooling, including distress-signature detection in model internals",
+        "AI welfare and alignment evaluation frameworks" ] }
+    ]
+  },
+  "part_b": {
+    "title": "What one person could actually build",
+    "filter": [
+      "One person, home hardware. Nothing here needs serious local compute; anything model-heavy calls a hosted API.",
+      "No lab equipment, no manufacturing, no regulatory approval pathway, no physical supply chain.",
+      "Not already saturated by well-funded competitors.",
+      "Not a duplicate of AxiomTEA.",
+      "A narrow, identifiable buyer. Not everyone. A specific small population with this exact problem now."
+    ],
+    "top_pick": {
+      "name": "Citation and reference integrity checker",
+      "why_now": "The problem I hit twice in the conversation that produced this list. AI research assistants fabricate specific-sounding citations, episode numbers, guest names, dates and URLs that do not survive a check against the real source. My own 900 KB research corpus is full of it: invented episode numbers, claims attributed to episodes that may not say what is claimed.",
+      "what_it_does": "Paste in a document. It extracts every citation-shaped claim and checks it against real public metadata, podcast feeds, video APIs, publisher sites, then flags each one CONFIRMED, MISMATCHED where the source exists but does not say that, or NOT FOUND where the source does not appear to exist at all.",
+      "why_it_clears": "Near-zero capital on free public APIs. Narrow enough not to compete with AxiomTEA, which does physics rather than citations, or with general fact-checkers, which do political truth rather than source existence. The buyer is concrete and growing: anyone using AI for research who has been burned by exactly this. And the test corpus already exists, for free, in my own files."
+    },
+    "candidates": [
+      {
+        "name": "Prediction ledger and forecaster track record",
+        "what": "A structured record of specific dated predictions by public figures, with target dates, and an ongoing scorecard of what came true.",
+        "different_from": "Metaculus and Manifold are crowd markets on open questions going forward. This is retrospective and person-specific.",
+        "risk": "More labour to seed than the top pick. Predictions have to be found and dated correctly by hand at first."
+      },
+      {
+        "name": "Hype-density self-check for writers",
+        "what": "AxiomTEA's unfalsifiable-claim-density idea pointed at a different buyer: writers checking their own draft before publishing, framed as craft rather than a verdict.",
+        "risk": "Willingness to pay for making your own writing more credible is genuinely unproven and would need validating early."
+      },
+      {
+        "name": "Session-prep compiler",
+        "what": "Takes loose campaign notes and compiles them into a consistent prep document matching an established style and canon, catching continuity contradictions rather than rules violations.",
+        "risk": "Thin moat. World Anvil, LegendKeeper and Notion templates already cover part of this. Listed as a real option, not a strong one."
+      },
+      {
+        "name": "Token cost and API usage audit for solo developers",
+        "what": "Ingests billing exports and flags waste: redundant calls, oversized context windows, repeated identical prompts, with concrete fixes.",
+        "risk": "The providers already ship dashboards. The differentiator would have to be genuinely sharper waste detection, not another cost graph."
+      }
+    ],
+    "ruled_out": [
+      { "what": "Anything agent-orchestration or coding-assistant shaped", "why": "The single most saturated category in the entire corpus." },
+      { "what": "Robotics, hardware, space, energy generation", "why": "Capital and lab dependent. Not home-buildable." },
+      { "what": "Defense and government", "why": "Excluded by my own constraint." },
+      { "what": "Anything needing licensed data feeds", "why": "Market sizing and financial diligence data cost money before the first customer does. An evidence-based claim auditor died for exactly this reason." },
+      { "what": "Wellness and habit-tracking apps", "why": "Buildable at home and one of the most oversaturated consumer categories that exists. Clears every filter except the one that matters." }
+    ]
+  }
+}
