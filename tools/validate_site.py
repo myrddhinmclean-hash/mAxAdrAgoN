@@ -202,6 +202,42 @@ else:
 
 # ---------------------------------------------------------------- check 6
 print()
+print("CHECK 7  entry title is rendered exactly once")
+# Every entry page printed its title twice for the whole life of the site: once
+# from the frontmatter, once from the markdown body's own H1. Six checks passed
+# green the entire time, because none of them looked at what a reader sees.
+#
+# This cannot execute JavaScript, so it does not pretend to render the page. It
+# guards the two static facts the fix depends on: hoard.js still lifts a leading
+# body H1 out of the content, and the page still reads it back.
+hoard_js = os.path.join(ROOT, "assets", "js", "hoard.js")
+if not os.path.exists(hoard_js):
+    bad("hoard.js is missing")
+else:
+    js = read(hoard_js)
+    if "bodyTitle" not in js:
+        bad("hoard.js no longer lifts the leading body H1 out of the markdown "
+            "(bodyTitle is gone). Every entry would print its title twice.")
+    elif "parsed.metadata" not in js:
+        bad("hoard.js extracts bodyTitle but the entry page never reads it back.")
+    else:
+        ok("hoard.js still lifts the leading body H1; titles render once")
+
+    mismatches = []
+    for p in posts:
+        md_path = os.path.normpath(os.path.join(ROOT, "hoards", p["path"]))
+        if not os.path.exists(md_path):
+            continue
+        m = re.search(r"^#\s+(.+?)\s*$", read(md_path), re.M)
+        if m and m.group(1).strip() != str(p.get("title", "")).strip():
+            mismatches.append((p["slug"], p.get("title", ""), m.group(1).strip()))
+    if mismatches:
+        print("  INFO  %d entry heading(s) differ from the index title; the "
+              "longer one is shown:" % len(mismatches))
+        for slug, t, h in mismatches:
+            print("          %s: %r vs %r" % (slug, t, h))
+
+print()
 print("CHECK 6  hoard occupancy (informational)")
 counts = {h: 0 for h in HOARDS}
 for entry in posts:

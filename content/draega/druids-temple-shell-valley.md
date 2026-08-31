@@ -5,7 +5,7 @@ hoard: "draega"
 summary: "A thousand-foot sequoia rises from a silent lake. The gnome druid who hires you to enter it pays gold upfront, asks no questions, and gives you four rules. Break them and you get eaten."
 ---
 
-# Shell Valley: The Heartwood Descent
+# The Druid's Temple in Shell Valley
 *An adventure module for four 5th-level characters*
 
 ---
