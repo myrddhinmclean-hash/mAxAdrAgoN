@@ -31,6 +31,15 @@ function parseMarkdown(md) {
   // Permanent pipeline rule: strip trailing editor notes and preceding divider
   text = text.replace(/(?:\n\s*---\s*)?\n\s*\*?Tempted to invent but didn't:[\s\S]*$/i, "").trim();
 
+  // The page already prints a title above the body. A leading H1 in the body
+  // printed it a second time on every entry. Lift it out and hand it back, so
+  // the page can use the fuller of the two headings and show it once.
+  const leadH1 = text.match(/^#\s+(.+?)\s*$/m);
+  if (leadH1 && text.trimStart().startsWith("#") && !text.trimStart().startsWith("##")) {
+    metadata.bodyTitle = leadH1[1].trim();
+    text = text.replace(/^#\s+.+?\s*$/m, "").trim();
+  }
+
   // Code blocks
   const codeBlocks = [];
   text = text.replace(/```([a-z0-9_-]*)\n([\s\S]*?)```/g, (match, lang, code) => {
@@ -262,6 +271,15 @@ async function loadSingleEntry() {
     const rawMd = await res.text();
     const parsed = parseMarkdown(rawMd);
     contentEl.innerHTML = parsed.html;
+
+    // Prefer the body's own heading when it carries more than the index does
+    // ("Shell Valley" in the index, "Shell Valley: The Heartwood Descent" in
+    // the file). Either way it appears once.
+    const bt = parsed.metadata && parsed.metadata.bodyTitle;
+    if (bt && titleEl && bt.length > String(post.title).length) {
+      titleEl.textContent = bt;
+      document.title = bt + " — mAxAdrAgoN";
+    }
   } catch (err) {
     contentEl.innerHTML = `
       <p><em>${post.excerpt}</em></p>
