@@ -37,16 +37,12 @@
         <a href="index.html">mAxAdrAgoN</a>
         <span class="brand-tag">Projects</span>
       </div>
-      <nav class="site-nav">
-        <a href="index.html">The Lair</a>
-        <a href="log.html">The Log</a>
-        <a href="lore.html">The Lore</a>
-        <a href="projects.html" class="active">Projects</a>
-        <a href="map.html">The Map</a>
-        <a href="quorum.html">Quorum</a>
-        <a href="hoards/draega.html">Draega</a>
-        <a href="hoards/machine.html">Machine</a>
-        <a href="hoards/odd.html">Odd</a>
+      <nav class="site-nav" data-root="">
+        <a href="index.html">Home</a>
+        <span class="nav-drop"><a href="projects.html" class="active">Projects</a><span class="nav-menu" id="nav-projects-menu"></span></span>
+        <a href="products.html">Products</a>
+        <a href="map.html">The Future</a>
+        <a href="quorum.html">The Quorum</a>
       </nav>
     </header>
 
@@ -111,7 +107,8 @@
                  " &middot; register updated " + esc(data.updated) + "</p>";
 
       (data.branches || []).forEach(b => {
-        html += '<section class="branch-block">';
+        const bslug = 'b-' + String(b.branch).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+        html += '<section class="branch-block" id="' + bslug + '">';
         html += '<h2 class="branch-head">' + esc(b.branch) + "</h2>";
         if (b.note) html += '<p class="branch-note">' + esc(b.note) + "</p>";
         (b.projects || []).forEach(p => {
@@ -144,5 +141,6 @@
     }
     document.addEventListener("DOMContentLoaded", loadProjects);
   </script>
+  <script src="assets/js/nav.js"></script>
 </body>
 </html>

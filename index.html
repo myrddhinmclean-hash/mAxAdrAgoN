@@ -3,74 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mAxAdrAgoN — The Lair</title>
-  <meta name="description" content="Personal lair of Maxadragon (mAxAdrAgoN). Hoarding knowledge, strange mechanisms, and interesting problems.">
+  <title>mAxAdrAgoN</title>
+  <meta name="description" content="A running record of what Mac McLean is building: tabletop tools, agent systems, a world called Draega, and a dated record of asking 32 AIs the same question.">
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .opener { font-size: 1.12rem; line-height: 1.62; max-width: 46rem; margin: 0 0 2.6rem; }
+    .feed-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+                 border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: .4rem; }
+    .feed-head h2 { margin: 0; font-size: 1.1rem; letter-spacing: .06em; text-transform: uppercase; opacity: .75; }
+    .feed-count { font-size: .78rem; opacity: .55; font-family: ui-monospace, Consolas, monospace; }
+    .fi { padding: 1.4rem 0 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.07); }
+    .fi-date { font-size: .76rem; letter-spacing: .07em; opacity: .55; font-family: ui-monospace, Consolas, monospace; }
+    .fi-title { margin: .3rem 0 .5rem; font-size: 1.24rem; }
+    .fi-title a { text-decoration: none; }
+    .fi-body p { margin: .5rem 0; opacity: .88; }
+    .fi-tags { margin-top: .7rem; }
+    .tag { display: inline-block; font-size: .72rem; letter-spacing: .05em; padding: .12rem .48rem;
+           margin: 0 .35rem .35rem 0; border: 1px solid rgba(255,255,255,0.18); border-radius: 3px; opacity: .75; }
+    .fi-kind { font-size: .72rem; letter-spacing: .07em; text-transform: uppercase; color: #FFC61A; opacity: .8; }
+  </style>
 </head>
 <body>
   <div class="container">
     <header class="site-header">
       <div class="brand-title">
         <a href="index.html">mAxAdrAgoN</a>
-        <span class="brand-tag">The Lair</span>
       </div>
-      <nav class="site-nav">
-        <a href="index.html" class="active">The Lair</a>
-        <a href="log.html">The Log</a>
-        <a href="lore.html">The Lore</a>
-        <a href="projects.html">Projects</a>
-        <a href="map.html">The Map</a>
-        <a href="quorum.html">Quorum</a>
-        <a href="hoards/draega.html">Draega</a>
-        <a href="hoards/machine.html">Machine</a>
-        <a href="hoards/odd.html">Odd</a>
+      <nav class="site-nav" data-root="">
+        <a href="index.html" class="active">Home</a>
+        <span class="nav-drop"><a href="projects.html">Projects</a><span class="nav-menu" id="nav-projects-menu"></span></span>
+        <a href="products.html">Products</a>
+        <a href="map.html">The Future</a>
+        <a href="quorum.html">The Quorum</a>
       </nav>
     </header>
 
     <main>
-      <!-- Dragon Intro (Max 150 words) -->
-      <section class="lair-intro">
-        <p>Other dragons hoard coins, jeweled chalices, and damp tapestries they never look at. I prefer things with sharper corners: difficult questions, strange mechanisms, and ideas that people abandoned because the instructions were written in terrible handwriting.</p>
-        <p>If you find yourself intimidated by complex systems, you are in the right cavern. Most things that look impenetrable are simply three ordinary ideas duct-taped together behind heavy velvet curtains. My job is to pull back the curtains, poke the machinery with a claw, and translate what is actually happening into plain speech.</p>
-      </section>
+      <p class="opener">
+        Everything here is something I'm actually building, written up at whatever stage it's
+        currently in. Tabletop tools, agent systems, a world called Draega, and a dated record
+        of what happens when you ask 32 AIs spread across various channels one question and let
+        them argue. This is the trail, not the highlight reel.
+      </p>
 
-      <!-- The Three Hoards -->
-      <section class="hoards-grid">
-        <a href="hoards/draega.html" class="hoard-card hoard-draega">
-          <h2>
-            <span>Draega Hoard</span>
-            <span class="arrow">→</span>
-          </h2>
-          <p>Myths, geography, ecology of thought, and tales from the world of Draega.</p>
-        </a>
+      <div class="feed-head">
+        <h2>Lately</h2>
+        <div class="feed-count" id="feed-count"></div>
+      </div>
 
-        <a href="hoards/machine.html" class="hoard-card hoard-machine">
-          <h2>
-            <span>Machine Hoard</span>
-            <span class="arrow">→</span>
-          </h2>
-          <p>Dissecting technical systems, software, architectures, and demystifying complex tools.</p>
-        </a>
-
-        <a href="hoards/odd.html" class="hoard-card hoard-odd">
-          <h2>
-            <span>Odd Hoard</span>
-            <span class="arrow">→</span>
-          </h2>
-          <p>Curiosities, inconvenient paradoxes, edge cases, and half-remembered fragments.</p>
-        </a>
-      </section>
+      <div id="feed">
+        <p style="opacity:.7">Loading…</p>
+      </div>
     </main>
 
     <footer class="site-footer">
       <div class="footer-meta">
         <div>mAxAdrAgoN &middot; Guarded by teeth and curiosity.</div>
-        <div><a href="lore.html">Read the Lore</a></div>
+        <div><a href="products.html">Products</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="mailto:myrddhin.mclean@gmail.com">Contact</a></div>
       </div>
       <div class="footer-disclaimer">
         Dungeons &amp; Dragons related content on this site is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;Wizards of the Coast LLC.
       </div>
     </footer>
   </div>
+
+  <script src="assets/js/nav.js"></script>
+  <script>
+    const esc = s => String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    async function grab(url) {
+      try {
+        const r = await fetch(url, { cache: "no-store" });
+        return r.ok ? await r.json() : null;
+      } catch (e) { return null; }
+    }
+
+    async function loadFeed() {
+      const box = document.getElementById("feed");
+      const [log, posts] = await Promise.all([
+        grab("content/log.json"),
+        grab("content/posts.json")
+      ]);
+
+      const items = [];
+
+      ((log && log.entries) || []).forEach(e => items.push({
+        date: e.date, title: e.title, tags: e.tags || [],
+        kind: "note", body: e.body || ""
+      }));
+
+      (posts || []).forEach(p => items.push({
+        date: p.date, title: p.title, tags: [],
+        kind: "entry", body: p.excerpt || "",
+        href: "hoards/entry.html?post=" + encodeURIComponent(p.slug)
+      }));
+
+      if (!items.length) {
+        box.innerHTML = '<p style="opacity:.7">Nothing recorded yet.</p>';
+        return;
+      }
+
+      items.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      document.getElementById("feed-count").textContent =
+        items.length + " entries · newest first";
+
+      box.innerHTML = items.map(it => {
+        const title = it.href
+          ? '<a href="' + it.href + '">' + esc(it.title) + "</a>"
+          : esc(it.title);
+        const paras = String(it.body).split(/\n\n+/)
+          .map(s => "<p>" + esc(s.trim()) + "</p>").join("");
+        const tags = it.tags.length
+          ? '<div class="fi-tags">' + it.tags.map(t => '<span class="tag">' + esc(t) + "</span>").join("") + "</div>"
+          : "";
+        return '<article class="fi">' +
+          '<div class="fi-date">' + esc(it.date) +
+          ' &middot; <span class="fi-kind">' + (it.kind === "entry" ? "written up" : "note") + "</span></div>" +
+          '<h3 class="fi-title">' + title + "</h3>" +
+          '<div class="fi-body">' + paras + "</div>" +
+          tags + "</article>";
+      }).join("");
+    }
+    document.addEventListener("DOMContentLoaded", loadFeed);
+  </script>
 </body>
 </html>

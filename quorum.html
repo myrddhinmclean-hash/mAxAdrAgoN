@@ -32,16 +32,12 @@
         <a href="index.html">mAxAdrAgoN</a>
         <span class="brand-tag">The Quorum</span>
       </div>
-      <nav class="site-nav">
-        <a href="index.html">The Lair</a>
-        <a href="log.html">The Log</a>
-        <a href="lore.html">The Lore</a>
-        <a href="projects.html">Projects</a>
-        <a href="map.html">The Map</a>
-        <a href="quorum.html" class="active">Quorum</a>
-        <a href="hoards/draega.html">Draega</a>
-        <a href="hoards/machine.html">Machine</a>
-        <a href="hoards/odd.html">Odd</a>
+      <nav class="site-nav" data-root="">
+        <a href="index.html">Home</a>
+        <span class="nav-drop"><a href="projects.html">Projects</a><span class="nav-menu" id="nav-projects-menu"></span></span>
+        <a href="products.html">Products</a>
+        <a href="map.html">The Future</a>
+        <a href="quorum.html" class="active">The Quorum</a>
       </nav>
     </header>
 
@@ -123,5 +119,6 @@
     }
     document.addEventListener("DOMContentLoaded", load);
   </script>
+  <script src="assets/js/nav.js"></script>
 </body>
 </html>

@@ -154,9 +154,19 @@ for dirpath, dirnames, filenames in os.walk(ROOT):
             site_pages.append(os.path.join(dirpath, fn))
 
 no_disclaimer = []
+skipped_stubs = []
 for page in site_pages:
-    if not re.search(r"Fan Content Policy|Wizards of the Coast", read(page), re.I):
+    body = read(page)
+    # Redirect stubs carry no content of their own - only a meta refresh pointing
+    # somewhere else. Requiring a legal notice on a page nobody reads for half a
+    # second is noise, and it trains people to ignore this check.
+    if re.search(r'http-equiv\s*=\s*["\']refresh', body, re.I):
+        skipped_stubs.append(os.path.relpath(page, ROOT))
+        continue
+    if not re.search(r"Fan Content Policy|Wizards of the Coast", body, re.I):
         no_disclaimer.append(os.path.relpath(page, ROOT))
+if skipped_stubs:
+    print("  INFO  redirect stubs exempt: %s" % ", ".join(sorted(skipped_stubs)))
 if no_disclaimer:
     for pg in no_disclaimer:
         bad("no WotC disclaimer: %s" % pg)

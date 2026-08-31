@@ -14,16 +14,12 @@
         <a href="../index.html">mAxAdrAgoN</a>
         <span class="brand-tag">Draega Hoard</span>
       </div>
-      <nav class="site-nav">
-        <a href="../index.html">The Lair</a>
-        <a href="../log.html">The Log</a>
-        <a href="../lore.html">The Lore</a>
-        <a href="../projects.html">Projects</a>
-        <a href="../map.html">The Map</a>
-        <a href="../quorum.html">Quorum</a>
-        <a href="draega.html" class="active">Draega</a>
-        <a href="machine.html">Machine</a>
-        <a href="odd.html">Odd</a>
+      <nav class="site-nav" data-root="../">
+        <a href="../index.html">Home</a>
+        <span class="nav-drop"><a href="../projects.html" class="active">Projects</a><span class="nav-menu" id="nav-projects-menu"></span></span>
+        <a href="../products.html">Products</a>
+        <a href="../map.html">The Future</a>
+        <a href="../quorum.html">The Quorum</a>
       </nav>
     </header>
 
@@ -58,5 +54,6 @@
       loadHoardEntries("draega");
     });
   </script>
+  <script src="../assets/js/nav.js"></script>
 </body>
 </html>

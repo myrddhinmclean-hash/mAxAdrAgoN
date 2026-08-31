@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products — mAxAdrAgoN</title>
+  <meta name="description" content="The finished things. Software by mAxAdrAgoN that is done, tested, and for sale, with what it does and what it costs.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .prod { border: 1px solid rgba(255,255,255,0.13); border-radius: 6px; padding: 1.3rem 1.4rem; margin: 1.5rem 0; }
+    .prod-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .prod-name { font-size: 1.35rem; margin: 0; }
+    .prod-price { font-size: 1.2rem; font-weight: 700; color: #FFC61A; white-space: nowrap; }
+    .prod-one { margin: .6rem 0 .5rem; font-size: 1.02rem; }
+    .prod-detail { opacity: .85; margin: .4rem 0; }
+    .prod-what { margin: .9rem 0 .2rem; font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; opacity: .55; }
+    .prod-buy { display: inline-block; margin-top: 1rem; padding: .55rem 1.1rem; border: 1px solid #FFC61A;
+                color: #FFC61A; border-radius: 4px; font-weight: 700; text-decoration: none; }
+    .prod-buy:hover { background: #FFC61A; color: #12100c; }
+    .prod-meta { font-size: .8rem; opacity: .6; margin-top: .8rem; }
+    .soon { opacity: .8; font-size: .95rem; }
+    .policy-strip { margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid rgba(255,255,255,0.12); font-size: .9rem; }
+    .policy-strip a { margin-right: 1.1rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand-title">
+        <a href="index.html">mAxAdrAgoN</a>
+        <span class="brand-tag">Products</span>
+      </div>
+      <nav class="site-nav" data-root="">
+        <a href="index.html">Home</a>
+        <span class="nav-drop"><a href="projects.html">Projects</a><span class="nav-menu" id="nav-projects-menu"></span></span>
+        <a href="products.html" class="active">Products</a>
+        <a href="map.html">The Future</a>
+        <a href="quorum.html">The Quorum</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Products</h1>
+      <p class="hoard-desc">
+        The finished ones. Everything on this page is done, runs, and has been used by someone
+        other than me. Prices are what they say. If you want to see the unfinished work instead,
+        that is what <a href="projects.html">Projects</a> is for.
+      </p>
+
+      <div id="products-container">
+        <p class="prod-detail">Loading…</p>
+      </div>
+
+      <section style="margin-top:2.5rem;">
+        <h2>On the way</h2>
+        <p class="soon">
+          CampaignOS and DM Toolbox are in build. When the adventure modules are finished they
+          ship inside those tools rather than being sold separately, which is the point of writing
+          them. Progress on both is in <a href="projects.html">Projects</a>, and anything that
+          changes gets written up on the <a href="index.html">front page</a>.
+        </p>
+      </section>
+
+      <div class="policy-strip">
+        <a href="refunds.html">Refunds</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:myrddhin.mclean@gmail.com">Contact</a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta">
+        <div>mAxAdrAgoN &middot; Guarded by teeth and curiosity.</div>
+        <div><a href="index.html">← Back to the front page</a></div>
+      </div>
+      <div class="footer-disclaimer">
+        Dungeons &amp; Dragons related content on this site is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;Wizards of the Coast LLC.
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/nav.js"></script>
+  <script>
+    const esc = s => String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    async function loadProducts() {
+      const box = document.getElementById("products-container");
+      let data;
+      try {
+        const r = await fetch("content/projects.json", { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        data = await r.json();
+      } catch (e) {
+        box.innerHTML = '<p class="prod-detail">The product list could not be loaded.</p>';
+        return;
+      }
+
+      const selling = [];
+      (data.branches || []).forEach(b => (b.projects || []).forEach(p => {
+        if (p.status === "selling") selling.push(p);
+      }));
+
+      if (!selling.length) {
+        box.innerHTML = '<p class="prod-detail">Nothing is finished enough to sell yet.</p>';
+        return;
+      }
+
+      box.innerHTML = selling.map(p => {
+        let h = '<article class="prod">';
+        h += '<div class="prod-head"><h2 class="prod-name">' + esc(p.name) + "</h2>";
+        if (p.price) h += '<div class="prod-price">' + esc(p.price) + "</div>";
+        h += "</div>";
+        if (p.one_line) h += '<p class="prod-one">' + esc(p.one_line) + "</p>";
+        if (p.detail)   h += '<p class="prod-detail">' + esc(p.detail) + "</p>";
+        if (p.link) {
+          h += '<a class="prod-buy" href="' + esc(p.link) + '" rel="noopener">Buy ' + esc(p.name) + "</a>";
+          h += '<div class="prod-meta">Sold through itch.io. ' +
+               'Delivered as a download immediately after payment.</div>';
+        }
+        if (p.entry) {
+          h += '<div class="prod-meta"><a href="hoards/entry.html?post=' + esc(p.entry) +
+               '">How it works, and why it is built that way</a></div>';
+        }
+        h += "</article>";
+        return h;
+      }).join("");
+    }
+    document.addEventListener("DOMContentLoaded", loadProducts);
+  </script>
+</body>
+</html>
