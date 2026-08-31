@@ -1,5 +1,21 @@
 [
   {
+    "slug": "axiomtea-no-language-model",
+    "hoard": "machine",
+    "title": "The Diligence Engine With No Language Model In It",
+    "date": "2026-08-31",
+    "excerpt": "A pitch deck claims 420 watt hours per kilogram, and nobody in the room can tell whether that is ambitious or physically forbidden. This one pulls the number out, finds the law that governs it, and shows the arithmetic. There is no language model anywhere near the verdict, and that is the point.",
+    "path": "../content/machine/axiomtea-no-language-model.md"
+  },
+  {
+    "slug": "dungeon-cue-remote-control",
+    "hoard": "machine",
+    "title": "Dungeon Cue Is a Remote Control, Not an Audio Engine",
+    "date": "2026-08-31",
+    "excerpt": "The mouse is on the wrong side of the table. Say the phrase and the rain starts, without breaking the scene to go clicking. It produces no sound of its own, which turns out to be the most important thing about it.",
+    "path": "../content/machine/dungeon-cue-remote-control.md"
+  },
+  {
     "slug": "shell-valley",
     "hoard": "draega",
     "title": "Shell Valley",
