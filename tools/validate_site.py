@@ -73,7 +73,9 @@ def info(msg):
 
 
 def read(path):
-    with open(path, encoding="utf-8", errors="replace") as fh:
+    # utf-8-sig strips a BOM if present. Windows tools write them, and a BOM
+    # pushes the leading --- off position 0, silently breaking frontmatter.
+    with open(path, encoding="utf-8-sig", errors="replace") as fh:
         return fh.read()
 
 
