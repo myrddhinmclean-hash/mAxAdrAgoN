@@ -1,0 +1,210 @@
+{
+  "_comment": "The Quorum. Every real question put to multiple models across the Glia / Omnipotent / OmnOgram / DeleGate / Amoebus / AmoebiX / Synod lineage, and what came back. Where a subject was asked more than once, the passes are numbered part X of N in the order they were asked. Test runs are excluded by owner instruction.",
+  "_format": "Each slot: the question as asked, who answered where known, the date, then a brief result. The full material stays on disk.",
+  "updated": "2026-08-31",
+  "slots": [
+    {
+      "id": "future-25-year",
+      "title": "A plan that survives the next twenty five years",
+      "subject": "Strategy",
+      "parts": [
+        {
+          "part": 1, "of": 4, "date": "2026-08-22", "file": "MasterPlan/future4.txt", "size": "101 KB",
+          "question": "Look forward to how money is going to work in the near and distant future. Look at current podcasts about the future, futurists, and where I fit.",
+          "answerers": "not recorded",
+          "result": "Went wider than previous passes: 2026 economic forecasts, AI forecasts, futurist material, long-form conversations. Concluded that where Mac fits is substantially different from building an agent infrastructure company."
+        },
+        {
+          "part": 2, "of": 4, "date": "2026-08-23", "file": "MasterPlan/Future2.txt", "size": "306 KB",
+          "question": "I'm desperate for a plan that will carry me through the unknown future twenty five years. So far AI has only repeated canned responses about niche markets.",
+          "answerers": "not recorded",
+          "result": "Read the whole existing corpus, the master plans, the agent coordination work and the governance specification, and returned something considerably different from 'start an AI marketing agency'."
+        },
+        {
+          "part": 3, "of": 4, "date": "2026-08-23", "file": "MasterPlan/future3.txt", "size": "178 KB",
+          "question": "What becomes newly possible, newly profitable, or newly broken once the infrastructure we just spent all this time describing becomes standardized?",
+          "answerers": "not recorded",
+          "result": "Reframed the question. Once that infrastructure is ubiquitous the scarce resource changes: today scarcity is agent capability, finding an AI that can do a thing. After standardization it is something else, and that is where the opportunity moves."
+        },
+        {
+          "part": 4, "of": 4, "date": "2026-08-23", "file": "MasterPlan/future5.txt", "size": "381 KB",
+          "question": "Act as a lead venture strategist, expert futurist and technical project manager. Identify viable, non-obvious business opportunities under hard constraints.",
+          "answerers": "not recorded",
+          "result": "Ran under explicit hard constraints, the first of which ruled out content creation businesses outright as saturated. The largest single pass in the set."
+        }
+      ]
+    },
+    {
+      "id": "moonshots-archive",
+      "title": "Mapping the future from the Moonshots archive",
+      "subject": "The Map",
+      "note": "This is the research the FutureMap projects came out of. Two copies of the main corpus exist, in MasterPlan and FutureMap, byte for byte identical.",
+      "parts": [
+        {
+          "part": 1, "of": 3, "date": "2026-08-18", "file": "MasterPlan/MasterPlan2.txt", "size": "159 KB",
+          "question": "Build a future and progress archive from the Moonshots with Peter Diamandis corpus.",
+          "answerers": "not recorded",
+          "result": "Set the method: organise around ideas rather than episodes, with episodes as the evidence trail underneath. Explicitly refused to treat episode titles as equivalent to transcripts."
+        },
+        {
+          "part": 2, "of": 3, "date": "2026-08-18", "file": "Research-8-18-26.txt", "size": "853 KB",
+          "question": "Same brief, run to completion against the official archive, which reaches EP #272 of 19 July 2026.",
+          "answerers": "not recorded",
+          "result": "The full corpus. The largest single research artifact in the collection and the source everything downstream draws on."
+        },
+        {
+          "part": 3, "of": 3, "date": "2026-08-22", "file": "research-8-18-26-b.txt", "size": "311 KB",
+          "question": "Pick the top ten percent most popular podcasts and YouTube channels on these subjects, research their transcripts, and expand the map.",
+          "answerers": "Gemini Notebook, credited as author of the resulting specification",
+          "result": "Produced the 24-Branch System, a symmetric multi-tiered project tree at revision 6, dated 18 August 2026. That branch taxonomy is what every FutureMap project is filed under, and it is what the Projects page groups by today."
+        }
+      ]
+    },
+    {
+      "id": "ten-thousand-agents",
+      "title": "What do you do with ten thousand agents",
+      "subject": "Multi-agent systems",
+      "parts": [
+        {
+          "part": 1, "of": 3, "date": "2026-08-22", "file": "MasterPlan/10000 agents.txt", "size": "434 KB",
+          "question": "I have 10,000 agents online, paid for, and coordinated. They already run my business and it is doing well enough that I don't need more business ideas.",
+          "answerers": "not recorded",
+          "result": "Treated as a real premise rather than a hypothetical. Built from Moonshots material on the imminent arrival of large agent fleets and the observation that knowing what to do with ten thousand employees is not an easy problem."
+        },
+        {
+          "part": 2, "of": 3, "date": "2026-08-22", "file": "MasterPlan/coordinated10000agents.txt", "size": "85 KB",
+          "question": "Consider making the layer that coordinates all this. It is open to building right now.",
+          "answerers": "not recorded",
+          "result": "Concluded the coordination layer must go beyond task queues and orchestration frameworks. Its real job is managing epistemic diversity, enforcing adversarial verification, and optimising memory at scale, rather than routing work."
+        },
+        {
+          "part": 3, "of": 3, "date": "2026-08-22", "file": "MasterPlan/GovernanceLayerAI.txt", "size": "162 KB",
+          "question": "Review this engineering design specification for AMOEBUS 2.0, a multi-agent coordination and governance operating system, at version 0.9.",
+          "answerers": "explicitly addressed to an AI review quorum; individual reviewers not named",
+          "result": "A design specification written to be torn apart by a panel, with review instructions built into its preamble. The direct ancestor of the AmoebiX in daily use."
+        }
+      ]
+    },
+    {
+      "id": "solo-business",
+      "title": "Businesses one person can actually run",
+      "subject": "Strategy",
+      "parts": [
+        {
+          "part": 1, "of": 2, "date": "2026-08-23", "file": "MasterPlan/BizIdeas1000.txt", "size": "229 KB",
+          "question": "Research solo-operable business ideas from the last year of business-idea content.",
+          "answerers": "sources researched: The Koerner Office, My First Million, Acquisitions Anonymous, Young and Profiting, Starter Story, Alex Hormozi, The Iced Coffee Hour",
+          "result": "Separated directly evidenced ideas, explicitly discussed in the sources, from synthesized ones generated by combining business-model patterns with target niches. The synthesized ones are marked as not being claims by the creators, which is unusually careful for this kind of list."
+        },
+        {
+          "part": 2, "of": 2, "date": "2026-08-23", "file": "MasterPlan/bizideas2.txt", "size": "183 KB",
+          "question": "Look up Greg Isenberg and get his transcripts. He has a video about running a business with a Grok bot entirely.",
+          "answerers": "not recorded",
+          "result": "Second pass against a different source. Includes the working code used to assemble the output."
+        }
+      ]
+    },
+    {
+      "id": "fix-the-world",
+      "title": "How would you redesign civilization",
+      "subject": "Big questions",
+      "parts": [
+        {
+          "part": 1, "of": 2, "date": "2026-08-12", "file": "Ideas/FixTheWorld.txt", "size": "241 KB",
+          "question": "How would you redesign human civilization so the world works substantially better?",
+          "answerers": "not recorded",
+          "result": "Refused the obvious framing. Would not start by fixing people; would redesign the incentive architecture instead. The stated problem: civilization is extraordinarily good at local optimization and extraordinarily bad at global. The conclusion, verbatim: don't try to make humans perfect, build a civilization in which ordinary human behaviour produces much better aggregate outcomes."
+        },
+        {
+          "part": 2, "of": 2, "date": "2026-08-13", "file": "Ideas/FixTheWorld2.txt", "size": "134 KB",
+          "question": "Take ten of the world's most current and most influential projects of the last five years and combine them into something.",
+          "answerers": "not recorded",
+          "result": "Selected the ten most consequential bets made since 2021 on the basis of real capital, real hardware and real momentum, starting with Starship and Starlink, then stacked them rather than listing them."
+        }
+      ]
+    },
+    {
+      "id": "ai-skills",
+      "title": "Which skills are still worth having",
+      "subject": "Strategy",
+      "parts": [
+        {
+          "part": 1, "of": 2, "date": "2026-08-03", "file": "MasterPlan/AIfuture.txt", "size": "104 KB",
+          "question": "In a world where AI can build and write almost anything, what skill is still valuable?",
+          "answerers": "source material, not a panel",
+          "result": "Narrowed to six core skills, none requiring a degree or connections, each getting more valuable as AI improves rather than less. The first is running AI agents and local models."
+        },
+        {
+          "part": 2, "of": 2, "date": "2026-08-21", "file": "MasterPlan/AISkills2.txt", "size": "219 KB",
+          "question": "Reconcile the skill extractions. Is the seven or eight skill result the right answer?",
+          "answerers": "several models, unnamed, plus a later multi-AI convergence pass",
+          "result": "Three layers of evidence: one broad extraction of about 71 candidates, independent extractions from other models ranging from 18 to 71, and a convergence pass that rejected duplicates and generic capabilities like technical writing and task decomposition. The verdict refused both extremes, calling the convergence pass good methodology but too aggressive, and separating 'appears in one project' from 'should not be a reusable skill'."
+        }
+      ]
+    },
+    {
+      "id": "emrys-aletheia",
+      "title": "Is the Emrys stack viable",
+      "subject": "Multi-agent systems",
+      "parts": [
+        {
+          "part": 1, "of": 1, "date": "2026-08-13", "file": "Ideas/AIsuggestions1.txt", "size": "200 KB",
+          "question": "Assess Emrys, Aletheia Genesis and the parallel stack for unified viability.",
+          "answerers": "presented as a board brief prepared by a lead systems architect role",
+          "result": "A decision-grade integrated assessment across the three, written as an internal board document rather than a chat answer."
+        }
+      ]
+    },
+    {
+      "id": "synod-components",
+      "title": "What Synod is made of",
+      "subject": "Multi-agent systems",
+      "parts": [
+        {
+          "part": 1, "of": 1, "date": "2026-08-24", "file": "MasterPlan/SynodComponents.txt", "size": "267 KB",
+          "question": "Component breakdown of the Synod multi-model quorum.",
+          "answerers": "not recorded",
+          "result": "The component specification for what became the quorum machinery inside AmoebiX. Synod no longer exists under its own name; it was a part of AmoebiX rather than a separate system."
+        }
+      ]
+    },
+    {
+      "id": "brand-engine",
+      "title": "How the brand should actually run",
+      "subject": "The brand",
+      "parts": [
+        {
+          "part": 1, "of": 2, "date": "2026-08-29", "file": "MasterPlan/maxadragonbrand1.txt", "size": "302 KB",
+          "question": "Build a research and editorial intelligence system supporting mAxAdrAgoN, a media brand hosted through a generated persona.",
+          "answerers": "not recorded",
+          "result": "The master research and editorial prompt for the brand. The direct ancestor of the voice work, the lenses and the publishing loop now in use."
+        },
+        {
+          "part": 2, "of": 2, "date": "2026-08-31", "file": "Ideas/50 agent plans.txt", "size": "48 KB",
+          "question": "Review the fifty-agent brand engine plan honestly.",
+          "answerers": "not recorded",
+          "result": "Called the original fifty-agent framing theatre and collapsed it to seven functional roles. Credited the core philosophy as correct: automate everything except final creative judgment. Successive rewrites killed the magic numbers and made the corpus the product. This is the review that led directly to building, then halting, the Editor."
+        }
+      ]
+    },
+    {
+      "id": "axiomtea-viability",
+      "title": "Is AxiomTEA worth building, and will anyone pay",
+      "subject": "Epistemic infrastructure",
+      "parts": [
+        {
+          "part": 1, "of": 2, "date": "2026-08-27", "file": "AmoebiX outbox: 20260827-133003", "size": "panel digest",
+          "question": "Should AxiomTEA, a local zero-dependency Python first-principles engine, be built the way it is being built?",
+          "answerers": "AmoebiX panel, multiple models",
+          "result": "Run through the panel before the build committed. AxiomTEA now sells at $495."
+        },
+        {
+          "part": 2, "of": 2, "date": "2026-08-27", "file": "AmoebiX outbox: 20260827-150846", "size": "panel digest",
+          "question": "If agents will pay to visit a site, what does agent monetization look like?",
+          "answerers": "AmoebiX panel, multiple models",
+          "result": "Asked the day the first panel ran. Still open."
+        }
+      ]
+    }
+  ]
+}

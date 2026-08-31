@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quorum — mAxAdrAgoN</title>
+  <meta name="description" content="Questions put to several AI models at once, and what came back. The question, who answered, the date, and the result.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .slot { margin: 2.4rem 0 0; padding-bottom: .6rem; border-bottom: 1px solid rgba(255,255,255,0.09); }
+    .slot-title { margin: 0 0 .15rem; font-size: 1.35rem; }
+    .slot-sub { font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; opacity: .6; margin: 0 0 .3rem; }
+    .slot-note { font-size: .9rem; opacity: .75; font-style: italic; margin: .35rem 0 0; }
+    .part { margin: 1.1rem 0 0; padding: .85rem 0 .1rem 1rem; border-left: 2px solid rgba(255,198,26,0.35); }
+    .part-label { font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; color: #FFC61A; margin: 0 0 .5rem; }
+    .qa-row { display: grid; grid-template-columns: 6.5rem 1fr; gap: .3rem .8rem; margin-bottom: .55rem; }
+    .qa-key { font-size: .72rem; letter-spacing: .07em; text-transform: uppercase; opacity: .55; padding-top: .18rem; }
+    .qa-val { margin: 0; }
+    .q-text { font-style: italic; }
+    .result { margin: .7rem 0 0; }
+    .part-meta { font-size: .74rem; opacity: .5; margin-top: .5rem; font-family: ui-monospace, Consolas, monospace; }
+    @media (max-width: 620px) {
+      .qa-row { grid-template-columns: 1fr; gap: .1rem; }
+      .qa-key { padding-top: .4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand-title">
+        <a href="index.html">mAxAdrAgoN</a>
+        <span class="brand-tag">The Quorum</span>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">The Lair</a>
+        <a href="lore.html">The Lore</a>
+        <a href="projects.html">Projects</a>
+        <a href="quorum.html" class="active">Quorum</a>
+        <a href="hoards/draega.html">Draega</a>
+        <a href="hoards/machine.html">Machine</a>
+        <a href="hoards/odd.html">Odd</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>The Quorum</h1>
+      <p class="hoard-desc">
+        Questions I put to several AI models at once, so they argue in front of me instead of
+        agreeing behind my back. The question, who answered, the date, and what came back.
+        Some questions I asked more than once. Those are numbered.
+      </p>
+
+      <div id="quorum-container">
+        <p class="slot-note">Loading…</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta">
+        <div>mAxAdrAgoN &middot; Guarded by teeth and curiosity.</div>
+        <div><a href="index.html">← Back to The Lair</a></div>
+      </div>
+      <div class="footer-disclaimer">
+        Dungeons &amp; Dragons related content on this site is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;Wizards of the Coast LLC.
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const esc = s => String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    function row(key, val, cls) {
+      return '<div class="qa-row"><div class="qa-key">' + key + '</div>' +
+             '<p class="qa-val ' + (cls || "") + '">' + esc(val) + "</p></div>";
+    }
+
+    async function load() {
+      const box = document.getElementById("quorum-container");
+      let data;
+      try {
+        const r = await fetch("content/quorum.json", { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        data = await r.json();
+      } catch (e) {
+        box.innerHTML = '<p class="slot-note">The record could not be loaded.</p>';
+        return;
+      }
+
+      const slots = data.slots || [];
+      const parts = slots.reduce((n, s) => n + (s.parts || []).length, 0);
+      let html = '<p class="part-meta">' + slots.length + " subjects &middot; " + parts +
+                 " passes &middot; record updated " + esc(data.updated) + "</p>";
+
+      slots.forEach(s => {
+        html += '<section class="slot">';
+        if (s.subject) html += '<p class="slot-sub">' + esc(s.subject) + "</p>";
+        html += '<h2 class="slot-title">' + esc(s.title) + "</h2>";
+        if (s.note) html += '<p class="slot-note">' + esc(s.note) + "</p>";
+
+        (s.parts || []).forEach(p => {
+          html += '<div class="part">';
+          if (p.of > 1) {
+            html += '<p class="part-label">Part ' + p.part + " of " + p.of + "</p>";
+          }
+          html += row("Question", p.question, "q-text");
+          html += row("Answered by", p.answerers || "not recorded");
+          html += row("Date", p.date);
+          html += '<p class="result">' + esc(p.result) + "</p>";
+          const meta = [];
+          if (p.file) meta.push(esc(p.file));
+          if (p.size) meta.push(esc(p.size));
+          if (meta.length) html += '<div class="part-meta">' + meta.join(" &middot; ") + "</div>";
+          html += "</div>";
+        });
+        html += "</section>";
+      });
+
+      box.innerHTML = html;
+    }
+    document.addEventListener("DOMContentLoaded", load);
+  </script>
+</body>
+</html>
