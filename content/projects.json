@@ -82,11 +82,12 @@
         {
           "name": "SynapseGraph",
           "status": "scaffold",
-          "one_line": "Structural parser for scientific PDFs that builds a knowledge graph from what it finds.",
+          "one_line": "Turns a pile of scientific PDFs into a graph you can actually ask questions of.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_1_academic_parser",
-          "project_code": "PROJ-MET-APS-LPS"
+          "project_code": "PROJ-MET-APS-LPS",
+          "detail": "Research sits locked in documents built to be printed, not searched, so finding what connects to what means reading all of it and remembering all of it. This pulls the structure out and builds the cross-references itself."
         }
       ]
     },
@@ -115,20 +116,22 @@
         {
           "name": "AegisBox",
           "status": "scaffold",
-          "one_line": "Zero-trust local sandbox for running agents where they cannot reach anything they were not given.",
+          "one_line": "Runs an agent's code in a box where it can only touch what you handed it.",
           "started": "2026-08",
           "last_touched": "2026-08-20",
           "where": "G:\\My Drive\\FutureMap\\proj_2_agent_sandbox",
-          "project_code": "PROJ-AGT-MTO-PSL"
+          "project_code": "PROJ-AGT-MTO-PSL",
+          "detail": "An agent that writes and executes its own code is one bad line from deleting your files or posting them somewhere. This gives it a floor, four walls, and no exit you did not open yourself."
         },
         {
           "name": "AgentMesh",
           "status": "scaffold",
-          "one_line": "A protocol for agents to negotiate which tools they need from each other, instead of being wired together by hand.",
+          "one_line": "Lets agents find and borrow each other's tools without anyone wiring them together first.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_7_agent_negotiation",
-          "project_code": "PROJ-AGE-MOS-TNP"
+          "project_code": "PROJ-AGE-MOS-TNP",
+          "detail": "Agents end up siloed because connecting any two of them means hand-writing an integration for that exact pair, and the number of pairs grows faster than anyone can keep up with. This is the protocol for one to discover what another can do and negotiate the use of it."
         }
       ]
     },
@@ -138,20 +141,22 @@
         {
           "name": "AxiomVerify",
           "status": "scaffold",
-          "one_line": "Proof checker that validates logical arguments by walking their syntax tree rather than trusting the prose.",
+          "one_line": "Checks whether an argument follows, step by step, instead of whether it sounds like it does.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_6_neuro_symbolic_proof",
-          "project_code": "PROJ-COG-NSH-LPC"
+          "project_code": "PROJ-COG-NSH-LPC",
+          "detail": "Models make invalid logical jumps and write them fluently, which is the worst possible combination in maths, law and code. This walks the structure of the argument and names the step where the deduction breaks."
         },
         {
           "name": "NeuroSteer",
           "status": "scaffold",
-          "one_line": "Real-time concept steering. Turning a model's internal features up and down while it runs.",
+          "one_line": "Turns one idea up or down inside a running model, and shows you all three results side by side.",
           "started": "2026-08",
           "last_touched": "2026-08-20",
           "where": "G:\\My Drive\\FutureMap\\proj_4_concept_steering",
-          "project_code": "PROJ-COG-SAE-EVM"
+          "project_code": "PROJ-COG-SAE-EVM",
+          "detail": "Steering a model normally means retraining it or arguing with it in the prompt. This reaches into the layers while it generates, amplifies or suppresses a single concept, and prints the untouched version next to the amplified and the suppressed so you can see what the change actually did rather than what it was supposed to do."
         }
       ]
     },
@@ -161,20 +166,22 @@
         {
           "name": "GridPulse VPP",
           "status": "scaffold",
-          "one_line": "Demand-response middleware that balances compute load against grid load.",
+          "one_line": "Moves heavy compute to the hours when the grid has power going spare.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_5_grid_balancing",
-          "project_code": "PROJ-ENE-SLB-DRG"
+          "project_code": "PROJ-ENE-SLB-DRG",
+          "detail": "Training clusters and industrial pumps pull hardest whenever is convenient, which is how congestion and a large bill arrive together. This schedules the load against what the grid and the weather are doing."
         },
         {
           "name": "FlowGrid",
           "status": "scaffold",
-          "one_line": "Techno-economic optimizer for multi-day flow battery storage.",
+          "one_line": "Works out whether a flow battery pays for itself across a windless week.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_9_flow_battery_tea",
-          "project_code": "PROJ-ENE-LCE-FBC"
+          "project_code": "PROJ-ENE-LCE-FBC",
+          "detail": "Lithium storage stops making economic sense past about eight hours because its power cost and its energy cost are welded together. Flow batteries pull those apart, and this runs the numbers on whether that is worth it for a given site and a given stretch of cloud."
         }
       ]
     },
@@ -184,29 +191,32 @@
         {
           "name": "EpiGuide",
           "status": "scaffold",
-          "one_line": "Designs CRISPR guides for targeted epigenetic methylation rather than cutting.",
+          "one_line": "Designs CRISPR guides that switch a gene off without cutting the DNA.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_10_epigenetic_crispr",
-          "project_code": "PROJ-BIO-PGT-EEM"
+          "project_code": "PROJ-BIO-PGT-EEM",
+          "detail": "Cutting both strands risks chromosome damage the cell cannot always repair cleanly. Methylation quiets the gene and leaves the sequence intact, which is what you want when the goal is to turn something down rather than remove it."
         },
         {
           "name": "CrystalGen",
           "status": "scaffold",
-          "one_line": "Predicts whether a proposed inorganic crystal is stable enough to exist.",
+          "one_line": "Predicts whether a proposed crystal would survive being made.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_11_crystal_predictor",
-          "project_code": "PROJ-MAT-ACS-CSP"
+          "project_code": "PROJ-MAT-ACS-CSP",
+          "detail": "Finding a new superconductor or a solid battery electrolyte has historically meant years of mixing things and seeing what holds together. This screens the candidate for stability before anyone books lab time."
         },
         {
           "name": "AquaNutrient",
           "status": "scaffold",
-          "one_line": "Closed-loop water and nutrient controller for hydroponics, driven by spectrometry.",
+          "one_line": "Holds a hydroponic system's water chemistry steady without anyone watching it.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_14_hydroponic_controller",
-          "project_code": "PROJ-AGR-CEF-WFA"
+          "project_code": "PROJ-AGR-CEF-WFA",
+          "detail": "Farming loses most of its fresh water to runoff and evaporation. Hydroponics trades that for pH swings and nutrient lock-out, which can ruin a crop quietly between two visits. This keeps the balance and logs every correction it made."
         }
       ]
     },
@@ -216,29 +226,32 @@
         {
           "name": "Kinematix",
           "status": "scaffold",
-          "one_line": "Whole-body momentum and balance simulator for a biped.",
+          "one_line": "Keeps a two-legged robot standing when something shoves it.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_8_robot_balance",
-          "project_code": "PROJ-ROB-KCA-RBN"
+          "project_code": "PROJ-ROB-KCA-RBN",
+          "detail": "Bipedal robots fall on uneven ground and in the fall the expensive parts break. This is the balance controller that has to react to a sideways push in the moment before the fall commits."
         },
         {
           "name": "OmniFleet",
           "status": "scaffold",
-          "one_line": "Robotaxi dispatch with inductive charging worked into the routing.",
+          "one_line": "Sends robotaxis where the passengers will be, before they are there.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_13_robotaxi_fleet",
-          "project_code": "PROJ-TRA-ARF-DDR"
+          "project_code": "PROJ-TRA-ARF-DDR",
+          "detail": "An empty car driving to a pickup earns nothing and spends battery doing it, and the surge always arrives faster than a fleet repositions. This is the dispatch and charging schedule that moves early instead of catching up."
         },
         {
           "name": "SynapseDecode",
           "status": "scaffold",
-          "one_line": "Decodes high-density neural spike trains into motor intent.",
+          "one_line": "Turns raw neural spikes into smooth limb movement in under twenty milliseconds.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_15_neural_spike_decoder",
-          "project_code": "PROJ-COG-HDI-NSD"
+          "project_code": "PROJ-COG-HDI-NSD",
+          "detail": "A prosthetic that lags feels like it belongs to somebody else. The decoder has to translate chaotic firing across many channels into continuous motion fast enough that the intention and the movement land as one event."
         }
       ]
     },
@@ -248,11 +261,12 @@
         {
           "name": "SovereignVault",
           "status": "scaffold",
-          "one_line": "Local-first encrypted personal data locker. Your records, on your disk, not anyone's cloud.",
+          "one_line": "Your data in a store you hold the keys to, rather than one you rent.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_12_sovereign_data_vault",
-          "project_code": "PROJ-WEB-USN-PDL"
+          "project_code": "PROJ-WEB-USN-PDL",
+          "detail": "A central cloud database is one place to breach, one company to be locked into, and one log nobody outside can read. This keeps the data with the person it belongs to."
         }
       ]
     },
