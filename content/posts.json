@@ -1,5 +1,41 @@
 [
   {
+    "slug": "the-queue-that-runs-my-computer",
+    "hoard": "machine",
+    "title": "A Folder That Runs My Computer",
+    "date": "2026-08-31",
+    "excerpt": "The dumbest possible way to let an assistant in the cloud do things on a machine it cannot reach: drop a script in a folder and let a loop find it. No daemon, no API, no open port.",
+    "path": "../content/machine/the-queue-that-runs-my-computer.md"
+  },
+  {
+    "slug": "amoebix-the-arm-rack",
+    "hoard": "machine",
+    "title": "AmoebiX Is an Arm Rack, Not a Brain",
+    "date": "2026-08-31",
+    "excerpt": "Thirty two models in one config file, a library of lenses that tell each of them how to answer, and a ledger recording whether the answer changed anything. The AI is never on while the tools work.",
+    "path": "../content/machine/amoebix-the-arm-rack.md"
+  },
+  {
+    "slug": "the-strait-of-blood",
+    "hoard": "draega",
+    "title": "The Strait of Blood",
+    "date": "2026-08-31",
+    "excerpt": "A sandbar ringed by rocks that bleed. The rumour says the stone cures vampirism, or lycanthropy, nobody is certain which. Thousands have gone to find out and none have come back to settle it.",
+    "path": "../content/draega/the-strait-of-blood.md",
+    "parent": "the-island-nobody-names",
+    "campaign": "Gargantua",
+    "within": "Gargantua"
+  },
+  {
+    "slug": "the-island-nobody-names",
+    "hoard": "draega",
+    "title": "The Island Nobody Names",
+    "date": "2026-08-31",
+    "excerpt": "Six articles describe one island and not one of them says which island it is. A town of two hundred shipwreck survivors behind two hundred foot walls, a cave that lets the deep past walk through, and two giant kingdoms at war over metal.",
+    "path": "../content/draega/the-island-nobody-names.md",
+    "campaign": "Gargantua"
+  },
+  {
     "slug": "axiomtea-no-language-model",
     "hoard": "machine",
     "title": "The Diligence Engine With No Language Model In It",
@@ -36,7 +72,7 @@
     "hoard": "draega",
     "title": "The World of Draega & the Rivals and Destiny Campaign",
     "date": "2026-08-28",
-    "excerpt": "Twenty-five sessions, one archipelago, and a war between an empire that wanted everything and a rebellion that couldn't afford to lose. Digging through the bones of the Rivals and Destiny campaign — what it was, who died making it matter, and why the map still hums.",
+    "excerpt": "Twenty-five sessions, one archipelago, and a war between an empire that wanted everything and a rebellion that couldn't afford to lose. Digging through the bones of the Rivals and Destiny campaign \u2014 what it was, who died making it matter, and why the map still hums.",
     "path": "../content/draega/rivals-and-destiny.md"
   },
   {

@@ -499,3 +499,32 @@ footer.site-footer a:hover {
   border-top: 1px solid var(--border-subtle);
   padding-top: 1rem;
 }
+
+/* Campaign grouping and nested places inside a hoard. Added 2026-08-31:
+   a location inside a place is not a sibling of the place that contains it. */
+
+.campaign-head {
+  margin: 2.6rem 0 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+}
+
+.campaign-head:first-child {
+  margin-top: 0.8rem;
+}
+
+.entry-nest {
+  margin: 0 0 0.6rem 1.4rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border-subtle);
+}
+
+.entry-item.entry-child .entry-title {
+  font-size: 1.02rem;
+}
+
+.entry-item.entry-child .entry-meta {
+  opacity: 0.75;
+}

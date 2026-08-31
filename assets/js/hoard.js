@@ -155,18 +155,58 @@ async function loadHoardEntries(hoardName) {
     return;
   }
 
-  filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const byDate = (a, b) => new Date(b.date) - new Date(a.date);
 
-  container.innerHTML = filtered
-    .map(
-      (entry) => `
-      <a class="entry-item" href="entry.html?post=${encodeURIComponent(entry.slug)}">
-        <div class="entry-meta">${entry.date} &middot; Hoard: ${entry.hoard.toUpperCase()}</div>
+  // Children nest under a parent slug. A place inside a place is not a
+  // sibling of the place that contains it.
+  const childrenOf = {};
+  filtered.forEach((p) => {
+    if (p.parent) {
+      (childrenOf[p.parent] = childrenOf[p.parent] || []).push(p);
+    }
+  });
+
+  const tops = filtered.filter((p) => !p.parent).sort(byDate);
+
+  // Campaigns are separate bodies of work inside one hoard. Entries with no
+  // campaign fall into a single unlabelled group rendered first.
+  const groups = [];
+  const seen = {};
+  tops.forEach((p) => {
+    const key = p.campaign || "";
+    if (!(key in seen)) {
+      seen[key] = groups.length;
+      groups.push({ campaign: key, entries: [] });
+    }
+    groups[seen[key]].entries.push(p);
+  });
+  groups.sort((a, b) => (a.campaign === "" ? -1 : b.campaign === "" ? 1 : 0));
+
+  const card = (entry, isChild) => `
+      <a class="entry-item${isChild ? " entry-child" : ""}" href="entry.html?post=${encodeURIComponent(entry.slug)}">
+        <div class="entry-meta">${entry.date} &middot; ${
+          isChild ? "Within " + (entry.within || "this place") : "Hoard: " + entry.hoard.toUpperCase()
+        }</div>
         <h3 class="entry-title">${entry.title}</h3>
         <p class="entry-excerpt">${entry.excerpt}</p>
-      </a>
-    `
-    )
+      </a>`;
+
+  container.innerHTML = groups
+    .map((g) => {
+      const head = g.campaign
+        ? `<h2 class="campaign-head">${g.campaign}</h2>`
+        : "";
+      const body = g.entries
+        .map((entry) => {
+          const kids = (childrenOf[entry.slug] || []).sort(byDate);
+          const nested = kids.length
+            ? `<div class="entry-nest">${kids.map((k) => card(k, true)).join("")}</div>`
+            : "";
+          return card(entry, false) + nested;
+        })
+        .join("");
+      return head + body;
+    })
     .join("");
 }
 
@@ -198,10 +238,21 @@ async function loadSingleEntry() {
   }
 
   if (titleEl) titleEl.textContent = post.title;
-  if (metaEl) metaEl.textContent = `${post.date} · Hoard: ${post.hoard.toUpperCase()}`;
+  if (metaEl) {
+    let meta = `${post.date} · Hoard: ${post.hoard.toUpperCase()}`;
+    if (post.campaign) meta += ` · ${post.campaign}`;
+    metaEl.textContent = meta;
+  }
   if (backLinkEl) {
-    backLinkEl.href = `${post.hoard}.html`;
-    backLinkEl.textContent = `← Back to ${post.hoard.toUpperCase()} Hoard`;
+    // A nested entry goes back to the place that contains it, not to the hoard.
+    const parent = post.parent ? posts.find((p) => p.slug === post.parent) : null;
+    if (parent) {
+      backLinkEl.href = `entry.html?post=${encodeURIComponent(parent.slug)}`;
+      backLinkEl.textContent = `← Back to ${parent.title}`;
+    } else {
+      backLinkEl.href = `${post.hoard}.html`;
+      backLinkEl.textContent = `← Back to ${post.hoard.toUpperCase()} Hoard`;
+    }
   }
   document.title = `${post.title} — mAxAdrAgoN`;
 
