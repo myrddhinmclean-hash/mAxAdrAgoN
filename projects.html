@@ -112,7 +112,8 @@
         html += '<h2 class="branch-head">' + esc(b.branch) + "</h2>";
         if (b.note) html += '<p class="branch-note">' + esc(b.note) + "</p>";
         (b.projects || []).forEach(p => {
-          html += '<article class="proj">';
+          const pslug = 'p-' + String(p.name).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+          html += '<article class="proj" id="' + pslug + '">';
           html += '<div class="proj-head"><h3 class="proj-name">' + esc(p.name) + "</h3>";
           html += '<span class="badge b-' + esc(p.status) + '">' + esc(p.status) + "</span></div>";
           if (p.one_line)   html += '<p class="proj-one">' + esc(p.one_line) + "</p>";

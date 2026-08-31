@@ -529,27 +529,79 @@ footer.site-footer a:hover {
   opacity: 0.75;
 }
 
-/* ---- Navigation: five items, with a generated branch menu under Projects ---- */
+
+/* ---- Navigation: five items, with a click-opened Projects panel ---- */
 .site-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; }
-.nav-drop { position: relative; display: inline-block; }
+.nav-drop { position: relative; display: inline-flex; align-items: center; gap: .3rem; }
+
+.np-toggle {
+  background: none; border: 0; cursor: pointer; padding: .1rem .25rem;
+  color: inherit; opacity: .6; font-size: .8rem; line-height: 1;
+}
+.np-toggle:hover { opacity: 1; }
+.nav-drop.open .np-toggle { opacity: 1; color: #FFC61A; }
+
 .nav-menu {
   display: none; position: absolute; top: 100%; left: -0.9rem; z-index: 60;
-  min-width: 17rem; padding: .45rem 0; margin-top: .45rem;
-  background: #17140f; border: 1px solid rgba(255,255,255,0.16); border-radius: 5px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.55);
+  margin-top: .55rem; padding: .4rem;
+  background: #17140f; border: 1px solid rgba(255,255,255,0.17); border-radius: 6px;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.6);
 }
-.nav-drop.has-menu:hover .nav-menu,
-.nav-drop.has-menu:focus-within .nav-menu { display: block; }
-.nav-menu a {
-  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
-  padding: .42rem 1rem; font-size: .88rem; text-decoration: none; white-space: nowrap;
-}
-.nav-menu a:hover { background: rgba(255,198,26,0.10); }
-.nav-count { font-size: .72rem; opacity: .5; font-family: ui-monospace, Consolas, monospace; }
+.nav-drop.open .nav-menu { display: block; }
 
-/* Touch and narrow screens have no hover, so the menu simply stays closed and the
-   Projects link still works. Never hide the link itself behind the menu. */
-@media (max-width: 720px) {
-  .nav-menu { display: none !important; }
-  .site-nav { gap: .9rem; font-size: .95rem; }
+.np-cols { display: grid; grid-template-columns: 15rem 17rem; gap: .3rem; }
+.np-branches { border-right: 1px solid rgba(255,255,255,0.10); padding-right: .3rem;
+               max-height: 21rem; overflow-y: auto; }
+.np-projects { padding: .1rem .2rem; max-height: 21rem; overflow-y: auto; }
+
+.np-branch {
+  display: flex; width: 100%; justify-content: space-between; align-items: baseline; gap: .8rem;
+  background: none; border: 0; cursor: pointer; text-align: left;
+  color: inherit; font: inherit; font-size: .86rem;
+  padding: .42rem .6rem; border-radius: 4px;
 }
+.np-branch:hover { background: rgba(255,255,255,0.06); }
+.np-branch.on { background: rgba(255,198,26,0.12); color: #FFC61A; }
+.np-count { font-size: .72rem; opacity: .5; font-family: ui-monospace, Consolas, monospace; }
+
+.np-branchlink {
+  display: block; font-size: .72rem; letter-spacing: .07em; text-transform: uppercase;
+  opacity: .55; padding: .42rem .5rem .3rem; text-decoration: none;
+}
+.np-branchlink:hover { opacity: 1; }
+
+.np-proj {
+  display: flex; align-items: baseline; gap: .55rem;
+  padding: .34rem .5rem; border-radius: 4px; text-decoration: none; font-size: .88rem;
+}
+.np-proj:hover { background: rgba(255,255,255,0.06); }
+.np-pname { flex: 1; }
+.np-status { font-size: .68rem; letter-spacing: .05em; text-transform: uppercase; opacity: .45; }
+.np-dot { width: .48rem; height: .48rem; border-radius: 50%; flex: none; background: #9ca3af; }
+.np-dot.s-selling  { background: #FFC61A; }
+.np-dot.s-working  { background: #4ade80; }
+.np-dot.s-partial  { background: #FFC61A; opacity: .6; }
+.np-dot.s-scaffold { background: #8ab4f8; }
+.np-dot.s-planned  { background: #a78bfa; }
+.np-dot.s-parked   { background: #9ca3af; }
+
+.np-all {
+  display: block; margin-top: .3rem; padding: .5rem .6rem;
+  border-top: 1px solid rgba(255,255,255,0.10);
+  font-size: .82rem; text-decoration: none; opacity: .8;
+}
+.np-all:hover { opacity: 1; }
+
+/* Narrow screens: one column, the branch list stacked above its projects. */
+@media (max-width: 760px) {
+  .site-nav { gap: .9rem; font-size: .95rem; }
+  .nav-menu { left: auto; right: -0.5rem; width: min(92vw, 24rem); }
+  .np-cols { grid-template-columns: 1fr; }
+  .np-branches { border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.10);
+                 padding-right: 0; max-height: 12rem; }
+  .np-projects { max-height: 14rem; }
+}
+
+/* Anchored projects should not land under the sticky header. */
+.proj[id], .branch-block[id] { scroll-margin-top: 5rem; }
+.proj:target { background: rgba(255,198,26,0.07); border-radius: 5px; }
