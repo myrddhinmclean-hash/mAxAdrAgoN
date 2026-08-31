@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — mAxAdrAgoN</title>
+  <meta name="description" content="Every project, started or not. What is running, what is half-built, and what is still only a description.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .branch-block { margin: 2.5rem 0 0; }
+    .branch-head { border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: .4rem; margin-bottom: .35rem; }
+    .branch-note { opacity: .75; font-size: .95rem; margin: 0 0 1.2rem; }
+    .proj { padding: 1rem 0 1.1rem; border-bottom: 1px solid rgba(255,255,255,0.07); }
+    .proj-head { display: flex; align-items: baseline; gap: .7rem; flex-wrap: wrap; }
+    .proj-name { font-size: 1.18rem; font-weight: 700; margin: 0; }
+    .badge { font-size: .7rem; letter-spacing: .06em; text-transform: uppercase;
+             padding: .16rem .5rem; border-radius: 3px; border: 1px solid currentColor; white-space: nowrap; }
+    .b-working  { color: #4ade80; }
+    .b-partial  { color: #FFC61A; }
+    .b-scaffold { color: #8ab4f8; }
+    .b-planned  { color: #a78bfa; }
+    .b-parked   { color: #9ca3af; }
+    .proj-one   { margin: .45rem 0 .3rem; }
+    .proj-detail{ opacity: .85; font-size: .95rem; margin: .3rem 0; }
+    .proj-state { font-size: .9rem; opacity: .8; margin: .35rem 0 0; font-style: italic; }
+    .proj-meta  { font-size: .78rem; opacity: .6; margin-top: .45rem; font-family: ui-monospace, Consolas, monospace; }
+    .legend { font-size: .82rem; opacity: .7; margin: .8rem 0 0; }
+    .legend span { margin-right: 1rem; white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand-title">
+        <a href="index.html">mAxAdrAgoN</a>
+        <span class="brand-tag">Projects</span>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">The Lair</a>
+        <a href="lore.html">The Lore</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="hoards/draega.html">Draega</a>
+        <a href="hoards/machine.html">Machine</a>
+        <a href="hoards/odd.html">Odd</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Projects</h1>
+      <p class="hoard-desc">
+        Everything, started or not. Working software sits beside things that are still only a
+        description, because that is honestly where they all are. Grouped by branch, since
+        "software" is too broad to mean anything.
+      </p>
+      <p class="legend">
+        <span class="badge b-working">working</span> it runs
+        <span class="badge b-partial">partial</span> some of it runs
+        <span class="badge b-scaffold">scaffold</span> a plan and a stub
+        <span class="badge b-planned">planned</span> a description, no code
+        <span class="badge b-parked">parked</span> deliberately stopped
+      </p>
+
+      <div id="projects-container">
+        <p class="proj-detail">Loading the register…</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-meta">
+        <div>mAxAdrAgoN &middot; Guarded by teeth and curiosity.</div>
+        <div><a href="index.html">← Back to The Lair</a></div>
+      </div>
+      <div class="footer-disclaimer">
+        Dungeons &amp; Dragons related content on this site is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;Wizards of the Coast LLC.
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const esc = s => String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    async function loadProjects() {
+      const box = document.getElementById("projects-container");
+      let data;
+      try {
+        const r = await fetch("content/projects.json", { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        data = await r.json();
+      } catch (e) {
+        box.innerHTML = '<p class="proj-detail">The register could not be loaded.</p>';
+        return;
+      }
+
+      const counts = {};
+      let total = 0;
+      (data.branches || []).forEach(b => (b.projects || []).forEach(p => {
+        counts[p.status] = (counts[p.status] || 0) + 1; total++;
+      }));
+
+      const summary = Object.keys(counts).sort()
+        .map(k => counts[k] + " " + k).join(" &middot; ");
+
+      let html = '<p class="proj-meta">' + total + " projects &middot; " + summary +
+                 " &middot; register updated " + esc(data.updated) + "</p>";
+
+      (data.branches || []).forEach(b => {
+        html += '<section class="branch-block">';
+        html += '<h2 class="branch-head">' + esc(b.branch) + "</h2>";
+        if (b.note) html += '<p class="branch-note">' + esc(b.note) + "</p>";
+        (b.projects || []).forEach(p => {
+          html += '<article class="proj">';
+          html += '<div class="proj-head"><h3 class="proj-name">' + esc(p.name) + "</h3>";
+          html += '<span class="badge b-' + esc(p.status) + '">' + esc(p.status) + "</span></div>";
+          if (p.one_line)   html += '<p class="proj-one">' + esc(p.one_line) + "</p>";
+          if (p.detail)     html += '<p class="proj-detail">' + esc(p.detail) + "</p>";
+          if (p.state_note) html += '<p class="proj-state">' + esc(p.state_note) + "</p>";
+          const bits = [];
+          if (p.started)      bits.push("started " + esc(p.started));
+          if (p.last_touched) bits.push("last touched " + esc(p.last_touched));
+          if (p.project_code) bits.push(esc(p.project_code));
+          if (p.entry) bits.push('<a href="hoards/entry.html?post=' + esc(p.entry) + '">read the teardown</a>');
+          if (p.where && /^https?:/i.test(p.where)) {
+            bits.push('<a href="' + esc(p.where) + '" rel="noopener">' + esc(p.where) + "</a>");
+          }
+          if (bits.length) html += '<div class="proj-meta">' + bits.join(" &middot; ") + "</div>";
+          html += "</article>";
+        });
+        html += "</section>";
+      });
+
+      box.innerHTML = html;
+    }
+    document.addEventListener("DOMContentLoaded", loadProjects);
+  </script>
+</body>
+</html>
