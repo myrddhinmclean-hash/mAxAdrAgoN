@@ -43,9 +43,9 @@
         {
           "name": "SoundCue",
           "status": "partial",
-          "one_line": "The audio system Dungeon Cue grew out of, and the origin of the electric blue and gold.",
-          "detail": "Application, architecture, tools and research. Built out.",
-          "state_note": "Needs testing. That is the only thing standing between it and finished.",
+          "one_line": "A soundboard that listens to the room and fires the sound when it hears the phrase.",
+          "detail": "Dungeon Cue proved the idea on a chunked Python pipeline that was slow and clunky, and this is the proper version of it: Flutter, on-device phrase spotting, Windows and phone from one codebase. Audio is processed in memory and never written to disk or uploaded, which is an architectural rule rather than a setting. Local playback is only one output. The same trigger can press a button in Companion, send OSC to a lighting desk, or fire a MIDI note, so it drives the tools someone already owns instead of competing with them.",
+          "state_note": "Needs testing. That is the only thing standing between it and finished. The name is a working codename and collides with existing apps, so it changes before anything public.",
           "started": "2026-07",
           "last_touched": "2026-08-03",
           "where": "D:\\Claude\\CLAUDEshared\\SoundCue_Project"
@@ -53,8 +53,8 @@
         {
           "name": "MudBuddy",
           "status": "scaffold",
-          "one_line": "A small local model that plays alongside you in a text MUD.",
-          "detail": "Design document, ROM priors, and a feasibility study on whether a tiny LLM can hold this job on home hardware.",
+          "one_line": "Watches you play a text MUD and suggests the next command. It never types anything itself.",
+          "detail": "You stay the only thing touching the game, which is the design, not a limitation. It proposes a command with a stated guess about what will happen and a window in which the guess still counts, then watches whether you did it and whether the prediction held. Ignoring a suggestion three times in the same situation lowers its weight, because you knowing better is also information.",
           "started": "2026-07",
           "last_touched": "2026-08-03",
           "where": "D:\\Claude\\CLAUDEshared\\MudBuddy_Project"
