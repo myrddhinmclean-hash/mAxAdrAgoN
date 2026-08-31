@@ -15,6 +15,7 @@
     .proj-name { font-size: 1.18rem; font-weight: 700; margin: 0; }
     .badge { font-size: .7rem; letter-spacing: .06em; text-transform: uppercase;
              padding: .16rem .5rem; border-radius: 3px; border: 1px solid currentColor; white-space: nowrap; }
+    .b-selling  { color: #FFC61A; font-weight: 700; }
     .b-working  { color: #4ade80; }
     .b-partial  { color: #FFC61A; }
     .b-scaffold { color: #8ab4f8; }
@@ -24,6 +25,7 @@
     .proj-detail{ opacity: .85; font-size: .95rem; margin: .3rem 0; }
     .proj-state { font-size: .9rem; opacity: .8; margin: .35rem 0 0; font-style: italic; }
     .proj-meta  { font-size: .78rem; opacity: .6; margin-top: .45rem; font-family: ui-monospace, Consolas, monospace; }
+    .proj-buy   { margin: .5rem 0 0; font-weight: 600; }
     .legend { font-size: .82rem; opacity: .7; margin: .8rem 0 0; }
     .legend span { margin-right: 1rem; white-space: nowrap; }
   </style>
@@ -48,11 +50,12 @@
     <main>
       <h1>Projects</h1>
       <p class="hoard-desc">
-        Everything, started or not. Working software sits beside things that are still only a
-        description, because that is honestly where they all are. Grouped by branch, since
-        "software" is too broad to mean anything.
+        Everything I am building, and everything I have not started yet. Two are finished and
+        for sale. Most are a folder with a plan in it. The list says which is which, because a
+        list that does not is just advertising.
       </p>
       <p class="legend">
+        <span class="badge b-selling">selling</span> finished, you can buy it
         <span class="badge b-working">working</span> it runs
         <span class="badge b-partial">partial</span> some of it runs
         <span class="badge b-scaffold">scaffold</span> a plan and a stub
@@ -115,6 +118,11 @@
           if (p.one_line)   html += '<p class="proj-one">' + esc(p.one_line) + "</p>";
           if (p.detail)     html += '<p class="proj-detail">' + esc(p.detail) + "</p>";
           if (p.state_note) html += '<p class="proj-state">' + esc(p.state_note) + "</p>";
+          if (p.link) {
+            html += '<p class="proj-buy"><a href="' + esc(p.link) + '" rel="noopener">' +
+                    esc(p.link.replace(/^https?:\/\//, "")) + "</a>" +
+                    (p.price ? " &middot; " + esc(p.price) : "") + "</p>";
+          }
           const bits = [];
           if (p.started)      bits.push("started " + esc(p.started));
           if (p.last_touched) bits.push("last touched " + esc(p.last_touched));

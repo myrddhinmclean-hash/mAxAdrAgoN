@@ -8,11 +8,13 @@
       "note": "Software for running games at a table. The oldest thread and the only one with users other than me.",
       "projects": [
         {
-          "name": "DungeonCue",
-          "status": "partial",
-          "one_line": "Hands-off voice-activated sound assistant for D&D DMs. Say the phrase, the rain starts, nobody breaks scene.",
-          "detail": "Windows desktop app, feature-complete against spec: modes, sound sets, four configurable buttons, wake and sleep phrases, auto-switch on 'Roll for Initiative'. It produces no audio itself; every trigger is a REST call relayed by Syrinscape's servers to a player logged into your account. Android exists as a push-to-talk skeleton; always-on listening there is a real scoped project, not a setting.",
-          "state_note": "Has a demo video. Given away for reviews. Not yet run at a live table.",
+          "name": "Dungeon Cue",
+          "status": "selling",
+          "price": "$4.99",
+          "link": "https://maxadragon.itch.io/dungeon-cue",
+          "one_line": "Say the phrase, the rain starts, nobody at the table looks up.",
+          "detail": "Windows desktop app. Modes, sound sets, four configurable buttons, wake and sleep phrases, and an auto-switch on 'Roll for Initiative' because that sentence is already said out loud at exactly the right moment. It produces no audio itself; every trigger is a call relayed by Syrinscape's servers to a player logged into your account. Android exists as a push-to-talk skeleton.",
+          "state_note": "Finished and on sale. Review copies out with creators.",
           "started": "2026-07",
           "last_touched": "2026-08-28",
           "where": "D:\\Claude\\CLAUDEshared\\DungeonCue_Project",
@@ -40,9 +42,10 @@
         },
         {
           "name": "SoundCue",
-          "status": "scaffold",
-          "one_line": "The audio system DungeonCue grew out of, and the origin of the electric blue and gold visual language.",
-          "detail": "Project plan, architecture notes, research, scaffold and tools. An ideas log and a set of gap briefs.",
+          "status": "partial",
+          "one_line": "The audio system Dungeon Cue grew out of, and the origin of the electric blue and gold.",
+          "detail": "Application, architecture, tools and research. Built out.",
+          "state_note": "Needs testing. That is the only thing standing between it and finished.",
           "started": "2026-07",
           "last_touched": "2026-08-03",
           "where": "D:\\Claude\\CLAUDEshared\\SoundCue_Project"
@@ -64,7 +67,9 @@
       "projects": [
         {
           "name": "AxiomTEA",
-          "status": "working",
+          "status": "selling",
+          "price": "$495",
+          "link": "https://maxadragon.itch.io/axiomtea",
           "one_line": "Reads an engineering pitch and tells you which numbers are physically impossible. No language model anywhere near the verdict.",
           "detail": "Deterministic first-principles diligence engine. Extracts quantitative claims, checks them against physical law and cited literature, and renders one analysis across ten stakeholder lenses that cannot contradict each other. Runs entirely offline; exactly one module is permitted outbound HTTPS and it handles data updates only. Ships as a single self-contained executable.",
           "state_note": "Version 5.0.0. 41 of 41 tests passing as of 2026-08-21, the only verified project in the FutureMap set. Health endpoint reports the exact bundled dependency versions, because a binary once shipped silently missing one.",
@@ -93,16 +98,16 @@
           "name": "AmoebiX",
           "status": "working",
           "one_line": "The arm rack. A local toolbox that dispatches questions to many models, keeps the answers, and logs what came of them.",
-          "detail": "Panel runs against a library of lenses, multi-model quorum, sensory collection, task cards, decision logging, and an append-only event ledger. Thirty-two configured models across API, browser and CLI backends. Results are SHA-256 cached so an identical rerun costs nothing.",
-          "state_note": "In daily use. Nine lenses rewritten for this brand on 2026-08-31.",
+          "detail": "Panel runs against a library of lenses, multi-model quorum, sensory collection, task cards, decision logging, and an append-only event ledger. Thirty-two configured models across API, browser and CLI backends. Results are SHA-256 cached so an identical rerun costs nothing. The editor lens lives here and works.",
+          "state_note": "In daily use. Nine lenses rewritten for this brand on 2026-08-31. Synod was a part of this, not a separate thing, and no longer exists under its own name.",
           "started": "2026-08",
           "last_touched": "2026-08-31",
           "where": "D:\\Ameobix"
         },
         {
-          "name": "Synod and AGY Bridge",
+          "name": "AGY Bridge",
           "status": "partial",
-          "one_line": "Multi-model quorum with an autonomous agent bridge. The thing that makes several AIs argue in front of me instead of agreeing behind my back.",
+          "one_line": "The bridge that lets an autonomous agent hand work across to this machine and get an answer back.",
           "started": "2026-08",
           "last_touched": "2026-08-27",
           "where": "D:\\Claude\\AGY_Bridge"
@@ -147,16 +152,6 @@
           "last_touched": "2026-08-20",
           "where": "G:\\My Drive\\FutureMap\\proj_4_concept_steering",
           "project_code": "PROJ-COG-SAE-EVM"
-        },
-        {
-          "name": "The Editor",
-          "status": "parked",
-          "one_line": "A machine that measured whether writing sounds like me. Built, calibrated, and halted on purpose.",
-          "detail": "Four gates: a free regex check on banned vocabulary, a local embedding score against a corpus of my own writing, an LLM comparator, and a fact pass. Gate 0 and Gate 1 were built and Gate 1 calibrated to a locked threshold with zero sensitivity violations.",
-          "state_note": "Halted 2026-08-31 after two independent reviews and an outside survey. Its main output was a rewrite brief, and I do not revise: I write once and abandon what does not work. The tool's primary product had no consumer. Gate 0 stays in use; the rest is archived with a written revival condition.",
-          "started": "2026-08-30",
-          "last_touched": "2026-08-31",
-          "where": "D:\\mAxAdrAgoN-Brand\\editor"
         }
       ]
     },
@@ -284,10 +279,10 @@
           "where": "D:\\mAxAdrAgoN-site\\campaign\\golden-sea"
         },
         {
-          "name": "Rivals and Destiny",
+          "name": "Rivals and Destiny podcast",
           "status": "parked",
           "one_line": "Twenty-five sessions, an archipelago, and a war between an empire that wanted everything and a rebellion that could not afford to lose.",
-          "state_note": "Played and recorded. A podcast exists, unreleased, with its own lifecycle.",
+          "state_note": "Recorded, not released. Its own lifecycle, beside the rest of this rather than inside it.",
           "started": "2020",
           "last_touched": "2026-08",
           "entry": "rivals-and-destiny"
