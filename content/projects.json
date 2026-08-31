@@ -108,10 +108,12 @@
         {
           "name": "AGY Bridge",
           "status": "partial",
-          "one_line": "The bridge that lets an autonomous agent hand work across to this machine and get an answer back.",
+          "one_line": "Drops a task in a folder so a coding agent inside an IDE picks it up, does the work, and reports back.",
           "started": "2026-08",
           "last_touched": "2026-08-27",
-          "where": "D:\\Claude\\AGY_Bridge"
+          "where": "D:\\Claude\\AGY_Bridge",
+          "detail": "The IDE has no doorbell. Nothing outside it can ring, and only its command line can be triggered from elsewhere, so the bridge is a watched folder. A brief goes into the inbox, a watcher spins the agent up against it, and a result lands in the outbox carrying a status: pending, in progress, done, blocked, or failed. One rule holds the rest together. Only the completion command may write DONE, so an agent that crashes has to leave its brief visibly unfinished. That rule exists because this bridge reported a false DONE once already.",
+          "state_note": "Working, with two lessons built into it. One target per brief and a ten minute budget, after a five target brief ran out of time having already found its answers and threw the work away. And briefs are shaped as goals rather than methods: say what done looks like and what the bar is, and it reads the code and works out how. Asked to attack a system as an adversary rather than review it, it found four silent faults the author's own attacks had missed."
         },
         {
           "name": "AegisBox",
@@ -309,18 +311,20 @@
         {
           "name": "mAxAdrAgoN",
           "status": "working",
-          "one_line": "This site. The record of everything above, and the place the work gets written down.",
+          "one_line": "This site. A running record of the work, with a register of every project and a page for the finished ones.",
           "started": "2026-08-28",
           "last_touched": "2026-08-31",
-          "where": "D:\\mAxAdrAgoN-site"
+          "where": "D:\\mAxAdrAgoN-site",
+          "detail": "Plain HTML and vanilla JavaScript reading JSON files. No framework and no build step, which means a change to what the site says is an edit to data rather than a deployment. A validator runs six checks and refuses the push if any fail, and it has already caught real faults: an encoding mark that broke a file's frontmatter, and a legal notice missing from three pages."
         },
         {
           "name": "Windows runner",
           "status": "working",
-          "one_line": "A PowerShell watcher that runs queued scripts, so an agent in the cloud can act on this machine without me pasting commands.",
+          "one_line": "A folder that runs PowerShell on this machine, so an assistant in a data centre can act on it without a port open.",
           "started": "2026-08-22",
           "last_touched": "2026-08-31",
-          "where": "D:\\Claude\\runner"
+          "where": "D:\\Claude\\runner",
+          "detail": "An assistant in the cloud cannot reach this computer. The usual answer is a chat window full of commands and a person pasting them one at a time, which is the problem wearing a solution costume. Instead a small loop watches a queue directory, runs any script that appears there, and moves it aside when it finishes. Nothing listens for a connection, so nothing can connect. The only way in is writing a file into one folder, and only something already trusted with the disk can do that."
         }
       ]
     }
