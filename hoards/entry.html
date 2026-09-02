@@ -28,7 +28,7 @@
     <main>
       <article>
         <div class="entry-header">
-          <a id="back-link" class="back-link" href="../index.html">← Back to Hoard</a>
+          <a id="back-link" class="back-link" href="../index.html">← Back</a>
           <div id="entry-meta" class="entry-meta"></div>
           <h1 id="entry-title" style="margin-bottom: 0;"></h1>
         </div>
@@ -58,14 +58,15 @@
       // this reader keeps the plain editorial look. loadSingleEntry writes the
       // hoard name into the meta line, so read it there rather than fetching
       // posts.json a second time.
-      // A nested entry reads "Within <place>" instead of naming its hoard, so
-      // the meta line alone would miss children. The back link always points at
-      // <hoard>.html, which covers both cases.
+      // The back link always points at <collection>.html, for parent and nested
+      // entries alike, so it is the reliable signal. The meta line is checked
+      // too as a fallback -- it now prints the collection bare ("DRAEGA"), not
+      // prefixed, so this test must not look for a "Hoard:" label.
       const meta = document.getElementById("entry-meta");
       const back = document.getElementById("back-link");
       const inDraega =
-        /hoard:\s*draega/i.test((meta && meta.textContent) || "") ||
-        /draega\.html/i.test((back && back.getAttribute("href")) || "");
+        /draega\.html/i.test((back && back.getAttribute("href")) || "") ||
+        /\bdraega\b/i.test((meta && meta.textContent) || "");
       if (inDraega) document.body.classList.add("story");
     });
   </script>

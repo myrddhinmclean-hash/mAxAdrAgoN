@@ -194,7 +194,7 @@ async function loadHoardEntries(hoardName) {
   const card = (entry, isChild) => `
       <a class="entry-item${isChild ? " entry-child" : ""}" href="entry.html?post=${encodeURIComponent(entry.slug)}">
         <div class="entry-meta">${entry.date} &middot; ${
-          isChild ? "Within " + (entry.within || "this place") : "Hoard: " + entry.hoard.toUpperCase()
+          isChild ? "Within " + (entry.within || "this place") : entry.hoard.toUpperCase()
         }</div>
         <h3 class="entry-title">${entry.title}</h3>
         <p class="entry-excerpt">${entry.excerpt}</p>
@@ -248,19 +248,24 @@ async function loadSingleEntry() {
 
   if (titleEl) titleEl.textContent = post.title;
   if (metaEl) {
-    let meta = `${post.date} · Hoard: ${post.hoard.toUpperCase()}`;
+    let meta = `${post.date} · ${post.hoard.toUpperCase()}`;
     if (post.campaign) meta += ` · ${post.campaign}`;
     metaEl.textContent = meta;
   }
   if (backLinkEl) {
-    // A nested entry goes back to the place that contains it, not to the hoard.
+    // A nested entry goes back to the place that contains it, not to the archive.
     const parent = post.parent ? posts.find((p) => p.slug === post.parent) : null;
     if (parent) {
       backLinkEl.href = `entry.html?post=${encodeURIComponent(parent.slug)}`;
       backLinkEl.textContent = `← Back to ${parent.title}`;
     } else {
       backLinkEl.href = `${post.hoard}.html`;
-      backLinkEl.textContent = `← Back to ${post.hoard.toUpperCase()} Hoard`;
+      // The reader-facing name of each collection. The key stays "hoard" in
+      // posts.json and in this file, because renaming it would break the live
+      // /hoards/ URLs and three scripts; only the wording changed.
+      const ARCHIVE_NAME = { draega: "The Draega Archive", machine: "The Machine Archive" };
+      const label = ARCHIVE_NAME[post.hoard] || post.hoard.toUpperCase();
+      backLinkEl.textContent = `← Back to ${label}`;
     }
   }
   document.title = `${post.title} — mAxAdrAgoN`;
