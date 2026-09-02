@@ -25,6 +25,25 @@
     .listen a[aria-disabled="true"] { opacity: .45; pointer-events: none; }
     .standing { border: 1px dashed rgba(232,220,200,0.22); padding: 1.2rem 1.4rem;
                 margin: 2rem 0; color: #b09a7e; font-size: .93rem; }
+    .doorway { display: block; text-decoration: none; margin: 2rem 0;
+               padding: 1.5rem 1.6rem; border: 1px solid rgba(232,220,200,0.2);
+               border-left: 3px solid #6b452a;
+               background: linear-gradient(to bottom, rgba(74,47,28,0.55), rgba(20,13,8,0.6));
+               transition: border-color .16s ease, transform .16s ease; }
+    .doorway:hover { border-left-color: #c98b4b; transform: translateX(3px); }
+    .doorway .dw-kicker { font-family: var(--font-mono); font-size: .72rem;
+                          letter-spacing: .09em; text-transform: uppercase; color: #7a6549; }
+    .doorway .dw-title { font-family: "Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
+                         font-style: italic; font-variant: small-caps; font-size: 1.5rem;
+                         color: #fbf6ec; margin: .25rem 0 .45rem;
+                         text-shadow: 0 1px 2px rgba(0,0,0,.8); }
+    .doorway p { color: #b09a7e; margin: 0; }
+    .doorway .dw-go { display: inline-block; margin-top: .7rem; color: #e0a969;
+                      font-size: .88rem; letter-spacing: .03em; }
+    @media (prefers-reduced-motion: reduce) {
+      .doorway { transition: none; }
+      .doorway:hover { transform: none; }
+    }
   </style>
 </head>
 <body class="story">
@@ -56,6 +75,17 @@
           the Froscius Dynasty. They set out to help one dwarven girl. It became a treasonous
           world tour.
         </p>
+
+        <a class="doorway" href="hoards/draega.html">
+          <div class="dw-kicker">The setting</div>
+          <div class="dw-title">The World of Draega</div>
+          <p>
+            The campaign runs on a world with its own myths, geography and ecology of
+            thought. The hoard is where that gets written down &mdash; entries, places,
+            and the pieces of Draega that outlive any one session.
+          </p>
+          <span class="dw-go">Enter the Draega hoard &rarr;</span>
+        </a>
 
         <div class="standing">
           <strong>This tendril is just starting.</strong> The page is standing before the
