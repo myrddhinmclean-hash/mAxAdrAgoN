@@ -297,7 +297,8 @@
           "state_note": "Recorded, not released. Its own lifecycle, beside the rest of this rather than inside it.",
           "started": "2020",
           "last_touched": "2026-08",
-          "entry": "rivals-and-destiny"
+          "entry": "rivals-and-destiny",
+          "perpetual": true
         }
       ]
     },

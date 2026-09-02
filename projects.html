@@ -115,11 +115,15 @@
       }
 
       // Parked work is not shown. It stays in content/projects.json so the
-      // register keeps the record; it just does not reach the page. Filtering
-      // here rather than deleting means un-parking something is a one-word
-      // edit to the JSON, not a rewrite.
+      // register keeps the record; it just does not reach the page.
+      //
+      // "perpetual" is the exemption. Some things carry the parked status
+      // because they have their own lifecycle running beside this one, not
+      // because they were abandoned - the RaD podcast is recorded but not
+      // released, and it has its own page. Those stay visible.
+      const hide = p => p.status === "parked" && !p.perpetual;
       const shown = (data.branches || []).map(b => Object.assign({}, b, {
-        projects: (b.projects || []).filter(p => p.status !== "parked")
+        projects: (b.projects || []).filter(p => !hide(p))
       })).filter(b => b.projects.length);
 
       const counts = {};
@@ -201,6 +205,6 @@
     }
     document.addEventListener("DOMContentLoaded", loadProjects);
   </script>
-  <script src="assets/js/nav.js?v=4"></script>
+  <script src="assets/js/nav.js?v=5"></script>
 </body>
 </html>
