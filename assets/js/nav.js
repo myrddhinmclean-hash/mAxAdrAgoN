@@ -84,7 +84,20 @@
       .then(r => (r.ok ? r.json() : null))
       .then(function (data) {
         if (!data || !data.branches || !data.branches.length) return;
-        const branches = data.branches;
+
+        // Parked work is not shown anywhere on the site. It stays in
+        // projects.json as the record; this drops it from the menu, and a
+        // branch left with nothing in it drops out too rather than showing
+        // an empty column.
+        const branches = data.branches.map(function (b) {
+          const copy = {};
+          for (const k in b) copy[k] = b[k];
+          copy.projects = (b.projects || []).filter(function (p) {
+            return p.status !== "parked";
+          });
+          return copy;
+        }).filter(function (b) { return b.projects.length; });
+        if (!branches.length) return;
 
         panel.innerHTML =
           '<div class="np-cols">' +

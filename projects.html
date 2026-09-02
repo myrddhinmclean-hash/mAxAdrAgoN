@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects — mAxAdrAgoN</title>
   <meta name="description" content="Every project, started or not. What is running, what is half-built, and what is still only a description.">
-  <link rel="stylesheet" href="assets/css/style.css?v=3">
+  <link rel="stylesheet" href="assets/css/style.css?v=4">
   <style>
     .branch-block { margin: 2.5rem 0 0; }
     .branch-head { border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: .4rem; margin-bottom: .35rem; }
@@ -114,9 +114,17 @@
         return;
       }
 
+      // Parked work is not shown. It stays in content/projects.json so the
+      // register keeps the record; it just does not reach the page. Filtering
+      // here rather than deleting means un-parking something is a one-word
+      // edit to the JSON, not a rewrite.
+      const shown = (data.branches || []).map(b => Object.assign({}, b, {
+        projects: (b.projects || []).filter(p => p.status !== "parked")
+      })).filter(b => b.projects.length);
+
       const counts = {};
       let total = 0;
-      (data.branches || []).forEach(b => (b.projects || []).forEach(p => {
+      shown.forEach(b => b.projects.forEach(p => {
         counts[p.status] = (counts[p.status] || 0) + 1; total++;
       }));
 
@@ -136,7 +144,7 @@
         '<p class="proj-meta">' + total + " projects &middot; register updated " +
         esc(data.updated) + "</p>";
 
-      (data.branches || []).forEach(b => {
+      shown.forEach(b => {
         const bslug = 'b-' + String(b.branch).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
         html += '<section class="branch-block" id="' + bslug + '">';
         html += '<h2 class="branch-head">' + esc(b.branch) + "</h2>";
@@ -193,6 +201,6 @@
     }
     document.addEventListener("DOMContentLoaded", loadProjects);
   </script>
-  <script src="assets/js/nav.js?v=3"></script>
+  <script src="assets/js/nav.js?v=4"></script>
 </body>
 </html>
