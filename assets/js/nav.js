@@ -25,7 +25,55 @@
   const esc = s => String(s == null ? "" : s)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+  /**
+   * The phone menu button.
+   *
+   * Built here rather than in the twelve page templates, so there is one copy
+   * of it. The CSS hides .site-nav under 600px ONLY when this button exists,
+   * which means a failure to load this file leaves the links visible and
+   * wrapping, exactly as they were before. That is the safe direction to fail.
+   */
+  function mountNavToggle() {
+    const nav = document.querySelector(".site-nav");
+    const header = document.querySelector(".site-header");
+    if (!nav || !header || document.querySelector(".nav-toggle")) return;
+
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "nav-toggle";
+    btn.setAttribute("aria-label", "Menu");
+    btn.setAttribute("aria-expanded", "false");
+    btn.setAttribute("aria-controls", "site-nav");
+    btn.innerHTML = '<span class="nt-bars" aria-hidden="true"></span><span>Menu</span>';
+    if (!nav.id) nav.id = "site-nav";
+
+    function setOpen(open) {
+      nav.classList.toggle("open", open);
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    btn.addEventListener("click", function () {
+      setOpen(!nav.classList.contains("open"));
+    });
+    // Following a link should not leave the menu hanging open behind the
+    // next page in browsers that restore the DOM from bfcache.
+    nav.addEventListener("click", function (e) {
+      if (e.target.closest("a")) setOpen(false);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") setOpen(false);
+    });
+    // Rotating a phone to landscape can cross the 600px line with the menu
+    // open, which would leave .open set on a nav that is now horizontal.
+    window.addEventListener("resize", function () {
+      if (window.innerWidth >= 600) setOpen(false);
+    });
+
+    header.insertBefore(btn, nav);
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    mountNavToggle();
+
     const panel = document.getElementById("nav-projects-menu");
     if (!panel) return;
     const drop = panel.closest(".nav-drop");

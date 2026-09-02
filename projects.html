@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects — mAxAdrAgoN</title>
   <meta name="description" content="Every project, started or not. What is running, what is half-built, and what is still only a description.">
-  <link rel="stylesheet" href="assets/css/style.css?v=2">
+  <link rel="stylesheet" href="assets/css/style.css?v=3">
   <style>
     .branch-block { margin: 2.5rem 0 0; }
     .branch-head { border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: .4rem; margin-bottom: .35rem; }
@@ -22,12 +22,41 @@
     .b-planned  { color: #a78bfa; }
     .b-parked   { color: #9ca3af; }
     .proj-one   { margin: .45rem 0 .3rem; }
-    .proj-detail{ opacity: .85; font-size: .95rem; margin: .3rem 0; }
+    .proj-detail{ font-size: .95rem; margin: .3rem 0; color: var(--text-muted); }
+
+    /* Only the long ones clamp. The button sits inside the paragraph so it
+       lands right after the cut text rather than on a line of its own. */
+    .proj-detail.clamped {
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      overflow: hidden; position: relative;
+    }
+    .proj-detail.clamped.open { display: block; -webkit-line-clamp: unset; overflow: visible; }
+    .proj-detail .more {
+      background: none; border: 0; padding: .1rem .35rem; margin-left: .35rem;
+      color: var(--blue-electric); font: inherit; font-size: .88rem; cursor: pointer;
+      text-decoration: underline; text-underline-offset: 3px;
+    }
+    .proj-detail .more:hover { color: var(--gold-bright); }
+    /* Inside a clamped box the button is cut off with the text, so float it
+       to the bottom-right corner where it stays reachable. */
+    .proj-detail.clamped:not(.open) .more {
+      position: absolute; right: 0; bottom: 0;
+      background: var(--bg-primary); box-shadow: -1.2rem 0 .7rem var(--bg-primary);
+    }
+
+    .stat-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+      gap: .6rem; margin: 1.2rem 0 .4rem;
+    }
+    .stat {
+      display: flex; align-items: baseline; gap: .5rem;
+      padding: .55rem .7rem; border: 1px solid var(--border-color); border-radius: 4px;
+      background: var(--bg-surface);
+    }
+    .stat-n { font-size: 1.25rem; font-weight: 700; font-family: ui-monospace, Consolas, monospace; }
     .proj-state { font-size: .9rem; opacity: .8; margin: .35rem 0 0; font-style: italic; }
-    .proj-meta  { font-size: .78rem; opacity: .6; margin-top: .45rem; font-family: ui-monospace, Consolas, monospace; }
+    .proj-meta  { font-size: .78rem; color: var(--text-faint); margin-top: .45rem; font-family: ui-monospace, Consolas, monospace; }
     .proj-buy   { margin: .5rem 0 0; font-weight: 600; }
-    .legend { font-size: .82rem; opacity: .7; margin: .8rem 0 0; }
-    .legend span { margin-right: 1rem; white-space: nowrap; }
   </style>
 </head>
 <body>
@@ -91,11 +120,21 @@
         counts[p.status] = (counts[p.status] || 0) + 1; total++;
       }));
 
-      const summary = Object.keys(counts).sort()
-        .map(k => counts[k] + " " + k).join(" &middot; ");
+      // A grid of counted badges rather than one long sentence. Ordered by how
+      // finished a thing is, not alphabetically, so the eye runs down the list
+      // in the order that actually means something.
+      const ORDER = ["selling", "working", "partial", "scaffold", "planned", "parked"];
+      const keys = ORDER.filter(k => counts[k])
+        .concat(Object.keys(counts).filter(k => ORDER.indexOf(k) === -1).sort());
 
-      let html = '<p class="proj-meta">' + total + " projects &middot; " + summary +
-                 " &middot; register updated " + esc(data.updated) + "</p>";
+      let html = '<div class="stat-grid">' +
+        keys.map(k =>
+          '<div class="stat"><span class="stat-n">' + counts[k] + "</span>" +
+          '<span class="badge b-' + esc(k) + '">' + esc(k) + "</span></div>"
+        ).join("") +
+        "</div>" +
+        '<p class="proj-meta">' + total + " projects &middot; register updated " +
+        esc(data.updated) + "</p>";
 
       (data.branches || []).forEach(b => {
         const bslug = 'b-' + String(b.branch).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -108,7 +147,18 @@
           html += '<div class="proj-head"><h3 class="proj-name">' + esc(p.name) + "</h3>";
           html += '<span class="badge b-' + esc(p.status) + '">' + esc(p.status) + "</span></div>";
           if (p.one_line)   html += '<p class="proj-one">' + esc(p.one_line) + "</p>";
-          if (p.detail)     html += '<p class="proj-detail">' + esc(p.detail) + "</p>";
+          // Only collapse what is actually long. Of 27 projects the median
+          // detail is ~230 characters; hiding a two-line paragraph behind a
+          // click costs more than it saves and makes the register feel managed
+          // rather than raw. Above the threshold, 9 of the 27, it earns its keep.
+          if (p.detail) {
+            if (p.detail.length > 320) {
+              html += '<p class="proj-detail clamped">' + esc(p.detail) +
+                      '<button type="button" class="more">more</button></p>';
+            } else {
+              html += '<p class="proj-detail">' + esc(p.detail) + "</p>";
+            }
+          }
           if (p.state_note) html += '<p class="proj-state">' + esc(p.state_note) + "</p>";
           if (p.link) {
             html += '<p class="proj-buy"><a href="' + esc(p.link) + '" rel="noopener">' +
@@ -130,9 +180,19 @@
       });
 
       box.innerHTML = html;
+
+      // One delegated listener rather than one per button. Toggles both ways,
+      // so a long entry can be folded back up after reading.
+      box.addEventListener("click", function (e) {
+        const btn = e.target.closest(".more");
+        if (!btn) return;
+        const para = btn.closest(".proj-detail");
+        const open = para.classList.toggle("open");
+        btn.textContent = open ? "less" : "more";
+      });
     }
     document.addEventListener("DOMContentLoaded", loadProjects);
   </script>
-  <script src="assets/js/nav.js?v=2"></script>
+  <script src="assets/js/nav.js?v=3"></script>
 </body>
 </html>
