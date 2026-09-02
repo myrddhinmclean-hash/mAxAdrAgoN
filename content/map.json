@@ -145,13 +145,6 @@
         "what": "Ingests billing exports and flags waste: redundant calls, oversized context windows, repeated identical prompts, with concrete fixes.",
         "risk": "The providers already ship dashboards. The differentiator would have to be genuinely sharper waste detection, not another cost graph."
       }
-    ],
-    "ruled_out": [
-      { "what": "Anything agent-orchestration or coding-assistant shaped", "why": "The single most saturated category in the entire corpus." },
-      { "what": "Robotics, hardware, space, energy generation", "why": "Capital and lab dependent. Not home-buildable." },
-      { "what": "Defense and government", "why": "Excluded by my own constraint." },
-      { "what": "Anything needing licensed data feeds", "why": "Market sizing and financial diligence data cost money before the first customer does. An evidence-based claim auditor died for exactly this reason." },
-      { "what": "Wellness and habit-tracking apps", "why": "Buildable at home and one of the most oversaturated consumer categories that exists. Clears every filter except the one that matters." }
     ]
   }
 }

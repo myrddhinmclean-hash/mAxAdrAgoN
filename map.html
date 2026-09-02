@@ -27,9 +27,6 @@
     .cand { padding: .9rem 0; border-bottom: 1px solid rgba(255,255,255,0.07); }
     .cand h4 { margin: 0 0 .3rem; font-size: 1.05rem; }
     .cand .risk { font-size: .9rem; opacity: .75; font-style: italic; margin-top: .35rem; }
-    .out-row { padding: .55rem 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
-    .out-what { font-weight: 600; }
-    .out-why { opacity: .78; font-size: .93rem; }
     .provenance { font-size: .78rem; opacity: .55; font-family: ui-monospace, Consolas, monospace; margin-top: .6rem; }
   </style>
 </head>
@@ -128,15 +125,6 @@
         if (c.risk) h += '<p class="risk">Risk: ' + esc(c.risk) + "</p>";
         h += "</div>";
       });
-
-      if (b.ruled_out && b.ruled_out.length) {
-        h += '<h2 class="part-head">Ruled out, and why</h2>';
-        h += '<p class="part-note">The exclusions are the useful half. Anyone can list opportunities.</p>';
-        b.ruled_out.forEach(o => {
-          h += '<div class="out-row"><span class="out-what">' + esc(o.what) +
-               '</span> <span class="out-why">' + esc(o.why) + "</span></div>";
-        });
-      }
 
       box.innerHTML = h;
     }
