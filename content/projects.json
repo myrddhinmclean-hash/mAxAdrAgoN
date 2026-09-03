@@ -79,10 +79,11 @@
         },
         {
           "name": "SynapseGraph",
-          "status": "scaffold",
+          "status": "partial",
           "one_line": "Turns a pile of scientific PDFs into a graph you can actually ask questions of.",
+          "state_note": "Reference extraction checked against real published papers on 2026-09-03. It pulls 1 through 40 out of the Attention paper complete, no gaps and no duplicates, against the 40 the paper actually has. It was written up the same day as overcounting, which was wrong: the reference counts it got measured against were invented rather than counted. The check now asserts the indices form the complete run from one to N, which needs no prior knowledge of N and cannot be mistaken about the answer.",
           "started": "2026-08",
-          "last_touched": "2026-08-18",
+          "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_1_academic_parser",
           "project_code": "PROJ-MET-APS-LPS",
           "detail": "Research sits locked in documents built to be printed, not searched, so finding what connects to what means reading all of it and remembering all of it. This pulls the structure out and builds the cross-references itself."
