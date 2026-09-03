@@ -43,7 +43,6 @@
         <a href="products.html">Products</a>
         <a href="radpodcast.html">RaD Podcast</a>
         <a href="map.html" class="active">The Future</a>
-        <a href="quorum.html">The Quorum</a>
       </nav>
     </header>
 
@@ -88,8 +87,7 @@
       let h = "";
       const s = d.source || {};
       h += '<p class="provenance">' + esc(s.corpus || "") + "<br>Compiled " + esc(s.compiled || "") +
-           " &middot; " + esc(s.taxonomy || "") +
-           ' &middot; <a href="quorum.html">see the questions behind it</a></p>';
+           " &middot; " + esc(s.taxonomy || "") + "</p>";
 
       const a = d.part_a || {};
       h += '<h2 class="part-head">' + esc(a.title) + "</h2>";

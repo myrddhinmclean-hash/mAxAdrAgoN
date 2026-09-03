@@ -1,7 +1,13 @@
 {
   "_comment": "The Log. Dated record of what was worked on. Back-catalogue reconstructed on 2026-08-31 from a file inventory of 1,450 documents, so the dates are file dates rather than memory. Newest first. No cadence: entries appear when work happens.",
-  "updated": "2026-08-31",
+  "updated": "2026-09-03",
   "entries": [
+    {
+      "date": "2026-09-03",
+      "title": "Ran the programs. Two of them do not do the thing they are named for",
+      "tags": ["FutureMap", "AegisBox", "CrystalGen", "OmniFleet", "SynapseDecode"],
+      "body": "Every project in the set has a passing test suite and nobody had ever asked whether the answers were right. So the programs got run instead.\n\nAegisBox claims network blocking, memory caps, watchdog timeouts and filesystem protection, and its ten tests never once try to break out of any of them. Real attacks say the watchdog holds and the airgap holds. Filesystem confinement was wide open and is now closed. The memory cap still fails on Windows, because the fix there is a job object nobody has written yet. And the threat scanner ships with detection on and blocking off, so the default path rates code CRITICAL_THREAT and then runs it. That looks like a security control and behaves like a logger.\n\nOmniFleet serves exactly one ride per vehicle out of two hundred submitted, then stops. There is no time loop, so no car ever finishes a trip and picks up a second passenger. The fleet sizing sweep it is named for cannot mean anything.\n\nCrystalGen returned negative zero for table salt, because neither sodium nor chlorine was in its element table and it quietly skipped whatever it did not recognise. Table now holds fifty one elements with cited sources. The fix exposed the real defect underneath: the valence field was never read at all, so magnesium oxide and table salt landed within a tenth of an electron volt of each other despite four times the lattice energy. Adding the charge product cut mean error by a third.\n\nThe part worth keeping is the retractions. Three times in one day a confident defect got written up in somebody else's code and the fault was in the measurement. Read the x component of a population vector against an angle in radians and a working neural decoder looks like a coin toss. Score ranking on seven compounds and 74.5 percent looks like 57. Compare extraction against reference counts that were invented rather than counted and correct output looks like overcounting.\n\nWhen the measurement says the code is badly broken, check the measurement first. Re-measuring is cheaper than rewriting, and a confident negative claim about someone's work should cost more scrutiny than a positive one, not less. The retractions stay in the findings file rather than getting deleted. A record that tidies away its own mistakes is worth nothing."
+    },
     {
       "date": "2026-08-31",
       "title": "The site becomes a record instead of a magazine",

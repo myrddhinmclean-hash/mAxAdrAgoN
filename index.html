@@ -35,7 +35,6 @@
         <a href="products.html">Products</a>
         <a href="radpodcast.html">RaD Podcast</a>
         <a href="map.html">The Future</a>
-        <a href="quorum.html">The Quorum</a>
       </nav>
     </header>
 
@@ -92,7 +91,7 @@
       // Marker names come from the shop, not from a content taxonomy. A note
       // dashed off at the bench is a different object from a written entry,
       // and saying so costs nothing to maintain because it is derived, not
-      // stored. Quorum rounds get their own marker because they are neither.
+      // stored.
       ((log && log.entries) || []).forEach(e => items.push({
         date: e.date, title: e.title, tags: e.tags || [],
         kind: "Shop Note", body: e.body || ""

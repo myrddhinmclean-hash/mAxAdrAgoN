@@ -1,7 +1,7 @@
 {
   "_comment": "The project register. Every project appears, started or not. Grouped by Branch, the taxonomy from the FutureMap READMEs. Status is honest: 'working' means it runs, 'partial' means some of it runs, 'scaffold' means a README and a stub, 'planned' means a description and no code. Owner ruling 2026-08-31: presenting unstarted work as unstarted is the point, not a weakness.",
   "_status_values": "working | partial | scaffold | planned | parked",
-  "updated": "2026-08-31",
+  "updated": "2026-09-03",
   "branches": [
     {
       "branch": "Tabletop tools",
@@ -114,10 +114,11 @@
         },
         {
           "name": "AegisBox",
-          "status": "scaffold",
+          "status": "partial",
           "one_line": "Runs an agent's code in a box where it can only touch what you handed it.",
+          "state_note": "Attacked properly for the first time on 2026-09-03. Watchdog and airgap hold. Filesystem confinement was open and is now shut. Two faults stand: the memory cap does not hold on Windows, which needs a job object, and the threat scanner runs code it has already rated CRITICAL_THREAT because blocking is off by default. Its ten original tests never tried to break out of anything.",
           "started": "2026-08",
-          "last_touched": "2026-08-20",
+          "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_2_agent_sandbox",
           "project_code": "PROJ-AGT-MTO-PSL",
           "detail": "An agent that writes and executes its own code is one bad line from deleting your files or posting them somewhere. This gives it a floor, four walls, and no exit you did not open yourself."
@@ -199,10 +200,11 @@
         },
         {
           "name": "CrystalGen",
-          "status": "scaffold",
+          "status": "partial",
           "one_line": "Predicts whether a proposed crystal would survive being made.",
+          "state_note": "Measured against published formation energies on 2026-09-03 and repaired twice. It used to return negative zero for table salt, because the element table held thirteen entries and anything outside them was skipped without a word. Now fifty one elements with cited sources, unknown elements refused rather than ignored, and the ionic charge product added to the energy term. Mean error 0.491 eV per atom over eighteen compounds, down a third. Ranking accuracy 77 percent, which the fix did not move.",
           "started": "2026-08",
-          "last_touched": "2026-08-18",
+          "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_11_crystal_predictor",
           "project_code": "PROJ-MAT-ACS-CSP",
           "detail": "Finding a new superconductor or a solid battery electrolyte has historically meant years of mixing things and seeing what holds together. This screens the candidate for stability before anyone books lab time."
@@ -234,20 +236,22 @@
         },
         {
           "name": "OmniFleet",
-          "status": "scaffold",
+          "status": "partial",
           "one_line": "Sends robotaxis where the passengers will be, before they are there.",
+          "state_note": "Runs, and cannot yet answer its own question. Measured 2026-09-03: it serves exactly one ride per vehicle out of two hundred submitted and then stops, because dispatch is a single instant round with no time loop behind it. A car never finishes a trip and takes a second passenger, so the fleet sizing sweep compares different problems rather than the same one solved faster. Its three tests pass. The sweep should not be presented as fleet sizing until the time loop exists.",
           "started": "2026-08",
-          "last_touched": "2026-08-18",
+          "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_13_robotaxi_fleet",
           "project_code": "PROJ-TRA-ARF-DDR",
           "detail": "An empty car driving to a pickup earns nothing and spends battery doing it, and the surge always arrives faster than a fleet repositions. This is the dispatch and charging schedule that moves early instead of catching up."
         },
         {
           "name": "SynapseDecode",
-          "status": "scaffold",
+          "status": "partial",
           "one_line": "Turns raw neural spikes into smooth limb movement in under twenty milliseconds.",
+          "state_note": "Reproduces the published population vector result. Measured over 200 trials per point on 2026-09-03, decode error falls from 43 degrees at four channels to 7 degrees at sixty, and error times the square root of the channel count holds steady from twelve channels upward, which is the relationship the algorithm is known for. It was written up as broken earlier the same day. That was a misread return signature, not a defect, and the retraction is kept in the findings file.",
           "started": "2026-08",
-          "last_touched": "2026-08-18",
+          "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_15_neural_spike_decoder",
           "project_code": "PROJ-COG-HDI-NSD",
           "detail": "A prosthetic that lags feels like it belongs to somebody else. The decoder has to translate chaotic firing across many channels into continuous motion fast enough that the intention and the movement land as one event."
