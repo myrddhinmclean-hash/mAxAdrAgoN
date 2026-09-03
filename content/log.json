@@ -4,62 +4,102 @@
   "entries": [
     {
       "date": "2026-09-03",
-      "title": "Ran the programs. Two of them do not do the thing they are named for",
-      "tags": ["FutureMap", "AegisBox", "CrystalGen", "OmniFleet", "SynapseDecode"],
-      "body": "Every project in the set has a passing test suite and nobody had ever asked whether the answers were right. So the programs got run instead.\n\nAegisBox claims network blocking, memory caps, watchdog timeouts and filesystem protection, and its ten tests never once try to break out of any of them. Real attacks say the watchdog holds and the airgap holds. Filesystem confinement was wide open and is now closed. The memory cap still fails on Windows, because the fix there is a job object nobody has written yet. And the threat scanner ships with detection on and blocking off, so the default path rates code CRITICAL_THREAT and then runs it. That looks like a security control and behaves like a logger.\n\nOmniFleet serves exactly one ride per vehicle out of two hundred submitted, then stops. There is no time loop, so no car ever finishes a trip and picks up a second passenger. The fleet sizing sweep it is named for cannot mean anything.\n\nCrystalGen returned negative zero for table salt, because neither sodium nor chlorine was in its element table and it quietly skipped whatever it did not recognise. Table now holds fifty one elements with cited sources. The fix exposed the real defect underneath: the valence field was never read at all, so magnesium oxide and table salt landed within a tenth of an electron volt of each other despite four times the lattice energy. Adding the charge product cut mean error by a third.\n\nThe part worth keeping is the retractions. Three times in one day a confident defect got written up in somebody else's code and the fault was in the measurement. Read the x component of a population vector against an angle in radians and a working neural decoder looks like a coin toss. Score ranking on seven compounds and 74.5 percent looks like 57. Compare extraction against reference counts that were invented rather than counted and correct output looks like overcounting.\n\nWhen the measurement says the code is badly broken, check the measurement first. Re-measuring is cheaper than rewriting, and a confident negative claim about someone's work should cost more scrutiny than a positive one, not less. The retractions stay in the findings file rather than getting deleted. A record that tidies away its own mistakes is worth nothing."
+      "title": "Ran the programs instead of the tests",
+      "tags": [
+        "FutureMap",
+        "AegisBox",
+        "CrystalGen",
+        "OmniFleet",
+        "SynapseDecode",
+        "SovereignVault"
+      ],
+      "body": "Every project in the set has a passing test suite and nobody had ever asked whether the answers were right. So the programs got run instead.\n\nAegisBox claims network blocking, memory caps, watchdog timeouts and filesystem protection, and its ten tests never once try to break out of any of them. Real attacks say the watchdog holds and the airgap holds. Filesystem confinement was wide open and is now closed. The memory cap still fails on Windows, because the fix there is a job object nobody has written yet. And the threat scanner ships with detection on and blocking off, so the default path rates code CRITICAL_THREAT and then runs it. That looks like a security control and behaves like a logger.\n\nOmniFleet served exactly one ride per vehicle out of two hundred submitted, then stopped. There was no time loop, so no car ever finished a trip and picked up a second passenger, and the fleet sizing sweep the whole project is named for could not mean anything. That one got fixed before the day ended. Dispatch now carries a clock per vehicle and measures the wait from the request to the pickup, which is the number a rider actually feels.\n\nCrystalGen returned negative zero for table salt, because neither sodium nor chlorine was in its element table and it quietly skipped whatever it did not recognise. Table now holds fifty one elements with cited sources. The fix exposed the real defect underneath: the valence field was never read at all, so magnesium oxide and table salt landed within a tenth of an electron volt of each other despite four times the lattice energy. Adding the charge product cut mean error by a third.\n\nThe part worth keeping is the retractions. Three times in one day a confident defect got written up in somebody else's code and the fault was in the measurement. Read the x component of a population vector against an angle in radians and a working neural decoder looks like a coin toss. Score ranking on seven compounds and 74.5 percent looks like 57. Compare extraction against reference counts that were invented rather than counted and correct output looks like overcounting.\n\nWhen the measurement says the code is badly broken, check the measurement first. Re-measuring is cheaper than rewriting, and a confident negative claim about someone's work should cost more scrutiny than a positive one, not less. The retractions stay in the findings file rather than getting deleted. A record that tidies away its own mistakes is worth nothing."
     },
     {
       "date": "2026-08-31",
       "title": "The site becomes a record instead of a magazine",
-      "tags": ["the lair", "AmoebiX", "governance"],
+      "tags": [
+        "the lair",
+        "AmoebiX",
+        "governance"
+      ],
       "body": "Rebuilt the site around what actually happens here. Three reading rooms stay for finished writing. Four working rooms added: this log, a project register, the map of the future, and the quorum record. Governance amended to match, since it named exactly three rooms and now names seven.\n\nThe register lists every project, started or not. Twenty seven of them, five working, sixteen still a README and a stub. Presenting the unstarted ones as unstarted is the point.\n\nAlso today: two teardowns published, AxiomTEA and Dungeon Cue. A voice-checking pipeline built, calibrated, and halted on purpose. The site repo moved off Google Drive, where a syncing folder had been quietly rewriting a live git directory."
     },
     {
       "date": "2026-08-31",
       "title": "A machine that measured my own writing, and why it was switched off",
-      "tags": ["the lair", "AmoebiX"],
+      "tags": [
+        "the lair",
+        "AmoebiX"
+      ],
       "body": "Built four gates to check whether a draft sounds like me. A free regex pass on banned words, a local embedding score against a corpus of my own writing, an LLM comparator, a fact pass. Got the first two working and calibrated the threshold to zero false rejections across thirty one samples.\n\nThen halted it. Its main output was a list of fixes, and I do not revise. I write once and abandon what does not work, so the tool's primary product had no consumer. The regex check stays because it costs nothing and already caught a real defect in itself: the banned word list would have vetoed a poem I wrote in 2016.\n\nThe rest is archived with a written condition for waking it up."
     },
     {
       "date": "2026-08-30",
       "title": "Draega canon pulled off World Anvil, and one published entry found to be wrong",
-      "tags": ["Draega", "the lair"],
+      "tags": [
+        "Draega",
+        "the lair"
+      ],
       "body": "Mirrored thirty two World Anvil articles into the repo. All of it mine, no AI anywhere in it, which makes it the clean counterweight to a worldbuilding compendium that got partly AI-filled and has been flagged untrusted since.\n\nThe pull turned up an error in a live entry. A 2020 site I built myself puts Anjax in the four-person player party. The published piece files him among the captains and generals. The published piece is wrong, and it is wrong in exactly the way a contaminated source predicts: smooth, confident, and traceable to nothing."
     },
     {
       "date": "2026-08-24",
       "title": "The heaviest week. AxiomTEA, AmoebiX, and the bridge",
-      "tags": ["AxiomTEA", "AmoebiX", "AGY Bridge", "Draega"],
+      "tags": [
+        "AxiomTEA",
+        "AmoebiX",
+        "AGY Bridge",
+        "Draega"
+      ],
       "body": "Five hundred and fifty four documents in seven days, the largest stretch of work in the record.\n\nAxiomTEA took a hundred and eighty two of them and came out the other side as a shipping product. AmoebiX took a hundred and twenty and became the thing I now use every day. The agent bridge took seventy nine. The Golden Sea campaign took fifty eight and reached twenty four modules.\n\nThe Windows runner was built this week too, which is why a session in the cloud can now do things on this machine without me pasting commands into a terminal."
     },
     {
       "date": "2026-08-17",
       "title": "Fifteen projects fall out of the research",
-      "tags": ["FutureMap", "AxiomTEA", "research"],
+      "tags": [
+        "FutureMap",
+        "AxiomTEA",
+        "research"
+      ],
       "body": "The Moonshots corpus turned into a taxonomy and then into a portfolio. Twenty four branches, fifteen projects, each with a code and a branch and a capital figure of zero.\n\nMost of them are scaffolds and the README says so now, though it did not at first. It claimed fifty of fifty tests passing and pointed at a test runner that does not exist. That got corrected rather than quietly deleted, because a repo overstating its own state is the same failure the flagship project exists to detect in other people's claims.\n\nAxiomTEA is the one that got real."
     },
     {
       "date": "2026-08-12",
       "title": "Two large questions with no product attached",
-      "tags": ["research"],
+      "tags": [
+        "research"
+      ],
       "body": "Asked how you would redesign civilization if you could. The answer refused the framing: do not try to fix people, redesign the incentive architecture, because civilization is extraordinarily good at local optimization and extraordinarily bad at global.\n\nThe next day, asked for the ten most consequential bets humanity has made since 2021, chosen on real capital and real hardware rather than noise, and stacked rather than listed."
     },
     {
       "date": "2026-08-03",
       "title": "Fable Archive, and three tools at once",
-      "tags": ["Fable Archive", "Dungeon Cue", "DMToolbox", "SoundCue", "MudBuddy"],
+      "tags": [
+        "Fable Archive",
+        "Dungeon Cue",
+        "DMToolbox",
+        "SoundCue",
+        "MudBuddy"
+      ],
       "body": "Two hundred and thirty four documents. The Fable Archive alone accounts for a hundred and sixty five of them.\n\nDungeon Cue, DMToolbox, SoundCue and MudBuddy all moved in the same week, which is either productive or a diagnosis depending on who is counting."
     },
     {
       "date": "2026-07-20",
       "title": "Dungeon Cue starts",
-      "tags": ["Dungeon Cue", "SoundCue"],
+      "tags": [
+        "Dungeon Cue",
+        "SoundCue"
+      ],
       "body": "The mouse is on the wrong side of the table. That is the whole problem statement, and Dungeon Cue is the answer to it: say the phrase, the rain starts, nobody looks up.\n\nSoundCue moved the same week, and its electric blue and gold became the visual language for everything after."
     },
     {
       "date": "2026-07-13",
       "title": "The workspace itself",
-      "tags": ["AmoebiX", "MudBuddy"],
+      "tags": [
+        "AmoebiX",
+        "MudBuddy"
+      ],
       "body": "Fifty documents, most of them the working environment rather than any product. This is where the record starts. Before this week the folders hold invoices, resumes, a dissertation, and descriptions written for text games, and nothing that became any of this."
     }
   ]
