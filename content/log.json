@@ -4,6 +4,15 @@
   "entries": [
     {
       "date": "2026-09-03",
+      "title": "DM Toolbox builds into an exe that actually opens",
+      "tags": [
+        "DM Toolbox",
+        "packaging"
+      ],
+      "body": "Eight modules had been written and never once packaged. The README said so plainly: built and smoke-tested under Linux, never run on a real Windows machine, and that was the one thing the environment could not check. It can now, so it did.\n\nThe build failed first time, and the reason is worth keeping. Bare python, pip and pyinstaller pointed at three different places on the same machine. python resolved to an unrelated tool's virtualenv with no pywebview in it, pip resolved to a completely different interpreter, and pyinstaller was not a command at all. So the install step exited zero and reported success while the interpreter that would actually run the app still could not import the thing that had just been installed. Both launchers now pick one interpreter up front and bind every step to it, and the build proves the install landed there rather than trusting an exit code.\n\nSecond time it built. Twenty megabytes, one file, and it opens a real window with all eight modules in it and writes saves that survive a relaunch.\n\nOne more trap on the way, recorded because it nearly got written up as a failure. Asking Windows for the process's main window returns nothing at all on a working build, because a one-file package runs a small parent that launches the real program, and the window belongs to the child. Ask the parent and you get told there is no window. The app was on screen the whole time."
+    },
+    {
+      "date": "2026-09-03",
       "title": "Ran the programs instead of the tests",
       "tags": [
         "FutureMap",

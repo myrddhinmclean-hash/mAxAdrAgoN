@@ -32,12 +32,12 @@
         {
           "name": "DM Toolbox",
           "status": "partial",
-          "one_line": "Zero-dependency desktop suite of ten GM tools in one standalone executable.",
-          "detail": "Ten GM tools in one executable with nothing to install: combat, session prep, faction web, handouts, recap cards, codex, rules lookup, loot. The Dungeon Cue audio bridge is the flagship. One download, no dependency chain, and one visual language across the whole set.",
-          "state_note": "Draft plan, architecture notes, module seeds and a research corpus, plus a brief generator that runs. The ten modules themselves are not built.",
+          "one_line": "Ten GM tools in one window, each one useful on its own.",
+          "detail": "Running a session means eight jobs at once and a different tool for each, most of them a browser tab wanting a subscription. This puts prep, combat, factions, handouts, rules, recaps, loot and a codex in one window that works with the wifi off. Buy one module or all of them; they share a campaign file.",
+          "state_note": "Eight of the ten modules built and testable. Packaged as a single Windows exe and verified on real hardware for the first time on 2026-09-03: it opens, renders every module, and writes saves to APPDATA that survive a relaunch. The build script used to call bare python, pip and pyinstaller, which resolved to three different places on the build machine, so pip reported success while the interpreter could not import what it had installed. Both launchers now bind every step to one interpreter and check the install landed there. Audio and voice features are decided against, not deferred. Nothing is packaged for sale yet.",
           "started": "2026-08",
-          "last_touched": "2026-08-03",
-          "where": "D:\\Claude\\CLAUDEshared\\DMToolbox_Project"
+          "last_touched": "2026-09-03",
+          "where": "D:\\DMToolbox2"
         },
         {
           "name": "SoundCue",
