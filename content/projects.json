@@ -12,8 +12,8 @@
           "price": "$4.99",
           "link": "https://maxadragon.itch.io/dungeon-cue",
           "one_line": "Say the phrase, the rain starts, nobody at the table looks up.",
-          "detail": "Windows desktop app. Modes, sound sets, four configurable buttons, wake and sleep phrases, and an auto-switch on 'Roll for Initiative' because that sentence is already said out loud at exactly the right moment. It produces no audio itself; every trigger is a call relayed by Syrinscape's servers to a player logged into your account. Android exists as a push-to-talk skeleton.",
-          "state_note": "Finished and on sale. Review copies out with creators.",
+          "detail": "The mouse is on the wrong side of the table. A sound cue needs firing at the moment the scene calls for it, and getting it means breaking off mid-sentence to go clicking, which is the one thing a running scene cannot afford. So the trigger becomes the sentence you were already saying. Modes, sound sets, four configurable buttons, wake and sleep phrases, and an auto-switch on 'Roll for Initiative' because that line is already spoken out loud at exactly the right moment. It produces no audio itself; every trigger is a call relayed by Syrinscape's servers to a player logged into your account.",
+          "state_note": "Finished and on sale. Review copies out with creators. Android exists as a push-to-talk skeleton.",
           "started": "2026-07",
           "last_touched": "2026-08-28",
           "where": "D:\\Claude\\CLAUDEshared\\DungeonCue_Project",
@@ -23,8 +23,8 @@
           "name": "CampaignOS",
           "status": "partial",
           "one_line": "Voice-first live session runner for D&D 5e. A second screen that keeps combat moving while you talk.",
-          "detail": "Tauri v2, Rust backend, vanilla webview HUD, roughly 15 MB binary. Event-sourced state with undo and redo. The Drum (combat and initiative HUD) is operational. Tier-1 natural language parser handles table speech like '5 on goblin 1' in under 2ms at zero token cost. Player View runs on a second screen with sanitised combatant cards.",
-          "state_note": "Modules 1 through 7 built or partial. The Vault and The Arbiter scoped to v1.5, The Forge and The Loom to v2.0, deliberately, to protect a fifteen-minute onboarding.",
+          "detail": "Running a live session means holding combat state in your head while also being every character at the table. The tracking is what slips, because the talking cannot. This is the second screen that does the holding: initiative and combat on one display, a sanitised view of it on another for the players, and speech as the input, so the table's own words move the state instead of a mouse. Everything it records can be undone, because a session corrects itself constantly and a tracker that cannot go backwards gets abandoned by the second fight.",
+          "state_note": "Modules 1 through 7 built or partial. The Drum, the combat and initiative HUD, is operational, and Player View runs on a second screen with sanitised combatant cards. Tauri v2, Rust backend, vanilla webview HUD, roughly 15 MB binary, event-sourced state with undo and redo. The tier-1 parser handles table speech like '5 on goblin 1' in under 2ms at zero token cost. The Vault and The Arbiter scoped to v1.5, The Forge and The Loom to v2.0, deliberately, to protect a fifteen-minute onboarding.",
           "started": "2026-08",
           "last_touched": "2026-08-30",
           "where": "G:\\My Drive\\campaignos"
@@ -43,8 +43,8 @@
           "name": "SoundCue",
           "status": "partial",
           "one_line": "A soundboard that listens to the room and fires the sound when it hears the phrase.",
-          "detail": "Dungeon Cue proved the idea on a chunked Python pipeline that was slow and clunky, and this is the proper version of it: Flutter, on-device phrase spotting, Windows and phone from one codebase. Audio is processed in memory and never written to disk or uploaded, which is an architectural rule rather than a setting. Local playback is only one output. The same trigger can press a button in Companion, send OSC to a lighting desk, or fire a MIDI note, so it drives the tools someone already owns instead of competing with them.",
-          "state_note": "Needs testing. That is the only thing standing between it and finished. The name is a working codename and collides with existing apps, so it changes before anything public.",
+          "detail": "A soundboard that listens for the phrase instead of waiting for the click, built so the audio never leaves the machine. Sound is processed in memory and never written to disk or uploaded, which is an architectural rule rather than a setting someone can switch off. Local playback is only one of the outputs. The same trigger can press a button in Companion, send OSC to a lighting desk, or fire a MIDI note, so it drives the equipment somebody already owns rather than asking them to replace it.",
+          "state_note": "Needs testing. That is the only thing standing between it and finished. Dungeon Cue proved the idea first on a chunked Python pipeline that was slow and clunky; this is the proper version, Flutter, on-device phrase spotting, Windows and phone from one codebase. The name is a working codename and collides with existing apps, so it changes before anything public.",
           "started": "2026-07",
           "last_touched": "2026-08-03",
           "where": "D:\\Claude\\CLAUDEshared\\SoundCue_Project"
@@ -97,8 +97,8 @@
           "name": "AmoebiX",
           "status": "working",
           "one_line": "The arm rack. A local toolbox that dispatches questions to many models, keeps the answers, and logs what came of them.",
-          "detail": "Panel runs against a library of lenses, multi-model quorum, sensory collection, task cards, decision logging, and an append-only event ledger. Thirty-two configured models across API, browser and CLI backends. Results are SHA-256 cached so an identical rerun costs nothing. The editor lens lives here and works.",
-          "state_note": "In daily use. Nine lenses rewritten for this brand on 2026-08-31. Synod was a part of this, not a separate thing, and no longer exists under its own name.",
+          "detail": "One model answering one question gives you an answer with no error bars on it. Asking several and reading where they disagree gives you something better, because the disagreement is where the uncertainty actually lives. This is the rack the arms hang on: dispatch a question across many models at once, hold the answers, run them against a library of lenses that tell each model what shape its answer must take, and log what came of it in a ledger that only gets appended to. Identical questions are cached, so asking twice costs once. The intelligence is in the arrangement, not in any of the arms.",
+          "state_note": "In daily use. Panel, multi-model quorum, sensory collection, task cards, decision logging and the event ledger all working, across thirty-two configured models on API, browser and CLI backends. The editor lens lives here and works. Nine lenses rewritten for this brand on 2026-08-31. Synod was a part of this, not a separate thing, and no longer exists under its own name.",
           "started": "2026-08",
           "last_touched": "2026-08-31",
           "where": "D:\\Ameobix"
@@ -110,8 +110,8 @@
           "started": "2026-08",
           "last_touched": "2026-08-27",
           "where": "D:\\Claude\\AGY_Bridge",
-          "detail": "The IDE has no doorbell. Nothing outside it can ring, and only its command line can be triggered from elsewhere, so the bridge is a watched folder. A brief goes into the inbox, a watcher spins the agent up against it, and a result lands in the outbox carrying a status: pending, in progress, done, blocked, or failed. One rule holds the rest together. Only the completion command may write DONE, so an agent that crashes has to leave its brief visibly unfinished. That rule exists because this bridge reported a false DONE once already.",
-          "state_note": "Working, with two lessons built into it. One target per brief and a ten minute budget, after a five target brief ran out of time having already found its answers and threw the work away. And briefs are shaped as goals rather than methods: say what done looks like and what the bar is, and it reads the code and works out how. Asked to attack a system as an adversary rather than review it, it found four silent faults the author's own attacks had missed."
+          "detail": "The IDE has no doorbell. Nothing outside it can ring, and only its command line can be triggered from elsewhere, so the bridge is a watched folder. A brief goes into the inbox, a watcher spins the agent up against it, and a result lands in the outbox carrying a status: pending, in progress, done, blocked, or failed. One rule holds the rest together. Only the completion command may write DONE, so an agent that crashes has to leave its brief visibly unfinished, and a job that died cannot be mistaken for a job that finished.",
+          "state_note": "Working, with three lessons built into it. The DONE rule exists because this bridge reported a false DONE once already. One target per brief and a ten minute budget, after a five target brief ran out of time having already found its answers and threw the work away. And briefs are shaped as goals rather than methods: say what done looks like and what the bar is, and it reads the code and works out how. Asked to attack a system as an adversary rather than review it, it found four silent faults the author's own attacks had missed."
         },
         {
           "name": "AegisBox",
@@ -122,7 +122,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_2_agent_sandbox",
           "project_code": "PROJ-AGT-MTO-PSL",
-          "detail": "An agent that writes and runs its own code is one bad line from deleting your files or posting them to a stranger. Reading every line it writes is not an answer, because nothing reads at the speed these things generate. So give it a room instead. No network unless you granted one, a hard ceiling on memory, a clock that kills whatever is still running when the time is up, and a floor it cannot write through. It hands back the output, the runtime, the memory used and the exit code as structured data, so whoever called it can decide what to trust. A container where one is available, a fenced subprocess where it is not."
+          "detail": "An agent that writes and runs its own code is one bad line from deleting your files or posting them to a stranger. Reading every line it writes is not an answer, because nothing reads at the speed these things generate. So give it a room instead. No network unless you granted one, a hard ceiling on memory, a clock that kills whatever is still running when the time is up, and a floor it cannot write through. It hands back the output, the runtime, the memory used and the exit code as structured data, so whoever called it can decide what to trust."
         },
         {
           "name": "AgentMesh",
@@ -214,7 +214,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_11_crystal_predictor",
           "project_code": "PROJ-MAT-ACS-CSP",
-          "detail": "Finding a new superconductor or a solid battery electrolyte has historically meant mixing things for years and seeing what holds together. Lab time is the expensive part, so the screen belongs in front of it. This takes a formula and estimates its formation energy from what the elements themselves are: how hard each one pulls on electrons, how big it is, what charge it carries. Then it sorts candidates into stable, worth trying, and no. Every column is labelled a heuristic, because a number in eV per atom looks identical whether a supercomputer produced it or arithmetic did."
+          "detail": "Finding a new superconductor or a solid battery electrolyte has historically meant mixing things for years and seeing what holds together. Lab time is the expensive part, so the screen belongs in front of it. This takes a formula and estimates its formation energy from what the elements themselves are: how hard each one pulls on electrons, how big it is, what charge it carries. Then it sorts candidates into stable, worth trying, and no. Labelling every column a heuristic is part of the design rather than a caveat, because a number in eV per atom looks identical whether a supercomputer produced it or arithmetic did."
         },
         {
           "name": "AquaNutrient",
@@ -290,10 +290,11 @@
           "name": "Draega",
           "status": "working",
           "one_line": "A world of twelve continents, two moons that are never not full, and a history reaching back a hundred and twenty three million years.",
-          "detail": "Published on World Anvil, owner-authored throughout. Thirty-two articles covering continents, oceans, settlements and a dated history timeline.",
+          "detail": "The world everything else gets played in. Twelve continents, two moons that are never not full, and a history reaching back a hundred and twenty three million years, built to be consistent enough that a campaign can be run anywhere on it without the map contradicting itself.",
           "started": "2019",
           "last_touched": "2026-08",
-          "where": "https://www.worldanvil.com/w/draega-maxadragon"
+          "where": "https://www.worldanvil.com/w/draega-maxadragon",
+          "state_note": "Owner-authored throughout, no AI anywhere in it, which makes it the clean counterweight to a worldbuilding compendium that was partly AI-filled and has been flagged untrusted since. Thirty-two articles published on World Anvil covering continents, oceans, settlements and a dated history timeline."
         },
         {
           "name": "Golden Sea campaign kit",
@@ -326,7 +327,8 @@
           "started": "2026-08-28",
           "last_touched": "2026-08-31",
           "where": "D:\\mAxAdrAgoN-site",
-          "detail": "Plain HTML and vanilla JavaScript reading JSON files. No framework and no build step, which means a change to what the site says is an edit to data rather than a deployment. A validator runs six checks and refuses the push if any fail, and it has already caught real faults: an encoding mark that broke a file's frontmatter, and a legal notice missing from three pages."
+          "detail": "A running record of the work rather than a magazine about it, with a register of every project, started or not, and a room for the finished writing. Plain HTML and vanilla JavaScript reading JSON files. No framework and no build step, which means changing what the site says is an edit to data rather than a deployment, and nothing about publishing is allowed to be harder than writing.",
+          "state_note": "A validator runs six checks and refuses the push if any fail. It has already caught real faults: an encoding mark that broke a file's frontmatter, and a legal notice missing from three pages."
         },
         {
           "name": "Windows runner",
