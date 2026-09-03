@@ -80,13 +80,13 @@
         {
           "name": "SynapseGraph",
           "status": "partial",
-          "one_line": "Turns a pile of scientific PDFs into a graph you can actually ask questions of.",
+          "one_line": "Turns a stack of scientific PDFs into a graph you can ask questions of.",
           "state_note": "Reference extraction checked against real published papers on 2026-09-03. It pulls 1 through 40 out of the Attention paper complete, no gaps and no duplicates, against the 40 the paper actually has. It was written up the same day as overcounting, which was wrong: the reference counts it got measured against were invented rather than counted. The check now asserts the indices form the complete run from one to N, which needs no prior knowledge of N and cannot be mistaken about the answer.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_1_academic_parser",
           "project_code": "PROJ-MET-APS-LPS",
-          "detail": "Research sits locked in documents built to be printed, not searched, so finding what connects to what means reading all of it and remembering all of it. This pulls the structure out and builds the cross-references itself."
+          "detail": "A paper is built to be printed, not searched. The finding is in one section, the evidence is in another, and the thing tying this paper to the last one is a number in a bracket pointing at a bibliography. Reading fifty of them means holding all of that in your head at once. This pulls out the sections, the references and the named compounds and quantities, links every citation in the text to the entry it points at, and hands back a graph and a plain summary. The question it exists to answer is which paper leans on which, and where a claim actually came from."
         }
       ]
     },
@@ -116,23 +116,23 @@
         {
           "name": "AegisBox",
           "status": "partial",
-          "one_line": "Runs an agent's code in a box where it can only touch what you handed it.",
+          "one_line": "Runs an agent's code in a room with a floor, four walls, and no door you did not open.",
           "state_note": "Attacked properly for the first time on 2026-09-03. Watchdog and airgap hold. Filesystem confinement was open and is now shut. Two faults stand: the memory cap does not hold on Windows, which needs a job object, and the threat scanner runs code it has already rated CRITICAL_THREAT because blocking is off by default. Its ten original tests never tried to break out of anything.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_2_agent_sandbox",
           "project_code": "PROJ-AGT-MTO-PSL",
-          "detail": "An agent that writes and executes its own code is one bad line from deleting your files or posting them somewhere. This gives it a floor, four walls, and no exit you did not open yourself."
+          "detail": "An agent that writes and runs its own code is one bad line from deleting your files or posting them to a stranger. Reading every line it writes is not an answer, because nothing reads at the speed these things generate. So give it a room instead. No network unless you granted one, a hard ceiling on memory, a clock that kills whatever is still running when the time is up, and a floor it cannot write through. It hands back the output, the runtime, the memory used and the exit code as structured data, so whoever called it can decide what to trust. A container where one is available, a fenced subprocess where it is not."
         },
         {
           "name": "AgentMesh",
           "status": "scaffold",
-          "one_line": "Lets agents find and borrow each other's tools without anyone wiring them together first.",
+          "one_line": "Lets one agent find and borrow another's tools without anyone wiring the pair together first.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_7_agent_negotiation",
           "project_code": "PROJ-AGE-MOS-TNP",
-          "detail": "Agents end up siloed because connecting any two of them means hand-writing an integration for that exact pair, and the number of pairs grows faster than anyone can keep up with. This is the protocol for one to discover what another can do and negotiate the use of it."
+          "detail": "Connecting two agents means hand-writing an integration for that exact pair, and pairs multiply faster than anyone can keep up with. The way out is to stop naming providers at all. An agent advertises what it can do, with a typed schema and a stated timeout, and a caller asks for the capability rather than for the agent holding it. Every invocation lands in a ledger that only ever gets appended to, so afterwards you can say who called what, how long it took, and what came back."
         }
       ]
     },
@@ -147,7 +147,7 @@
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_6_neuro_symbolic_proof",
           "project_code": "PROJ-COG-NSH-LPC",
-          "detail": "Models make invalid logical jumps and write them fluently, which is the worst possible combination in maths, law and code. This walks the structure of the argument and names the step where the deduction breaks."
+          "detail": "A model makes an invalid jump and writes it beautifully, which is the worst combination available in maths, law and code, because the prose carries the reader straight past the hole. This walks the structure and ignores the style. Each step names its premises, its conclusion and the rule it is claiming, and the checker either finds that rule genuinely applied or names the line where the deduction breaks. It reports the way a linter does, file and line and message, and exits non-zero on a finding, because a checker nobody can drop into a build is a checker nobody runs."
         },
         {
           "name": "NeuroSteer",
@@ -157,7 +157,7 @@
           "last_touched": "2026-08-20",
           "where": "G:\\My Drive\\FutureMap\\proj_4_concept_steering",
           "project_code": "PROJ-COG-SAE-EVM",
-          "detail": "Steering a model normally means retraining it or arguing with it in the prompt. This reaches into the layers while it generates, amplifies or suppresses a single concept, and prints the untouched version next to the amplified and the suppressed so you can see what the change actually did rather than what it was supposed to do."
+          "detail": "Steering a model usually means retraining it or arguing with it in the prompt, and neither one tells you what actually moved. This reaches into the layers while the text is being generated and pushes a single concept up or down by a set amount. Then it prints the untouched version beside the amplified one and the suppressed one. Seeing all three at once is the whole point, because it shows what the change did rather than what it was supposed to do."
         }
       ]
     },
@@ -172,7 +172,7 @@
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_5_grid_balancing",
           "project_code": "PROJ-ENE-SLB-DRG",
-          "detail": "Training clusters and industrial pumps pull hardest whenever is convenient, which is how congestion and a large bill arrive together. This schedules the load against what the grid and the weather are doing."
+          "detail": "A training cluster or an industrial pump pulls hardest whenever it happens to be asked, which is how congestion and a large bill arrive on the same day. Most of that work does not care what hour it runs in. This reads the price curve, holds the jobs that can wait until power is cheap, checkpoints and stands down the ones already running when it turns dear, and never touches the loads that must not stop, the cooling being the obvious one. Every decision goes into a log with what the deferral saved, because a saving nobody can audit is just a claim."
         },
         {
           "name": "FlowGrid",
@@ -182,7 +182,7 @@
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_9_flow_battery_tea",
           "project_code": "PROJ-ENE-LCE-FBC",
-          "detail": "Lithium storage stops making economic sense past about eight hours because its power cost and its energy cost are welded together. Flow batteries pull those apart, and this runs the numbers on whether that is worth it for a given site and a given stretch of cloud."
+          "detail": "Lithium stops making economic sense past about eight hours, because its power cost and its energy cost are welded together and buying more hours means buying more of both. Flow chemistries pull the two apart. The stack sets how fast it can push, the tank sets how long it can push for, and a bigger tank is cheap. This runs the levelised cost across durations from four hours out to a hundred, so a site can see where the crossover falls for its own stretch of cloud, and it names every assumption it leaned on rather than burying them in the arithmetic."
         }
       ]
     },
@@ -197,7 +197,7 @@
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_10_epigenetic_crispr",
           "project_code": "PROJ-BIO-PGT-EEM",
-          "detail": "Cutting both strands risks chromosome damage the cell cannot always repair cleanly. Methylation quiets the gene and leaves the sequence intact, which is what you want when the goal is to turn something down rather than remove it."
+          "detail": "Cutting both strands leaves a break the cell has to repair, and it does not always repair it cleanly. When the goal is to turn a gene down rather than remove it, that risk buys nothing. Methylation quiets the gene and leaves the sequence intact. This scans a promoter for the dense CpG stretches worth aiming at, scores each candidate guide on how well it binds where you want it and how likely it is to bind where you do not, and formats the survivors as oligos ready to order."
         },
         {
           "name": "CrystalGen",
@@ -208,17 +208,17 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_11_crystal_predictor",
           "project_code": "PROJ-MAT-ACS-CSP",
-          "detail": "Finding a new superconductor or a solid battery electrolyte has historically meant years of mixing things and seeing what holds together. This screens the candidate for stability before anyone books lab time."
+          "detail": "Finding a new superconductor or a solid battery electrolyte has historically meant mixing things for years and seeing what holds together. Lab time is the expensive part, so the screen belongs in front of it. This takes a formula and estimates its formation energy from what the elements themselves are: how hard each one pulls on electrons, how big it is, what charge it carries. Then it sorts candidates into stable, worth trying, and no. Every column is labelled a heuristic, because a number in eV per atom looks identical whether a supercomputer produced it or arithmetic did."
         },
         {
           "name": "AquaNutrient",
           "status": "scaffold",
-          "one_line": "Holds a hydroponic system's water chemistry steady without anyone watching it.",
+          "one_line": "Holds a hydroponic reservoir's chemistry steady without anyone standing over it.",
           "started": "2026-08",
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_14_hydroponic_controller",
           "project_code": "PROJ-AGR-CEF-WFA",
-          "detail": "Farming loses most of its fresh water to runoff and evaporation. Hydroponics trades that for pH swings and nutrient lock-out, which can ruin a crop quietly between two visits. This keeps the balance and logs every correction it made."
+          "detail": "Field farming loses most of its fresh water to runoff and the sky. Hydroponics wins that back and charges for it in vigilance, because pH drifts, a nutrient locks out, and a crop is ruined quietly between two visits. This watches the reservoir, works out the correction, and gives the dose as one instruction with a number and a unit, the way a pharmacy label does. Every correction it made goes into the log, so a bad week can be read back instead of guessed at."
         }
       ]
     },
@@ -233,29 +233,29 @@
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_8_robot_balance",
           "project_code": "PROJ-ROB-KCA-RBN",
-          "detail": "Bipedal robots fall on uneven ground and in the fall the expensive parts break. This is the balance controller that has to react to a sideways push in the moment before the fall commits."
+          "detail": "A biped that falls breaks the expensive parts, and on uneven ground it is going to be shoved. The recovery has to be decided in the moment before the fall commits, which is far too fast for anything that stops to think about it. This models the body as a weight on a stick and tracks two things: whether the pressure under the foot is still inside the foot, and where the next step would have to land to cancel the momentum. Push it and it tells you the margin left and where to put the foot down."
         },
         {
           "name": "OmniFleet",
           "status": "partial",
-          "one_line": "Sends robotaxis where the passengers will be, before they are there.",
+          "one_line": "Sends robotaxis toward the passengers before the passengers are there.",
           "state_note": "Runs, and cannot yet answer its own question. Measured 2026-09-03: it serves exactly one ride per vehicle out of two hundred submitted and then stops, because dispatch is a single instant round with no time loop behind it. A car never finishes a trip and takes a second passenger, so the fleet sizing sweep compares different problems rather than the same one solved faster. Its three tests pass. The sweep should not be presented as fleet sizing until the time loop exists.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_13_robotaxi_fleet",
           "project_code": "PROJ-TRA-ARF-DDR",
-          "detail": "An empty car driving to a pickup earns nothing and spends battery doing it, and the surge always arrives faster than a fleet repositions. This is the dispatch and charging schedule that moves early instead of catching up."
+          "detail": "An empty car driving to a pickup earns nothing and spends battery doing it, and the surge always arrives faster than a fleet can reposition. Charging makes it worse, because a car that waits until it is nearly flat leaves for the pad at exactly the hour it was most wanted. This pairs each ride with the nearest idle vehicle, keeps a running count of the miles driven with nobody aboard, and sends a car to charge on a threshold rather than on empty. The question it exists to answer is how many cars a city actually needs."
         },
         {
           "name": "SynapseDecode",
           "status": "partial",
-          "one_line": "Turns raw neural spikes into smooth limb movement in under twenty milliseconds.",
+          "one_line": "Turns raw neural spikes into limb movement fast enough that it feels like your own arm.",
           "state_note": "Reproduces the published population vector result. Measured over 200 trials per point on 2026-09-03, decode error falls from 43 degrees at four channels to 7 degrees at sixty, and error times the square root of the channel count holds steady from twelve channels upward, which is the relationship the algorithm is known for. It was written up as broken earlier the same day. That was a misread return signature, not a defect, and the retraction is kept in the findings file.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_15_neural_spike_decoder",
           "project_code": "PROJ-COG-HDI-NSD",
-          "detail": "A prosthetic that lags feels like it belongs to somebody else. The decoder has to translate chaotic firing across many channels into continuous motion fast enough that the intention and the movement land as one event."
+          "detail": "A prosthetic that lags feels like it belongs to somebody else, and that gap is the whole difference between a limb and a tool you operate. One motor neuron on its own is nearly useless, because it fires hardest for a single direction and vaguely for everything else. Take enough of them, let every channel vote for the direction it prefers weighted by how hard it is firing, and the sum points where the arm was meant to go. This implements that vote and runs it inside twenty milliseconds, which is the budget for the intention and the movement to land as one event."
         }
       ]
     },
@@ -270,7 +270,7 @@
           "last_touched": "2026-08-18",
           "where": "G:\\My Drive\\FutureMap\\proj_12_sovereign_data_vault",
           "project_code": "PROJ-WEB-USN-PDL",
-          "detail": "A central cloud database is one place to breach, one company to be locked into, and one log nobody outside can read. This keeps the data with the person it belongs to."
+          "detail": "A central database is one place to breach, one company to be locked into, and one log nobody outside it can read. This keeps the data on your own disk, encrypted, under an identity you generated rather than an account you were issued. When something else needs access it gets a token scoped to what it needs and expiring when it should, never the master key. Every read, write and handover is written into a hash-chained log, so tampering with the history breaks the chain and shows."
         }
       ]
     },
