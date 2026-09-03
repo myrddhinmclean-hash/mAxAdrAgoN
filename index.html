@@ -89,14 +89,19 @@
 
       const items = [];
 
+      // Marker names come from the shop, not from a content taxonomy. A note
+      // dashed off at the bench is a different object from a written entry,
+      // and saying so costs nothing to maintain because it is derived, not
+      // stored. Quorum rounds get their own marker because they are neither.
       ((log && log.entries) || []).forEach(e => items.push({
         date: e.date, title: e.title, tags: e.tags || [],
-        kind: "note", body: e.body || ""
+        kind: "Shop Note", body: e.body || ""
       }));
 
       (posts || []).forEach(p => items.push({
         date: p.date, title: p.title, tags: [],
-        kind: "entry", body: p.excerpt || "",
+        kind: p.hoard === "machine" ? "Field Record" : "Written Up",
+        body: p.excerpt || "",
         href: "hoards/entry.html?post=" + encodeURIComponent(p.slug)
       }));
 
@@ -121,7 +126,7 @@
           : "";
         return '<article class="fi">' +
           '<div class="fi-date">' + esc(it.date) +
-          ' &middot; <span class="fi-kind">' + (it.kind === "entry" ? "written up" : "note") + "</span></div>" +
+          ' &middot; <span class="fi-kind">' + esc(it.kind) + "</span></div>" +
           '<h3 class="fi-title">' + title + "</h3>" +
           '<div class="fi-body">' + paras + "</div>" +
           tags + "</article>";
