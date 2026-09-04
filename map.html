@@ -17,6 +17,7 @@
     .flag { display: inline-block; font-size: .7rem; letter-spacing: .05em; text-transform: uppercase;
             padding: .12rem .45rem; border-radius: 3px; border: 1px solid currentColor; margin-left: .5rem; }
     .flag-built { color: #4ade80; }
+    .built-note  { font-size: .95rem; margin: .35rem 0 .1rem; opacity: .9; }
     .built-links { font-size: .9rem; margin: .3rem 0 .6rem; opacity: .85; }
     .built-links a { color: #FFC61A; }
     .flag-out   { color: #9ca3af; }
@@ -100,10 +101,14 @@
         h += '<section class="theme" id="theme-' + esc(t.n) + '">' +
              '<h3 class="theme-name"><span class="theme-n">' +
              String(t.n).padStart(2, "0") + "</span>" + esc(t.name);
-        if (t.built)    h += '<span class="flag flag-built">' + esc(t.built) + "</span>";
+        // The built flag is a chip, and a chip is styled uppercase. A short
+        // label survives that; a sentence shouts. So the chip says BUILT and
+        // the sentence goes underneath in ordinary case.
+        if (t.built)    h += '<span class="flag flag-built">built</span>';
         if (t.excluded) h += '<span class="flag flag-out">out of scope</span>';
         h += "</h3>";
         if (t.excluded) h += '<p class="part-note">' + esc(t.excluded) + "</p>";
+        if (t.built)    h += '<p class="built-note">' + esc(t.built) + "</p>";
         if (t.built_links && t.built_links.length) {
           h += '<p class="built-links">Built here: ' + t.built_links.map(bl =>
             '<a href="hoards/entry.html?post=' + encodeURIComponent(bl.entry) + '">' +
