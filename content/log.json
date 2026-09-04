@@ -4,6 +4,16 @@
   "entries": [
     {
       "date": "2026-09-03",
+      "title": "A fight tracker finished, and two modules killed for already existing",
+      "tags": [
+        "CampaignOS",
+        "DM Toolbox",
+        "testing"
+      ],
+      "body": "CampaignOS was further along than its own register entry said. It builds, 25 tests pass, and it produces an installer. What it did not have was a single design document: the two that carried the original plan were deprecated at the end of August and deleted, and the file left behind was one line long.\n\nThe interesting hole was in the tests. Fourteen were passing, covering the parser, undo and redo, and JSON round-trips. None of them checked that damage reaches the right creature, because every mutation lived inside a Tauri command that a test cannot call. Inverting the damage arm from minus to plus left all fourteen green. So did deleting the cap on healing. The pure half is now split out and tested, and the same two mutations fail nine tests between them.\n\nTwo modules got killed rather than built. The Vault and The Arbiter were scoped for the next version, and both already exist in DM Toolbox, down to the same treasure tiers and the same three levels of rules strictness. Building them again would have turned a fight tracker into a second toolbox and spent the fast start it was told to protect.\n\nThe best thing in the app was already there. Two goblins on the board and a DM who says only goblin gets a refusal and a list of which ones were meant. It will not pick one. Damage landing on a creature nobody named is the failure you would not notice until someone died wrong."
+    },
+    {
+      "date": "2026-09-03",
       "title": "DM Toolbox builds into an exe that actually opens",
       "tags": [
         "DM Toolbox",

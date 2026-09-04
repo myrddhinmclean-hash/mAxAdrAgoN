@@ -21,13 +21,13 @@
         },
         {
           "name": "CampaignOS",
-          "status": "partial",
-          "one_line": "Voice-first live session runner for D&D 5e. A second screen that keeps combat moving while you talk.",
+          "status": "working",
+          "one_line": "A combat screen you talk to, so the tracking stops slipping while you narrate.",
           "detail": "Running a session means holding combat state in your head while being every character at the table. The tracking is what slips, because the talking cannot. This is the second screen that does the holding, with the table's own speech moving the state instead of a mouse, and every entry reversible.",
-          "state_note": "Modules 1 through 7 built or partial. The Drum, the combat and initiative HUD, is operational, and Player View runs on a second screen with sanitised combatant cards. Tauri v2, Rust backend, vanilla webview HUD, roughly 15 MB binary, event-sourced state with undo and redo. The tier-1 parser handles table speech like '5 on goblin 1' in under 2ms at zero token cost. The Vault and The Arbiter scoped to v1.5, The Forge and The Loom to v2.0, deliberately, to protect a fifteen-minute onboarding.",
+          "state_note": "Version 1.0, and finished as one. Builds to an installer, 25 tests passing, and it was run as a real fight before that was claimed. It refuses an ambiguous target rather than guessing which goblin you meant, which is the whole reason to trust it. The Vault and The Arbiter were cancelled on 2026-09-03: both already exist in DM Toolbox, down to the same treasure tiers, and building them twice would cost the fast onboarding they were deferred to protect. Voice still goes to a cloud transcriber; a local one is the next real piece of work.",
           "started": "2026-08",
-          "last_touched": "2026-08-30",
-          "where": "G:\\My Drive\\campaignos"
+          "last_touched": "2026-09-03",
+          "where": "D:\\CampaignOS"
         },
         {
           "name": "DM Toolbox",
