@@ -1,7 +1,17 @@
 {
   "_comment": "The Log. Dated record of what was worked on. Back-catalogue reconstructed on 2026-08-31 from a file inventory of 1,450 documents, so the dates are file dates rather than memory. Newest first. No cadence: entries appear when work happens.",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "entries": [
+    {
+      "date": "2026-09-04",
+      "title": "The rules were arriving at 44 percent and nothing said so",
+      "tags": [
+        "the lair",
+        "AmoebiX",
+        "CampaignOS"
+      ],
+      "body": "The standing rules that govern every session were being delivered at 44.3 percent, and nothing anywhere said so. There was no measurement at all. That number exists because building the measurement was the first thing the rebuild did.\n\nTwo faults underneath it. A script joined the AmoebiX status line and an 8,784 character store of rules into a 4,000 character budget by keeping the first 4,000 characters and dropping the rest, so the newest rules were the half thrown away. And a hook that fires after a compaction had been registered and firing for eleven days while delivering nothing: its continuity file had never existed, half of it was gated on a variable nobody sets, its one instruction named a command that was not registered, and it wrote to plain output when the channel only reads one specific field. Four faults in a single hook, and it never reported a problem because it never reported anything. What actually carried context across a compaction that whole time was Claude Code's own summary.\n\nThe rebuild itself. Twenty three hooks across seven events down to five across four. Twenty four hook files down to five. Nineteen backups of one settings file down to none. Nineteen stale skills on disk down to seven, one of them still naming a system that no longer exists and pointing at a runner path that moved. Twenty eight rules at 44.3 percent became thirty at 100, reported on both channels at the start of every session.\n\nThe part worth keeping is that the check was made to fail. Overfilling the brief past its budget produces the word TRUNCATED rather than a quiet cut. Removing the brief entirely produces an announcement that delivery is zero and the session should be treated as ungoverned. A check that has never failed has not been tested, and a check that cannot fail is decoration.\n\nNothing was deleted. Fourteen items sit in a trash folder with their origin paths recorded and a restore command that takes a substring, and the rollback was rehearsed against the real archive before any of it was believed.\n\nOne thing got settled by reading rather than building. AmoebiX was going to become an MCP server, on the reasoning that a tool survives a compaction while an instruction does not. The reasoning holds. The mechanism does not: Cowork does not run local MCP servers, it was reported and closed as not planned, and the registration has been sitting there invisible the whole time. The remote version was declined rather than offered as normal, because it would turn a local toolbox that runs tasks, reads files and holds provider keys into an execution service facing the internet.\n\nAmoebiX itself got three fixes. Its budget flag was applied by slicing the model list before dispatch, which walked straight past both the cooldown filter and the scoreboard. A budget is a seat count, not a guest list. The thread pool joined before the browser loop began, so a round cost the slowest API call plus every browser call added together, with the slow chain scheduled last; the browsers start first on their own thread now and run alongside the rest. And a model that failed lost its seat for the whole round, so one bounded pass backfills it. Three live rounds after the change: one answer out of three, then two, then three answered and none failed.\n\nCampaignOS closed at 1.0 in the small hours. Twenty five tests, the condition grid collapsed into pills that read back what is actually applied, a manual, an architecture document, and a build that produces the exe, the msi and the setup installer."
+    },
     {
       "date": "2026-09-03",
       "title": "A fight tracker finished, and two modules killed for already existing",
@@ -25,7 +35,6 @@
       "date": "2026-09-03",
       "title": "Ran the programs instead of the tests",
       "tags": [
-        "FutureMap",
         "AegisBox",
         "CrystalGen",
         "OmniFleet",
@@ -77,7 +86,6 @@
       "date": "2026-08-17",
       "title": "Fifteen projects fall out of the research",
       "tags": [
-        "FutureMap",
         "AxiomTEA",
         "research"
       ],

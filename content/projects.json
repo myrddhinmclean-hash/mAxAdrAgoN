@@ -1,7 +1,7 @@
 {
-  "_comment": "The project register. Every project appears, started or not. Grouped by Branch, the taxonomy from the FutureMap READMEs. Status is honest: 'working' means it runs, 'partial' means some of it runs, 'scaffold' means a README and a stub, 'planned' means a description and no code. Owner ruling 2026-08-31: presenting unstarted work as unstarted is the point, not a weakness.",
+  "_comment": "The project register. Every project appears, started or not. Status is honest: 'working' means it runs, 'partial' means some of it runs, 'scaffold' means a README and a stub, 'planned' means a description and no code. Owner ruling 2026-08-31: presenting unstarted work as unstarted is the point, not a weakness. Owner ruling 2026-09-04: the per-project status paragraph is gone; the badge carries the state now.",
   "_status_values": "working | partial | scaffold | planned | parked",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "branches": [
     {
       "branch": "Tabletop tools",
@@ -13,7 +13,6 @@
           "link": "https://maxadragon.itch.io/dungeon-cue",
           "one_line": "Say the phrase, the rain starts, nobody at the table looks up.",
           "detail": "The mouse is on the wrong side of the table. Firing a cue means breaking off mid-sentence to go clicking, which is the one thing a running scene cannot afford. So the trigger becomes the sentence you were already saying. It makes no audio itself; every cue is a call relayed to Syrinscape.",
-          "state_note": "Finished and on sale. Review copies out with creators. Android exists as a push-to-talk skeleton.",
           "started": "2026-07",
           "last_touched": "2026-08-28",
           "where": "D:\\Claude\\CLAUDEshared\\DungeonCue_Project",
@@ -24,7 +23,6 @@
           "status": "working",
           "one_line": "A combat screen you talk to, so the tracking stops slipping while you narrate.",
           "detail": "Running a session means holding combat state in your head while being every character at the table. The tracking is what slips, because the talking cannot. This is the second screen that does the holding, with the table's own speech moving the state instead of a mouse, and every entry reversible.",
-          "state_note": "Version 1.0, and finished as one. Builds to an installer, 25 tests passing, and it was run as a real fight before that was claimed. It refuses an ambiguous target rather than guessing which goblin you meant, which is the whole reason to trust it. The Vault and The Arbiter were cancelled on 2026-09-03: both already exist in DM Toolbox, down to the same treasure tiers, and building them twice would cost the fast onboarding they were deferred to protect. Voice still goes to a cloud transcriber; a local one is the next real piece of work.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "D:\\CampaignOS"
@@ -34,7 +32,6 @@
           "status": "partial",
           "one_line": "Ten GM tools in one window, each one useful on its own.",
           "detail": "Running a session means eight jobs at once and a different tool for each, most of them a browser tab wanting a subscription. This puts prep, combat, factions, handouts, rules, recaps, loot and a codex in one window that works with the wifi off. Buy one module or all of them; they share a campaign file.",
-          "state_note": "Eight of the ten modules built and testable. Packaged as a single Windows exe and verified on real hardware for the first time on 2026-09-03: it opens, renders every module, and writes saves to APPDATA that survive a relaunch. The build script used to call bare python, pip and pyinstaller, which resolved to three different places on the build machine, so pip reported success while the interpreter could not import what it had installed. Both launchers now bind every step to one interpreter and check the install landed there. Audio and voice features are decided against, not deferred. Nothing is packaged for sale yet.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "D:\\DMToolbox2"
@@ -44,7 +41,6 @@
           "status": "partial",
           "one_line": "A soundboard that listens to the room and fires the sound when it hears the phrase.",
           "detail": "A soundboard that listens for the phrase instead of waiting for the click. Audio is processed in memory and never written to disk or uploaded, which is a rule of the architecture rather than a setting. Playback is one output of several: it can drive Companion, a lighting desk, or MIDI.",
-          "state_note": "Needs testing. That is the only thing standing between it and finished. Dungeon Cue proved the idea first on a chunked Python pipeline that was slow and clunky; this is the proper version, Flutter, on-device phrase spotting, Windows and phone from one codebase. The name is a working codename and collides with existing apps, so it changes before anything public.",
           "started": "2026-07",
           "last_touched": "2026-08-03",
           "where": "D:\\Claude\\CLAUDEshared\\SoundCue_Project"
@@ -70,7 +66,6 @@
           "link": "https://maxadragon.itch.io/axiomtea",
           "one_line": "Reads an engineering pitch and tells you which numbers are physically impossible. No language model anywhere near the verdict.",
           "detail": "Pulls the quantitative claims out of an engineering pitch and checks them against physical law and cited literature, then renders one analysis across ten stakeholder lenses that cannot contradict each other. Runs offline. No language model anywhere near the verdict.",
-          "state_note": "Version 5.0.0. 41 of 41 tests passing as of 2026-08-21, the only verified project in the FutureMap set. Health endpoint reports the exact bundled dependency versions, because a binary once shipped silently missing one.",
           "started": "2026-08",
           "last_touched": "2026-08-30",
           "where": "D:\\Claude\\CLAUDEshared\\AxiomTEA",
@@ -81,7 +76,6 @@
           "name": "SynapseGraph",
           "status": "partial",
           "one_line": "Turns a stack of scientific PDFs into a graph you can ask questions of.",
-          "state_note": "Measured against five real arXiv papers on 2026-09-03, 18 tests passing. It pulls 1 through 40 out of the Attention paper complete, no gaps and no duplicates, against the 40 the paper has. It was written up the same day as overcounting, which was wrong: the reference counts it got measured against were invented rather than counted, and the check now asserts the indices form the complete run from one to N. Its test file used to import functions that do not exist, which broke collection and stopped the project's other tests running at all. The entity vocabulary is still a fixed list of patterns rather than anything trained.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_1_academic_parser",
@@ -98,7 +92,6 @@
           "status": "working",
           "one_line": "The arm rack. A local toolbox that dispatches questions to many models, keeps the answers, and logs what came of them.",
           "detail": "One model answering one question gives you an answer with no error bars on it. Ask several and the disagreement is where the uncertainty lives. This dispatches a question across many models, holds the answers against a library of lenses, and logs what came of it. The intelligence is in the arrangement.",
-          "state_note": "In daily use. Panel, multi-model quorum, sensory collection, task cards, decision logging and the event ledger all working, across thirty-two configured models on API, browser and CLI backends. The editor lens lives here and works. Nine lenses rewritten for this brand on 2026-08-31. Synod was a part of this, not a separate thing, and no longer exists under its own name.",
           "started": "2026-08",
           "last_touched": "2026-08-31",
           "where": "D:\\Ameobix"
@@ -110,14 +103,12 @@
           "started": "2026-08",
           "last_touched": "2026-08-27",
           "where": "D:\\Claude\\AGY_Bridge",
-          "detail": "The IDE has no doorbell, so the bridge is a watched folder. A brief goes in the inbox, a watcher spins the agent up against it, and a result lands in the outbox with a status. Only the completion command may write DONE, so an agent that crashes leaves its brief visibly unfinished.",
-          "state_note": "Working, with three lessons built into it. The DONE rule exists because this bridge reported a false DONE once already. One target per brief and a ten minute budget, after a five target brief ran out of time having already found its answers and threw the work away. And briefs are shaped as goals rather than methods: say what done looks like and what the bar is, and it reads the code and works out how. Asked to attack a system as an adversary rather than review it, it found four silent faults the author's own attacks had missed."
+          "detail": "The IDE has no doorbell, so the bridge is a watched folder. A brief goes in the inbox, a watcher spins the agent up against it, and a result lands in the outbox with a status. Only the completion command may write DONE, so an agent that crashes leaves its brief visibly unfinished."
         },
         {
           "name": "AegisBox",
           "status": "partial",
           "one_line": "Runs an agent's code in a room with a floor, four walls, and no door you did not open.",
-          "state_note": "Attacked properly for the first time on 2026-09-03. 31 tests, 2 skipped with the reason recorded. Watchdog, AST threat scan, airgap and filesystem confinement all hold under real attempts to break them, and the filesystem one was open that morning. Two faults stand. The memory cap does not hold on Windows, which needs a job object through ctypes, so a 2 GB allocation still succeeds against a 256 MB limit. And the shims patch names inside one interpreter, so a child process gets a clean socket module and prints SHIM_BYPASSED. Telemetry now reports which memory guarantee a caller actually has. It also ran code it had already rated CRITICAL_THREAT, because blocking defaulted off.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_2_agent_sandbox",
@@ -132,8 +123,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_7_agent_negotiation",
           "project_code": "PROJ-AGE-MOS-TNP",
-          "detail": "Connecting two agents means hand-writing an integration for that exact pair, and pairs multiply faster than anyone keeps up with. The way out is to stop naming providers. An agent advertises what it can do, a caller asks for the capability, and every call lands in an append-only ledger.",
-          "state_note": "Cross-process discovery added and verified with real subprocesses on 2026-09-03, 12 tests passing. The hub used to be in-process only, which meant every agent had to live inside the same Python process, the opposite of the situation the project describes. Discovery now crosses that line. Invocation does not: a separate program can advertise and be found, but calling it still needs a transport, and each entry carries an invoke hint that is a string rather than a promise."
+          "detail": "Connecting two agents means hand-writing an integration for that exact pair, and pairs multiply faster than anyone keeps up with. The way out is to stop naming providers. An agent advertises what it can do, a caller asks for the capability, and every call lands in an append-only ledger."
         }
       ]
     },
@@ -148,8 +138,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_6_neuro_symbolic_proof",
           "project_code": "PROJ-COG-NSH-LPC",
-          "detail": "A model makes an invalid jump and writes it beautifully, which is the worst combination available in maths, law and code. This walks the structure and ignores the style. Each step names its premises and the rule it claims, and the checker either finds it or names the line where the deduction breaks.",
-          "state_note": "4 tests passing as of 2026-09-03. It checks symbols and refuses prose, exiting rather than guessing. That matters because an earlier version passed English straight through and reported four steps all following for an argument that ended in a non-sequitur, which is a false pass in a tool whose only job is catching those. Reports like a linter, file and line and message, exit 1 on any finding. The AST linter bundled with it is unrelated to the logic checker and is moving to AegisBox."
+          "detail": "A model makes an invalid jump and writes it beautifully, which is the worst combination available in maths, law and code. This walks the structure and ignores the style. Each step names its premises and the rule it claims, and the checker either finds it or names the line where the deduction breaks."
         },
         {
           "name": "NeuroSteer",
@@ -159,8 +148,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_4_concept_steering",
           "project_code": "PROJ-COG-SAE-EVM",
-          "detail": "Steering a model means retraining it or arguing with it in the prompt, and neither tells you what moved. This reaches into the layers mid-generation and pushes one concept up or down, then prints the untouched version beside the amplified and the suppressed. Seeing all three is the point.",
-          "state_note": "Executed for the first time ever on 2026-09-03, 3 tests passing. It had never run. The environment held a directory named torch with 5,809 files and no __init__.py, so importing it returned an empty namespace package and every availability guard passed while every test failed in setup. The root README's earlier 3 of 3 pass for this project was never true. Real PyTorch is installed now. The model is a toy transformer trained on nothing, so this shows the mechanism rather than steering anything anyone would use."
+          "detail": "Steering a model means retraining it or arguing with it in the prompt, and neither tells you what moved. This reaches into the layers mid-generation and pushes one concept up or down, then prints the untouched version beside the amplified and the suppressed. Seeing all three is the point."
         }
       ]
     },
@@ -175,8 +163,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_5_grid_balancing",
           "project_code": "PROJ-ENE-SLB-DRG",
-          "detail": "A training cluster pulls hardest whenever it is asked, which is how congestion and a large bill arrive together. Most of that work does not care what hour it runs in. This reads the price curve, holds what can wait, stands down what is running when power turns dear, and never touches the cooling.",
-          "state_note": "Takes real price curves and real job files as of 2026-09-03, 4 tests passing. Its dispatcher used to look jobs up by hardcoded name and raise KeyError on any other workload, so it only ever ran on the example. The saving figure was illustrative until the price curve stopped being synthetic."
+          "detail": "A training cluster pulls hardest whenever it is asked, which is how congestion and a large bill arrive together. Most of that work does not care what hour it runs in. This reads the price curve, holds what can wait, stands down what is running when power turns dear, and never touches the cooling."
         },
         {
           "name": "FlowGrid",
@@ -186,8 +173,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_9_flow_battery_tea",
           "project_code": "PROJ-ENE-LCE-FBC",
-          "detail": "Lithium stops making economic sense past about eight hours, because its power cost and its energy cost are welded together. Flow chemistries pull them apart: the stack sets how fast, the tank sets how long, and a bigger tank is cheap. This finds where the crossover falls for a given site.",
-          "state_note": "3 tests passing. At 100 hours it puts iron-air at $79/MWh against LFP at $194 and vanadium at $173, and that ordering is the product. The catch is stated rather than buried: all 19 capital cost, efficiency and cycle life figures were numbers in a file with no citation, and on 2026-09-03 every one of them was marked UNVERIFIED with NREL ATB and Lazard named as the sources that would settle it. An LFP cycle life of 4000 looks low and is flagged rather than quietly changed. The output is worth exactly what the inputs are worth."
+          "detail": "Lithium stops making economic sense past about eight hours, because its power cost and its energy cost are welded together. Flow chemistries pull them apart: the stack sets how fast, the tank sets how long, and a bigger tank is cheap. This finds where the crossover falls for a given site."
         }
       ]
     },
@@ -202,14 +188,12 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_10_epigenetic_crispr",
           "project_code": "PROJ-BIO-PGT-EEM",
-          "detail": "Cutting both strands leaves a break the cell cannot always repair cleanly, and when the goal is to turn a gene down rather than remove it, that risk buys nothing. Methylation quiets the gene and leaves the sequence intact. This finds the guides worth ordering and scores where else they might bind.",
-          "state_note": "3 tests passing. The scoring weights are invented and now say so. The larger gap, printed as a warning on every run since 2026-09-03, is that there is no genome-wide off-target search: it counts repeats within the submitted sequence only, so a guide that matches somewhere else entirely in the genome scores clean. In a field where a bad guide costs weeks of bench time that makes this a learning exercise. CHOPCHOP, CRISPOR and Benchling are free and validated and this does not replace them."
+          "detail": "Cutting both strands leaves a break the cell cannot always repair cleanly, and when the goal is to turn a gene down rather than remove it, that risk buys nothing. Methylation quiets the gene and leaves the sequence intact. This finds the guides worth ordering and scores where else they might bind."
         },
         {
           "name": "CrystalGen",
           "status": "partial",
           "one_line": "Predicts whether a proposed crystal would survive being made.",
-          "state_note": "Measured against published formation energies on 2026-09-03 and repaired twice, 9 tests passing. It used to return negative zero for table salt, because the element table held thirteen entries and anything outside them was skipped without a word. Now fifty one elements with cited sources, unknown elements refused rather than ignored, and the ionic charge product added to the energy term. Mean error 0.491 eV per atom over eighteen compounds, down a third. Ranking accuracy 77 percent, which the fix did not move, and the test floors at 65 rather than at today's number so a future change does not read as a regression.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_11_crystal_predictor",
@@ -224,8 +208,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_14_hydroponic_controller",
           "project_code": "PROJ-AGR-CEF-WFA",
-          "detail": "Field farming loses most of its fresh water to runoff and the sky. Hydroponics wins that back and charges for it in vigilance, because pH drifts and a crop is ruined quietly between two visits. This watches the reservoir and gives the correction as one instruction with a number and a unit.",
-          "state_note": "2 tests passing, and the smallest project here. The dose it calculates is uncalibrated and reads about ten times low, which it now says on every run while telling the user to quarter it and titrate. There is no hardware anywhere in it, no sensors and no pumps, whatever closed-loop and spectrometric suggest."
+          "detail": "Field farming loses most of its fresh water to runoff and the sky. Hydroponics wins that back and charges for it in vigilance, because pH drifts and a crop is ruined quietly between two visits. This watches the reservoir and gives the correction as one instruction with a number and a unit."
         }
       ]
     },
@@ -240,14 +223,12 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_8_robot_balance",
           "project_code": "PROJ-ROB-KCA-RBN",
-          "detail": "A biped that falls breaks the expensive parts, and the recovery has to be decided in the moment before the fall commits. This models the body as a weight on a stick and tracks whether the pressure under the foot is still inside the foot, and where the next step must land to cancel the momentum.",
-          "state_note": "Physics checked against Pratt 2006, Hof 2008 and Kajita 2003 on 2026-09-03, and all three match. That was the whole credibility of the project and it was the outstanding item. 9 tests passing. Stability margin falls linearly with push force, 0.092 m at 40 N down to 0.026 m at 360 N, and does not reach zero inside 400 N, so the knee is above the range swept rather than missing. A verdict function here once defaulted to True whenever it could not read the result shape, which reported recovery at every force. A default of True in a safety check is a false pass, the one output worse than no output, and it raises now. It is a teaching simulator, not a robot controller."
+          "detail": "A biped that falls breaks the expensive parts, and the recovery has to be decided in the moment before the fall commits. This models the body as a weight on a stick and tracks whether the pressure under the foot is still inside the foot, and where the next step must land to cancel the momentum."
         },
         {
           "name": "OmniFleet",
           "status": "partial",
           "one_line": "Sends robotaxis toward the passengers before the passengers are there.",
-          "state_note": "Time-stepped dispatch added on 2026-09-03, and the fleet sweep means something now. It used to serve exactly fleet_size rides out of however many were submitted, because dispatch was a single instant round with no clock behind it and a vehicle never became free to take a second passenger. run_time_stepped keeps a free_at clock per vehicle and measures wait from the request to the pickup, which is the number a rider actually experiences. The old instant round is kept behind a flag with its tests unchanged. 3 tests passing. Straight-line distance only, no road network and no traffic, and it is a teaching simulator rather than anything to size a real fleet with.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_13_robotaxi_fleet",
@@ -258,7 +239,6 @@
           "name": "SynapseDecode",
           "status": "working",
           "one_line": "Turns raw neural spikes into limb movement fast enough that it feels like your own arm.",
-          "state_note": "Reproduces the published population vector result. Measured over 200 trials per point on 2026-09-03, decode error falls from 42.9 degrees at four channels to 7.4 degrees at sixty, and error times the square root of the channel count holds near 57 to 69 from twelve channels upward, which is the relationship the algorithm is known for. It was written up as broken earlier the same day. That was a misread return signature, reading the x component of the vector where the angle was, and the retraction is kept in the findings file rather than deleted. 2 tests pass, though the sweep rather than the tests is what compares a decoded angle to an intended one. It is not a clinical device and nothing here restores mobility to anyone.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_15_neural_spike_decoder",
@@ -278,8 +258,7 @@
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_12_sovereign_data_vault",
           "project_code": "PROJ-WEB-USN-PDL",
-          "detail": "A central database is one place to breach, one company to be locked into, and one log nobody outside can read. This keeps the data on your own disk under an identity you generated. Anything needing access gets a scoped, expiring token, never the master key, and every touch is hash-chained.",
-          "state_note": "Its cipher was breakable and was replaced on 2026-09-03, 4 tests passing. The original derived its keystream from the master key and the key name with no nonce, so two values stored under the same name shared a keystream and a stored secret was recovered by XORing two versions together, with no key at all. It also crashed above 8 KB. Now nonced per write with a per-vault salt, and the MAC covers the nonce. Still hand-built cryptography, which is the wrong way round for a vault: this is exactly where an audited primitive earns its dependency."
+          "detail": "A central database is one place to breach, one company to be locked into, and one log nobody outside can read. This keeps the data on your own disk under an identity you generated. Anything needing access gets a scoped, expiring token, never the master key, and every touch is hash-chained."
         }
       ]
     },
@@ -293,14 +272,12 @@
           "detail": "The world everything else gets played in. Twelve continents, two moons that are never not full, and a history reaching back a hundred and twenty three million years, built consistent enough that a campaign can run anywhere on it without the map contradicting itself.",
           "started": "2019",
           "last_touched": "2026-08",
-          "where": "https://www.worldanvil.com/w/draega-maxadragon",
-          "state_note": "Owner-authored throughout, no AI anywhere in it, which makes it the clean counterweight to a worldbuilding compendium that was partly AI-filled and has been flagged untrusted since. Thirty-two articles published on World Anvil covering continents, oceans, settlements and a dated history timeline."
+          "where": "https://www.worldanvil.com/w/draega-maxadragon"
         },
         {
           "name": "Golden Sea campaign kit",
           "status": "partial",
           "one_line": "Twenty-four modules, a session master doc, and per-module stat kits for a campaign across the Draega archipelago.",
-          "state_note": "Ready for further work, not ready for dispersion. Presentation is the gap, not structure.",
           "started": "2026-08",
           "last_touched": "2026-08-31",
           "where": "D:\\mAxAdrAgoN-site\\campaign\\golden-sea"
@@ -309,7 +286,6 @@
           "name": "Rivals and Destiny podcast",
           "status": "parked",
           "one_line": "Twenty-five sessions, an archipelago, and a war between an empire that wanted everything and a rebellion that could not afford to lose.",
-          "state_note": "Recorded, not released. Its own lifecycle, beside the rest of this rather than inside it.",
           "started": "2020",
           "last_touched": "2026-08",
           "entry": "rivals-and-destiny",
@@ -327,8 +303,7 @@
           "started": "2026-08-28",
           "last_touched": "2026-08-31",
           "where": "D:\\mAxAdrAgoN-site",
-          "detail": "A running record of the work rather than a magazine about it, with a register of every project, started or not. Plain HTML and vanilla JavaScript reading JSON files. No framework and no build step, so changing what the site says is an edit to data rather than a deployment.",
-          "state_note": "A validator runs six checks and refuses the push if any fail. It has already caught real faults: an encoding mark that broke a file's frontmatter, and a legal notice missing from three pages."
+          "detail": "A running record of the work rather than a magazine about it, with a register of every project, started or not. Plain HTML and vanilla JavaScript reading JSON files. No framework and no build step, so changing what the site says is an edit to data rather than a deployment."
         },
         {
           "name": "Windows runner",

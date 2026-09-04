@@ -54,7 +54,6 @@
       background: var(--bg-surface);
     }
     .stat-n { font-size: 1.25rem; font-weight: 700; font-family: ui-monospace, Consolas, monospace; }
-    .proj-state { font-size: .9rem; opacity: .8; margin: .35rem 0 0; font-style: italic; }
     .proj-meta  { font-size: .78rem; color: var(--text-faint); margin-top: .45rem; font-family: ui-monospace, Consolas, monospace; }
     .proj-buy   { margin: .5rem 0 0; font-weight: 600; }
   </style>
@@ -171,7 +170,11 @@
               html += '<p class="proj-detail">' + esc(p.detail) + "</p>";
             }
           }
-          if (p.state_note) html += '<p class="proj-state">' + esc(p.state_note) + "</p>";
+          // The per-project status paragraph was cut on 2026-09-04. It carried
+          // version strings, test tallies and internal findings, which came from
+          // somewhere other than the description of what the thing is for and
+          // did not belong beside it. The badge carries the state now. The old
+          // text is kept outside the site, in the brand workspace.
           if (p.link) {
             html += '<p class="proj-buy"><a href="' + esc(p.link) + '" rel="noopener">' +
                     esc(p.link.replace(/^https?:\/\//, "")) + "</a>" +
