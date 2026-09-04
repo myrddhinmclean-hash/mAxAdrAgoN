@@ -1,5 +1,5 @@
 ---
-title: "It Only Ever Ran on the Example"
+title: "The Grid Scheduler That Only Ran on Its Own Demo"
 date: "2026-09-03"
 hoard: "machine"
 branch: "Energy"
@@ -7,7 +7,7 @@ branch_n: "3"
 summary: "The dispatcher looked jobs up by hardcoded name and raised KeyError on anything else, so the only workload it could ever schedule was the one in the demo. It takes real price curves and real job files now."
 ---
 
-# It Only Ever Ran on the Example
+# The Grid Scheduler That Only Ran on Its Own Demo
 
 GridPulse looked its jobs up by hardcoded name and raised KeyError on anything else, so the only workload it could schedule was the one that came with it.
 

@@ -1,11 +1,11 @@
 ---
-title: "Two Versions, XORed, and No Key Required"
+title: "The Data Vault That Leaked Without a Key"
 date: "2026-09-03"
 hoard: "machine"
 summary: "The keystream came from the master key and the key name with no nonce, so two values stored under the same name shared a keystream and XORing the pair cancelled it. A stored secret came out with no key involved at all. Replaced on 2026-09-03."
 ---
 
-# Two Versions, XORed, and No Key Required
+# The Data Vault That Leaked Without a Key
 
 SovereignVault derived its keystream from the master key and the key name, with no nonce anywhere, so two values written under the same name shared a keystream and a stored secret could be recovered by XORing the two together, with no key involved at all.
 

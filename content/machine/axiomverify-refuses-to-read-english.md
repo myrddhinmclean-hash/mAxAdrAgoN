@@ -1,5 +1,5 @@
 ---
-title: "It Refuses to Read English"
+title: "The Argument Checker That Passed a Non Sequitur"
 date: "2026-09-03"
 hoard: "machine"
 branch: "Verification, trust, epistemics"
@@ -7,7 +7,7 @@ branch_n: "2"
 summary: "An earlier version passed prose straight through and reported four steps all following, for an argument that ended in a non sequitur. That is a false pass in a tool whose only job is catching false passes. It takes symbols now, and exits rather than guess."
 ---
 
-# It Refuses to Read English
+# The Argument Checker That Passed a Non Sequitur
 
 AxiomVerify checks whether an argument follows, and the most important thing it does is refuse.
 

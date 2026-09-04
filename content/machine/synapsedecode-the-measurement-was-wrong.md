@@ -1,11 +1,11 @@
 ---
-title: "The Decoder Was Fine. The Measurement Was Wrong."
+title: "The Neural Decoder That Was Never Actually Broken"
 date: "2026-09-03"
 hoard: "machine"
 summary: "It was written up as broken and it was never broken. The measurement read the x component of a population vector against an angle in radians, so a working decoder looked like a coin toss. Measured properly, error falls from 42.9 degrees at four channels to 7.4 at sixty."
 ---
 
-# The Decoder Was Fine. The Measurement Was Wrong.
+# The Neural Decoder That Was Never Actually Broken
 
 SynapseDecode was written up as broken on 2026-09-03 and the write up was wrong. The decoder had been working the whole time. What failed was the thing measuring it.
 

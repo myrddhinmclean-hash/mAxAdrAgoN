@@ -1,13 +1,13 @@
 ---
-title: "A Folder Named torch, and 5,809 Files That Were Not PyTorch"
+title: "The Concept Steering Tool That Had Never Once Run"
 date: "2026-09-03"
 hoard: "machine"
 branch: "Consciousness and AI welfare"
 branch_n: "17"
-summary: "It ran for the first time in its life on 2026-09-03. The README had claimed three of three tests passing and that was never true: a directory called torch with no __init__.py imported as an empty namespace package, so every availability guard passed and every test failed in setup."
+summary: "A tool that turns one concept up or down inside a running model and prints all three results side by side. It had never once executed: a directory called torch with no __init__.py imported as an empty namespace package, so every availability guard passed while every test failed in setup."
 ---
 
-# A Folder Named torch, and 5,809 Files That Were Not PyTorch
+# The Concept Steering Tool That Had Never Once Run
 
 NeuroSteer ran for the first time in its life on 2026-09-03. The README had said three of three tests passing, and that had never once been true.
 

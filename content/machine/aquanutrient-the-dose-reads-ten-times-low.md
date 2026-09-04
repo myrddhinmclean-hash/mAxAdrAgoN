@@ -1,5 +1,5 @@
 ---
-title: "Nobody Wrote Down Which Way the Dose Was Wrong"
+title: "A Hydroponic Dose Wrong in an Unknown Direction"
 date: "2026-09-03"
 hoard: "machine"
 branch: "Food and agriculture"
@@ -7,7 +7,7 @@ branch_n: "11"
 summary: "The dose is uncalibrated and the record contradicts itself about which way. It says the number reads ten times low, and it says the program tells you to quarter it. Those point opposite ways, and nobody wrote down which half is the typo."
 ---
 
-# Nobody Wrote Down Which Way the Dose Was Wrong
+# A Hydroponic Dose Wrong in an Unknown Direction
 
 AquaNutrient calculates a dose for a hydroponic reservoir, the number is wrong, and the note explaining how it is wrong is also wrong.
 

@@ -1,5 +1,5 @@
 ---
-title: "A Default of True in a Safety Check"
+title: "A Robot Balance Model That Called Every Fall a Recovery"
 date: "2026-09-03"
 hoard: "machine"
 branch: "Robotics and physical automation"
@@ -7,7 +7,7 @@ branch_n: "5"
 summary: "The physics checks out against Pratt 2006, Hof 2008 and Kajita 2003, which was the whole credibility of the project. The verdict function did not: it returned success whenever it could not read the shape of a result, and reported recovery at every force it was given."
 ---
 
-# A Default of True in a Safety Check
+# A Robot Balance Model That Called Every Fall a Recovery
 
 A verdict function in Kinematix returned True whenever it could not read the shape of a result, so it reported successful recovery at every push force it was given.
 

@@ -1,5 +1,5 @@
 ---
-title: "Negative Zero for Table Salt"
+title: "The Crystal Screen That Skipped What It Did Not Know"
 date: "2026-09-03"
 hoard: "machine"
 branch: "Materials and nanotech"
@@ -7,7 +7,7 @@ branch_n: "8"
 summary: "It returned a formation energy of negative zero for sodium chloride, because neither element was in its thirteen entry table and anything unrecognised was skipped without a word. Fixing that exposed the larger fault underneath: the valence field was in the data the whole time and was never read."
 ---
 
-# Negative Zero for Table Salt
+# The Crystal Screen That Skipped What It Did Not Know
 
 CrystalGen returned a formation energy of negative zero for table salt, which is the most confident way a program can tell you it has never heard of sodium.
 

@@ -1,5 +1,5 @@
 ---
-title: "Nineteen Numbers With Nothing Behind Them"
+title: "The Flow Battery Model Built on Uncited Numbers"
 date: "2026-09-03"
 hoard: "machine"
 branch: "Energy"
@@ -7,7 +7,7 @@ branch_n: "3"
 summary: "It puts iron air at $79 per megawatt hour against LFP at $194 and vanadium at $173 over a hundred hours, and the ordering is the product. Every one of the nineteen capital cost, efficiency and cycle life figures behind it arrived with no citation and is now marked UNVERIFIED."
 ---
 
-# Nineteen Numbers With Nothing Behind Them
+# The Flow Battery Model Built on Uncited Numbers
 
 FlowGrid puts iron air at $79 per megawatt hour against LFP at $194 and vanadium at $173 across a hundred hour discharge, and every figure feeding those numbers arrived without a source.
 

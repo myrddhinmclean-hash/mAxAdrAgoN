@@ -16,7 +16,8 @@
           "started": "2026-07",
           "last_touched": "2026-08-28",
           "where": "D:\\Claude\\CLAUDEshared\\DungeonCue_Project",
-          "entry": "dungeon-cue-remote-control"
+          "entry": "dungeon-cue-remote-control",
+          "name_status": "researched"
         },
         {
           "name": "CampaignOS",
@@ -25,7 +26,8 @@
           "detail": "Running a session means holding combat state in your head while being every character at the table. The tracking is what slips, because the talking cannot. This is the second screen that does the holding, with the table's own speech moving the state instead of a mouse, and every entry reversible.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
-          "where": "D:\\CampaignOS"
+          "where": "D:\\CampaignOS",
+          "name_status": "unchecked"
         },
         {
           "name": "DM Toolbox",
@@ -34,7 +36,8 @@
           "detail": "Running a session means eight jobs at once and a different tool for each, most of them a browser tab wanting a subscription. This puts prep, combat, factions, handouts, rules, recaps, loot and a codex in one window that works with the wifi off. Buy one module or all of them; they share a campaign file.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
-          "where": "D:\\DMToolbox2"
+          "where": "D:\\DMToolbox2",
+          "name_status": "unchecked"
         },
         {
           "name": "SoundCue",
@@ -43,7 +46,8 @@
           "detail": "A soundboard that listens for the phrase instead of waiting for the click. Audio is processed in memory and never written to disk or uploaded, which is a rule of the architecture rather than a setting. Playback is one output of several: it can drive Companion, a lighting desk, or MIDI.",
           "started": "2026-07",
           "last_touched": "2026-08-03",
-          "where": "D:\\Claude\\CLAUDEshared\\SoundCue_Project"
+          "where": "D:\\Claude\\CLAUDEshared\\SoundCue_Project",
+          "name_status": "collides"
         },
         {
           "name": "MudBuddy",
@@ -52,7 +56,8 @@
           "detail": "You stay the only thing touching the game, which is the design, not a limitation. It proposes a command with a guess about what will happen, then watches whether you did it and whether the guess held. Ignore it three times in the same spot and it weighs that, because you knowing better is information too.",
           "started": "2026-07",
           "last_touched": "2026-08-03",
-          "where": "D:\\Claude\\CLAUDEshared\\MudBuddy_Project"
+          "where": "D:\\Claude\\CLAUDEshared\\MudBuddy_Project",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -71,7 +76,8 @@
           "where": "D:\\Claude\\CLAUDEshared\\AxiomTEA",
           "project_code": "PROJ-HIS-FPB-CVP",
           "entry": "axiomtea-no-language-model",
-          "branch_n": 2
+          "branch_n": 2,
+          "name_status": "researched"
         },
         {
           "name": "SynapseGraph",
@@ -86,7 +92,8 @@
           "branch_n": 2,
           "shelved": "2026-09-04",
           "shelved_reason": "GROBID parses references at 0.87 F1 across ninety thousand of them. This matched one paper.",
-          "superseded_by": "GROBID"
+          "superseded_by": "GROBID",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -102,7 +109,8 @@
           "last_touched": "2026-08-31",
           "where": "D:\\Ameobix",
           "entry": "amoebix-the-arm-rack",
-          "branch_n": 1
+          "branch_n": 1,
+          "name_status": "deferred"
         },
         {
           "name": "AGY Bridge",
@@ -111,7 +119,8 @@
           "started": "2026-08",
           "last_touched": "2026-08-27",
           "where": "D:\\Claude\\AGY_Bridge",
-          "detail": "The IDE has no doorbell, so the bridge is a watched folder. A brief goes in the inbox, a watcher spins the agent up against it, and a result lands in the outbox with a status. Only the completion command may write DONE, so an agent that crashes leaves its brief visibly unfinished."
+          "detail": "The IDE has no doorbell, so the bridge is a watched folder. A brief goes in the inbox, a watcher spins the agent up against it, and a result lands in the outbox with a status. Only the completion command may write DONE, so an agent that crashes leaves its brief visibly unfinished.",
+          "name_status": "unchecked"
         },
         {
           "name": "AegisBox",
@@ -126,7 +135,8 @@
           "branch_n": 1,
           "shelved": "2026-09-04",
           "shelved_reason": "Sandboxing is solved at the kernel, and this reimplemented it inside one interpreter, where a child process walks straight out.",
-          "superseded_by": "gVisor, nsjail, firejail and bubblewrap"
+          "superseded_by": "gVisor, nsjail, firejail and bubblewrap",
+          "name_status": "unchecked"
         },
         {
           "name": "AgentMesh",
@@ -141,7 +151,8 @@
           "branch_n": 1,
           "shelved": "2026-09-04",
           "shelved_reason": "Capability discovery has a published protocol now. This one could discover and could not invoke.",
-          "superseded_by": "MCP and the agent protocols built on it"
+          "superseded_by": "MCP and the agent protocols built on it",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -161,7 +172,8 @@
           "branch_n": 2,
           "shelved": "2026-09-04",
           "shelved_reason": "Proof checking has decades of audited tooling behind it and four tests here.",
-          "superseded_by": "Lean, Coq and Z3"
+          "superseded_by": "Lean, Coq and Z3",
+          "name_status": "unchecked"
         },
         {
           "name": "NeuroSteer",
@@ -176,7 +188,8 @@
           "branch_n": 17,
           "shelved": "2026-09-04",
           "shelved_reason": "Both do activation steering on real models. This ran three times, on a toy transformer trained on nothing.",
-          "superseded_by": "TransformerLens and nnsight"
+          "superseded_by": "TransformerLens and nnsight",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -195,7 +208,8 @@
           "entry": "gridpulse-only-ran-on-the-example",
           "branch_n": 3,
           "shelved": "2026-09-04",
-          "shelved_reason": "It only ever ran on the example, and the saving figure was illustrative to the end."
+          "shelved_reason": "It only ever ran on the example, and the saving figure was illustrative to the end.",
+          "name_status": "unchecked"
         },
         {
           "name": "FlowGrid",
@@ -210,7 +224,8 @@
           "branch_n": 3,
           "shelved": "2026-09-04",
           "shelved_reason": "Nineteen uncited inputs sat under the answer. The published datasets are the product, and they are not this.",
-          "superseded_by": "NREL ATB, SAM and PyPSA"
+          "superseded_by": "NREL ATB, SAM and PyPSA",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -230,7 +245,8 @@
           "branch_n": 4,
           "shelved": "2026-09-04",
           "shelved_reason": "All three are free, validated and can see the whole genome, which is the half this never had.",
-          "superseded_by": "CHOPCHOP, CRISPOR and Benchling"
+          "superseded_by": "CHOPCHOP, CRISPOR and Benchling",
+          "name_status": "unchecked"
         },
         {
           "name": "CrystalGen",
@@ -245,7 +261,8 @@
           "branch_n": 8,
           "shelved": "2026-09-04",
           "shelved_reason": "The screen it performs is a published library call, against a database this does not have.",
-          "superseded_by": "pymatgen, matminer and the Materials Project"
+          "superseded_by": "pymatgen, matminer and the Materials Project",
+          "name_status": "unchecked"
         },
         {
           "name": "AquaNutrient",
@@ -259,7 +276,8 @@
           "entry": "aquanutrient-the-dose-reads-ten-times-low",
           "branch_n": 11,
           "shelved": "2026-09-04",
-          "shelved_reason": "Shelved on 2026-09-04. An uncalibrated dose, no hardware anywhere in it, and the smallest thing in the set."
+          "shelved_reason": "Shelved on 2026-09-04. An uncalibrated dose, no hardware anywhere in it, and the smallest thing in the set.",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -279,7 +297,8 @@
           "branch_n": 5,
           "shelved": "2026-09-04",
           "shelved_reason": "The physics matched three papers. The simulators that already implement those papers are free.",
-          "superseded_by": "PyBullet, MuJoCo and Drake"
+          "superseded_by": "PyBullet, MuJoCo and Drake",
+          "name_status": "unchecked"
         },
         {
           "name": "OmniFleet",
@@ -293,7 +312,8 @@
           "entry": "omnifleet-a-simulation-with-no-clock",
           "branch_n": 6,
           "shelved": "2026-09-04",
-          "shelved_reason": "Shelved on 2026-09-04. Straight line distance, no road network, and it needed a clock added before the sweep meant anything."
+          "shelved_reason": "Shelved on 2026-09-04. Straight line distance, no road network, and it needed a clock added before the sweep meant anything.",
+          "name_status": "unchecked"
         },
         {
           "name": "SynapseDecode",
@@ -306,7 +326,8 @@
           "detail": "A prosthetic that lags feels like it belongs to somebody else. One motor neuron is nearly useless alone, firing hardest for a single direction. Let every channel vote for the direction it prefers, weighted by how hard it fires, and the sum points where the arm meant to go, inside twenty milliseconds.",
           "entry": "synapsedecode-the-measurement-was-wrong",
           "shelved": "2026-09-04",
-          "shelved_reason": "It reproduces a published result and was only ever a demonstration of the algorithm."
+          "shelved_reason": "It reproduces a published result and was only ever a demonstration of the algorithm.",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -325,7 +346,8 @@
           "entry": "sovereignvault-two-versions-and-no-key",
           "shelved": "2026-09-04",
           "shelved_reason": "Hand built cryptography in the one application where an audited primitive earns its dependency.",
-          "superseded_by": "age and libsodium"
+          "superseded_by": "age and libsodium",
+          "name_status": "unchecked"
         }
       ]
     },
@@ -339,7 +361,8 @@
           "detail": "The world everything else gets played in. Twelve continents, two moons that are never not full, and a history reaching back a hundred and twenty three million years, built consistent enough that a campaign can run anywhere on it without the map contradicting itself.",
           "started": "2019",
           "last_touched": "2026-08",
-          "where": "https://www.worldanvil.com/w/draega-maxadragon"
+          "where": "https://www.worldanvil.com/w/draega-maxadragon",
+          "name_status": "researched"
         },
         {
           "name": "Golden Sea campaign kit",
@@ -347,7 +370,8 @@
           "one_line": "Twenty-four modules, a session master doc, and per-module stat kits for a campaign across the Draega archipelago.",
           "started": "2026-08",
           "last_touched": "2026-08-31",
-          "where": "D:\\mAxAdrAgoN-site\\campaign\\golden-sea"
+          "where": "D:\\mAxAdrAgoN-site\\campaign\\golden-sea",
+          "name_status": "unchecked"
         },
         {
           "name": "Rivals and Destiny podcast",
@@ -356,7 +380,8 @@
           "started": "2020",
           "last_touched": "2026-08",
           "entry": "rivals-and-destiny",
-          "perpetual": true
+          "perpetual": true,
+          "name_status": "researched"
         }
       ]
     }

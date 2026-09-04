@@ -2,7 +2,7 @@
   {
     "slug": "sovereignvault-two-versions-and-no-key",
     "hoard": "machine",
-    "title": "Two Versions, XORed, and No Key Required",
+    "title": "The Data Vault That Leaked Without a Key",
     "date": "2026-09-03",
     "excerpt": "The keystream came from the master key and the key name with no nonce, so two values stored under the same name shared a keystream and XORing the pair cancelled it. A stored secret came out with no key involved at all. Replaced on 2026-09-03.",
     "path": "../content/machine/sovereignvault-two-versions-and-no-key.md"
@@ -10,7 +10,7 @@
   {
     "slug": "kinematix-a-default-of-true",
     "hoard": "machine",
-    "title": "A Default of True in a Safety Check",
+    "title": "A Robot Balance Model That Called Every Fall a Recovery",
     "date": "2026-09-03",
     "excerpt": "The physics checks out against Pratt 2006, Hof 2008 and Kajita 2003, which was the whole credibility of the project. The verdict function did not: it returned success whenever it could not read the shape of a result, and reported recovery at every force it was given.",
     "path": "../content/machine/kinematix-a-default-of-true.md",
@@ -20,7 +20,7 @@
   {
     "slug": "aquanutrient-the-dose-reads-ten-times-low",
     "hoard": "machine",
-    "title": "Nobody Wrote Down Which Way the Dose Was Wrong",
+    "title": "A Hydroponic Dose Wrong in an Unknown Direction",
     "date": "2026-09-03",
     "excerpt": "The dose is uncalibrated and the record contradicts itself about which way. It says the number reads ten times low, and it says the program tells you to quarter it. Those point opposite ways, and nobody wrote down which half is the typo.",
     "path": "../content/machine/aquanutrient-the-dose-reads-ten-times-low.md",
@@ -40,7 +40,7 @@
   {
     "slug": "flowgrid-nineteen-numbers-with-no-source",
     "hoard": "machine",
-    "title": "Nineteen Numbers With Nothing Behind Them",
+    "title": "The Flow Battery Model Built on Uncited Numbers",
     "date": "2026-09-03",
     "excerpt": "It puts iron air at $79 per megawatt hour against LFP at $194 and vanadium at $173 over a hundred hours, and the ordering is the product. Every one of the nineteen capital cost, efficiency and cycle life figures behind it arrived with no citation and is now marked UNVERIFIED.",
     "path": "../content/machine/flowgrid-nineteen-numbers-with-no-source.md",
@@ -50,7 +50,7 @@
   {
     "slug": "gridpulse-only-ran-on-the-example",
     "hoard": "machine",
-    "title": "It Only Ever Ran on the Example",
+    "title": "The Grid Scheduler That Only Ran on Its Own Demo",
     "date": "2026-09-03",
     "excerpt": "The dispatcher looked jobs up by hardcoded name and raised KeyError on anything else, so the only workload it could ever schedule was the one in the demo. It takes real price curves and real job files now.",
     "path": "../content/machine/gridpulse-only-ran-on-the-example.md",
@@ -60,9 +60,9 @@
   {
     "slug": "neurosteer-a-folder-named-torch",
     "hoard": "machine",
-    "title": "A Folder Named torch, and 5,809 Files That Were Not PyTorch",
+    "title": "The Concept Steering Tool That Had Never Once Run",
     "date": "2026-09-03",
-    "excerpt": "It ran for the first time in its life on 2026-09-03. The README had claimed three of three tests passing and that was never true: a directory called torch with no __init__.py imported as an empty namespace package, so every availability guard passed and every test failed in setup.",
+    "excerpt": "A tool that turns one concept up or down inside a running model and prints all three results side by side. It had never once executed: a directory called torch with no __init__.py imported as an empty namespace package, so every availability guard passed while every test failed in setup.",
     "path": "../content/machine/neurosteer-a-folder-named-torch.md",
     "branch": "Consciousness and AI welfare",
     "branch_n": "17"
@@ -70,7 +70,7 @@
   {
     "slug": "axiomverify-refuses-to-read-english",
     "hoard": "machine",
-    "title": "It Refuses to Read English",
+    "title": "The Argument Checker That Passed a Non Sequitur",
     "date": "2026-09-03",
     "excerpt": "An earlier version passed prose straight through and reported four steps all following, for an argument that ended in a non sequitur. That is a false pass in a tool whose only job is catching false passes. It takes symbols now, and exits rather than guess.",
     "path": "../content/machine/axiomverify-refuses-to-read-english.md",
@@ -100,7 +100,7 @@
   {
     "slug": "synapsedecode-the-measurement-was-wrong",
     "hoard": "machine",
-    "title": "The Decoder Was Fine. The Measurement Was Wrong.",
+    "title": "The Neural Decoder That Was Never Actually Broken",
     "date": "2026-09-03",
     "excerpt": "It was written up as broken and it was never broken. The measurement read the x component of a population vector against an angle in radians, so a working decoder looked like a coin toss. Measured properly, error falls from 42.9 degrees at four channels to 7.4 at sixty.",
     "path": "../content/machine/synapsedecode-the-measurement-was-wrong.md"
@@ -108,7 +108,7 @@
   {
     "slug": "crystalgen-negative-zero-for-table-salt",
     "hoard": "machine",
-    "title": "Negative Zero for Table Salt",
+    "title": "The Crystal Screen That Skipped What It Did Not Know",
     "date": "2026-09-03",
     "excerpt": "It returned a formation energy of negative zero for sodium chloride, because neither element was in its thirteen entry table and anything unrecognised was skipped without a word. Fixing that exposed the larger fault underneath: the valence field was in the data the whole time and was never read.",
     "path": "../content/machine/crystalgen-negative-zero-for-table-salt.md",
