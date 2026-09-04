@@ -21,6 +21,12 @@
     .b-scaffold { color: #8ab4f8; }
     .b-planned  { color: #a78bfa; }
     .b-parked   { color: #9ca3af; }
+    .b-shelved  { color: #c084fc; }
+    /* One line, not a paragraph. A shelved card has to say why it stopped and
+       what does the job instead, and that is all it says. The reasoning lives
+       in the teardown; the receipts live off the site. */
+    .proj-shelved { font-size: .88rem; margin: .35rem 0 0; opacity: .8; }
+    .proj-shelved .instead { color: #c084fc; }
     .proj-one   { margin: .45rem 0 .3rem; }
     .proj-detail{ font-size: .95rem; margin: .3rem 0; color: var(--text-muted); }
 
@@ -175,6 +181,13 @@
           // somewhere other than the description of what the thing is for and
           // did not belong beside it. The badge carries the state now. The old
           // text is kept outside the site, in the brand workspace.
+          if (p.status === "shelved") {
+            let s = esc(p.shelved_reason || "");
+            if (p.superseded_by) {
+              s += ' <span class="instead">Use ' + esc(p.superseded_by) + " instead.</span>";
+            }
+            html += '<p class="proj-shelved">' + s + "</p>";
+          }
           if (p.link) {
             html += '<p class="proj-buy"><a href="' + esc(p.link) + '" rel="noopener">' +
                     esc(p.link.replace(/^https?:\/\//, "")) + "</a>" +

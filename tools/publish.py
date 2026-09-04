@@ -109,6 +109,13 @@ def main() -> int:
             "excerpt": fm["summary"],
             "path": "../content/%s/%s.md" % (hoard, slug),
         }
+        # Optional. A machine entry can name the branch of the map it belongs
+        # to, which is what the entry page links to and what map.html links
+        # back from. Carried from frontmatter so the connection is declared in
+        # the draft rather than patched into the index afterwards.
+        if fm.get("branch") and fm.get("branch_n"):
+            entry["branch"] = fm["branch"]
+            entry["branch_n"] = fm["branch_n"]
         posts.insert(0, entry)   # newest first
         with open(POSTS, "w", encoding="utf-8") as fh:
             json.dump(posts, fh, indent=2)

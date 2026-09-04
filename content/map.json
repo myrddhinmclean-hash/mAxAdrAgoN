@@ -1,11 +1,6 @@
 {
-  "_comment": "The Map of the Future. Derived from roughly 900 KB of research into the Moonshots archive and related channels, August 2026. Part A is the raw thematic list, uncurated. Part B is what survives a filter of: one person, home hardware, near-zero capital, and not already a bloodbath. No dates anywhere, deliberately. It is a map, not a schedule.",
-  "updated": "2026-08-31",
-  "source": {
-    "corpus": "~900 KB of research summaries drawn from Moonshots with Peter Diamandis and related channels, not raw transcripts",
-    "compiled": "2026-08-20",
-    "taxonomy": "The 24-Branch System, revision 6, dated 2026-08-18, credited to Gemini Notebook"
-  },
+  "_comment": "The Map of the Future. Part A is the raw thematic list, uncurated. Part B is what survives a filter of: one person, home hardware, near-zero capital, and not already a bloodbath. No dates anywhere, deliberately. It is a map, not a schedule. Owner ruling 2026-09-04: the corpus provenance line and the candidate list are off the page.",
+  "updated": "2026-09-04",
   "part_a": {
     "title": "Everything that could be built",
     "note": "Uncurated. Includes things needing capital, hardware, a lab or a team, because the ask was complete rather than pre-filtered.",
@@ -20,12 +15,27 @@
           "AI-native one-person-company tooling",
           "Vibe-coding-to-production pipelines",
           "AI browsers and AI-native search replacements"
+        ],
+        "built": "Three of these exist here: AmoebiX dispatches the question across models, AegisBox is the room the code runs in, AgentMesh is how they find each other.",
+        "built_links": [
+          {
+            "name": "AegisBox",
+            "entry": "aegisbox-rated-it-critical-and-ran-it"
+          },
+          {
+            "name": "AgentMesh",
+            "entry": "agentmesh-crossing-the-process-line"
+          },
+          {
+            "name": "AmoebiX",
+            "entry": "amoebix-the-arm-rack"
+          }
         ]
       },
       {
         "n": 2,
         "name": "Verification, trust, epistemics",
-        "built": "AxiomTEA lives here and is finished",
+        "built": "AxiomTEA lives here and is finished. AxiomVerify and SynapseGraph point the same instinct at arguments and at citations.",
         "items": [
           "Physics and first-principles feasibility auditing",
           "Prediction-tracking databases: who predicted what, when, and were they right",
@@ -33,6 +43,20 @@
           "Automated replication labs for scientific claims",
           "Deception and hidden-cheating detectors for model outputs",
           "Evidence verification engines cross-checking claims against data"
+        ],
+        "built_links": [
+          {
+            "name": "AxiomTEA",
+            "entry": "axiomtea-no-language-model"
+          },
+          {
+            "name": "AxiomVerify",
+            "entry": "axiomverify-refuses-to-read-english"
+          },
+          {
+            "name": "SynapseGraph",
+            "entry": "synapsegraph-forty-references-counted"
+          }
         ]
       },
       {
@@ -46,6 +70,17 @@
           "Fusion: tokamak, stellarator, magnetic confinement",
           "Grid load balancing and virtual power plants",
           "Energy kites and molten-salt storage"
+        ],
+        "built": "GridPulse moves heavy compute to the cheap hours. FlowGrid works out whether the battery pays for itself.",
+        "built_links": [
+          {
+            "name": "FlowGrid",
+            "entry": "flowgrid-nineteen-numbers-with-no-source"
+          },
+          {
+            "name": "GridPulse VPP",
+            "entry": "gridpulse-only-ran-on-the-example"
+          }
         ]
       },
       {
@@ -59,6 +94,13 @@
           "Multi-omic aging clocks and biological age tracking",
           "De-extinction and genetic reconstruction",
           "Personalized nutrition and continuous biomarker tracking"
+        ],
+        "built": "EpiGuide designs the guides. It cannot see the whole genome yet, and says so on every run.",
+        "built_links": [
+          {
+            "name": "EpiGuide",
+            "entry": "epiguide-a-guide-that-scores-clean"
+          }
         ]
       },
       {
@@ -70,6 +112,13 @@
           "Warehouse and logistics robotics",
           "Robotic wearables and exosuits",
           "Agricultural robotics and precision-ag drones"
+        ],
+        "built": "Kinematix, and it is a teaching simulator rather than anything that drives a robot.",
+        "built_links": [
+          {
+            "name": "Kinematix",
+            "entry": "kinematix-a-default-of-true"
+          }
         ]
       },
       {
@@ -80,6 +129,13 @@
           "Urban air mobility traffic control",
           "Hyperloop and vacuum-tube transit",
           "Autonomous trucking and maritime shipping"
+        ],
+        "built": "OmniFleet, once somebody put a clock in it.",
+        "built_links": [
+          {
+            "name": "OmniFleet",
+            "entry": "omnifleet-a-simulation-with-no-clock"
+          }
         ]
       },
       {
@@ -102,6 +158,13 @@
           "Carbon nanotube manufacturing at macro scale",
           "Graphene composite production",
           "AI-driven crystal and material discovery"
+        ],
+        "built": "CrystalGen screens the candidates before anyone books lab time.",
+        "built_links": [
+          {
+            "name": "CrystalGen",
+            "entry": "crystalgen-negative-zero-for-table-salt"
+          }
         ]
       },
       {
@@ -130,6 +193,13 @@
           "Vertical farming automation",
           "Nitrogen-fixing crops without synthetic fertilizer",
           "Food-waste reduction"
+        ],
+        "built": "AquaNutrient watches the reservoir. There is no hardware in it.",
+        "built_links": [
+          {
+            "name": "AquaNutrient",
+            "entry": "aquanutrient-the-dose-reads-ten-times-low"
+          }
         ]
       },
       {
@@ -191,6 +261,13 @@
         "items": [
           "Mechanistic interpretability tooling, including distress-signature detection in model internals",
           "AI welfare and alignment evaluation frameworks"
+        ],
+        "built": "NeuroSteer turns one concept up and down inside a running model and prints all three results.",
+        "built_links": [
+          {
+            "name": "NeuroSteer",
+            "entry": "neurosteer-a-folder-named-torch"
+          }
         ]
       }
     ]
@@ -209,29 +286,6 @@
       "why_now": "The problem I hit twice in the conversation that produced this list. AI research assistants fabricate specific-sounding citations, episode numbers, guest names, dates and URLs that do not survive a check against the real source. My own 900 KB research corpus is full of it: invented episode numbers, claims attributed to episodes that may not say what is claimed.",
       "what_it_does": "Paste in a document. It extracts every citation-shaped claim and checks it against real public metadata, podcast feeds, video APIs, publisher sites, then flags each one CONFIRMED, MISMATCHED where the source exists but does not say that, or NOT FOUND where the source does not appear to exist at all.",
       "why_it_clears": "Near-zero capital on free public APIs. Narrow enough not to compete with AxiomTEA, which does physics rather than citations, or with general fact-checkers, which do political truth rather than source existence. The buyer is concrete and growing: anyone using AI for research who has been burned by exactly this. And the test corpus already exists, for free, in my own files."
-    },
-    "candidates": [
-      {
-        "name": "Prediction ledger and forecaster track record",
-        "what": "A structured record of specific dated predictions by public figures, with target dates, and an ongoing scorecard of what came true.",
-        "different_from": "Metaculus and Manifold are crowd markets on open questions going forward. This is retrospective and person-specific.",
-        "risk": "More labour to seed than the top pick. Predictions have to be found and dated correctly by hand at first."
-      },
-      {
-        "name": "Hype-density self-check for writers",
-        "what": "AxiomTEA's unfalsifiable-claim-density idea pointed at a different buyer: writers checking their own draft before publishing, framed as craft rather than a verdict.",
-        "risk": "Willingness to pay for making your own writing more credible is genuinely unproven and would need validating early."
-      },
-      {
-        "name": "Session-prep compiler",
-        "what": "Takes loose campaign notes and compiles them into a consistent prep document matching an established style and canon, catching continuity contradictions rather than rules violations.",
-        "risk": "Thin moat. World Anvil, LegendKeeper and Notion templates already cover part of this. Listed as a real option, not a strong one."
-      },
-      {
-        "name": "Token cost and API usage audit for solo developers",
-        "what": "Ingests billing exports and flags waste: redundant calls, oversized context windows, repeated identical prompts, with concrete fixes.",
-        "risk": "The providers already ship dashboards. The differentiator would have to be genuinely sharper waste detection, not another cost graph."
-      }
-    ]
+    }
   }
 }

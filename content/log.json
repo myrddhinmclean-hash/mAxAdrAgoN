@@ -4,6 +4,15 @@
   "entries": [
     {
       "date": "2026-09-04",
+      "title": "Fourteen projects off the disk, and all fourteen still on the site",
+      "tags": [
+        "the lair",
+        "abandonment"
+      ],
+      "body": "Fourteen projects came off the disk today and stayed on the site. That is the whole shape of it. The files are gone and the record is not.\n\nThey stopped because free tools already do the job and do it better. EpiGuide against CHOPCHOP and CRISPOR, which search a whole genome where it counted repeats inside one submitted sequence. CrystalGen against pymatgen and the Materials Project, which is a database this never had. SynapseGraph against GROBID, open since 2011, scoring about 0.87 across ninety thousand references, where this one matched a single paper. NeuroSteer against TransformerLens and nnsight, which steer real models rather than a toy transformer trained on nothing. AegisBox against gVisor and nsjail, which do at the kernel what it attempted inside one Python interpreter. AxiomVerify against Lean and Coq. SovereignVault against age and libsodium, in the exact application where an audited primitive earns its dependency. Kinematix against PyBullet and MuJoCo, which already implement the three papers it was finally checked against. Four more went with them for reasons of their own.\n\nEvery one has a teardown here now, and every register card keeps its status, its reason, and the name of what to use instead. None of it is hidden. A record that does not survive the thing it records was never a record.\n\nNothing was deleted. Twenty eight directories moved into a trash folder that writes down where each came from, and a restore takes a substring. The removal is one commit in a repo with no remote, so the history still holds every file.\n\nThe removal broke in two ways before it worked, and both are written down. Passing an array of paths to a PowerShell script through -File flattens it, so the first attempt moved nothing while reporting no fault. That same run then staged two uncommitted edits it had not authored and committed them, which is the one thing the rule about external edits exists to prevent. The commit was reset, those two files were given their own checkpoint untouched, and the second run did the work."
+    },
+    {
+      "date": "2026-09-04",
       "title": "The rules were arriving at 44 percent and nothing said so",
       "tags": [
         "the lair",

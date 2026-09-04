@@ -2,6 +2,8 @@
 title: "The Diligence Engine With No Language Model In It"
 date: "2026-08-31"
 hoard: "machine"
+branch: "Verification, trust, epistemics"
+branch_n: "2"
 summary: "A pitch deck claims 420 watt hours per kilogram, and nobody in the room can tell whether that is ambitious or physically forbidden. This one pulls the number out, finds the law that governs it, and shows the arithmetic. There is no language model anywhere near the verdict, and that is the point."
 ---
 

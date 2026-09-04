@@ -1,6 +1,6 @@
 {
-  "_comment": "The project register. Every project appears, started or not. Status is honest: 'working' means it runs, 'partial' means some of it runs, 'scaffold' means a README and a stub, 'planned' means a description and no code. Owner ruling 2026-08-31: presenting unstarted work as unstarted is the point, not a weakness. Owner ruling 2026-09-04: the per-project status paragraph is gone; the badge carries the state now.",
-  "_status_values": "working | partial | scaffold | planned | parked",
+  "_comment": "The project register. Every project appears, started or not, including the ones that were abandoned. Status is honest: 'working' means it runs, 'partial' means some of it runs, 'scaffold' means a README and a stub, 'planned' means a description and no code, 'shelved' means the work stopped and the files were removed. Owner ruling 2026-08-31: presenting unstarted work as unstarted is the point, not a weakness. Owner ruling 2026-09-04: the per-project status paragraph is gone, and a shelved project keeps its card, its teardown and its reason. The site retains what the disk does not.",
+  "_status_values": "selling | working | partial | scaffold | planned | parked | shelved",
   "updated": "2026-09-04",
   "branches": [
     {
@@ -70,17 +70,23 @@
           "last_touched": "2026-08-30",
           "where": "D:\\Claude\\CLAUDEshared\\AxiomTEA",
           "project_code": "PROJ-HIS-FPB-CVP",
-          "entry": "axiomtea-no-language-model"
+          "entry": "axiomtea-no-language-model",
+          "branch_n": 2
         },
         {
           "name": "SynapseGraph",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Turns a stack of scientific PDFs into a graph you can ask questions of.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_1_academic_parser",
           "project_code": "PROJ-MET-APS-LPS",
-          "detail": "A paper is built to be printed, not searched, and the thing tying it to the last one is a number in a bracket. This pulls out the sections, the references and the named quantities, and links every citation to the entry it points at. The question it answers is where a claim actually came from."
+          "detail": "A paper is built to be printed, not searched, and the thing tying it to the last one is a number in a bracket. This pulls out the sections, the references and the named quantities, and links every citation to the entry it points at. The question it answers is where a claim actually came from.",
+          "entry": "synapsegraph-forty-references-counted",
+          "branch_n": 2,
+          "shelved": "2026-09-04",
+          "shelved_reason": "GROBID parses references at 0.87 F1 across ninety thousand of them. This matched one paper.",
+          "superseded_by": "GROBID"
         }
       ]
     },
@@ -94,7 +100,9 @@
           "detail": "One model answering one question gives you an answer with no error bars on it. Ask several and the disagreement is where the uncertainty lives. This dispatches a question across many models, holds the answers against a library of lenses, and logs what came of it. The intelligence is in the arrangement.",
           "started": "2026-08",
           "last_touched": "2026-08-31",
-          "where": "D:\\Ameobix"
+          "where": "D:\\Ameobix",
+          "entry": "amoebix-the-arm-rack",
+          "branch_n": 1
         },
         {
           "name": "AGY Bridge",
@@ -107,23 +115,33 @@
         },
         {
           "name": "AegisBox",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Runs an agent's code in a room with a floor, four walls, and no door you did not open.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_2_agent_sandbox",
           "project_code": "PROJ-AGT-MTO-PSL",
-          "detail": "An agent that writes and runs its own code is one bad line from deleting your files. Reading every line is not an answer at the speed these things generate. So give it a room: no network unless you granted one, a ceiling on memory, a clock that kills what overruns, and a floor it cannot write through."
+          "detail": "An agent that writes and runs its own code is one bad line from deleting your files. Reading every line is not an answer at the speed these things generate. So give it a room: no network unless you granted one, a ceiling on memory, a clock that kills what overruns, and a floor it cannot write through.",
+          "entry": "aegisbox-rated-it-critical-and-ran-it",
+          "branch_n": 1,
+          "shelved": "2026-09-04",
+          "shelved_reason": "Sandboxing is solved at the kernel, and this reimplemented it inside one interpreter, where a child process walks straight out.",
+          "superseded_by": "gVisor, nsjail, firejail and bubblewrap"
         },
         {
           "name": "AgentMesh",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Lets one agent find and borrow another's tools without anyone wiring the pair together first.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_7_agent_negotiation",
           "project_code": "PROJ-AGE-MOS-TNP",
-          "detail": "Connecting two agents means hand-writing an integration for that exact pair, and pairs multiply faster than anyone keeps up with. The way out is to stop naming providers. An agent advertises what it can do, a caller asks for the capability, and every call lands in an append-only ledger."
+          "detail": "Connecting two agents means hand-writing an integration for that exact pair, and pairs multiply faster than anyone keeps up with. The way out is to stop naming providers. An agent advertises what it can do, a caller asks for the capability, and every call lands in an append-only ledger.",
+          "entry": "agentmesh-crossing-the-process-line",
+          "branch_n": 1,
+          "shelved": "2026-09-04",
+          "shelved_reason": "Capability discovery has a published protocol now. This one could discover and could not invoke.",
+          "superseded_by": "MCP and the agent protocols built on it"
         }
       ]
     },
@@ -132,23 +150,33 @@
       "projects": [
         {
           "name": "AxiomVerify",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Checks whether an argument follows, step by step, instead of whether it sounds like it does.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_6_neuro_symbolic_proof",
           "project_code": "PROJ-COG-NSH-LPC",
-          "detail": "A model makes an invalid jump and writes it beautifully, which is the worst combination available in maths, law and code. This walks the structure and ignores the style. Each step names its premises and the rule it claims, and the checker either finds it or names the line where the deduction breaks."
+          "detail": "A model makes an invalid jump and writes it beautifully, which is the worst combination available in maths, law and code. This walks the structure and ignores the style. Each step names its premises and the rule it claims, and the checker either finds it or names the line where the deduction breaks.",
+          "entry": "axiomverify-refuses-to-read-english",
+          "branch_n": 2,
+          "shelved": "2026-09-04",
+          "shelved_reason": "Proof checking has decades of audited tooling behind it and four tests here.",
+          "superseded_by": "Lean, Coq and Z3"
         },
         {
           "name": "NeuroSteer",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Turns one idea up or down inside a running model, and shows you all three results side by side.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_4_concept_steering",
           "project_code": "PROJ-COG-SAE-EVM",
-          "detail": "Steering a model means retraining it or arguing with it in the prompt, and neither tells you what moved. This reaches into the layers mid-generation and pushes one concept up or down, then prints the untouched version beside the amplified and the suppressed. Seeing all three is the point."
+          "detail": "Steering a model means retraining it or arguing with it in the prompt, and neither tells you what moved. This reaches into the layers mid-generation and pushes one concept up or down, then prints the untouched version beside the amplified and the suppressed. Seeing all three is the point.",
+          "entry": "neurosteer-a-folder-named-torch",
+          "branch_n": 17,
+          "shelved": "2026-09-04",
+          "shelved_reason": "Both do activation steering on real models. This ran three times, on a toy transformer trained on nothing.",
+          "superseded_by": "TransformerLens and nnsight"
         }
       ]
     },
@@ -157,23 +185,32 @@
       "projects": [
         {
           "name": "GridPulse VPP",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Moves heavy compute to the hours when the grid has power going spare.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_5_grid_balancing",
           "project_code": "PROJ-ENE-SLB-DRG",
-          "detail": "A training cluster pulls hardest whenever it is asked, which is how congestion and a large bill arrive together. Most of that work does not care what hour it runs in. This reads the price curve, holds what can wait, stands down what is running when power turns dear, and never touches the cooling."
+          "detail": "A training cluster pulls hardest whenever it is asked, which is how congestion and a large bill arrive together. Most of that work does not care what hour it runs in. This reads the price curve, holds what can wait, stands down what is running when power turns dear, and never touches the cooling.",
+          "entry": "gridpulse-only-ran-on-the-example",
+          "branch_n": 3,
+          "shelved": "2026-09-04",
+          "shelved_reason": "It only ever ran on the example, and the saving figure was illustrative to the end."
         },
         {
           "name": "FlowGrid",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Works out whether a flow battery pays for itself across a windless week.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_9_flow_battery_tea",
           "project_code": "PROJ-ENE-LCE-FBC",
-          "detail": "Lithium stops making economic sense past about eight hours, because its power cost and its energy cost are welded together. Flow chemistries pull them apart: the stack sets how fast, the tank sets how long, and a bigger tank is cheap. This finds where the crossover falls for a given site."
+          "detail": "Lithium stops making economic sense past about eight hours, because its power cost and its energy cost are welded together. Flow chemistries pull them apart: the stack sets how fast, the tank sets how long, and a bigger tank is cheap. This finds where the crossover falls for a given site.",
+          "entry": "flowgrid-nineteen-numbers-with-no-source",
+          "branch_n": 3,
+          "shelved": "2026-09-04",
+          "shelved_reason": "Nineteen uncited inputs sat under the answer. The published datasets are the product, and they are not this.",
+          "superseded_by": "NREL ATB, SAM and PyPSA"
         }
       ]
     },
@@ -182,33 +219,47 @@
       "projects": [
         {
           "name": "EpiGuide",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Designs CRISPR guides that switch a gene off without cutting the DNA.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_10_epigenetic_crispr",
           "project_code": "PROJ-BIO-PGT-EEM",
-          "detail": "Cutting both strands leaves a break the cell cannot always repair cleanly, and when the goal is to turn a gene down rather than remove it, that risk buys nothing. Methylation quiets the gene and leaves the sequence intact. This finds the guides worth ordering and scores where else they might bind."
+          "detail": "Cutting both strands leaves a break the cell cannot always repair cleanly, and when the goal is to turn a gene down rather than remove it, that risk buys nothing. Methylation quiets the gene and leaves the sequence intact. This finds the guides worth ordering and scores where else they might bind.",
+          "entry": "epiguide-a-guide-that-scores-clean",
+          "branch_n": 4,
+          "shelved": "2026-09-04",
+          "shelved_reason": "All three are free, validated and can see the whole genome, which is the half this never had.",
+          "superseded_by": "CHOPCHOP, CRISPOR and Benchling"
         },
         {
           "name": "CrystalGen",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Predicts whether a proposed crystal would survive being made.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_11_crystal_predictor",
           "project_code": "PROJ-MAT-ACS-CSP",
-          "detail": "Finding a new superconductor has meant mixing things for years and seeing what holds together, and lab time is the expensive part, so the screen belongs in front of it. This estimates formation energy from what the elements are and sorts candidates into stable, worth trying, and no."
+          "detail": "Finding a new superconductor has meant mixing things for years and seeing what holds together, and lab time is the expensive part, so the screen belongs in front of it. This estimates formation energy from what the elements are and sorts candidates into stable, worth trying, and no.",
+          "entry": "crystalgen-negative-zero-for-table-salt",
+          "branch_n": 8,
+          "shelved": "2026-09-04",
+          "shelved_reason": "The screen it performs is a published library call, against a database this does not have.",
+          "superseded_by": "pymatgen, matminer and the Materials Project"
         },
         {
           "name": "AquaNutrient",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Holds a hydroponic reservoir's chemistry steady without anyone standing over it.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_14_hydroponic_controller",
           "project_code": "PROJ-AGR-CEF-WFA",
-          "detail": "Field farming loses most of its fresh water to runoff and the sky. Hydroponics wins that back and charges for it in vigilance, because pH drifts and a crop is ruined quietly between two visits. This watches the reservoir and gives the correction as one instruction with a number and a unit."
+          "detail": "Field farming loses most of its fresh water to runoff and the sky. Hydroponics wins that back and charges for it in vigilance, because pH drifts and a crop is ruined quietly between two visits. This watches the reservoir and gives the correction as one instruction with a number and a unit.",
+          "entry": "aquanutrient-the-dose-reads-ten-times-low",
+          "branch_n": 11,
+          "shelved": "2026-09-04",
+          "shelved_reason": "Shelved on 2026-09-04. An uncalibrated dose, no hardware anywhere in it, and the smallest thing in the set."
         }
       ]
     },
@@ -217,33 +268,45 @@
       "projects": [
         {
           "name": "Kinematix",
-          "status": "working",
+          "status": "shelved",
           "one_line": "Keeps a two-legged robot standing when something shoves it.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_8_robot_balance",
           "project_code": "PROJ-ROB-KCA-RBN",
-          "detail": "A biped that falls breaks the expensive parts, and the recovery has to be decided in the moment before the fall commits. This models the body as a weight on a stick and tracks whether the pressure under the foot is still inside the foot, and where the next step must land to cancel the momentum."
+          "detail": "A biped that falls breaks the expensive parts, and the recovery has to be decided in the moment before the fall commits. This models the body as a weight on a stick and tracks whether the pressure under the foot is still inside the foot, and where the next step must land to cancel the momentum.",
+          "entry": "kinematix-a-default-of-true",
+          "branch_n": 5,
+          "shelved": "2026-09-04",
+          "shelved_reason": "The physics matched three papers. The simulators that already implement those papers are free.",
+          "superseded_by": "PyBullet, MuJoCo and Drake"
         },
         {
           "name": "OmniFleet",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Sends robotaxis toward the passengers before the passengers are there.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_13_robotaxi_fleet",
           "project_code": "PROJ-TRA-ARF-DDR",
-          "detail": "An empty car driving to a pickup earns nothing and spends battery doing it, and the surge always arrives faster than a fleet repositions. This pairs each ride to the nearest idle vehicle, counts the miles driven with nobody aboard, and answers how many cars a city actually needs."
+          "detail": "An empty car driving to a pickup earns nothing and spends battery doing it, and the surge always arrives faster than a fleet repositions. This pairs each ride to the nearest idle vehicle, counts the miles driven with nobody aboard, and answers how many cars a city actually needs.",
+          "entry": "omnifleet-a-simulation-with-no-clock",
+          "branch_n": 6,
+          "shelved": "2026-09-04",
+          "shelved_reason": "Shelved on 2026-09-04. Straight line distance, no road network, and it needed a clock added before the sweep meant anything."
         },
         {
           "name": "SynapseDecode",
-          "status": "working",
+          "status": "shelved",
           "one_line": "Turns raw neural spikes into limb movement fast enough that it feels like your own arm.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_15_neural_spike_decoder",
           "project_code": "PROJ-COG-HDI-NSD",
-          "detail": "A prosthetic that lags feels like it belongs to somebody else. One motor neuron is nearly useless alone, firing hardest for a single direction. Let every channel vote for the direction it prefers, weighted by how hard it fires, and the sum points where the arm meant to go, inside twenty milliseconds."
+          "detail": "A prosthetic that lags feels like it belongs to somebody else. One motor neuron is nearly useless alone, firing hardest for a single direction. Let every channel vote for the direction it prefers, weighted by how hard it fires, and the sum points where the arm meant to go, inside twenty milliseconds.",
+          "entry": "synapsedecode-the-measurement-was-wrong",
+          "shelved": "2026-09-04",
+          "shelved_reason": "It reproduces a published result and was only ever a demonstration of the algorithm."
         }
       ]
     },
@@ -252,13 +315,17 @@
       "projects": [
         {
           "name": "SovereignVault",
-          "status": "partial",
+          "status": "shelved",
           "one_line": "Your data in a store you hold the keys to, rather than one you rent.",
           "started": "2026-08",
           "last_touched": "2026-09-03",
           "where": "G:\\My Drive\\FutureMap\\proj_12_sovereign_data_vault",
           "project_code": "PROJ-WEB-USN-PDL",
-          "detail": "A central database is one place to breach, one company to be locked into, and one log nobody outside can read. This keeps the data on your own disk under an identity you generated. Anything needing access gets a scoped, expiring token, never the master key, and every touch is hash-chained."
+          "detail": "A central database is one place to breach, one company to be locked into, and one log nobody outside can read. This keeps the data on your own disk under an identity you generated. Anything needing access gets a scoped, expiring token, never the master key, and every touch is hash-chained.",
+          "entry": "sovereignvault-two-versions-and-no-key",
+          "shelved": "2026-09-04",
+          "shelved_reason": "Hand built cryptography in the one application where an audited primitive earns its dependency.",
+          "superseded_by": "age and libsodium"
         }
       ]
     },
@@ -290,29 +357,6 @@
           "last_touched": "2026-08",
           "entry": "rivals-and-destiny",
           "perpetual": true
-        }
-      ]
-    },
-    {
-      "branch": "The lair itself",
-      "projects": [
-        {
-          "name": "mAxAdrAgoN",
-          "status": "working",
-          "one_line": "This site. A running record of the work, with a register of every project and a page for the finished ones.",
-          "started": "2026-08-28",
-          "last_touched": "2026-08-31",
-          "where": "D:\\mAxAdrAgoN-site",
-          "detail": "A running record of the work rather than a magazine about it, with a register of every project, started or not. Plain HTML and vanilla JavaScript reading JSON files. No framework and no build step, so changing what the site says is an edit to data rather than a deployment."
-        },
-        {
-          "name": "Windows runner",
-          "status": "working",
-          "one_line": "A folder that runs PowerShell on this machine, so an assistant in a data centre can act on it without a port open.",
-          "started": "2026-08-22",
-          "last_touched": "2026-08-31",
-          "where": "D:\\Claude\\runner",
-          "detail": "An assistant in the cloud cannot reach this computer, and the usual answer is a chat window full of commands and a person pasting them one at a time. Instead a loop watches a folder and runs what appears there. Nothing listens for a connection, so nothing can connect."
         }
       ]
     }

@@ -1,5 +1,141 @@
 [
   {
+    "slug": "sovereignvault-two-versions-and-no-key",
+    "hoard": "machine",
+    "title": "Two Versions, XORed, and No Key Required",
+    "date": "2026-09-03",
+    "excerpt": "The keystream came from the master key and the key name with no nonce, so two values stored under the same name shared a keystream and XORing the pair cancelled it. A stored secret came out with no key involved at all. Replaced on 2026-09-03.",
+    "path": "../content/machine/sovereignvault-two-versions-and-no-key.md"
+  },
+  {
+    "slug": "kinematix-a-default-of-true",
+    "hoard": "machine",
+    "title": "A Default of True in a Safety Check",
+    "date": "2026-09-03",
+    "excerpt": "The physics checks out against Pratt 2006, Hof 2008 and Kajita 2003, which was the whole credibility of the project. The verdict function did not: it returned success whenever it could not read the shape of a result, and reported recovery at every force it was given.",
+    "path": "../content/machine/kinematix-a-default-of-true.md",
+    "branch": "Robotics and physical automation",
+    "branch_n": "5"
+  },
+  {
+    "slug": "aquanutrient-the-dose-reads-ten-times-low",
+    "hoard": "machine",
+    "title": "Nobody Wrote Down Which Way the Dose Was Wrong",
+    "date": "2026-09-03",
+    "excerpt": "The dose is uncalibrated and the record contradicts itself about which way. It says the number reads ten times low, and it says the program tells you to quarter it. Those point opposite ways, and nobody wrote down which half is the typo.",
+    "path": "../content/machine/aquanutrient-the-dose-reads-ten-times-low.md",
+    "branch": "Food and agriculture",
+    "branch_n": "11"
+  },
+  {
+    "slug": "epiguide-a-guide-that-scores-clean",
+    "hoard": "machine",
+    "title": "A Guide That Scores Clean and Would Cost You Three Weeks",
+    "date": "2026-09-03",
+    "excerpt": "It counts repeats inside the sequence you submit and nothing outside it, so a guide that binds somewhere else entirely in the genome comes back clean. That is the exact failure the tool exists to prevent, and since 2026-09-03 it prints the warning on every run.",
+    "path": "../content/machine/epiguide-a-guide-that-scores-clean.md",
+    "branch": "Longevity and biotech",
+    "branch_n": "4"
+  },
+  {
+    "slug": "flowgrid-nineteen-numbers-with-no-source",
+    "hoard": "machine",
+    "title": "Nineteen Numbers With Nothing Behind Them",
+    "date": "2026-09-03",
+    "excerpt": "It puts iron air at $79 per megawatt hour against LFP at $194 and vanadium at $173 over a hundred hours, and the ordering is the product. Every one of the nineteen capital cost, efficiency and cycle life figures behind it arrived with no citation and is now marked UNVERIFIED.",
+    "path": "../content/machine/flowgrid-nineteen-numbers-with-no-source.md",
+    "branch": "Energy",
+    "branch_n": "3"
+  },
+  {
+    "slug": "gridpulse-only-ran-on-the-example",
+    "hoard": "machine",
+    "title": "It Only Ever Ran on the Example",
+    "date": "2026-09-03",
+    "excerpt": "The dispatcher looked jobs up by hardcoded name and raised KeyError on anything else, so the only workload it could ever schedule was the one in the demo. It takes real price curves and real job files now.",
+    "path": "../content/machine/gridpulse-only-ran-on-the-example.md",
+    "branch": "Energy",
+    "branch_n": "3"
+  },
+  {
+    "slug": "neurosteer-a-folder-named-torch",
+    "hoard": "machine",
+    "title": "A Folder Named torch, and 5,809 Files That Were Not PyTorch",
+    "date": "2026-09-03",
+    "excerpt": "It ran for the first time in its life on 2026-09-03. The README had claimed three of three tests passing and that was never true: a directory called torch with no __init__.py imported as an empty namespace package, so every availability guard passed and every test failed in setup.",
+    "path": "../content/machine/neurosteer-a-folder-named-torch.md",
+    "branch": "Consciousness and AI welfare",
+    "branch_n": "17"
+  },
+  {
+    "slug": "axiomverify-refuses-to-read-english",
+    "hoard": "machine",
+    "title": "It Refuses to Read English",
+    "date": "2026-09-03",
+    "excerpt": "An earlier version passed prose straight through and reported four steps all following, for an argument that ended in a non sequitur. That is a false pass in a tool whose only job is catching false passes. It takes symbols now, and exits rather than guess.",
+    "path": "../content/machine/axiomverify-refuses-to-read-english.md",
+    "branch": "Verification, trust, epistemics",
+    "branch_n": "2"
+  },
+  {
+    "slug": "agentmesh-crossing-the-process-line",
+    "hoard": "machine",
+    "title": "A Hub That Could Only Find What Was Already Inside It",
+    "date": "2026-09-03",
+    "excerpt": "It exists so one agent can find another's tools without anyone wiring the pair together first, and until 2026-09-03 every agent had to be running inside the same Python process. Discovery crosses that line now. Invocation does not.",
+    "path": "../content/machine/agentmesh-crossing-the-process-line.md",
+    "branch": "AI agents and automation",
+    "branch_n": "1"
+  },
+  {
+    "slug": "synapsegraph-forty-references-counted",
+    "hoard": "machine",
+    "title": "Forty References, Counted Instead of Guessed",
+    "date": "2026-09-03",
+    "excerpt": "It was written up as overcounting, and the reference counts it was being scored against had been invented rather than counted. The check now asserts the indices form the complete run from one to N, which a wrong number in a fixture cannot defeat.",
+    "path": "../content/machine/synapsegraph-forty-references-counted.md",
+    "branch": "Verification, trust, epistemics",
+    "branch_n": "2"
+  },
+  {
+    "slug": "synapsedecode-the-measurement-was-wrong",
+    "hoard": "machine",
+    "title": "The Decoder Was Fine. The Measurement Was Wrong.",
+    "date": "2026-09-03",
+    "excerpt": "It was written up as broken and it was never broken. The measurement read the x component of a population vector against an angle in radians, so a working decoder looked like a coin toss. Measured properly, error falls from 42.9 degrees at four channels to 7.4 at sixty.",
+    "path": "../content/machine/synapsedecode-the-measurement-was-wrong.md"
+  },
+  {
+    "slug": "crystalgen-negative-zero-for-table-salt",
+    "hoard": "machine",
+    "title": "Negative Zero for Table Salt",
+    "date": "2026-09-03",
+    "excerpt": "It returned a formation energy of negative zero for sodium chloride, because neither element was in its thirteen entry table and anything unrecognised was skipped without a word. Fixing that exposed the larger fault underneath: the valence field was in the data the whole time and was never read.",
+    "path": "../content/machine/crystalgen-negative-zero-for-table-salt.md",
+    "branch": "Materials and nanotech",
+    "branch_n": "8"
+  },
+  {
+    "slug": "omnifleet-a-simulation-with-no-clock",
+    "hoard": "machine",
+    "title": "A Fleet Simulation With No Clock In It",
+    "date": "2026-09-03",
+    "excerpt": "It served exactly one ride per vehicle out of two hundred submitted and then stopped. There was no clock, so no car ever finished a trip and came back for a second passenger, and the fleet sweep the project is named for was measuring the fleet against itself.",
+    "path": "../content/machine/omnifleet-a-simulation-with-no-clock.md",
+    "branch": "Transportation",
+    "branch_n": "6"
+  },
+  {
+    "slug": "aegisbox-rated-it-critical-and-ran-it",
+    "hoard": "machine",
+    "title": "The Sandbox That Rated the Code CRITICAL and Then Ran It",
+    "date": "2026-09-03",
+    "excerpt": "Four guarantees, ten tests, and not one of the tests ever tried to break out. The watchdog holds. The floor did not, that morning. And the threat scanner reads the code, rates it CRITICAL_THREAT, and then runs it, because detection shipped on and blocking shipped off.",
+    "path": "../content/machine/aegisbox-rated-it-critical-and-ran-it.md",
+    "branch": "AI agents and automation",
+    "branch_n": "1"
+  },
+  {
     "slug": "the-queue-that-runs-my-computer",
     "hoard": "machine",
     "title": "A Folder That Runs My Computer",
@@ -13,7 +149,9 @@
     "title": "AmoebiX Is an Arm Rack, Not a Brain",
     "date": "2026-08-31",
     "excerpt": "Thirty two models in one config file, a library of lenses that tell each of them how to answer, and a ledger recording whether the answer changed anything. The AI is never on while the tools work.",
-    "path": "../content/machine/amoebix-the-arm-rack.md"
+    "path": "../content/machine/amoebix-the-arm-rack.md",
+    "branch": "AI agents and automation",
+    "branch_n": "1"
   },
   {
     "slug": "the-strait-of-blood",
@@ -41,7 +179,9 @@
     "title": "The Diligence Engine With No Language Model In It",
     "date": "2026-08-31",
     "excerpt": "A pitch deck claims 420 watt hours per kilogram, and nobody in the room can tell whether that is ambitious or physically forbidden. This one pulls the number out, finds the law that governs it, and shows the arithmetic. There is no language model anywhere near the verdict, and that is the point.",
-    "path": "../content/machine/axiomtea-no-language-model.md"
+    "path": "../content/machine/axiomtea-no-language-model.md",
+    "branch": "Verification, trust, epistemics",
+    "branch_n": "2"
   },
   {
     "slug": "dungeon-cue-remote-control",

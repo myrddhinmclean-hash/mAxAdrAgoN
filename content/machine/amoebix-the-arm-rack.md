@@ -2,6 +2,8 @@
 title: "AmoebiX Is an Arm Rack, Not a Brain"
 date: "2026-08-31"
 hoard: "machine"
+branch: "AI agents and automation"
+branch_n: "1"
 summary: "Thirty two models in one config file, a library of lenses that tell each of them how to answer, and a ledger recording whether the answer changed anything. The AI is never on while the tools work."
 ---
 

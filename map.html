@@ -17,6 +17,8 @@
     .flag { display: inline-block; font-size: .7rem; letter-spacing: .05em; text-transform: uppercase;
             padding: .12rem .45rem; border-radius: 3px; border: 1px solid currentColor; margin-left: .5rem; }
     .flag-built { color: #4ade80; }
+    .built-links { font-size: .9rem; margin: .3rem 0 .6rem; opacity: .85; }
+    .built-links a { color: #FFC61A; }
     .flag-out   { color: #9ca3af; }
     .filter-box { border-left: 2px solid rgba(255,198,26,.4); padding: .2rem 0 .2rem 1rem; margin: 1rem 0 1.6rem; }
     .filter-box li { margin: .3rem 0; opacity: .88; }
@@ -84,21 +86,29 @@
         return;
       }
 
+      // The corpus provenance line came off the page on 2026-09-04, owner ruling.
+      // The data it read is archived outside the site.
       let h = "";
-      const s = d.source || {};
-      h += '<p class="provenance">' + esc(s.corpus || "") + "<br>Compiled " + esc(s.compiled || "") +
-           " &middot; " + esc(s.taxonomy || "") + "</p>";
 
       const a = d.part_a || {};
       h += '<h2 class="part-head">' + esc(a.title) + "</h2>";
       if (a.note) h += '<p class="part-note">' + esc(a.note) + "</p>";
       (a.themes || []).forEach(t => {
-        h += '<section class="theme"><h3 class="theme-name"><span class="theme-n">' +
+        // The id is what an entry links back to. A teardown says which branch it
+        // belongs to and points here; this points back at the teardown. A branch
+        // with nothing under it stays a branch with nothing under it.
+        h += '<section class="theme" id="theme-' + esc(t.n) + '">' +
+             '<h3 class="theme-name"><span class="theme-n">' +
              String(t.n).padStart(2, "0") + "</span>" + esc(t.name);
         if (t.built)    h += '<span class="flag flag-built">' + esc(t.built) + "</span>";
         if (t.excluded) h += '<span class="flag flag-out">out of scope</span>';
         h += "</h3>";
         if (t.excluded) h += '<p class="part-note">' + esc(t.excluded) + "</p>";
+        if (t.built_links && t.built_links.length) {
+          h += '<p class="built-links">Built here: ' + t.built_links.map(bl =>
+            '<a href="hoards/entry.html?post=' + encodeURIComponent(bl.entry) + '">' +
+            esc(bl.name) + "</a>").join(" &middot; ") + "</p>";
+        }
         h += "<ul>";
         (t.items || []).forEach(i => { h += "<li>" + esc(i) + "</li>"; });
         h += "</ul></section>";
@@ -118,12 +128,8 @@
         h += "<p>" + esc(tp.why_it_clears) + "</p></div>";
       }
 
-      (b.candidates || []).forEach(c => {
-        h += '<div class="cand"><h4>' + esc(c.name) + "</h4><p>" + esc(c.what) + "</p>";
-        if (c.different_from) h += "<p>" + esc(c.different_from) + "</p>";
-        if (c.risk) h += '<p class="risk">Risk: ' + esc(c.risk) + "</p>";
-        h += "</div>";
-      });
+      // The four Part B candidates came off the page on 2026-09-04, owner ruling.
+      // The top pick stays. The candidate data is archived outside the site.
 
       box.innerHTML = h;
     }

@@ -250,7 +250,21 @@ async function loadSingleEntry() {
   if (metaEl) {
     let meta = `${post.date} · ${post.hoard.toUpperCase()}`;
     if (post.campaign) meta += ` · ${post.campaign}`;
-    metaEl.textContent = meta;
+    // A machine entry says which branch of the map it belongs to and links
+    // there. The map links back. Written as innerHTML rather than textContent
+    // only because of that link, so both halves are escaped by hand; entry.html
+    // still reads this element's textContent to decide the back link, and that
+    // keeps working.
+    const escMeta = (s) =>
+      String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    if (post.branch && post.branch_n) {
+      metaEl.innerHTML =
+        escMeta(meta) +
+        ' · <a class="entry-branch" href="../map.html#theme-' +
+        encodeURIComponent(post.branch_n) + '">' + escMeta(post.branch) + "</a>";
+    } else {
+      metaEl.textContent = meta;
+    }
   }
   if (backLinkEl) {
     // A nested entry goes back to the place that contains it, not to the archive.
