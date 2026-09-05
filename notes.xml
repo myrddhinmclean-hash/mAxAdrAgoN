@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>mAxAdrAgoN - the log</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/</link>
+<description>Dated notes on what was worked on, newest first.</description>
+<language>en</language>
+<atom:link href="https://myrddhinmclean-hash.github.io/mAxAdrAgoN/notes.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Fri, 04 Sep 2026 21:34:30 GMT</lastBuildDate>
+<item>
+<title>Fourteen projects off the disk, and all fourteen still on the site</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-04-fourteen-projects-off-the-disk-and-all-fourteen-</guid>
+<pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+<description>Fourteen projects came off the disk today and stayed on the site. That is the whole shape of it. The files are gone and the record is not.</description>
+<category>the lair</category>
+<category>abandonment</category>
+</item>
+<item>
+<title>The rules were arriving at 44 percent and nothing said so</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-04-the-rules-were-arriving-at-44-percent-and-nothin</guid>
+<pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+<description>The standing rules that govern every session were being delivered at 44.3 percent, and nothing anywhere said so. There was no measurement at all. That number exists because building the measurement was the first thing the rebuild did.</description>
+<category>the lair</category>
+<category>AmoebiX</category>
+<category>CampaignOS</category>
+</item>
+<item>
+<title>A fight tracker finished, and two modules killed for already existing</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-03-a-fight-tracker-finished-and-two-modules-killed-</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>CampaignOS was further along than its own register entry said. It builds, 25 tests pass, and it produces an installer. What it did not have was a single design document: the two that carried the original plan were deprecated at the end of August and deleted, and the file left behind was one line long.</description>
+<category>CampaignOS</category>
+<category>DM Toolbox</category>
+<category>testing</category>
+</item>
+<item>
+<title>DM Toolbox builds into an exe that actually opens</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-03-dm-toolbox-builds-into-an-exe-that-actually-open</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>Eight modules had been written and never once packaged. The README said so plainly: built and smoke-tested under Linux, never run on a real Windows machine, and that was the one thing the environment could not check. It can now, so it did.</description>
+<category>DM Toolbox</category>
+<category>packaging</category>
+</item>
+<item>
+<title>Ran the programs instead of the tests</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-03-ran-the-programs-instead-of-the-tests</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>Every project in the set has a passing test suite and nobody had ever asked whether the answers were right. So the programs got run instead.</description>
+<category>AegisBox</category>
+<category>CrystalGen</category>
+<category>OmniFleet</category>
+<category>SynapseDecode</category>
+<category>SovereignVault</category>
+</item>
+<item>
+<title>The site becomes a record instead of a magazine</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-08-31-the-site-becomes-a-record-instead-of-a-magazine</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>Rebuilt the site around what actually happens here. Three reading rooms stay for finished writing. Four working rooms added: this log, a project register, the map of the future, and the quorum record. Governance amended to match, since it named exactly three rooms and now names seven.</description>
+<category>the lair</category>
+<category>AmoebiX</category>
+<category>governance</category>
+</item>
+<item>
+<title>A machine that measured my own writing, and why it was switched off</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-08-31-a-machine-that-measured-my-own-writing-and-why-i</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>Built four gates to check whether a draft sounds like me. A free regex pass on banned words, a local embedding score against a corpus of my own writing, an LLM comparator, a fact pass. Got the first two working and calibrated the threshold to zero false rejections across thirty one samples.</description>
+<category>the lair</category>
+<category>AmoebiX</category>
+</item>
+<item>
+<title>Draega canon pulled off World Anvil, and one published entry found to be wrong</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-08-30-draega-canon-pulled-off-world-anvil-and-one-publ</guid>
+<pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+<description>Mirrored thirty two World Anvil articles into the repo. All of it mine, no AI anywhere in it, which makes it the clean counterweight to a worldbuilding compendium that got partly AI-filled and has been flagged untrusted since.</description>
+<category>Draega</category>
+<category>the lair</category>
+</item>
+<item>
+<title>The heaviest week. AxiomTEA, AmoebiX, and the bridge</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-08-24-the-heaviest-week-axiomtea-amoebix-and-the-bridg</guid>
+<pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+<description>Five hundred and fifty four documents in seven days, the largest stretch of work in the record.</description>
+<category>AxiomTEA</category>
+<category>AmoebiX</category>
+<category>AGY Bridge</category>
+<category>Draega</category>
+</item>
+<item>
+<title>Fifteen projects fall out of the research</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-08-17-fifteen-projects-fall-out-of-the-research</guid>
+<pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+<description>The Moonshots corpus turned into a taxonomy and then into a portfolio. Twenty four branches, fifteen projects, each with a code and a branch and a capital figure of zero.</description>
+<category>AxiomTEA</category>
+<category>research</category>
+</item>
+<item>
+<title>Two large questions with no product attached</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-08-12-two-large-questions-with-no-product-attached</guid>
+<pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+<description>Asked how you would redesign civilization if you could. The answer refused the framing: do not try to fix people, redesign the incentive architecture, because civilization is extraordinarily good at local optimization and extraordinarily bad at global.</description>
+<category>research</category>
+</item>
+<item>
+<title>Fable Archive, and three tools at once</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-08-03-fable-archive-and-three-tools-at-once</guid>
+<pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+<description>Two hundred and thirty four documents. The Fable Archive alone accounts for a hundred and sixty five of them.</description>
+<category>Fable Archive</category>
+<category>Dungeon Cue</category>
+<category>DMToolbox</category>
+<category>SoundCue</category>
+<category>MudBuddy</category>
+</item>
+<item>
+<title>Dungeon Cue starts</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-07-20-dungeon-cue-starts</guid>
+<pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+<description>The mouse is on the wrong side of the table. That is the whole problem statement, and Dungeon Cue is the answer to it: say the phrase, the rain starts, nobody looks up.</description>
+<category>Dungeon Cue</category>
+<category>SoundCue</category>
+</item>
+<item>
+<title>The workspace itself</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-07-13-the-workspace-itself</guid>
+<pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+<description>Fifty documents, most of them the working environment rather than any product. This is where the record starts. Before this week the folders hold invoices, resumes, a dissertation, and descriptions written for text games, and nothing that became any of this.</description>
+<category>AmoebiX</category>
+<category>MudBuddy</category>
+</item>
+</channel>
+</rss>

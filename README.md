@@ -19,23 +19,21 @@ Zero build steps. Zero external dependencies. Zero frameworks. Deploys instantly
 
 ```text
 .
-├── index.html              # "The Lair" (Intro & portals to the 3 Hoards)
+├── index.html              # "The Lair" (Intro & portals to the 2 Hoards)
 ├── lore.html               # "The Lore" (Worldbuilding & character lore)
 ├── CONTENT.md              # Beginner guide for editing text and adding posts
 ├── README.md               # Deployment and repository instructions
 ├── hoards/
 │   ├── draega.html         # Draega Hoard archive list
 │   ├── machine.html        # Machine Hoard archive list
-│   ├── odd.html            # Odd Hoard archive list
+│   ├── odd.html            # Redirect stub only. Odd was removed 2026-09-04; kept so old links land on the lair
 │   └── entry.html          # Dynamic reader for Markdown posts
 ├── content/
 │   ├── posts.json          # Index of all hoard entries
 │   ├── draega/
 │   │   └── the-scale-and-the-anvil.md # Sample post
-│   ├── machine/
-│   │   └── on-the-nature-of-cogs.md   # Sample post
-│   └── odd/
-│       └── a-collection-of-pebbles.md # Sample post
+│   └── machine/
+│       └── on-the-nature-of-cogs.md   # Sample post
 └── assets/
     ├── css/
     │   └── style.css       # Emerald, Electric Blue, & Dragon Gold theme

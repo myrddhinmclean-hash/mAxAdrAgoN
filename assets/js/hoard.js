@@ -128,14 +128,6 @@ const FALLBACK_POSTS = [
     date: "2026-08-28",
     excerpt: "First system teardown and translation coming soon.",
     path: "../content/machine/on-the-nature-of-cogs.md"
-  },
-  {
-    slug: "a-collection-of-pebbles",
-    hoard: "odd",
-    title: "First Curiosity [Pending]",
-    date: "2026-08-28",
-    excerpt: "First collection of contradictions and edge cases coming soon.",
-    path: "../content/odd/a-collection-of-pebbles.md"
   }
 ];
 

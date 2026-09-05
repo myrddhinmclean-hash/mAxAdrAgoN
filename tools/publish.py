@@ -28,7 +28,7 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POSTS = os.path.join(ROOT, "content", "posts.json")
 LIVE = "https://myrddhinmclean-hash.github.io/mAxAdrAgoN"
-HOARDS = ("draega", "machine", "odd")
+HOARDS = ("draega", "machine")  # Odd removed 2026-09-04: never Mac's, AI scaffold; GOVERNANCE A8
 
 
 def run(cmd: list[str], check: bool = True) -> subprocess.CompletedProcess:

@@ -280,11 +280,6 @@ hr {
   box-shadow: 0 4px 15px var(--blue-glow);
 }
 
-.hoard-card.hoard-odd:hover {
-  border-color: var(--gold-accent);
-  box-shadow: 0 4px 15px var(--gold-glow);
-}
-
 .hoard-card h2 {
   margin-top: 0;
   font-size: 1.35rem;
@@ -300,10 +295,6 @@ hr {
 
 .hoard-card.hoard-machine h2 {
   color: var(--blue-bright);
-}
-
-.hoard-card.hoard-odd h2 {
-  color: var(--gold-bright);
 }
 
 .hoard-card h2 .arrow {

@@ -48,7 +48,7 @@ LEAK_MARKERS = (
     "WEAKEST PASSAGE",
 )
 
-HOARDS = ("draega", "machine", "odd")
+HOARDS = ("draega", "machine")  # Odd removed 2026-09-04: never Mac's, AI scaffold; GOVERNANCE A8
 
 failures = []
 warnings = []

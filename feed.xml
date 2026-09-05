@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>mAxAdrAgoN</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/</link>
+<description>A running record of what Mac McLean is building: tabletop tools, agent systems, a world called Draega, and the mistakes kept in place.</description>
+<language>en</language>
+<atom:link href="https://myrddhinmclean-hash.github.io/mAxAdrAgoN/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Fri, 04 Sep 2026 21:34:30 GMT</lastBuildDate>
+<item>
+<title>The Data Vault That Leaked Without a Key</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=sovereignvault-two-versions-and-no-key</link>
+<guid isPermaLink="false">maxadragon-entry-sovereignvault-two-versions-and-no-key</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>The keystream came from the master key and the key name with no nonce, so two values stored under the same name shared a keystream and XORing the pair cancelled it. A stored secret came out with no key involved at all. Replaced on 2026-09-03.</description>
+<category>machine</category>
+</item>
+<item>
+<title>A Robot Balance Model That Called Every Fall a Recovery</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=kinematix-a-default-of-true</link>
+<guid isPermaLink="false">maxadragon-entry-kinematix-a-default-of-true</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>The physics checks out against Pratt 2006, Hof 2008 and Kajita 2003, which was the whole credibility of the project. The verdict function did not: it returned success whenever it could not read the shape of a result, and reported recovery at every force it was given.</description>
+<category>machine</category>
+<category>Robotics and physical automation</category>
+</item>
+<item>
+<title>A Hydroponic Dose Wrong in an Unknown Direction</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=aquanutrient-the-dose-reads-ten-times-low</link>
+<guid isPermaLink="false">maxadragon-entry-aquanutrient-the-dose-reads-ten-times-low</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>The dose is uncalibrated and the record contradicts itself about which way. It says the number reads ten times low, and it says the program tells you to quarter it. Those point opposite ways, and nobody wrote down which half is the typo.</description>
+<category>machine</category>
+<category>Food and agriculture</category>
+</item>
+<item>
+<title>A Guide That Scores Clean and Would Cost You Three Weeks</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=epiguide-a-guide-that-scores-clean</link>
+<guid isPermaLink="false">maxadragon-entry-epiguide-a-guide-that-scores-clean</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>It counts repeats inside the sequence you submit and nothing outside it, so a guide that binds somewhere else entirely in the genome comes back clean. That is the exact failure the tool exists to prevent, and since 2026-09-03 it prints the warning on every run.</description>
+<category>machine</category>
+<category>Longevity and biotech</category>
+</item>
+<item>
+<title>The Flow Battery Model Built on Uncited Numbers</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=flowgrid-nineteen-numbers-with-no-source</link>
+<guid isPermaLink="false">maxadragon-entry-flowgrid-nineteen-numbers-with-no-source</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>It puts iron air at $79 per megawatt hour against LFP at $194 and vanadium at $173 over a hundred hours, and the ordering is the product. Every one of the nineteen capital cost, efficiency and cycle life figures behind it arrived with no citation and is now marked UNVERIFIED.</description>
+<category>machine</category>
+<category>Energy</category>
+</item>
+<item>
+<title>The Grid Scheduler That Only Ran on Its Own Demo</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=gridpulse-only-ran-on-the-example</link>
+<guid isPermaLink="false">maxadragon-entry-gridpulse-only-ran-on-the-example</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>The dispatcher looked jobs up by hardcoded name and raised KeyError on anything else, so the only workload it could ever schedule was the one in the demo. It takes real price curves and real job files now.</description>
+<category>machine</category>
+<category>Energy</category>
+</item>
+<item>
+<title>The Concept Steering Tool That Had Never Once Run</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=neurosteer-a-folder-named-torch</link>
+<guid isPermaLink="false">maxadragon-entry-neurosteer-a-folder-named-torch</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>A tool that turns one concept up or down inside a running model and prints all three results side by side. It had never once executed: a directory called torch with no __init__.py imported as an empty namespace package, so every availability guard passed while every test failed in setup.</description>
+<category>machine</category>
+<category>Consciousness and AI welfare</category>
+</item>
+<item>
+<title>The Argument Checker That Passed a Non Sequitur</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=axiomverify-refuses-to-read-english</link>
+<guid isPermaLink="false">maxadragon-entry-axiomverify-refuses-to-read-english</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>An earlier version passed prose straight through and reported four steps all following, for an argument that ended in a non sequitur. That is a false pass in a tool whose only job is catching false passes. It takes symbols now, and exits rather than guess.</description>
+<category>machine</category>
+<category>Verification, trust, epistemics</category>
+</item>
+<item>
+<title>A Hub That Could Only Find What Was Already Inside It</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=agentmesh-crossing-the-process-line</link>
+<guid isPermaLink="false">maxadragon-entry-agentmesh-crossing-the-process-line</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>It exists so one agent can find another's tools without anyone wiring the pair together first, and until 2026-09-03 every agent had to be running inside the same Python process. Discovery crosses that line now. Invocation does not.</description>
+<category>machine</category>
+<category>AI agents and automation</category>
+</item>
+<item>
+<title>Forty References, Counted Instead of Guessed</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=synapsegraph-forty-references-counted</link>
+<guid isPermaLink="false">maxadragon-entry-synapsegraph-forty-references-counted</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>It was written up as overcounting, and the reference counts it was being scored against had been invented rather than counted. The check now asserts the indices form the complete run from one to N, which a wrong number in a fixture cannot defeat.</description>
+<category>machine</category>
+<category>Verification, trust, epistemics</category>
+</item>
+<item>
+<title>The Neural Decoder That Was Never Actually Broken</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=synapsedecode-the-measurement-was-wrong</link>
+<guid isPermaLink="false">maxadragon-entry-synapsedecode-the-measurement-was-wrong</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>It was written up as broken and it was never broken. The measurement read the x component of a population vector against an angle in radians, so a working decoder looked like a coin toss. Measured properly, error falls from 42.9 degrees at four channels to 7.4 at sixty.</description>
+<category>machine</category>
+</item>
+<item>
+<title>The Crystal Screen That Skipped What It Did Not Know</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=crystalgen-negative-zero-for-table-salt</link>
+<guid isPermaLink="false">maxadragon-entry-crystalgen-negative-zero-for-table-salt</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>It returned a formation energy of negative zero for sodium chloride, because neither element was in its thirteen entry table and anything unrecognised was skipped without a word. Fixing that exposed the larger fault underneath: the valence field was in the data the whole time and was never read.</description>
+<category>machine</category>
+<category>Materials and nanotech</category>
+</item>
+<item>
+<title>A Fleet Simulation With No Clock In It</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=omnifleet-a-simulation-with-no-clock</link>
+<guid isPermaLink="false">maxadragon-entry-omnifleet-a-simulation-with-no-clock</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>It served exactly one ride per vehicle out of two hundred submitted and then stopped. There was no clock, so no car ever finished a trip and came back for a second passenger, and the fleet sweep the project is named for was measuring the fleet against itself.</description>
+<category>machine</category>
+<category>Transportation</category>
+</item>
+<item>
+<title>The Sandbox That Rated the Code CRITICAL and Then Ran It</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=aegisbox-rated-it-critical-and-ran-it</link>
+<guid isPermaLink="false">maxadragon-entry-aegisbox-rated-it-critical-and-ran-it</guid>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<description>Four guarantees, ten tests, and not one of the tests ever tried to break out. The watchdog holds. The floor did not, that morning. And the threat scanner reads the code, rates it CRITICAL_THREAT, and then runs it, because detection shipped on and blocking shipped off.</description>
+<category>machine</category>
+<category>AI agents and automation</category>
+</item>
+<item>
+<title>A Folder That Runs My Computer</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=the-queue-that-runs-my-computer</link>
+<guid isPermaLink="false">maxadragon-entry-the-queue-that-runs-my-computer</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>The dumbest possible way to let an assistant in the cloud do things on a machine it cannot reach: drop a script in a folder and let a loop find it. No daemon, no API, no open port.</description>
+<category>machine</category>
+</item>
+<item>
+<title>AmoebiX Is an Arm Rack, Not a Brain</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=amoebix-the-arm-rack</link>
+<guid isPermaLink="false">maxadragon-entry-amoebix-the-arm-rack</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>Thirty two models in one config file, a library of lenses that tell each of them how to answer, and a ledger recording whether the answer changed anything. The AI is never on while the tools work.</description>
+<category>machine</category>
+<category>AI agents and automation</category>
+</item>
+<item>
+<title>The Strait of Blood</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=the-strait-of-blood</link>
+<guid isPermaLink="false">maxadragon-entry-the-strait-of-blood</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>A sandbar ringed by rocks that bleed. The rumour says the stone cures vampirism, or lycanthropy, nobody is certain which. Thousands have gone to find out and none have come back to settle it.</description>
+<category>draega</category>
+</item>
+<item>
+<title>The Island Nobody Names</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=the-island-nobody-names</link>
+<guid isPermaLink="false">maxadragon-entry-the-island-nobody-names</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>Six articles describe one island and not one of them says which island it is. A town of two hundred shipwreck survivors behind two hundred foot walls, a cave that lets the deep past walk through, and two giant kingdoms at war over metal.</description>
+<category>draega</category>
+</item>
+<item>
+<title>The Diligence Engine With No Language Model In It</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=axiomtea-no-language-model</link>
+<guid isPermaLink="false">maxadragon-entry-axiomtea-no-language-model</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>A pitch deck claims 420 watt hours per kilogram, and nobody in the room can tell whether that is ambitious or physically forbidden. This one pulls the number out, finds the law that governs it, and shows the arithmetic. There is no language model anywhere near the verdict, and that is the point.</description>
+<category>machine</category>
+<category>Verification, trust, epistemics</category>
+</item>
+<item>
+<title>Dungeon Cue Is a Remote Control, Not an Audio Engine</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=dungeon-cue-remote-control</link>
+<guid isPermaLink="false">maxadragon-entry-dungeon-cue-remote-control</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+<description>The mouse is on the wrong side of the table. Say the phrase and the rain starts, without breaking the scene to go clicking. It produces no sound of its own, which turns out to be the most important thing about it.</description>
+<category>machine</category>
+</item>
+<item>
+<title>Shell Valley</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=shell-valley</link>
+<guid isPermaLink="false">maxadragon-entry-shell-valley</guid>
+<pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+<description>Grimbah invites you to save the world in the far north, at the Druid's Temple in Shell Valley.</description>
+<category>draega</category>
+</item>
+<item>
+<title>The Druid's Temple in Shell Valley</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=druids-temple-shell-valley</link>
+<guid isPermaLink="false">maxadragon-entry-druids-temple-shell-valley</guid>
+<pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+<description>A thousand-foot sequoia rises from a silent lake. The gnome druid who hires you to enter it pays gold upfront, asks no questions, and gives you four rules. Break them and you get eaten.</description>
+<category>draega</category>
+</item>
+<item>
+<title>The World of Draega &amp; the Rivals and Destiny Campaign</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=rivals-and-destiny</link>
+<guid isPermaLink="false">maxadragon-entry-rivals-and-destiny</guid>
+<pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+<description>Twenty-five sessions, one archipelago, and a war between an empire that wanted everything and a rebellion that couldn't afford to lose. Digging through the bones of the Rivals and Destiny campaign — what it was, who died making it matter, and why the map still hums.</description>
+<category>draega</category>
+</item>
+<item>
+<title>The Draega Chronicle [Under Excavation]</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/hoards/entry.html?post=the-scale-and-the-anvil</link>
+<guid isPermaLink="false">maxadragon-entry-the-scale-and-the-anvil</guid>
+<pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+<description>The initial lore conversion for the Druid Temple and the world of Draega is currently being transcribed.</description>
+<category>draega</category>
+</item>
+</channel>
+</rss>

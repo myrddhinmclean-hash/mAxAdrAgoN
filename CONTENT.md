@@ -10,10 +10,9 @@ This website is designed so that you can update any text without knowing how to 
 |---|---|---|
 | **Lair Home Page Intro** | `index.html` | Look for `<section class="lair-intro">` |
 | **The Lore & Worldbuilding** | `lore.html` | Look for text inside the `<p>` and `<h2>` tags |
-| **Hoard Descriptions** | `hoards/draega.html`<br>`hoards/machine.html`<br>`hoards/odd.html` | Look for `<p class="hoard-desc">` |
+| **Hoard Descriptions** | `hoards/draega.html`<br>`hoards/machine.html` | Look for `<p class="hoard-desc">` |
 | **Draega Hoard Entries** | `content/draega/` | Markdown files (`.md`) |
 | **Machine Hoard Entries** | `content/machine/` | Markdown files (`.md`) |
-| **Odd Hoard Entries** | `content/odd/` | Markdown files (`.md`) |
 | **List of All Entries** | `content/posts.json` | The directory index that lists all entries |
 
 ---
