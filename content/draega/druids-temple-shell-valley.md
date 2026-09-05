@@ -13,7 +13,7 @@ summary: "A thousand-foot sequoia rises from a silent lake. The gnome druid who 
 ## 🌲 Setting: Shell Valley
 *   **Scale**: A 5-mile-wide valley featuring a massive, mile-wide lake.
 *   **The Impossible Sequoia**: Rising 1,000 feet into the air from a mound at the very center of the valley, ringed by three small islands at its base.
-*   **The Quiet**: Absolute, heavy silence. No birds sing. No wind moves the leaves. The tree is alive in a deeper, primordial sense—everything in the valley defers to its presence.
+*   **The Quiet**: Absolute, heavy silence. No birds sing. No wind moves the leaves. The tree is alive in a deeper, primordial sense. Everything in the valley defers to its presence.
 
 ---
 
@@ -32,7 +32,7 @@ Grimbah repeats these without patience if asked twice:
 3. **This place is sacred.**
 4. **Stick together.**
 
-> *"Break them, and you get eaten."* — Grimbah
+> Grimbah, if asked twice: *"Break them, and you get eaten."*
 
 ---
 
@@ -50,6 +50,6 @@ The single, winding path spirals downward like the interior of a giant snail's s
 
 ## 🔍 Clues for Sharp Players
 *   **The Growth Rings**: Embedded stones in the tree's growth rings do not match the local geology. They are smoothed on top and have been deliberately placed rather than grown.
-*   **The Breath**: The spiraling path breathes—acting as an air shaft through the sequoia's massive root system.
+*   **The Breath**: The spiraling path breathes. It acts as an air shaft through the sequoia's massive root system.
 *   **Bioluminescence**: Patches of glowing, bioluminescent moss light the path as the descent deepens.
 *   **The Observation**: At 250 feet up, Grimbah calls a rest on a massive branch-shelf. He sits in total silence, watching the party members interact to gauge their character.

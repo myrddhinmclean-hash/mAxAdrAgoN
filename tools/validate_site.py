@@ -248,6 +248,66 @@ for h in HOARDS:
     if counts.get(h, 0) == 0:
         info("hoard '%s' renders its empty state - by design, not a defect" % h)
 
+print()
+print("CHECK 8  sitemap.xml lists every registered entry and every content page")
+sitemap_path = os.path.join(ROOT, "sitemap.xml")
+if not os.path.exists(sitemap_path):
+    bad("sitemap.xml is missing; run tools/build_sitemap.py")
+else:
+    sm = read(sitemap_path)
+    missing_slugs = [p["slug"] for p in posts if ("post=" + p["slug"] + "<") not in sm]
+    if missing_slugs:
+        bad("sitemap.xml is stale, %d registered slug(s) absent: %s. Run tools/build_sitemap.py"
+            % (len(missing_slugs), ", ".join(missing_slugs[:6])))
+    else:
+        ok("sitemap.xml covers all %d registered entries" % len(posts))
+    missing_pages = []
+    for name in sorted(os.listdir(ROOT)):
+        if not name.endswith(".html") or name in ("404.html", "log.html", "lore.html"):
+            continue
+        if 'http-equiv="refresh"' in read(os.path.join(ROOT, name))[:600]:
+            continue
+        loc = "/" if name == "index.html" else "/" + name
+        if (loc + "</loc>") not in sm:
+            missing_pages.append(name)
+    if missing_pages:
+        bad("sitemap.xml missing page(s): %s" % ", ".join(missing_pages))
+    else:
+        ok("sitemap.xml covers every content page")
+    if not os.path.exists(os.path.join(ROOT, "robots.txt")):
+        warn("robots.txt is missing")
+
+print()
+print("CHECK 9  voice debt in registered entries (informational, see VOICE.md 2026-09-04)")
+# The hard vetoes gate0 enforces on drafts, checked here on what is already
+# live so the debt is visible on every run. Never fails the build: these
+# entries were approved before the rule and only the owner retires them.
+_fence = re.compile(r"```.*?```", re.S)
+_inline = re.compile(r"`[^`\n]*`")
+_rule = re.compile(r"^\s*\|?\s*:?-{3,}.*$", re.M)
+debt = []
+for entry in posts:
+    md_path = os.path.normpath(os.path.join(ROOT, "hoards", entry["path"]))
+    if not os.path.exists(md_path):
+        continue
+    text = read(md_path)
+    if text.startswith("---"):
+        end = text.find("\n---", 3)
+        if end != -1:
+            text = text[end + 4:]
+    body = _rule.sub(" ", _inline.sub(" ", _fence.sub(" ", text)))
+    dashes = len(re.findall(r"—|–|--", body))
+    bangs = body.count("!")
+    semis = body.count(";")
+    if dashes or bangs or semis:
+        debt.append("%s: %d dash, %d exclamation, %d semicolon" % (entry["slug"], dashes, bangs, semis))
+if debt:
+    warn("%d entr%s carry voice debt under the 2026-09-04 rules:" % (len(debt), "y" if len(debt) == 1 else "ies"))
+    for d in debt:
+        print("          %s" % d)
+else:
+    ok("no registered entry carries an em dash, exclamation mark or semicolon")
+
 # ---------------------------------------------------------------- verdict
 print()
 print("=" * 60)

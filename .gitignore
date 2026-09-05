@@ -1,3 +1,9 @@
 
 # personal and podcast material, never publish
 Storyline GG/
+
+# editor notes are the owner's gate material, kept in D:\mAxAdrAgoN-Brand\editor-notes, never published (2026-09-04)
+content/**/*.editor-notes.md
+
+# the Golden Sea kit is working material, not ready for dispersion; it lives in D:\mAxAdrAgoN-Brand\campaign (2026-09-04)
+campaign/golden-sea/

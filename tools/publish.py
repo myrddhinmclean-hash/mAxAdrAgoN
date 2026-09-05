@@ -136,10 +136,13 @@ def main() -> int:
         return 0
 
     # --- commit and push --------------------------------------------------
-    notes = os.path.join("content", hoard, slug + ".editor-notes.md")
+    # Editor notes live OUTSIDE this repository since 2026-09-04, at
+    # D:\mAxAdrAgoN-Brand\editor-notes\<hoard>\<slug>.editor-notes.md. GitHub
+    # Pages serves every file in the repo, so the eighteen notes that sat beside
+    # their entries were public: "Drafted by Claude", the inventions list, the
+    # veto sweep, all fetchable by URL. They are for the owner's gate, not the
+    # reader. Nothing here adds them, and .gitignore refuses them.
     run(["git", "add", os.path.relpath(path, ROOT), "content/posts.json"])
-    if os.path.isfile(os.path.join(ROOT, notes)):
-        run(["git", "add", notes])
     run(["git", "commit", "-m", "publish: %s" % fm["title"]])
     run(["git", "push", "origin", "main"])
     print("pushed")

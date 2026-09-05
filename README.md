@@ -1,88 +1,59 @@
-# Maxadragon (mAxAdrAgoN) — The Lair
+# mAxAdrAgoN
 
-> A static personal brand website for **Maxadragon (mAxAdrAgoN)** — a dragon who hoards knowledge and interesting problems instead of gold, and translates complex things for people who are intimidated by them.
+The lair. A static site on GitHub Pages for Mac McLean's projects, products, a world called Draega, and a dated record of what got built and what went wrong. No framework, no build step, no external dependency. Live at https://myrddhinmclean-hash.github.io/mAxAdrAgoN
 
-Zero build steps. Zero external dependencies. Zero frameworks. Deploys instantly to **GitHub Pages**.
+Rewritten 2026-09-04 to match the repository as it is.
 
----
+## Layout
 
-## 🎨 Color Palette & Aesthetic
+    index.html              home, with the newest entries
+    projects.html           every project, started or not, from content/projects.json
+    products.html           the two things on sale, the one page allowed to sell
+    radpodcast.html         Rivals and Destiny, recorded, unreleased
+    map.html                the map of the future, from the moonshots corpus
+    privacy.html terms.html refunds.html   required by the products page
+    404.html                not found
+    hoards/draega.html      the Draega archive list
+    hoards/machine.html     the Machine archive list
+    hoards/entry.html       renders one entry from content/ by ?post=<slug>
+    hoards/odd.html         redirect stub only; Odd was removed 2026-09-04
+    log.html lore.html      redirect stubs for old links
+    content/posts.json      the entry index, newest first
+    content/projects.json   the project register, grouped by branch
+    content/draega/         Draega entries, one markdown file each
+    content/machine/        Machine entries, one markdown file each
+    content/*/*.editor-notes.md   sources and omissions for each entry; never rendered
+    campaign/draega-canon/  mirror of the World Anvil canon, owner authored
+    campaign/golden-sea/    the 24 module campaign kit, working material
+    assets/css/style.css    dark ground, gold, emerald, electric blue
+    assets/js/hoard.js      fetches markdown and renders it; lifts the leading H1
+    tools/publish.py        step six of the loop: register, validate, commit, push, verify live
+    tools/validate_site.py  nine checks; the last two were added 2026-09-04
+    tools/build_sitemap.py  writes sitemap.xml from the pages and posts.json
+    robots.txt sitemap.xml  added 2026-09-04
+    feed.xml feed.json notes.xml   feeds, in progress
+    GOVERNANCE.md           a pointer. The constitution lives in D:\mAxAdrAgoN-Brand\governance\GOVERNANCE.md
+    CONTENT.md              the beginner guide to editing text and adding entries
 
-- **Base Theme**: Deep Charcoal / Obsidian (`#0c1110`, `#131a18`, `#1b2522`)
-- **Dragon Gold**: `#d4a017` / `#f5c230`
-- **Emerald Green**: `#10b981` / `#34d399` (Used for tags, borders, and Draega Hoard accents)
-- **Electric Blue**: `#00d2ff` / `#38bdf8` (Used for interactive links, code highlights, and Machine Hoard accents)
+`Storyline GG/` exists locally and is gitignored. It never publishes.
 
----
+## Adding an entry
 
-## 📁 Repository Structure
+Mac names the subject. Find the real source or stop. Read `D:\mAxAdrAgoN-Brand\VOICE-PACK.md`, write the body once, put it in `content/<hoard>/<slug>.md` with `title`, `date`, `hoard` and `summary` in the frontmatter, and the editor notes beside it. Run the gate (`py -3 D:\mAxAdrAgoN-Brand\editor\src\gate0.py <file>`). Mac reads it and writes or approves the summary. Then, from this directory:
 
-```text
-.
-├── index.html              # "The Lair" (Intro & portals to the 2 Hoards)
-├── lore.html               # "The Lore" (Worldbuilding & character lore)
-├── CONTENT.md              # Beginner guide for editing text and adding posts
-├── README.md               # Deployment and repository instructions
-├── hoards/
-│   ├── draega.html         # Draega Hoard archive list
-│   ├── machine.html        # Machine Hoard archive list
-│   ├── odd.html            # Redirect stub only. Odd was removed 2026-09-04; kept so old links land on the lair
-│   └── entry.html          # Dynamic reader for Markdown posts
-├── content/
-│   ├── posts.json          # Index of all hoard entries
-│   ├── draega/
-│   │   └── the-scale-and-the-anvil.md # Sample post
-│   └── machine/
-│       └── on-the-nature-of-cogs.md   # Sample post
-└── assets/
-    ├── css/
-    │   └── style.css       # Emerald, Electric Blue, & Dragon Gold theme
-    └── js/
-        └── hoard.js        # Minimal zero-dependency markdown fetcher & reader
-```
+    py -3 tools\publish.py <slug>
 
----
+It registers the entry, runs the validator, commits only the entry and the index, pushes, and checks the live index. `--dry-run` stops before the commit. Never `git add -A` in this repository.
 
-## 🚀 How to Deploy to GitHub Pages (Beginner Guide)
+## Validating without publishing
 
-Because this site uses pure static HTML/CSS/JS, there is **zero build setup** needed (no Node, no npm, no command-line build steps).
+    py -3 tools\validate_site.py
+    py -3 tools\build_sitemap.py
 
-### Step 1: Create a GitHub Repository
-1. Go to [github.com/new](https://github.com/new) and log into your GitHub account.
-2. Under **Repository name**, enter a name (e.g. `maxadragon` or `maxadragon.github.io`).
-3. Set the repository to **Public**.
-4. Click **Create repository**.
+The validator refuses to push on a broken index, a missing file, editor material in a body, a missing legal notice, bad frontmatter, or a stale sitemap. It warns, and does not block, on entries that carry an em dash, exclamation mark or semicolon, which are banned for new writing under VOICE.md as of 2026-09-04.
 
-### Step 2: Upload or Push the Files
-#### Option A: Using the GitHub Website (Easiest)
-1. On your new repository page, click **uploading an existing file**.
-2. Drag and drop all the files and folders from this folder (`index.html`, `lore.html`, `CONTENT.md`, `hoards/`, `content/`, `assets/`, etc.).
-3. Click **Commit changes**.
+## Rules that live here
 
-#### Option B: Using Git in Terminal
-```bash
-git init
-git add .
-git commit -m "Initial commit of mAxAdrAgoN lair"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-git push -u origin main
-```
+Two hoards, Draega and Machine. No posting cadence, ever. Writing about a product outside the Products page is a teardown, never a pitch. The narrator was never in Draega. Anything countable is counted by code.
 
-### Step 3: Turn On GitHub Pages
-1. In your GitHub repository, click on **Settings** (tab near the top right).
-2. On the left sidebar under *Code and automation*, click **Pages**.
-3. Under **Build and deployment** > **Source**, select **Deploy from a branch**.
-4. Under **Branch**:
-   - Select `main` (or `master`)
-   - Keep folder set to `/(root)`
-5. Click **Save**.
-
-### Step 4: Visit Your Live Site
-In about 1 minute, refresh the **Settings > Pages** screen. GitHub will give you a live URL, like:
-`https://your-username.github.io/your-repo-name/`
-
----
-
-## ✏️ Editing Content
-See [CONTENT.md](CONTENT.md) for a simple, non-coder guide on how to edit text and add new posts to the hoards.
+Dungeons & Dragons content on this site is unofficial fan content permitted under the Fan Content Policy and is not approved or endorsed by Wizards of the Coast.

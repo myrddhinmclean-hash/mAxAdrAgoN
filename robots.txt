@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /content/
+Disallow: /campaign/
+
+Sitemap: https://myrddhinmclean-hash.github.io/mAxAdrAgoN/sitemap.xml
