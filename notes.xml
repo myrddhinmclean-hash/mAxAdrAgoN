@@ -6,7 +6,44 @@
 <description>Dated notes on what was worked on, newest first.</description>
 <language>en</language>
 <atom:link href="https://myrddhinmclean-hash.github.io/mAxAdrAgoN/notes.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 07 Sep 2026 03:37:01 GMT</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 17:58:07 GMT</lastBuildDate>
+<item>
+<title>The site had no typeface, and that was most of the problem</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-07-the-site-had-no-typeface-and-that-was-most-of-th</guid>
+<pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+<description>Georgia, a system sans stack, and Consolas. Three fallbacks and nothing chosen. That is most of why the site read as amateur, and it took somebody saying so plainly before anyone looked.</description>
+<category>the lair</category>
+<category>design</category>
+</item>
+<item>
+<title>Twenty six dragons drawn blind, and the loop that fixed the drawing</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-07-twenty-six-dragons-drawn-blind-and-the-loop-that</guid>
+<pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+<description>Twenty six dragon initials got drawn for the entry pages, and the first set was not realistic in any way. That was the verdict and it was correct.</description>
+<category>the lair</category>
+<category>design</category>
+</item>
+<item>
+<title>Four sticks, a broken allocation table, and a success marker I wrote myself</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-07-four-sticks-a-broken-allocation-table-and-a-succ</guid>
+<pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+<description>The image of the failing stick refuses to mount. Corrupt and unreadable, according to Windows, which is the same fault that made the files unreadable on the stick in the first place.</description>
+<category>the lair</category>
+<category>recovery</category>
+<category>Rivals and Destiny</category>
+</item>
+<item>
+<title>Hemingway, Shelley and Dumas take equal part in the voice</title>
+<link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>
+<guid isPermaLink="false">maxadragon-note-2026-09-07-hemingway-shelley-and-dumas-take-equal-part-in-t</guid>
+<pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+<description>Three writers now share the formula, and they cannot be blended, because at the level of a sentence they want opposite things. Hemingway takes out, Shelley puts in, Dumas keeps moving. Averaged evenly they make mush. So each one owns a different layer and all three are present in everything.</description>
+<category>the lair</category>
+<category>voice</category>
+</item>
 <item>
 <title>One session of twenty five, and a stick that reads at one megabyte a second</title>
 <link>https://myrddhinmclean-hash.github.io/mAxAdrAgoN/index.html</link>

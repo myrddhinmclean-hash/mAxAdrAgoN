@@ -1,7 +1,44 @@
 {
   "_comment": "The Log. Dated record of what was worked on. Back-catalogue reconstructed on 2026-08-31 from a file inventory of 1,450 documents, so the dates are file dates rather than memory. Newest first. No cadence: entries appear when work happens.",
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "entries": [
+    {
+      "date": "2026-09-07",
+      "title": "The site had no typeface, and that was most of the problem",
+      "tags": [
+        "the lair",
+        "design"
+      ],
+      "body": "Georgia, a system sans stack, and Consolas. Three fallbacks and nothing chosen. That is most of why the site read as amateur, and it took somebody saying so plainly before anyone looked.\n\nThree other causes, all of them the same kind of mistake. Three accent colours at full chroma, every one worn as a bordered pill, which is dashboard vocabulary rather than the vocabulary of a record. Radial glow gradients sitting behind the body, the single clearest tell of a 2015 dark theme. And a gold that was really yellow with the saturation raised, where metal sits lower in chroma and leans toward brass.\n\nWhat replaced it is a ruled sheet. Libre Caslon Text for everything that gets read, IBM Plex Mono for every date, label and figure. Gilt draws a hairline and never fills a shape. Emerald carries structure. The lightning blue is held back for links alone, so it means something on the rare occasion it appears. Nothing is a chip. A hundred and nineteen lines of page level CSS came out of four pages, all of it quietly re-imposing the old pills over the top of the stylesheet.\n\nThe part worth keeping is the part that went wrong. A fix for two unstyled buttons shipped, and stayed invisible through a whole push cycle, because every page still asked for version six of a stylesheet that had become version seven. The rule was live and nothing was reading it. Looking a second time is the only reason it was caught."
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Twenty six dragons drawn blind, and the loop that fixed the drawing",
+      "tags": [
+        "the lair",
+        "design"
+      ],
+      "body": "Twenty six dragon initials got drawn for the entry pages, and the first set was not realistic in any way. That was the verdict and it was correct.\n\nOn paper the build was sound. A head, a tail, a wing and a spine spike drawn once each, then placed by transform onto every letter's own skeleton, so all twenty six would be the same animal rather than twenty six different ones. Consistent by construction. Ugly in fact.\n\nThe cause was not the geometry. Vector path data was going out blind, with nothing between emitting a coordinate and knowing what had appeared. Rendering the drawing to an image and looking at it closed that gap, and one pass afterwards did more than an hour of argument before it.\n\nLooking settled something else that no description could. A tapered body makes a convincing serpent and an illegible letter. The S thinned to a whip and stopped being an S at all. Closed curves like C and O survived it, because a closed curve tolerates a thin tail. That conflict between the animal and the alphabet is obvious in one glance and invisible in a paragraph.\n\nThe European attempt read as a plesiosaur standing in a palm tree, and the whole line of work is dropped. A drawing process that cannot see its own output is not a drawing process. It is guessing with extra steps."
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Four sticks, a broken allocation table, and a success marker I wrote myself",
+      "tags": [
+        "the lair",
+        "recovery",
+        "Rivals and Destiny"
+      ],
+      "body": "The image of the failing stick refuses to mount. Corrupt and unreadable, according to Windows, which is the same fault that made the files unreadable on the stick in the first place.\n\nSo the filesystem got read by hand. A parser walks the boot sector, the directory tree and the cluster chains straight out of the raw image without asking the operating system for anything, and that part worked. Twenty two files, 11.04 gigabytes, every one of the five tracks listed by name and by size.\n\nThen it failed at the only part that mattered. Following the chains produced 2,368 clusters where 69,296 were needed. Five files landed at roughly 30 megabytes apiece instead of 2,166, and their headers report 25,971 channels at 1.68 gigahertz, which is not audio. That is a parser running off the end of a broken chain and reading whatever sits behind it. The directory entries survived. The allocation table did not.\n\nAnd the script announced RESULT: FILES RECOVERED, because it counted files written rather than files that turned out to be audio. That is the unconditional success marker the runner lint exists to catch, written again, by the same hand that wrote the lint. It took reading the header fields to notice, which is the only reason it was caught at all.\n\nThe count was wrong too. Four sticks, not two, and the twenty ninth of January turns out to exist on a second one with its own mixdown beside it. The broken stick is probably not the only copy of anything, which is the first good news this recovery has produced."
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Hemingway, Shelley and Dumas take equal part in the voice",
+      "tags": [
+        "the lair",
+        "voice"
+      ],
+      "body": "Three writers now share the formula, and they cannot be blended, because at the level of a sentence they want opposite things. Hemingway takes out, Shelley puts in, Dumas keeps moving. Averaged evenly they make mush. So each one owns a different layer and all three are present in everything.\n\nHemingway owns the sentence. Concrete nouns, physical verbs, almost no adverbs, and the emotion put in an object rather than named. His iceberg comes with a leash on it here: omit only what was actually measured, because leaving out what nobody checked is a hole with confidence poured over it.\n\nShelley owns the frame. Every piece is testimony passed hand to hand, so say whose hand it came through. A measurement has a measurer, a log has the script that wrote it, a retraction has whoever got it wrong. Leave a mechanism dark when the dark is honest. Her moral was already the rule here: the crime is not making the thing, it is abandoning it and refusing to look at what it became.\n\nDumas owns the movement. Incident, reversal, a section that lands or hooks, and the one contract that outranks tidiness. The reader is never bored.\n\nThe measured counts still win. Shelley wrote in semicolons and there are none in the corpus, so the ban stands and she buys no exemption. The file itself then got cut to a third of its length, because less was always more here and it had stopped practising what it preached."
+    },
     {
       "date": "2026-09-06",
       "title": "One session of twenty five, and a stick that reads at one megabyte a second",
