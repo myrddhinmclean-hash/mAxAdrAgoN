@@ -416,3 +416,86 @@ img { max-width: 100%; height: auto; }
   html { scroll-behavior: auto; }
   * { animation: none !important; transition: none !important; }
 }
+
+/* ==========================================================================
+   The navigation component, which nav.js builds at runtime.
+
+   These were missed in the 2026-09-07 rewrite and both injected buttons fell
+   back to the browser's own chrome: a white boxed "Menu" in the top right and
+   a white boxed caret beside Projects. Anything a script creates still needs
+   a rule here, because a class that only exists in JavaScript is invisible
+   when you read the stylesheet.
+   ========================================================================== */
+
+.nav-toggle {
+  display: none;
+  align-items: center; gap: 0.5rem;
+  background: none; border: 0; padding: 0.2rem 0; cursor: pointer;
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-faint);
+}
+.nav-toggle:hover { color: var(--gold-accent); }
+.nt-bars {
+  display: block; width: 1rem; height: 1px; background: currentColor;
+  box-shadow: 0 4px 0 currentColor, 0 -4px 0 currentColor;
+}
+
+/* The caret that opens the register panel. A mark, not a control surface. */
+.np-toggle {
+  background: none; border: 0; padding: 0 0 0 0.3rem; margin: 0; cursor: pointer;
+  font-size: 0.62rem; line-height: 1; color: var(--text-faint);
+}
+.np-toggle:hover, .nav-drop.open .np-toggle { color: var(--gold-accent); }
+
+.nav-drop.open .nav-menu { display: block; }
+.nav-menu {
+  padding: 1rem 1.1rem 0.9rem; min-width: 24rem; max-width: 92vw;
+  border-color: var(--border-color);
+}
+.np-cols { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 0 1.2rem; }
+@media (max-width: 560px) { .np-cols { grid-template-columns: 1fr; gap: 0.6rem; } }
+
+.np-branch {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem;
+  width: 100%; background: none; border: 0; cursor: pointer; text-align: left;
+  padding: 0.3rem 0; color: var(--text-muted);
+  font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.06em;
+}
+.np-branch:hover, .np-branch[aria-selected="true"] { color: var(--gold-accent); }
+.np-count { color: var(--text-faint); font-variant-numeric: tabular-nums; }
+
+.np-projects { display: flex; flex-direction: column; }
+.np-proj {
+  display: flex; align-items: baseline; gap: 0.55rem;
+  padding: 0.28rem 0; color: var(--text-main); font-size: 0.85rem;
+}
+.np-proj:hover { color: var(--gold-bright); }
+.np-pname { flex: 1 1 auto; }
+.np-status {
+  font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--text-faint);
+}
+.np-dot {
+  width: 5px; height: 5px; border-radius: 50%; flex: 0 0 auto;
+  background: var(--text-faint); transform: translateY(-1px);
+}
+.s-selling  { background: var(--gold-accent); }
+.s-working  { background: var(--emerald-bright); }
+.s-partial  { background: var(--emerald-accent); }
+.s-scaffold { background: var(--blue-accent); }
+.s-shelved, .s-parked, .s-planned { background: var(--text-faint); }
+
+.np-branchlink, .np-all {
+  display: inline-block; margin-top: 0.6rem;
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.np-all { border-top: 1px solid var(--border-color); padding-top: 0.6rem; width: 100%; }
+
+@media (max-width: 600px) {
+  .nav-toggle { display: inline-flex; }
+  .site-header { align-items: center; }
+  .site-nav { display: none; width: 100%; }
+  .site-nav.open { display: flex; flex-direction: column; gap: 0.7rem; padding: 0.8rem 0 0.2rem; }
+  .nav-menu { position: static; min-width: 0; border: 0; padding: 0.4rem 0 0 0.6rem; background: none; }
+}
