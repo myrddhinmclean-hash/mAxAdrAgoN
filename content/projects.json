@@ -1,7 +1,7 @@
 {
   "_comment": "The project register. Every project appears, started or not, including the ones that were abandoned. Status is honest: 'working' means it runs, 'partial' means some of it runs, 'scaffold' means a README and a stub, 'planned' means a description and no code, 'shelved' means the work stopped and the files were removed. Owner ruling 2026-08-31: presenting unstarted work as unstarted is the point, not a weakness. Owner ruling 2026-09-04: the per-project status paragraph is gone, and a shelved project keeps its card, its teardown and its reason. The site retains what the disk does not.",
   "_status_values": "selling | working | partial | scaffold | planned | parked | shelved",
-  "updated": "2026-09-04",
+  "updated": "2026-09-06",
   "branches": [
     {
       "branch": "Tabletop tools",
@@ -66,9 +66,7 @@
       "projects": [
         {
           "name": "AxiomTEA",
-          "status": "selling",
-          "price": "$495",
-          "link": "https://maxadragon.itch.io/axiomtea",
+          "status": "working",
           "one_line": "Reads an engineering pitch and tells you which numbers are physically impossible. No language model anywhere near the verdict.",
           "detail": "Pulls the quantitative claims out of an engineering pitch and checks them against physical law and cited literature, then renders one analysis across ten stakeholder lenses that cannot contradict each other. Runs offline. No language model anywhere near the verdict.",
           "started": "2026-08",

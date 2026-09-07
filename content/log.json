@@ -1,7 +1,47 @@
 {
   "_comment": "The Log. Dated record of what was worked on. Back-catalogue reconstructed on 2026-08-31 from a file inventory of 1,450 documents, so the dates are file dates rather than memory. Newest first. No cadence: entries appear when work happens.",
-  "updated": "2026-09-04",
+  "updated": "2026-09-06",
   "entries": [
+    {
+      "date": "2026-09-06",
+      "title": "One session of twenty five, and a stick that reads at one megabyte a second",
+      "tags": [
+        "the lair",
+        "Rivals and Destiny",
+        "recovery"
+      ],
+      "body": "Consent came through on the sixth, so the table recordings can be transcribed and quoted. The first one is done. 2021-01-26, two takes, 148.4 minutes, 19,426 words across five microphones. One session of twenty five.\n\nThe second stick is the problem, and most of what I said about it was wrong. Two imaging attempts died on their own timeouts, and the report was that the imager was grinding through 170,000 retries on damaged flash. The progress file from the second attempt says otherwise. 157 progress lines, zero bad blocks, every single read succeeded, throughput between 0.7 and 1.3 megabytes a second. Nothing was retrying. The device is about fifty times slower than a healthy stick and the scripts were fine.\n\nThe five WAV files fail at file level with error 1392 while every sector underneath them reads clean at raw level. That means the filesystem index is broken rather than the data, and the audio is very likely still there to be carved out by its own header once the image finishes. The imager now resumes from the 4.1 gigabytes already read and runs detached, so a timeout stops being fatal.\n\nWhen a long job produces no output, the first thing to suspect is that it is slow. Not that it is broken. The way to tell them apart is a progress line, and the first imager did not write one, which is why an opinion got written up as a finding."
+    },
+    {
+      "date": "2026-09-06",
+      "title": "Three things went wrong in one morning and none of them needed a person",
+      "tags": [
+        "the lair",
+        "runner",
+        "process"
+      ],
+      "body": "Twice in one morning I asked Mac to restart the runner by hand. Line 41 of the runner says any file named cancel dropped into the control folder kills the running script. It has said that the whole time. Nobody needed to be asked anything.\n\nThen an untested imager went straight at 14.6 gigabytes of unknown flash and retried at 64 kilobyte granularity on first contact. It ran 84 minutes, produced nothing, and buffered its log to the end, so killing it would have destroyed the only record of what it had learned. The rule that came out of that: sweep in large blocks, skip damage whole, map it, and go back for the fine work in a second pass.\n\nThen a copy script wrote COPY-VERIFIED at the top of the folder and claimed success on a copy that had moved none of the five files it existed to protect. A success marker written unconditionally is not a check. It is a sticker.\n\nAll three landed on the one job that could not be retried, which is the shape of it. Work with no second attempt creates urgency, and urgency argues for speed at exactly the moment care is worth the most. The fixes are in code rather than in good intentions. The runner lint now warns on a long job with no incremental output and on a top level success marker, with five tests behind it, and the machine notes carry the cancel."
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Three finished products opened up, and all three were wrong somewhere",
+      "tags": [
+        "AxiomTEA",
+        "CampaignOS",
+        "DM Toolbox",
+        "testing"
+      ],
+      "body": "All three had passing test suites. All three were wrong in ways a test suite was never going to see, and the way they were found was running each one as the person who would use it.\n\nCampaignOS claimed in its own register entry that it refuses an ambiguous target rather than guessing which goblin you meant. It did not. Four goblins on the board, say kill goblin, and the damage landed on Goblin 1. Goblin 2 takes 2 was not understood at all. The back button panicked on an imported index and initiative was a label rather than an order. Fixed and pinned in place, then a ten round fight on real stat blocks saved and reloaded identical. 52 tests.\n\nDM Toolbox had a rules tier marked RAW, meaning the rule as written, and 8 of its 13 entries were paraphrase with a page number attached to lend it weight. Separately the Faction Web wrote a full campaign backup every 4.1 seconds while sitting idle doing nothing. Seven every thirty seconds. Now none. All 30 rules are verbatim now, with a test that checks them against the source text rather than against somebody's memory of it.\n\nAxiomTEA is the one that is finished. The built binary misread three real public documents: relative percentages taken as efficiencies, a chemistry attributed from anywhere in the document rather than from the claim, and utilisation ratios read as efficiencies. It also reported its own bundled dependencies as unknown, which is the exact failure the health endpoint was built to catch. 26 new tests, 297 passing, rebuilt, and the verdicts come out right. Two rocket ceilings disagreed with the project's own provenance file and the file won.\n\nA green suite means the code does what the tests say. It has nothing to say about whether the tests asked for the right thing."
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Seven models had been switched off for two days and no round said so",
+      "tags": [
+        "AmoebiX",
+        "governance"
+      ],
+      "body": "A script on the fourth set seven browser models to disabled with a note attached saying temporary, for one API only round. It was never reverted. Every panel after that ran on seven seats instead of fourteen, including the two attack rounds and the whole final pass, and not one of them mentioned it.\n\nRestored, with the old config kept. Speed is a flag now rather than an edit: one switch drops the browsers for a single round and puts them back afterwards, and the roster refuses to stay quiet about a temporary marker that has outlived its round.\n\nThe bigger finding underneath it. Seventeen live seats turned out to be eleven distinct families. Google held four of them, one pinning no model at all. Two more seats were serving the same Llama from different companies. A quorum built like that counts the same voice several times and calls the agreement consensus, which is the exact failure a quorum exists to catch. A round now removes duplicates by model, then by credential, then by family, and the surplus seats wait as first refusal backfill rather than being thrown away. The coding agents came off the panel entirely. They are bridges, and a bridge is not a witness.\n\nAnd the one that cost something. Google puts the API key in the query string. A 503 raised an error carrying the whole URL, so the key was printed, written to an output file, stored in two working folders, mirrored to Drive, and committed. It sat in the open for five days. Every path that handled a key on purpose kept the rule. The path that handled an error had never been asked to.\n\nScrubbing lives inside the error object now, so every future raise site is covered without anyone remembering to cover it. That fixes the next one. It does not fix this one, because redaction does not un leak what already leaked, and the key still has to be rotated by a person."
+    },
     {
       "date": "2026-09-04",
       "title": "Fourteen projects off the disk, and all fourteen still on the site",
