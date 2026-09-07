@@ -45,6 +45,15 @@
       .doorway { transition: none; }
       .doorway:hover { transform: none; }
     }
+    /* Reference art from 2020. Each sits on its own ground because the
+       three were gathered from different sources and share no background. */
+    .cast figure .frame { margin: 0 0 .7rem; overflow: hidden;
+                          border: 1px solid rgba(232,220,200,0.16); }
+    .cast figure .frame img { display: block; width: 100%; height: auto; }
+    .cast figure .frame:empty { display: none; }
+    .art-note { font-family: var(--font-mono); font-size: .72rem;
+                letter-spacing: .06em; text-transform: uppercase;
+                color: #6f5c42; margin: .9rem 0 0; }
   </style>
 </head>
 <body class="story">
@@ -155,26 +164,68 @@
 
         <h2 class="story-title">The Party</h2>
         <p class="hoard-desc">
-          Four players. The names as they stood on the 2020 page, where most of the surnames were
-          still written as Something.
+          Four players. Two of them were written up in 2020 and two were still carrying
+          the surname Something.
         </p>
         <div class="cast">
+          <figure><figcaption>Albin E. Knoe</figcaption><div class="frame"></div>
+            <p>
+              A half elf of eighteen, five foot four and a hundred and fifteen pounds, with
+              violet eyes that shine with the light of the lotus petal. His armour was his
+              father's and it sags on him, the leather rotting and the metal worn. Raised in
+              Paradiso by an elven cleric and a retired soldier, in a house the whole town
+              came to when it needed something.
+            </p></figure>
+          <figure><figcaption>Anjax Proudmane</figcaption>
+            <div class="frame"><img src="assets/img/cast-anjax.jpg" alt="A lion headed warrior in full plate, standing in a grey room with a long hafted axe."></div>
+            <p>
+              Seven and a half feet of Leonin samurai, a scar across the left eye, a tail
+              tufted with fire at the tip, and a daisho on his hip. The Pride Spires were a
+              stone amphitheatre crowned with pinnacles until a Dynasty force nobody could
+              track destroyed them. Finding that force is why he left Azureland.
+            </p></figure>
           <figure><figcaption>Talreth</figcaption><div class="frame"></div></figure>
-          <figure><figcaption>Albin E. Noe</figcaption><div class="frame"></div></figure>
-          <figure><figcaption>Anjax</figcaption><div class="frame"></div></figure>
           <figure><figcaption>Ramiel</figcaption><div class="frame"></div></figure>
         </div>
 
         <h2 class="story-title">The Empire's People</h2>
         <div class="cast">
-          <figure><figcaption>Erik "Muttonchops"</figcaption><div class="frame"></div></figure>
-          <figure><figcaption>Cawrence</figcaption><div class="frame"></div>
-            <p>An aarakocra cleric of the Silent. Stolen as an egg, raised by the Empire, wings clipped at his initiation.</p></figure>
-          <figure><figcaption>Cassinadra</figcaption><div class="frame"></div>
-            <p>A tabaxi monk, six foot nine, who moves on soft pink pads and kills for money.</p></figure>
-          <figure><figcaption>Alstair</figcaption><div class="frame"></div>
-            <p>Alistair Morghulis. A tiefling spy of twenty three with pupiless golden eyes and a grin that never leaves.</p></figure>
+          <figure><figcaption>Cawrence</figcaption>
+            <div class="frame"><img src="assets/img/cast-cawrence.jpg" alt="A bird headed figure in gold trimmed armour, wings spread, holding a spear."></div>
+            <p>
+              An aarakocra cleric of the Silent, six feet tall, with a beak of gold and white
+              feathers that make his face impossible to read. A wizard in debt to the Empire
+              stole him as an egg. They clipped his wings to break the free spirit out of him,
+              gave him back flight as a graduation gift, then clipped them a second time when
+              the Silent took him.
+            </p></figure>
+          <figure><figcaption>Crissaadi</figcaption>
+            <div class="frame"><img src="assets/img/cast-crissaadi.jpg" alt="A black cat headed figure in ink and grey wash, braided fur, turning a lit sphere in one hand."></div>
+            <p>
+              Six foot nine of tabaxi, black fur with darker rings through it, a crescent scar
+              above the left eye that gets a different story every time. She goes barefoot on
+              soft pink pads to keep her steps quiet. Caught pickpocketing at nine, handed
+              over by her own choice to save her family, and raised in a learning centre into
+              a monastery that trained spies for the Empire.
+            </p></figure>
+          <figure><figcaption>Alistair Morghulis</figcaption><div class="frame"></div>
+            <p>
+              A tiefling of five foot six, pale as a banshee, one neon green streak through a
+              long black braid. His eyes are solid gold without pupils, so his stare has no
+              direction and always seems to land on you. The grin runs ear to ear and never
+              comes off. Left at an orphanage in Glazhenge in a second hand basket.
+            </p></figure>
+          <figure><figcaption>Erik "Muttonchops" Brightmoon</figcaption><div class="frame"></div>
+            <p>
+              A fellow trickster Alistair met over a gambling table. Between them they worked
+              out how to alter the chances at any table they sat down at, and then past it.
+            </p></figure>
         </div>
+
+        <p class="art-note">
+          Reference art gathered in 2020. The written descriptions came from the sheets and
+          are the record where the two disagree.
+        </p>
 
         <h2 class="story-title">Where to Listen</h2>
         <p class="hoard-desc">
