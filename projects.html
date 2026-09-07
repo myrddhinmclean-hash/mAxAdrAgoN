@@ -5,64 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | mAxAdrAgoN</title>
   <meta name="description" content="Every project, started or not. What is running, what is half-built, and what is still only a description.">
-  <link rel="stylesheet" href="assets/css/style.css?v=4">
-  <style>
-    .branch-block { margin: 2.5rem 0 0; }
-    .branch-head { border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: .4rem; margin-bottom: .35rem; }
-    .branch-note { opacity: .75; font-size: .95rem; margin: 0 0 1.2rem; }
-    .proj { padding: 1rem 0 1.1rem; border-bottom: 1px solid rgba(255,255,255,0.07); }
-    .proj-head { display: flex; align-items: baseline; gap: .7rem; flex-wrap: wrap; }
-    .proj-name { font-size: 1.18rem; font-weight: 700; margin: 0; }
-    .badge { font-size: .7rem; letter-spacing: .06em; text-transform: uppercase;
-             padding: .16rem .5rem; border-radius: 3px; border: 1px solid currentColor; white-space: nowrap; }
-    .b-selling  { color: #FFC61A; font-weight: 700; }
-    .b-working  { color: #4ade80; }
-    .b-partial  { color: #FFC61A; }
-    .b-scaffold { color: #8ab4f8; }
-    .b-planned  { color: #a78bfa; }
-    .b-parked   { color: #9ca3af; }
-    .b-shelved  { color: #c084fc; }
-    /* One line, not a paragraph. A shelved card has to say why it stopped and
-       what does the job instead, and that is all it says. The reasoning lives
-       in the teardown; the receipts live off the site. */
-    .proj-shelved { font-size: .88rem; margin: .35rem 0 0; opacity: .8; }
-    .proj-shelved .instead { color: #c084fc; }
-    .proj-one   { margin: .45rem 0 .3rem; }
-    .proj-detail{ font-size: .95rem; margin: .3rem 0; color: var(--text-muted); }
-
-    /* Only the long ones clamp. The button sits inside the paragraph so it
-       lands right after the cut text rather than on a line of its own. */
-    .proj-detail.clamped {
-      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
-      overflow: hidden; position: relative;
-    }
-    .proj-detail.clamped.open { display: block; -webkit-line-clamp: unset; overflow: visible; }
-    .proj-detail .more {
-      background: none; border: 0; padding: .1rem .35rem; margin-left: .35rem;
-      color: var(--blue-electric); font: inherit; font-size: .88rem; cursor: pointer;
-      text-decoration: underline; text-underline-offset: 3px;
-    }
-    .proj-detail .more:hover { color: var(--gold-bright); }
-    /* Inside a clamped box the button is cut off with the text, so float it
-       to the bottom-right corner where it stays reachable. */
-    .proj-detail.clamped:not(.open) .more {
-      position: absolute; right: 0; bottom: 0;
-      background: var(--bg-primary); box-shadow: -1.2rem 0 .7rem var(--bg-primary);
-    }
-
-    .stat-grid {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
-      gap: .6rem; margin: 1.2rem 0 .4rem;
-    }
-    .stat {
-      display: flex; align-items: baseline; gap: .5rem;
-      padding: .55rem .7rem; border: 1px solid var(--border-color); border-radius: 4px;
-      background: var(--bg-surface);
-    }
-    .stat-n { font-size: 1.25rem; font-weight: 700; font-family: ui-monospace, Consolas, monospace; }
-    .proj-meta  { font-size: .78rem; color: var(--text-faint); margin-top: .45rem; font-family: ui-monospace, Consolas, monospace; }
-    .proj-buy   { margin: .5rem 0 0; font-weight: 600; }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css?v=6">
 </head>
 <body>
   <div class="container">
