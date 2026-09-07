@@ -137,11 +137,15 @@ body.story .story-title::before { transform: scaleX(-1); }
    works everywhere. Use .torn-band on any section that should sit on a torn
    slab of black. */
 body.story .torn-band {
-  background: linear-gradient(to bottom, rgba(8,7,5,0.0), var(--story-black) 14%, var(--story-black));
+  /* The teeth and the fade are in pixels on purpose. Percentages down the
+     vertical axis are read against the element's own height, so on a long
+     page a 8 percent tooth became 440 pixels and bit the first paragraph
+     off the top. Pixels keep the tear the same size on every band. */
+  background: linear-gradient(to bottom, rgba(8,7,5,0.0), var(--story-black) 44px, var(--story-black));
   clip-path: polygon(
-    0% 6%, 4% 2%, 9% 7%, 14% 1%, 19% 6%, 25% 2%, 30% 8%, 36% 3%, 41% 7%,
-    47% 2%, 52% 7%, 58% 1%, 63% 6%, 69% 2%, 74% 8%, 80% 3%, 85% 7%, 91% 2%,
-    96% 6%, 100% 3%, 100% 100%, 0% 100%
+    0% 13px, 4% 4px, 9% 15px, 14% 2px, 19% 13px, 25% 4px, 30% 17px, 36% 6px,
+    41% 15px, 47% 4px, 52% 15px, 58% 2px, 63% 13px, 69% 4px, 74% 17px,
+    80% 6px, 85% 15px, 91% 4px, 96% 13px, 100% 6px, 100% 100%, 0% 100%
   );
   padding: 3.4rem 1.6rem 2.8rem;
   margin: 0 -1.6rem;
