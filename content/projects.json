@@ -359,7 +359,9 @@
           "detail": "The world everything else gets played in. Twelve continents, two moons that are never not full, and a history reaching back a hundred and twenty three million years, built consistent enough that a campaign can run anywhere on it without the map contradicting itself.",
           "started": "2019",
           "last_touched": "2026-08",
-          "where": "https://www.worldanvil.com/w/draega-maxadragon",
+          "site_page": "hoards/draega.html",
+          "site_page_label": "the Draega archive",
+          "where": "D:\\mAxAdrAgoN-site\\campaign\\draega-canon",
           "name_status": "researched"
         },
         {

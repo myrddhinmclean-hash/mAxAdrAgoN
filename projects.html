@@ -144,6 +144,11 @@
           if (p.last_touched) bits.push("last touched " + esc(p.last_touched));
           if (p.project_code) bits.push(esc(p.project_code));
           if (p.entry) bits.push('<a href="hoards/entry.html?post=' + esc(p.entry) + '">read the teardown</a>');
+          // A page on this site, linked by its own name. Relative paths only.
+          if (p.site_page && !/^[a-z]+:/i.test(p.site_page)) {
+            bits.push('<a href="' + esc(p.site_page) + '">' +
+                      esc(p.site_page_label || p.site_page) + "</a>");
+          }
           if (p.where && /^https?:/i.test(p.where)) {
             bits.push('<a href="' + esc(p.where) + '" rel="noopener">' + esc(p.where) + "</a>");
           }

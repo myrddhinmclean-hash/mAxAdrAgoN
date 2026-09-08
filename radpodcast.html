@@ -93,45 +93,55 @@
         <h2 class="story-title">The World</h2>
 
         <p>
-          Draega turns alone around a yellow sun, blue and green, cut into twelve continents
-          by oceans that do most of the deciding. The year runs 360 days and the day runs
-          twenty five hours. Somebody worked that out first and then built weather on top of it.
+          Draega keeps a calendar that nobody from anywhere else can use, which is the first
+          honest thing to say about it. The year runs three hundred and sixty days, the month
+          runs five weeks, the week runs six days, and the day runs twenty five hours. Somebody
+          worked all that out before anybody wrote a word of history on it. The weather got built
+          on top of the arithmetic rather than the other way round.
         </p>
         <p>
-          Two moons hang over it and neither is ever anything but full. They circle each other
-          while they circle the world. Phoegrin is the red one. It brings the winter and closes
-          every cycle, and it is known as the bringer of death. Aqgui is blue and thought to be
-          made entirely of water, and it opens what the other one ends. Both give off their own
-          light instead of borrowing the sun's, so night here comes down red and blue at once,
-          and an eclipse floods the whole planet with whichever moon is in front.
+          Two moons hang over the place and neither one is ever anything but full. They circle
+          each other while they circle the world, which is a thing worth standing outside to
+          watch once. Phoegrin is the red one. It brings the winter and closes every cycle, and the people under it
+          call it the bringer of death without any particular drama.
+          Aqgui is blue, is thought to be made entirely of water, and opens what the other one
+          ends. Neither borrows its light from the sun. So night on Draega comes down red and blue at once. An eclipse floods the whole planet with
+          whichever of them got there first.
+        </p>
+
+        <div class="world-rest" id="world-rest" hidden>
+        <p>
+          The oceans do most of the deciding on this world, and every sailor learns that before
+          learning anything else. A maelstrom of slow smoke and cloud turns in the middle of the Kladesh. It is the first thing
+          anybody is told about, and the last thing a good few of them ever saw. The White Ocean takes its name from the caps on its waves rather than from
+          the frozen continent it happens to wrap. Tides running up from the south collide in it hard and in no pattern anyone has written down.
+          That is why almost none of it can be sailed, and why it holds the deepest water on the
+          planet.
         </p>
         <p>
-          The oceans are where the danger lives. A maelstrom of slow smoke and cloud turns in
-          the middle of the Kladesh, and it is the first thing a sailor gets told. The White
-          Ocean takes its name from the caps on its waves rather than from the frozen continent
-          it wraps. Tides running up from the south collide in it, hard and without a pattern,
-          which is why almost none of it is fit to sail and why it holds the deepest water on
-          the world.
+          Ice takes both ends of the world and neither end is hospitable to anybody reading this.
+          The Greylands in the south belong to the Ice Giants, who govern nothing because nobody has ever
+          turned up to contest them. Rare elements sit under that ice and nobody has found a way to
+          lift them. The Whitelands in the north are plain white and carry more life than the south. All of it is
+          hunting the ocean or hunting each other.
         </p>
         <p>
-          Ice takes both ends. The Greylands in the south belong to the Ice Giants, who govern
-          nothing because nobody contests them, and rare elements sit under that ice with no way
-          anyone has found to lift them. The Whitelands in the north are plain white and hold
-          more life than the south, all of it hunting the ocean or each other.
+          In between the ice, each continent does one thing well and rather less of everything
+          else. Zhork is rock and volcano and dwarves, and it built the printing press. Imnia is fertile in the north and overrun by the dead in the south. The only thing holding those
+          two halves apart is a volcano range running east to west.
+          Vernax is barren and full of metal. That is why the whole world wants it, and why the
+          settlements on it will not stop fighting each other.
         </p>
         <p>
-          In between, each continent does one thing well. Zhork is rock and volcano and dwarves,
-          and it made the printing press. Imnia is fertile in the north and overrun by the undead
-          in the south, and the only reason those two halves stay apart is a volcano range running
-          east to west. Vernax is barren and full of metal, which is why the whole world wants it
-          and why its own settlements keep going to war with each other.
+          The multiverse files the whole planet as a backwater, and the filing is accurate. Every
+          god in existence has followers here and not one of them has the numbers they draw
+          elsewhere. Outsiders arrive by accident or by divine intervention and almost never by
+          intention. Draega sits far enough out that being left alone is the main feature rather than a complaint.
+          Worth knowing before four people start a war on it.
         </p>
-        <p>
-          The multiverse files all of this as a backwater. Every god has followers here and none
-          in the numbers they draw elsewhere, and outsiders arrive by accident or by divine
-          intervention and seldom any other way. Draega is far enough out that being left alone
-          is its main feature. Which is worth knowing before four people start a war on it.
-        </p>
+        </div>
+        <button class="fi-more" type="button" aria-expanded="false"
+                aria-controls="world-rest" data-target="world-rest">More</button>
 
         <figure class="worldmap">
           <img src="assets/img/draega-hero.jpg" alt="A map of Draega. Twelve landmasses in open ocean, ice across the top edge and the bottom edge, a spiral of cloud turning in the middle of the sea.">
@@ -260,5 +270,21 @@
   </div>
 
   <script src="assets/js/nav.js?v=5"></script>
+  <script>
+    // One listener at module scope, bound once. The feed on the front page was
+    // first written with this binding inside its render function, so a second
+    // render attached a second handler, and two handlers toggle twice per click
+    // and read as a dead button. Bound here it cannot happen.
+    document.addEventListener("click", function (ev) {
+      var btn = ev.target.closest(".fi-more");
+      if (!btn) return;
+      var panel = document.getElementById(btn.dataset.target);
+      if (!panel) return;
+      var opening = panel.hidden;
+      panel.hidden = !opening;
+      btn.setAttribute("aria-expanded", String(opening));
+      btn.textContent = opening ? "Less" : "More";
+    });
+  </script>
 </body>
 </html>
